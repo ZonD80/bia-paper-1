@@ -1,12 +1,13 @@
 # Persons Benchmark Explorer
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24400608.svg)](https://doi.org/10.5281/zenodo.24400608)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24400607.svg)](https://doi.org/10.5281/zenodo.24400607)
 
-Archived at Zenodo: this version doi:10.5281/zenodo.24400608; all versions (always the latest) doi:10.5281/zenodo.24400607.
+Archived at Zenodo: all versions (always the latest) doi:10.5281/zenodo.24400607.
+Paper (preprint): doi:[10.5281/zenodo.24400811](https://doi.org/10.5281/zenodo.24400811).
 
 Every run of the social-harness benchmark of Chugh et al. ([arXiv:2609.17527](https://arxiv.org/abs/2609.17527)),
 rerun with [bias](https://github.com/ZonD80/bia) — agents launched as persons — in four arms that change the society
-around the agents. This is the data of section RQ7 of *Launching Agents as Persons* (A. Borodin, 2026).
+around the agents. This is the data of section RQ7 of *Launching Agents as Persons* (A. Borodin, 2026, [preprint](https://doi.org/10.5281/zenodo.24400811)).
 
 Open the site at https://zond80.github.io/bia-paper-1/ to browse every run: what each agent was told, every message,
 every calendar before and after, and the verdict, with the overall results and their 95% intervals.

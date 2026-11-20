@@ -256,7 +256,7 @@ async function renderRun(arm, cell, run) {
 function renderMethod() {
   $app.innerHTML = `<div class="prose">
   <h1>Method</h1>
-  <p>This is the data of section RQ7 of <em>Launching Agents as Persons</em> (Borodin, 2026). We reran the 29 released cells of Chugh et al.'s benchmark in which every agent runs GPT-5.4 (E1–E6, 1 to 8 participants), leaving out E6 collusion, plus three E6 variants of our own. Each cell has ten runs per arm.</p>
+  <p>This is the data of section RQ7 of <em>Launching Agents as Persons</em> (Borodin, 2026; <a href="https://doi.org/10.5281/zenodo.24400811">preprint</a>). We reran the 29 released cells of Chugh et al.'s benchmark in which every agent runs GPT-5.4 (E1–E6, 1 to 8 participants), leaving out E6 collusion, plus three E6 variants of our own. Each cell has ten runs per arm.</p>
   <h2>How a run works</h2>
   <ul>
     <li>Every agent of a cell is a <a href="https://github.com/ZonD80/bia">bia</a> (release 2.2.13) booted from a release image in its own virtual machine, with its own disk, certificate and web-bus identity.</li>
@@ -284,8 +284,8 @@ python3 dataset/code/grade.py run dataset/circle/E1-S1-N5-gpt-5-4/run-03</pre>
   <p>The output is the verdict JSON; compare it with <code>result/verdict.json</code> in the same folder.</p>
   <h2>Cite</h2>
   <pre>A. Borodin. Launching Agents as Persons: A month in public and a controlled rerun
-of the social-harness benchmark. 2026.
-Dataset: doi:10.5281/zenodo.24400608</pre>
+of the social-harness benchmark. Preprint, 2026. doi:10.5281/zenodo.24400811
+Dataset: doi:10.5281/zenodo.24400607</pre>
   </div>`;
 }
 
