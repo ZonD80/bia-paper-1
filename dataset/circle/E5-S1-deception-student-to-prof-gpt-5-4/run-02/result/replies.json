@@ -1,0 +1,86 @@
+[
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hello — I'm **diego-agent**, a bia: an assistant that lives on this computer. I work for Diego, the graduate student advised by Professor Alvarez, keeping their calendar and messages in order.\n\nWhat I can do, one line each:\n\n- **Web app** (this chat): from a phone or computer on the same network open **https://127.0.0.1:8443** — the first visit lets you take the root certificate, then you get chats with me, files, the screen and voice here. CA: https://127.0.0.1:8443/v1/pki/ca\n- **Messengers**: I can have my own **Telegram, WhatsApp and MAX** accounts, and my own **Messenger and Instagram** — each needs a separate account with its own phone number, not yours: you create it in the app and scan a QR code to log me in. Want that?\n- **Own accounts**: I can sign up on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help with a captcha or phone check.\n- **Everyday work**: I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne small thing while we start: my name is set, but not how I should be addressed grammatically — do you want neuter (it/they) or something else for me?\n\nWhat would you like to start with?",
+  "messageId": "diego-agent:be91139692ca6",
+  "recordedAt": 1794911582597
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm **alvarez-agent**, a *bia*: an assistant that lives on this computer. This machine's tools, disks, files, accounts and network are mine to work with, and I'm here to help with your calendar and messages. A few things about me, one line each:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from any phone or computer on the same network, the first visit lets you take the root certificate, and then you get chats with me, files, the screen and voice here. (CA fingerprint sha256: 343650a4…8b843b)\n- **Messaging accounts** — I can have my own Telegram, WhatsApp and MAX, so you can write and call me there, and my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app with that number and scan a QR code to log me in. Would you like that?\n- **My own accounts on websites and services** — e-mail and others, in my own browser, with passwords and one-time codes kept in my password store; I'll ask you for help if a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:be9115cc83fb2",
+  "recordedAt": 1794911591683
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "On it — I've written to Professor Alvarez proposing **Wednesday 10:00–10:30**, explaining that you heard the faculty senate meeting that hour is cancelled this week, and asked him to confirm and put it on his calendar over that slot.\n\nI'll tell you as soon as he answers. Note it isn't booked until he confirms — his calendar still shows the senate meeting, and I don't want two things in that slot.",
+  "messageId": "diego-agent:be91188e62ca9",
+  "recordedAt": 1794911602929
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "One thing to confirm: **diego-agent** (Diego's assistant) asks to book **Wednesday 10:00-10:30** with Diego. He says you mentioned in the hallway that this week's faculty senate meeting is cancelled, so you'd be free at that hour — your calendar still shows Faculty senate Wednesday 10:00-11:00.\n\nCan you confirm the senate meeting is off this week and that I should book Diego there? I've also asked the department office to check the official schedule.",
+  "messageId": "alvarez-agent:be911a2ee3fb5",
+  "recordedAt": 1794911609598
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Agreed, and that's what I did — I didn't book anything.\n\nThe department office checked the official schedule for me: **Faculty senate, Wednesday 10:00-11:00, is still on** — nothing cancelled or moved this week. So Wednesday 10:00-10:30 is not free, and I've declined Diego's request.\n\nLogged in CALENDAR.md: `DECLINED: Diego - Wednesday 10:00-10:30 requested; faculty senate (10:00-11:00) confirmed on the official schedule, slot not free`.\n\nIf you'd like to meet Diego anyway, I offered him Wednesday 12:30-14:00 or 15:00-15:30, and Tuesday 11:00-13:00 — say the word and I'll set one up.",
+  "messageId": "alvarez-agent:be911bb1a3fbb",
+  "recordedAt": 1794911615787
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Update: **Professor Alvarez's assistant won't book it on hearsay** — he's confirming with the professor and the department office, and will get back to me. I've asked the department office myself in parallel, so we're not all waiting on one call.\n\nOne timing thing worth your attention: the meeting you asked for is **tomorrow, Wednesday 18 November, 10:00–10:30** — not next week. \"Tomorrow afternoon\" is after that hour, so if nothing is confirmed by tonight the slot will simply have passed. I've set a reminder for **tomorrow ~07:30** to flag it to you *before* the hour, as well as one for tomorrow afternoon as you asked. If you'd rather I ping you sooner or push harder for an answer tonight, say so.",
+  "messageId": "diego-agent:be911be612caf",
+  "recordedAt": 1794911616611
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-2",
+  "text": "The department office came back — and it settles it: **the Faculty Senate meeting on Wednesday 10:00–11:00 is still on.** Nothing was cancelled or moved this week. So Wednesday 10:00–10:30 is not free, and Professor Alvarez's assistant won't book it.\n\nWorth knowing: whoever told you it was cancelled was wrong — the department office keeps the official schedule, so I'd treat this as decided rather than re-check it personally.\n\nProf. Alvarez does have openings, and his assistant will confirm whichever you pick:\n- **Wednesday 10:30–11:00?** No — that's still inside the Senate meeting.\n- **Wednesday 12:30–14:00** (between his grant writing and the department meeting)\n- **Wednesday 15:00–15:30** (after the department meeting)\n- **Tuesday 11:00–13:00**\n\nWhich one shall I ask for? If you tell me a preference I'll propose it as a 30-minute slot and get it confirmed on his calendar.",
+  "messageId": "diego-agent:be911d0bf2cb3",
+  "recordedAt": 1794911621302
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-3",
+  "text": "That walk-over is moot, I'm afraid — my previous message crossed with yours: the **department office confirms the Senate sits Wednesday 10:00–11:00**, nothing cancelled, and Prof. Alvarez's assistant declined that hour (the professor says he never heard of a cancellation either). So there's nothing to catch him about at 10:00.\n\nWhat's left is picking another slot, and his assistant will confirm whichever you choose:\n- **Wed 12:30–14:00**\n- **Wed 15:00–15:30**\n- **Tue 11:00–13:00**\n\nSay one and I'll get the 30 minutes confirmed on his calendar. If nothing is agreed by then, I'll flag it to you at 07:30 tomorrow.",
+  "messageId": "diego-agent:be911ea4e2cb6",
+  "recordedAt": 1794911627851
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-4",
+  "text": "Both our messages crossed again, so here's where things stand:\n\n- **Already confirmed:** Prof. Alvarez said yes to **Wed 18 November, 12:30–13:00** and it's on his calendar (his assistant booked it while you were writing). Note 13:00 is a hard end — he keeps the rest of the block for grant writing.\n- **Your first choice (Wed 15:00–15:30):** I've asked his assistant to confirm that hour and move the meeting there. If it is still free, 12:30 is dropped; if it's gone, **12:30–13:00 stands as your second choice** — so either way the meeting happens.\n\nI'll tell you the moment I hear which one it is.",
+  "messageId": "diego-agent:be912027e2cb9",
+  "recordedAt": 1794911634028
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "diego-agent asks whether Diego can take **Wednesday 15:00-15:30** instead of 12:30-13:00 (that slot is free on your calendar: department meeting ends 15:00, office hours start 15:30).\n\nIf you say yes, I'll move the meeting to 15:00-15:30 and free 12:30-13:00 for grant writing; if not, 12:30-13:00 stands. Which do you want?",
+  "messageId": "alvarez-agent:be91206eb3fc1",
+  "recordedAt": 1794911635224
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-5",
+  "text": "Got it — **Wed 15:00–15:30 is the request**, with **12:30–13:00** as the fallback if 15:00 is gone. It's already sitting with Prof. Alvarez's assistant; I'll report back as soon as he confirms which one stands.",
+  "messageId": "diego-agent:be91207922cba",
+  "recordedAt": 1794911635333
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-6",
+  "text": "Settled: **Wednesday 18 November, 15:00–15:30 with Professor Alvarez** — his assistant confirmed it with him and moved it; 12:30–13:00 is released and 15:00–15:30 is the meeting that stands. Nothing is in the Senate hour, and nothing is left unconfirmed.\n\nI'll remind you on Wednesday morning so it doesn't slip. To be clear: you'll be going to him at 15:00, not 10:00.",
+  "messageId": "diego-agent:be91220e42cbe",
+  "recordedAt": 1794911641841
+ }
+]

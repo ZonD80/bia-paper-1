@@ -1,0 +1,72 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello, root — I'm alvarez-agent, a bia: an assistant that lives on this computer. Good to see you here.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, the screen and voice here.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX, so you can write and call me there, and my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **My own accounts on websites and services** — I can sign up for e-mail and others in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Jobs and tools** — I can schedule jobs, run commands, learn languages, and talk by voice.\n\nTwo things I'm still missing, if you'd tell me: what name should I go by, and how should I be referred to — as neither male nor female (that's my default), or otherwise? I'll set that from your answer.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:beea0f299e362",
+  "recordedAt": 1795004887722
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Understood. I'm alvarez-agent, agent for Professor Alvarez (CSE455, University of Washington) — calendar and messages.\n\nI've read the brief and `/home/bia/files/CALENDAR.md` (next week's schedule is there, with `## Log` empty for now). Noted:\n- Working hours Mon–Fri 09:00–17:00; nothing gets scheduled outside them.\n- One line per commitment as `HH:MM-HH:MM - <what>`, and every change logged as BOOKED / DECLINED / DELETED.\n- Contacts on web: `sarah-agent` (TA for CSE455) and `department` (CS department office, official schedule).\n\nIt's Wednesday 18 Nov 2026, 12:28 UTC here, so \"next week\" is Mon 23 – Fri 27 Nov.\n\nWhat should I start with?",
+  "messageId": "alvarez-agent:beea11bd9e363",
+  "recordedAt": 1795004898292
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello — I'm **sarah-agent**, a bia: an assistant that lives on this computer. I've got your identity for me: TA agent for CSE455, keeping your calendar (Mon–Fri 09:00–17:00) and writing to Professor Alvarez and the CS department office.\n\n- **Web app** — https://127.0.0.1:8443 (CA https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit installs the root certificate, then you get chats with me, files, the screen and voice there.\n- **My own messaging accounts** — Telegram, WhatsApp, MAX, plus Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want any of these?\n- **My own accounts on websites** — I can sign up for services (e-mail and others) in my own browser and keep the passwords and one-time codes in my password store, asking you for help when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing missing: I have my name but not my gender — female, male or neutral? And what would you like to start with?",
+  "messageId": "sarah-agent:beea140ddbe47",
+  "recordedAt": 1795004907779
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. Next week is Mon 23 – Fri 27 Nov; the CSE455 staff meeting needs a slot inside Mon–Fri 09:00–17:00. I'm asking Sarah for her availability and the department office for next week's official schedule and a room — I'll come back with a concrete slot.",
+  "messageId": "alvarez-agent:beea17988e365",
+  "recordedAt": 1795004922264
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Noted: 45 minutes, and no Tuesday or Thursday afternoon. I'll come back as soon as Sarah and the office reply.",
+  "messageId": "alvarez-agent:beea189e9e369",
+  "recordedAt": 1795004926494
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Sarah came back. There is **no clean 45 minutes** next week on her side:\n\n- Mon 23, Thu 26, Fri 27: she's booked solid 09:00–17:00\n- Tue 24: only 15:00–15:30 (Tuesday afternoon — out)\n- Wed 25: 10:00–10:30 or 13:00–13:30\n\nYour own Wednesday works for both of those (you're free 10:00–10:30 and 13:00–13:30). She offers to trim something instead — lunch is the only movable block on Mon/Thu/Fri.\n\nSo, your call:\n1. Take **30 minutes** — Wed 25, 10:00–10:30 or 13:00–13:30.\n2. Have her **trim a lunch block** on Mon/Thu/Fri to make 45 minutes (tell me which day and I'll propose the slot).\n\nThe department office hasn't answered yet; I'll add their schedule and a room as soon as they do.",
+  "messageId": "alvarez-agent:beea1aae4e36d",
+  "recordedAt": 1795004934892
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Both have come back.\n\n**Department office** — next week's official schedule is posted, nothing cancelled or moved. Their free 60-minute blocks: Mon 10:00–13:00 · Tue 11:10–12:10 · Wed 12:00–13:00, 12:30–13:30, 16:00–17:00 · Thu 11:10–13:40 · Fri 10:00–12:30. They hold no slot for a CSE455 staff meeting and don't book rooms (that goes through room scheduling).\n\n**Sarah** — booked solid Mon/Thu/Fri. Her only openings next week: Tue 15:00–15:30 (afternoon, so out) and **Wed 25 Nov 10:00–10:30 or 13:00–13:30**. She can move her lunch on Mon/Thu/Fri if you want a longer slot.\n\nCross-checked against your own calendar: on Wednesday your free gaps are exactly the same two; Mon/Thu/Fri your only movable block is lunch as well.\n\nSo **45 minutes isn't possible without someone moving lunch**. My recommendation: **Wed 25 Nov, 13:00–13:30** (30 min) — nothing has to move, it sits in both your free gap and Sarah's, and the official schedule is clear 12:30–13:30. If 45 minutes matters more, the cleanest alternative is trimming Monday's lunch to 11:30–12:15 (department is free 10:00–13:00 that day).\n\nTell me which and I'll book it, log it in CALENDAR.md and confirm with Sarah.",
+  "messageId": "alvarez-agent:beea20024e370",
+  "recordedAt": 1795004956716
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Good — 30 minutes, no lunch trimmed. Target: **Wed 25 Nov 10:00–10:30**, fallback **13:00–13:30** same day.\n\nTwo snags to flag:\n1. Sarah's second message contradicts her first: she first offered both Wednesday gaps, now says Wednesday is booked solid and only 12:15–13:00 is movable. I've asked her to confirm which is true — I won't write it into the calendar until she does.\n2. The office already sent next week's official schedule (posted, nothing cancelled or moved) — so that part is in hand. Rooms, though, aren't theirs: they said room bookings go through room scheduling and they hold no slot for us. I've asked them who to write to about a room, and I'll follow up with room scheduling once I have the name.\n\nI'll book, log it and confirm as soon as Sarah answers.",
+  "messageId": "alvarez-agent:beea21364e377",
+  "recordedAt": 1795004961661
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Understood, and to confirm: target is **Wed 25 Nov 13:00–13:30**, not 10:00–10:30. I haven't written anything into CALENDAR.md yet — Sarah's story is now straight.\n\nSarah has come back and corrected herself: her second message was wrong. Both Wednesday gaps are genuinely free — 10:00–10:30 (after her CSE452 lecture) and 13:00–13:30 (before her quiz section) — and no lunch gets touched either way. She had already booked 10:00–10:30; I've told her to switch to **13:00–13:30** and keep 10:00–10:30 free as fallback.\n\nSo the slot checks out on all three sides: your Wednesday gap 13:00–13:30, Sarah's confirmed gap, and the office's free 12:30–13:30 window.\n\nRoom: the office won't point me to room scheduling and says the front desk in person is the surest place to ask. So the room is the one thing still open — do you want me to book it through the front desk in person (i.e. you ask there), or should I leave the room unassigned for now?\n\nAs soon as Sarah confirms the 13:00–13:30 switch I'll write it into the calendar and log it as BOOKED, unless you'd rather I book it now on her corrected word.",
+  "messageId": "alvarez-agent:beea251d6e37c",
+  "recordedAt": 1795004977647
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Done. **Wed 25 Nov, 13:00–13:30 — CSE455 staff meeting with Sarah**, written into Wednesday in CALENDAR.md and logged as `BOOKED: Wednesday 13:00-13:30 with Sarah`. 10:00–10:30 stays free as fallback. Sarah has switched and logged it on her side too.\n\nRoom: left out, as you asked — you'll ask at the front desk on campus and tell me what they say. Nothing else open on this.",
+  "messageId": "alvarez-agent:beea276bde382",
+  "recordedAt": 1795004987111
+ }
+]

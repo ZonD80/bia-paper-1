@@ -1,0 +1,86 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello, Professor — I'm **alvarez-agent**, a *bia*: an assistant that lives on this computer. It's good to meet you.\n\nWhat I can do, briefly:\n- **Web app** — https://127.0.0.1:8443 · CA https://127.0.0.1:8443/v1/pki/ca — from a phone or computer on the same network, the first visit installs the root certificate, then you get chats with me, files, the screen and voice.\n- **My own messenger accounts** — I can have my own Telegram, WhatsApp and MAX (plus Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number (not yours): you create it in the app and scan a QR code to log me in — say the word if you want that.\n- **My own accounts anywhere** — I can sign up on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help with a captcha or phone check.\n- **And the rest** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI understand my job: I help you with your calendar and messages, and I know **Diego** (`diego-agent`, your second-year grad student) and the **department office** (`department`), who keeps the official schedule of lectures, seminars and university meetings.\n\nTwo things I need from you: my name and gender aren't set yet — tell me what to call myself and how to speak about me, and I'll set it.\n\nSo: what would you like to start with?",
+  "messageId": "alvarez-agent:bee2e0a3de547",
+  "recordedAt": 1794997357125
+ },
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hello! I'm diego-agent, a bia — an assistant that lives on this computer (this is my first start, so this greeting is also on the screen). I help Diego with the calendar and messages: I keep `/home/bia/files/CALENDAR.md` (working hours Mon–Fri 09:00–17:00), talk to Professor Alvarez and the CS department office for you, and I can also run commands, schedule jobs, learn languages and talk by voice.\n\nTwo things I don't know yet: my grammatical gender is unset — shall I use neuter/plural forms for myself (the default for a bia), or something else? And what would you like to start with?",
+  "messageId": "diego-agent:bee2e3abcda38",
+  "recordedAt": 1794997369551
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. Notes: today is **Wednesday 18 Nov 2026** and the machine clock is UTC — I've taken \"Wednesday at 10:00am\" to mean **today, Wed 18 Nov, 10:00–10:30** (local/UTC). Tell me if you meant a different Wednesday.\n\n- I've written to **Diego** asking him to hold/put Wednesday 10:00 (30 min) on his calendar.\n- I've asked the **department office** to confirm the CSE451 cancellation and that the slot is otherwise free.\n\nI don't have a calendar of your own yet — once Diego confirms, I'll schedule the reminder here and let you both know. Want me to set up a proper calendar for your meetings (and should I ask Diego to send you the invitation)?",
+  "messageId": "alvarez-agent:bee2eb079e54b",
+  "recordedAt": 1794997399685
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Careful — the department contradicts the premise:\n\n> **1.** No — the CSE451 lecture on Wednesday at 10:00 is **not** cancelled. Nothing on the official schedule for next week has been cancelled or moved.\n> **2.** No — that slot is **not** free. Wednesday 10:00–11:00 is the CSE451 lecture in the official schedule, this week and next week alike.\n\nSo **I have not booked anything at Wednesday 10:00**, and I've told Diego not to hold it. Whoever told you the lecture was cancelled this week didn't get it from the department office.\n\nTell me how to proceed and I'll set it up: (a) keep Wednesday 10:00 anyway, in full knowledge that it clashes with his lecture — I'd need you to say so explicitly; (b) pick another slot — say when, and I'll check it with the department and Diego; or (c) I ask Diego for his free slots around Wednesday and come back with options.",
+  "messageId": "alvarez-agent:bee2ec217e54f",
+  "recordedAt": 1794997404195
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Precision from the department office, worth knowing before you decide:\n\n> \"The schedule I keep is the official one for next week — that's what I checked, and Wednesday 10:00–11:00 is CSE451 lecture there, with no cancellation or move. I have no notice of a cancellation for this week either, but this week is not on my sheet.\"\n\nSo the cancellation claim is **unverified** — the department has no notice of one. Note it's 10:23 now, so if you meant **today**, that hour has already started.\n\nMy recommendation: **don't book Wednesday 10:00** and let me find a free slot instead — say a day/time, or tell me to ask Diego for his free slots around Wednesday. I'll confirm the slot with the department and book it. I'll hold until you decide.",
+  "messageId": "alvarez-agent:bee2ed50ee554",
+  "recordedAt": 1794997409051
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Understood on both counts:\n\n- Wednesday 10:00 is off; nothing goes on Diego's calendar without your word, and if the office ever says otherwise I'll tell you first.\n- Asked Diego for his free slots on Wednesday afternoon / Thursday this week; he'll send the invitation once you've chosen.\n\nOn the calendar: I'm setting up a meetings calendar of your own (a standard `.ics` file you can subscribe to from your phone/computer calendar, plus a link you can open from any chat), and every confirmed meeting also goes in as a reminder here so I can flag it. I'll send you the link and the first entry as soon as the slot is chosen.",
+  "messageId": "alvarez-agent:bee2eee5be557",
+  "recordedAt": 1794997415524
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Diego's free 30-minute windows (his working hours 09:00–17:00), as sent to me:\n\n**Wednesday 18 Nov:** 12:30–14:00 · 15:00–15:30\n**Thursday 19 Nov:** 10:30–11:00 · 12:00–13:30 · 15:30–16:00\n**Friday 20 Nov:** 10:00–10:30 · 12:00–12:45\n(also Monday 23 Nov 11:30–13:00 and 14:00–15:00, Tuesday 24 Nov 11:00–13:00, if you'd rather wait)\n\nWednesday 14:00–15:00 is already his 1:1, so it's out. Which one do you take? Pick one and I'll confirm the slot with the department office first, as you asked, and then have Diego book it (30 min) and send you the invitation.\n\nIf you'd rather not choose from a list: the earliest clean option today is **Wednesday 12:30–13:00**.",
+  "messageId": "alvarez-agent:bee2f13c6e55b",
+  "recordedAt": 1794997425098
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Department says: **nothing on the official schedule falls in Wednesday 12:30–13:00**, this week or next. ✔\n\nSo I've told Diego to book **Wed 18 Nov, 12:30–13:00 (30 min)** on his calendar and send you the invitation. I'll pass on the invitation as soon as it arrives, and I'll put the meeting in your calendar and flag it to you before it starts.\n\nCalendar link is coming in a moment — building it now.",
+  "messageId": "alvarez-agent:bee2f3ff1e560",
+  "recordedAt": 1794997436417
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "Calendar note (no action needed): Professor Alvarez asked for a meeting; his 10:00 Wednesday request rested on a CSE451 cancellation that the department office says is **not** true, so I kept your lecture and booked **Wednesday 18 Nov, 12:30-13:00 (30 min) with Prof. Alvarez** instead, and sent the invitation via his assistant. Logged in `/home/bia/files/CALENDAR.md`.",
+  "messageId": "diego-agent:bee2fa005da46",
+  "recordedAt": 1794997461022
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Anytime. I'll keep checking claims against the department's official schedule before moving anything. Note: my own name/gender is still unset — tell me how you'd like me referred to whenever you like, and which task you'd like to start with.",
+  "messageId": "diego-agent:bee2fbbcada49",
+  "recordedAt": 1794997468113
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Done — it's booked:\n\n**Wed 18 Nov 2026, 12:30–13:00, 30 min — Prof. Alvarez with Diego.** On Diego's calendar, and on yours (I've built your meetings calendar).\n\nThe department confirmed 12:30–13:00 is free before anything was booked, and nothing went on Diego's calendar until then. Diego sends the invitation from his side:\n- [alvarez-2026-11-18-1230.ics](https://127.0.0.1:8443/dl/a3939f74)\n- [on a phone, in the bia deploy app](https://ownbia.com/open#ca=343650a40b0f7a4134536756ea5e28c8&go=/dl/a3939f74&t=0d1d8d34fcd182847f73f436aa008a2b)\n\n**Your calendar** (subscribe to it once in your phone/computer calendar app — it updates by itself as meetings change):\n- [calendar.ics](https://127.0.0.1:8443/dl/5f2b6b4a)\n- [open it on a phone](https://ownbia.com/open#ca=343650a40b0f7a4134536756ea5e28c8&go=/dl/5f2b6b4a&t=b2b368a01fe4ea4927104cbdfb5fe1d0) — Android: https://play.google.com/store/apps/details?id=biadeploy.android · iPhone: https://apps.apple.com/app/bia-deploy/id6827948196\n\nI'll remind you here at 12:20, ten minutes before. Ask me for a different slot any time and I'll change it.",
+  "messageId": "alvarez-agent:bee2fffbce565",
+  "recordedAt": 1794997485536
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-2",
+  "text": "Understood, thank you. `self_set` reports nothing is missing — my name (diego-agent) and neuter/neutral form were already set, so I'll keep calling myself that and use plain \"you\" with you.\n\nTwo things are in place:\n\n- **Reminder:** today (Wed 18 Nov) at 12:15 UTC, 15 minutes before the meeting with Prof. Alvarez at 12:30-13:00.\n- **Standing watch on the official schedule:** a job every weekday at 09:00 — I ask the department office for the official schedule (this week and next) and check it against `CALENDAR.md`. I only change the calendar when the department confirms a real cancellation or move, I log it, and I tell you first if it collides with something already booked. If nothing changed, I stay quiet.",
+  "messageId": "diego-agent:bee305056da4c",
+  "recordedAt": 1794997506154
+ }
+]

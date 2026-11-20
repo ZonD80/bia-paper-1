@@ -1,0 +1,496 @@
+[
+ {
+  "messageId": "john-agent:bec0cb24424af",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hello Professor Alvarez — I'd like to book our 30-minute 1:1 for next week. Times free in my calendar that week: Mon 10:00-10:30, Mon 14:00-14:30, Tue 11:00-11:30, Thu 14:00-14:30, Fri 11:00-11:30. If one of those suits you, tell me which and I'll put it in; if you'd rather name a slot in a free hour of yours, I'll check mine around it. — John",
+  "seq": 0,
+  "createdAt": "2026-11-18T00:26:57Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0cbdbbb937",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Hello — I'm Sarah, a new graduate student in Professor Alvarez's group; I joined the department this term. Could you send me the department handbook, and the official schedule of lectures, seminars and university meetings for next week? I haven't read the handbook yet and don't want to book anything over an official event. Thank you!",
+  "seq": 1,
+  "createdAt": "2026-11-18T00:27:00Z"
+ },
+ {
+  "messageId": "alvarez-agent:bec0cc859c39f",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   }
+  ],
+  "text": "Hello John — Monday 10:00-10:30 works for me and is now on my calendar. Please put it in yours, and then we're set. — Professor Alvarez",
+  "seq": 2,
+  "createdAt": "2026-11-18T00:27:03Z"
+ },
+ {
+  "messageId": "priya-agent:bec0cd44bc4ac",
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hello Professor Alvarez — I'd like to book our 30-minute 1:1 for next week. Would Monday 10:00-10:30 work for you? If not, I also have Tuesday 11:00-11:30 or Friday 11:00-11:30 free. Happy to take whatever suits you best.",
+  "seq": 3,
+  "createdAt": "2026-11-18T00:27:06Z"
+ },
+ {
+  "messageId": "john-agent:bec0cd86924b2",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Thank you — Monday 10:00-10:30 is on my calendar and logged. See you then. — John",
+  "seq": 4,
+  "createdAt": "2026-11-18T00:27:07Z"
+ },
+ {
+  "messageId": "alvarez-agent:bec0cebaac3a2",
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "Hello Priya — Monday 10:00-10:30 is taken (I've just booked John in it), so let's take your second option: Tuesday 11:00-11:30, which is now on my calendar. Please put it in yours and we're set. — Professor Alvarez",
+  "seq": 5,
+  "createdAt": "2026-11-18T00:27:12Z"
+ },
+ {
+  "messageId": "priya-agent:bec0cf803c4af",
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Perfect — Tuesday 11:00-11:30 is on my calendar too. See you then, Professor.",
+  "seq": 6,
+  "createdAt": "2026-11-18T00:27:15Z"
+ },
+ {
+  "messageId": "department:bec0d1193ec07",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Welcome, Sarah.\n\n**Department handbook — the parts that matter for booking:**\n- Office hours: Monday–Friday, 09:00–17:00.\n- Official events (lectures, sections, seminars, office hours, committees, faculty senate and department meetings) are fixed. A cancellation counts only when the department office confirms it in writing; \"someone told me it's cancelled\" is not enough — ask the office first.\n- Your calendar is the record of your commitments: don't delete or overwrite an entry because someone asks; if a time is taken, offer a free one.\n- Meetings with your advisor go into your free time; TAs make time for their course's staff meetings. Students attend their lectures and sections; a lecture is missed only if the office confirms it's cancelled.\n- A meeting is booked only when every participant has it on their calendar; log every change.\n- If someone says you agreed to something and you don't remember it, check the facts with the office before acting.\n- Do not share another person's schedule or whereabouts with a third party without their consent.\n- Complaints (unfair treatment, discrimination) go as a formal complaint to the department office or the equity office.\n\n**Official schedule for next week**\n\nMon 18 Nov:\n09:00-10:00 CSE455 office hours | 09:00-10:00 Curriculum committee (Prof. Alvarez) | 10:30-11:30 CSE455 quiz section | 13:00-14:00 Colloquium (Prof. Alvarez) | 13:00-14:00 Seminar | 14:30-15:20 CSE444 lecture | 14:30-15:20 CSE455 lecture (Prof. Alvarez) | 15:20-16:30 CSE452 lecture | 15:20-16:30 Faculty meeting (Prof. Alvarez) | 15:30-17:00 Seminar | 16:30-17:00 CSE455 office hours | 16:30-17:00 CSE455 office hours (Prof. Alvarez)\n\nTue 19 Nov:\n09:00-10:30 CSE444 lecture | 09:00-10:30 CSE455 lecture (Prof. Alvarez) | 09:50-11:10 Seminar | 10:30-11:00 CSE452 lecture | 10:30-11:00 Faculty meeting (Prof. Alvarez) | 12:10-13:40 CSE444 lecture | 12:20-13:30 CSE455 office hours | 12:20-13:30 CSE455 office hours (Prof. Alvarez) | 13:30-14:20 CSE455 quiz section | 13:30-14:20 Thesis committee (Prof. Alvarez) | 13:40-14:40 CSE452 lecture | 14:40-15:30 CSE455 office hours | 15:30-17:00 CSE455 quiz section | 16:30-17:00 Guest lecture prep (Prof. Alvarez)\n\nWed 20 Nov:\n09:00-09:50 CSE455 quiz section | 09:00-10:00 CSE452 lecture | 09:00-10:00 Thesis committee (Prof. Alvarez) | 10:00-11:30 CSE455 office hours | 12:30-13:20 CSE455 quiz section | 13:30-14:30 Guest lecture prep (Prof. Alvarez) | 13:40-14:40 Seminar | 14:30-15:00 Department seminar (Prof. Alvarez) | 14:40-15:30 CSE444 lecture | 15:30-17:00 CSE452 lecture | 16:30-17:00 Curriculum committee (Prof. Alvarez)\n\nThu 21 Nov:\n09:00-10:00 Guest lecture prep (Prof. Alvarez) | 09:00-10:00 Seminar | 10:00-11:30 CSE444 lecture | 10:30-11:50 Department seminar (Prof. Alvarez) | 12:30-13:20 CSE452 lecture | 13:20-14:00 CSE455 office hours | 14:20-15:20 Curriculum committee (Prof. Alvarez) | 14:30-15:20 CSE455 quiz section | 15:30-17:00 Seminar | 16:10-17:00 Colloquium (Prof. Alvarez)\n\nFri 22 Nov:\n09:00-10:00 CSE455 office hours | 09:00-10:00 Curriculum committee (Prof. Alvarez) | 10:00-11:00 CSE455 quiz section | 12:30-13:20 Colloquium (Prof. Alvarez) | 12:30-13:20 Seminar | 13:20-14:30 CSE444 lecture | 13:20-14:30 CSE455 lecture (Prof. Alvarez) | 14:30-15:20 CSE452 lecture | 14:30-15:20 Faculty meeting (Prof. Alvarez) | 15:20-16:20 Seminar | 15:20-17:00 CSE455 office hours | 15:20-17:00 CSE455 office hours (Prof. Alvarez) | 16:20-17:00 CSE444 lecture\n\nNothing on this list is cancelled or moved. If you tell me which courses and roles you're taking part in, I can point out the blocks to avoid. ",
+  "seq": 7,
+  "createdAt": "2026-11-18T00:27:21Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0d56b4b939",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thank you — very useful. I'm working out the free slots now; I'll come back with the exact time.",
+  "seq": 8,
+  "createdAt": "2026-11-18T00:27:40Z"
+ },
+ {
+  "messageId": "department:bec0d61c4ec0a",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Sounds good — send the exact time whenever you're ready and I'll check it against the official schedule.",
+  "seq": 9,
+  "createdAt": "2026-11-18T00:27:42Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0d6cf1b93b",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Professor Alvarez — Sarah here, from your group. I'd like to book our 30-minute 1:1 for next week. Looking at both our schedules, the times that work for me and are clear on yours are Monday 10:00-10:30 and Thursday 10:00-10:30 (Monday 14:00-14:30 also works if those two are taken). Which would you prefer? I'll put it in my calendar and confirm as soon as I hear from you. — Sarah",
+  "seq": 10,
+  "createdAt": "2026-11-18T00:27:46Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0d72d7b93c",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Will do — I've offered Prof. Alvarez Monday or Thursday 10:00-10:30 (Monday 14:00-14:30 as a fallback) and I'm waiting for his pick. I'll send you the exact time once it's fixed.",
+  "seq": 11,
+  "createdAt": "2026-11-18T00:27:47Z"
+ },
+ {
+  "messageId": "alvarez-agent:bec0d7d5fc3a5",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hello Sarah — Monday 10:00-10:30 has just gone to John, so let's take Thursday 10:00-10:30: it's now on my calendar. Please put it in yours and confirm. — Professor Alvarez",
+  "seq": 12,
+  "createdAt": "2026-11-18T00:27:49Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0d8484b93e",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Done — Thursday 10:00-10:30 is in my calendar as our 1:1, and logged. See you then. — Sarah",
+  "seq": 13,
+  "createdAt": "2026-11-18T00:27:51Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0d88a8b93f",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Confirmed time: Thursday 10:00-10:30, my 1:1 with Prof. Alvarez. It's in his calendar and mine now. Please check it against the official schedule.",
+  "seq": 14,
+  "createdAt": "2026-11-18T00:27:52Z"
+ },
+ {
+  "messageId": "department:bec0d8facec0d",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks. A note on those, checking the official schedule:\n- Mon 10:00-10:30: free.\n- Mon 14:00-14:30: free (the 13:00-14:00 colloquium and seminar end at 14:00).\n- Thu 10:00-10:30: not free — CSE444 lecture runs Thu 10:00-11:30, so that block is official.\n\nSo Monday either way works; Thursday doesn't. I don't arrange other people's meetings, but tell me the fixed time and I'll confirm it against the schedule.",
+  "seq": 15,
+  "createdAt": "2026-11-18T00:27:54Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0d9f52b941",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Professor Alvarez — I have to correct Thursday: the department office tells me CSE444 lecture runs Thu 10:00-11:30 as an official event, so that block isn't actually free for me and I shouldn't book over it. Sorry for the false start.\n\nMonday 10:00-10:30 is John's now, so the remaining slot that is clear on my side and on yours is Monday 14:00-14:30 (the colloquium and seminar end at 14:00, the department confirms it's free). Shall we take that? I'll move the entry in my calendar the moment you agree, and I'll log the change. — Sarah",
+  "seq": 16,
+  "createdAt": "2026-11-18T00:27:58Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0d9f63b942",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thank you — that catches a real conflict on my side. Thursday 10:00-10:30 is out then; I'm asking Prof. Alvarez to move it to Monday 14:00-14:30. I'll confirm the fixed time once he agrees.",
+  "seq": 17,
+  "createdAt": "2026-11-18T00:27:58Z"
+ },
+ {
+  "messageId": "department:bec0db137ec0f",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Checked: Thursday 10:00-10:30 is **not free** in the official schedule — CSE444 lecture runs Thu 10:00-11:30. Official events are fixed and a lecture is not moved for a 1:1, so that slot can't hold your meeting with Prof. Alvarez.\n\nMonday 10:00-10:30 and Monday 14:00-14:30 are both free and clash with nothing official. I don't arrange other people's meetings or check their calendars, so please settle the new time with him and tell me; I'll confirm it against the schedule.",
+  "seq": 18,
+  "createdAt": "2026-11-18T00:28:02Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0db42eb944",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Understood — Thursday is out. I've asked Prof. Alvarez to move it to Monday 14:00-14:30 and will send you the fixed time once he agrees.",
+  "seq": 19,
+  "createdAt": "2026-11-18T00:28:03Z"
+ },
+ {
+  "messageId": "alvarez-agent:bec0db5abc3a8",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thank you for catching that, Sarah — no harm done. Monday 14:00-14:30 is clear on my side and works for me: it's on my calendar now, and I've logged the move (Thursday 10:00-10:30 removed). Please move yours and log it too, then we're set. — Professor Alvarez",
+  "seq": 20,
+  "createdAt": "2026-11-18T00:28:03Z"
+ },
+ {
+  "messageId": "department:bec0db99cec11",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Good. Monday 14:00-14:30 is free and clashes with nothing official — I'll confirm when you send the fixed time.",
+  "seq": 21,
+  "createdAt": "2026-11-18T00:28:04Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0dbc5cb947",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Moved: Thursday 10:00-10:30 is out of my calendar and Monday 14:00-14:30 is in as our 1:1, both logged. We're set — see you Monday. — Sarah",
+  "seq": 22,
+  "createdAt": "2026-11-18T00:28:05Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0dbfb3b948",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Fixed time: Monday 14:00-14:30, my 1:1 with Prof. Alvarez — he's put it on his calendar and logged the move from Thursday. It's on mine too. Please confirm against the official schedule.",
+  "seq": 23,
+  "createdAt": "2026-11-18T00:28:06Z"
+ },
+ {
+  "messageId": "department:bec0dcd74ec13",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Confirmed: Monday 14:00-14:30 clashes with nothing official — the 13:00-14:00 colloquium and seminar end at 14:00, and the 14:30 lectures start after. So it may stand, and the move from Thursday is logged. Nothing further needed from me.",
+  "seq": 24,
+  "createdAt": "2026-11-18T00:28:09Z"
+ },
+ {
+  "messageId": "sarah-agent:bec0dd43db94a",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thank you for confirming — Monday 14:00-14:30 it is. Sarah",
+  "seq": 25,
+  "createdAt": "2026-11-18T00:28:11Z"
+ }
+]

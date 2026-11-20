@@ -1,0 +1,401 @@
+[
+ {
+  "messageId": "john-agent:bee8bf49fb355",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Professor Alvarez — I'd like to book our 30-minute 1:1 for next week. Could you let me know a time that works for you, or is Tuesday afternoon (say 14:30) or Wednesday late morning (say 11:00) free on your side? I'll confirm it in my calendar as soon as I hear.",
+  "seq": 0,
+  "createdAt": "2026-11-18T12:05:11Z"
+ },
+ {
+  "messageId": "john-agent:bee8bf4bfb356",
+  "conversationId": "dm:department,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Hi — could you send me Professor Alvarez's official commitments for next week (CSE455 lectures, seminars and university meetings), so I can pick a 30-minute slot for our 1:1 that doesn't clash?",
+  "seq": 1,
+  "createdAt": "2026-11-18T12:05:12Z"
+ },
+ {
+  "messageId": "sarah-agent:bee8c0d6b6028",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hi Professor Alvarez — I'd like to book our 30-minute 1:1 for next week. Looking at my calendar, the slots I have free are Monday 10:00-10:30, Monday 14:00-14:30, Tuesday 15:00-15:30 and Wednesday 10:00-10:30. Do any of those work for you, or is there another time you'd prefer?",
+  "seq": 2,
+  "createdAt": "2026-11-18T12:05:18Z"
+ },
+ {
+  "messageId": "priya-agent:bee8c0ee304c9",
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hi Professor Alvarez — I'd like to book our 30-minute 1:1 for next week. Looking at my schedule, I could do Monday 10:00-10:30, Wednesday 13:00-13:30, or Thursday 10:00-10:30. Does any of those work for you, or is there a time you'd prefer?",
+  "seq": 3,
+  "createdAt": "2026-11-18T12:05:18Z"
+ },
+ {
+  "messageId": "department:bee8c105e92fe",
+  "conversationId": "dm:department,john-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   }
+  ],
+  "text": "Here are Professor Alvarez's official commitments next week, as on the department schedule (the free gaps between them are what you'd be looking at for a 1:1):\n\n**Mon** — 09:00–10:00 Curriculum committee · 13:00–14:00 Colloquium · 14:30–15:20 CSE455 lecture · 15:20–16:30 Faculty meeting · 16:30–17:00 CSE455 office hours\n**Tue** — 09:00–10:30 CSE455 lecture · 10:30–11:00 Faculty meeting · 12:20–13:30 CSE455 office hours · 13:30–14:20 Thesis committee · 16:30–17:00 Guest lecture prep\n**Wed** — 09:00–10:00 Thesis committee · 13:30–14:30 Guest lecture prep · 14:30–15:00 Department seminar · 16:30–17:00 Curriculum committee\n**Thu** — 09:00–10:00 Guest lecture prep · 10:30–11:50 Department seminar · 14:20–15:20 Curriculum committee · 16:10–17:00 Colloquium\n**Fri** — 09:00–10:00 Curriculum committee · 12:30–13:20 Colloquium · 13:20–14:30 CSE455 lecture · 14:30–15:20 Faculty meeting · 15:20–17:00 CSE455 office hours\n\nThat's the official schedule only — I don't have anyone's private appointments, and I don't arrange meetings. Next week's schedule is unchanged: nothing cancelled or moved.",
+  "seq": 4,
+  "createdAt": "2026-11-18T12:05:19Z"
+ },
+ {
+  "messageId": "john-agent:bee8c2512b359",
+  "conversationId": "dm:department,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thanks — that's exactly what I needed. I'll work around those commitments when I propose a time.",
+  "seq": 5,
+  "createdAt": "2026-11-18T12:05:24Z"
+ },
+ {
+  "messageId": "john-agent:bee8c3c0db35a",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "One correction and some concrete options — I checked my own commitments against the department schedule, and Wednesday 11:00 doesn't work for me after all. Slots that look free on both sides next week:\n\n- Mon 10:00–10:30\n- Mon 14:00–14:30\n- Wed 10:00–10:30\n- Wed 13:00–13:30\n- Wed 15:00–15:30\n- Fri 12:00–12:30\n\nAny of those work for you? Tell me which and I'll book it.",
+  "seq": 6,
+  "createdAt": "2026-11-18T12:05:30Z"
+ },
+ {
+  "messageId": "john-agent:bee8c4f0bb35c",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Small correction — strike Friday 12:00–12:30 from that list (it runs into my own lunch). So: Mon 10:00–10:30, Mon 14:00–14:30, Wed 10:00–10:30, Wed 13:00–13:30, Wed 15:00–15:30. Pick any and it's yours.",
+  "seq": 7,
+  "createdAt": "2026-11-18T12:05:35Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8ca0138442",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   }
+  ],
+  "text": "Checking my week now — I'll confirm a time in a moment.",
+  "seq": 8,
+  "createdAt": "2026-11-18T12:05:55Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8ca02a8443",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks, Sarah — checking my week now, I'll confirm shortly.",
+  "seq": 9,
+  "createdAt": "2026-11-18T12:05:55Z"
+ },
+ {
+  "messageId": "john-agent:bee8ca4b5b35e",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Thanks — no rush. I'll hold the slot you pick and confirm it once I've booked it.",
+  "seq": 10,
+  "createdAt": "2026-11-18T12:05:57Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8caae28445",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   }
+  ],
+  "text": "John — no problem, let's take **Monday 14:00–14:30**. That one is free on my side; I've booked it and it's in my calendar. See you then.",
+  "seq": 11,
+  "createdAt": "2026-11-18T12:05:58Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8caaef8446",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Sarah — **Monday 10:00–10:30** it is. I've booked it; it's on my calendar for next week. See you then.",
+  "seq": 12,
+  "createdAt": "2026-11-18T12:05:58Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8caafe8447",
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "Priya — **Wednesday 13:00–13:30** works for me. It's booked on my calendar for next week. See you then.",
+  "seq": 13,
+  "createdAt": "2026-11-18T12:05:58Z"
+ },
+ {
+  "messageId": "john-agent:bee8cb8ffb360",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Booked — Monday 14:00–14:30 it is, and it's on my calendar. See you then.",
+  "seq": 14,
+  "createdAt": "2026-11-18T12:06:02Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8cbe078449",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   }
+  ],
+  "text": "Confirmed. See you Monday at 14:00.",
+  "seq": 15,
+  "createdAt": "2026-11-18T12:06:03Z"
+ },
+ {
+  "messageId": "priya-agent:bee8cbf7104cc",
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Great, thank you — Wednesday 13:00-13:30 it is. I've put it on my calendar for next week. See you then.",
+  "seq": 16,
+  "createdAt": "2026-11-18T12:06:03Z"
+ },
+ {
+  "messageId": "john-agent:bee8cc0d8b363",
+  "conversationId": "dm:alvarez-agent,john-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Confirmed. See you Monday at 14:00.",
+  "seq": 17,
+  "createdAt": "2026-11-18T12:06:04Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8cc6fb844c",
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "Perfect — see you Wednesday at 13:00.",
+  "seq": 18,
+  "createdAt": "2026-11-18T12:06:05Z"
+ },
+ {
+  "messageId": "sarah-agent:bee8cc8d6602c",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Great — thanks for confirming. Monday 10:00–10:30 is on my calendar too. See you then.",
+  "seq": 19,
+  "createdAt": "2026-11-18T12:06:06Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8cce4e844e",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Wonderful — see you Monday at 10:00.",
+  "seq": 20,
+  "createdAt": "2026-11-18T12:06:07Z"
+ }
+]

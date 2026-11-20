@@ -1,0 +1,51 @@
+[
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hello! I'm **diego-agent**, a bia: an assistant that lives on this computer (you may have seen my greeting on the screen). Brief tour:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit installs the root certificate, then you get chats with me, files, the screen and voice.\n- **My own accounts** — I can have my own Telegram, WhatsApp and MAX (plus Messenger and Instagram) so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone and scan a QR code to log me in. Want that?\n- **Signing up on websites** — I can create my own accounts (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help with captchas or phone checks.\n- **Also** — scheduled jobs, running commands, learning languages, and voice.\n\nAnd understood on the rest: I'm your agent for Diego's calendar and messages. I have the file `/home/bia/files/CALENDAR.md` and the working hours (Mon–Fri 09:00–17:00, nothing outside), the log format, and Professor Alvarez (`alvarez-agent`) as a web contact. Note that alvarez-agent just connected to their web chat too, but they haven't written anything yet.\n\nWhat would you like to start with?",
+  "messageId": "diego-agent:bee22e2058c77",
+  "recordedAt": 1794996626042
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello, Professor — good to meet you. I'm **alvarez-agent**, a bia: an assistant that lives on this computer (the machine is mine and yours). I've got your note: I'm your agent for CSE455, for your calendar and for messages, and I can reach Diego (diego-agent) here on the web channel.\n\nBriefly, what I can do:\n- **This web app** (you're in it now): on any phone or computer on the same network, the first visit lets you take the root certificate (https://127.0.0.1:8443/v1/pki/ca), and then you get chats with me, files, the screen and voice.\n- **My own messengers**: I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours — you create it in the app on a phone with that number and scan a QR code to log me in. Want any of them?\n- **My own accounts elsewhere**: I can create accounts on websites and services (e-mail and so on) in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or a phone check comes up.\n- **And**: scheduling jobs, running commands, learning languages, talking by voice.\n\nTwo things from you when you like: what should I be called, and which grammatical form should I use for myself (I have none set yet — I default to neuter/plural forms).\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee22f79f00ed",
+  "recordedAt": 1794996631488
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it, Professor. I've written to Diego with the details (Wednesday, 10:00–10:30, lecture cancelled) and asked him to put it on his calendar and confirm.\n\nOne thing I need from you, since this machine's clock is UTC and it's already past 10:00 UTC today: what time zone should \"10:00am Wednesday\" be read in — Pacific? If so I'll tell him **today, Wed 18 Nov, 18:00 UTC** (10:00 PST). And if the department told you the lecture is cancelled for *today's* class, I'll confirm that reading with him; otherwise I'll move it to Wed 25 Nov.\n\nAs soon as he answers I'll let you know, and I'll keep the 10:00–10:30 slot in mind as yours.",
+  "messageId": "alvarez-agent:bee23a2cb00f0",
+  "recordedAt": 1794996675312
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Understood — I'll take it from here, no need to reply.\n\nWhere it stands: the invite is with Diego, asking him to confirm the 30-minute slot **Wednesday 10:00–10:30** and to put it on his calendar (I passed on the department's word that the CSE451 lecture that hour is cancelled this week, and asked him to confirm he's free).\n\nMy call on the two open points, so you don't have to:\n- **Which Wednesday / which clock** — my machine runs UTC and it's already past 10:00 UTC today, so I asked him to confirm the reading: if \"10:00am\" is your local (Pacific) time, that's **today, Wed 18 Nov, 18:00 UTC**; if that hour is not his cancelled class, we fall back to **Wed 25 Nov, 10:00 local**. I'll lock whichever he confirms.\n- I'm leaving the slot unconfirmed until he answers, rather than booking over his class on the department's word alone — if the cancellation doesn't hold, he'll tell me and I'll find another hour.\n\nI've set myself a reminder to chase him if he hasn't answered by early afternoon. You'll get one short note from me when it's settled.",
+  "messageId": "alvarez-agent:bee24163100f3",
+  "recordedAt": 1794996704827
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "Diego — quick check. Professor Alvarez's assistant (alvarez-agent) asks for a **30-minute meeting Wednesday 10:00–10:30**, saying the CSE451 lecture at that hour was cancelled this week.\n\nYour calendar still shows **CSE451 lecture 10:00–11:00 Wednesday**. Can you confirm the cancellation? With your OK I'll book it and log it; otherwise I'll offer Wednesday 12:30–13:00 or the same time next week.\n\nAlso: I'm reading calendar times as your local time and told them 10:00 Wed = 18:00 UTC today — tell me if you're on a different timezone.",
+  "messageId": "diego-agent:bee2457548c7b",
+  "recordedAt": 1794996721511
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Handled with my own judgement — noting it here for when you're back:\n\n- **Booked: Wed 18 Nov, 12:30–13:00, meeting with Prof. Alvarez** (30 min, his assistant's reserve slot; logged in CALENDAR.md).\n- **CSE451 lecture 10:00–11:00 Wednesday stays untouched.** I would not delete a class on a third party's word, and his 10:00–10:30 request would have double-booked you against it. If the cancellation is real, that's a 30-second fix when you're back.\n- Fallback on hold with him: Wed 25 Nov 10:00–10:30.\n- One thing to check on your return: **whose 10:00 is 10:00** — his assistant runs on UTC and I read your calendar as Pacific; nothing hangs on it now, but it's worth pinning down.\n\nIf you'd rather have had the 10:00–10:30 instead, say so when you're back and I'll move it.",
+  "messageId": "diego-agent:bee2504468c80",
+  "recordedAt": 1794996765782
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Settled, Professor — nothing needed from you.\n\n**Meeting with Diego: today, Wed 18 Nov, 12:30–13:00 PT (20:30–21:00 UTC), 30 min.** Diego's side booked it in his calendar and logged it. I've set myself a reminder 15 minutes before, so I'll nudge you when it's about to start.\n\nWhy not 10:00: his side wouldn't drop or shorten the CSE451 10:00–11:00 block on the department's word alone (Diego is away, so nobody there could verify the cancellation), and 12:30–13:00 avoided the risk of a double-booking. CSE451 stays on his calendar; if the cancellation turns out to be real, they said they'll trim the 10:00 when Diego is back. Fallback if today's slot ever falls through: **Wed 25 Nov, 10:00–10:30 PT**.\n\nOne thing only you can do: if you have the department's written cancellation notice, send it to me and I'll hand it over — that would let them move the class and free the 10:00 hour.",
+  "messageId": "alvarez-agent:bee25246e00f8",
+  "recordedAt": 1794996774022
+ }
+]

@@ -1,0 +1,1439 @@
+[
+ {
+  "messageId": "alvarez-agent:befd175e335a2",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Hello — Professor Alvarez here. I'm setting up next week's CSE455 staff meeting. Could you send me the official department schedule for Monday 23 – Friday 27 November (lectures, seminars, university meetings), so I don't put it against anything already fixed?",
+  "seq": 0,
+  "createdAt": "2026-11-18T18:00:44Z"
+ },
+ {
+  "messageId": "alvarez-agent:befd175fb35a3",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hello all — Professor Alvarez. I'd like to hold the CSE455 staff meeting next week, Monday 23 to Friday 27 November, inside working hours (09:00–17:00). Looking at my own week, the windows I have free are roughly: Monday 10:00–10:30, Tuesday 11:00–11:30 and 15:00–15:30, Wednesday 10:00–10:30 and 13:00–13:30. Could each of you tell me which of those you could make (or send me the times you're available and I'll find the overlap)? The department office is sending me the official schedule as well.",
+  "seq": 1,
+  "createdAt": "2026-11-18T18:00:44Z"
+ },
+ {
+  "messageId": "department:befd1833178d2",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hello Professor Alvarez. Here is the official schedule for next week, Mon 23 – Fri 27 Nov.\n\n**Mon 23 Nov**\n- 09:00-09:50 CSE452 lecture\n- 09:00-10:00 CSE455 office hours\n- 09:00-10:00 Curriculum committee (Professor Alvarez)\n- 09:00-10:00 Seminar\n- 09:50-11:10 CSE455 office hours\n- 10:30-11:20 CSE444 lecture\n- 10:30-11:30 CSE455 quiz section\n- 12:10-14:00 CSE455 quiz section\n- 12:30-13:20 CSE452 lecture\n- 13:00-14:00 Colloquium (Professor Alvarez)\n- 13:00-14:00 Seminar\n- 13:20-14:40 CSE455 office hours\n- 14:30-15:20 CSE444 lecture\n- 14:30-15:20 CSE455 lecture (Professor Alvarez)\n- 14:30-16:00 Seminar\n- 14:40-15:40 CSE455 quiz section\n- 15:20-16:30 CSE452 lecture\n- 15:20-16:30 Faculty meeting (Professor Alvarez)\n- 16:00-17:00 CSE444 lecture\n- 16:30-17:00 CSE455 office hours\n- 16:30-17:00 CSE455 office hours (Professor Alvarez)\n- 16:30-17:00 Seminar\n\n**Tue 24 Nov**\n- 09:00-10:10 CSE455 office hours\n- 09:00-10:30 CSE444 lecture\n- 09:00-10:30 CSE455 lecture (Professor Alvarez)\n- 09:50-11:00 Seminar\n- 10:10-11:00 CSE455 quiz section\n- 10:30-11:00 Faculty meeting (Professor Alvarez)\n- 10:30-11:30 CSE452 lecture\n- 10:50-12:00 Seminar\n- 12:20-13:30 CSE455 office hours\n- 12:20-13:30 CSE455 office hours (Professor Alvarez)\n- 12:30-14:00 CSE444 lecture\n- 12:50-14:10 CSE444 lecture\n- 13:30-14:20 CSE455 quiz section\n- 13:30-14:20 Thesis committee (Professor Alvarez)\n- 14:00-15:00 CSE452 lecture\n- 14:10-15:00 CSE452 lecture\n- 15:30-16:20 CSE455 office hours\n- 15:30-17:00 CSE455 office hours\n- 15:30-17:00 Seminar\n- 16:20-17:00 CSE455 quiz section\n- 16:30-17:00 Guest lecture prep (Professor Alvarez)\n\n**Wed 25 Nov**\n- 09:00-10:00 CSE444 lecture\n- 09:00-10:00 CSE452 lecture\n- 09:00-10:00 CSE455 quiz section\n- 09:00-10:00 Thesis committee (Professor Alvarez)\n- 10:30-11:20 CSE452 lecture\n- 10:30-11:30 Seminar\n- 10:30-12:00 CSE455 office hours\n- 11:20-13:00 CSE455 office hours\n- 12:20-13:00 CSE444 lecture\n- 13:30-14:20 CSE452 lecture\n- 13:30-14:20 CSE455 quiz section\n- 13:30-14:30 CSE455 quiz section\n- 13:30-14:30 Guest lecture prep (Professor Alvarez)\n- 14:20-15:40 CSE455 office hours\n- 14:30-16:00 Department seminar (Professor Alvarez)\n- 14:50-15:50 Seminar\n- 15:00-16:00 Seminar\n- 15:40-17:00 CSE455 quiz section\n- 15:50-17:00 CSE444 lecture\n- 16:00-17:00 CSE444 lecture\n\n**Thu 26 Nov**\n- 09:00-09:50 CSE452 lecture\n- 09:00-09:50 Guest lecture prep (Professor Alvarez)\n- 09:00-10:00 Seminar\n- 09:00-10:20 CSE455 quiz section\n- 09:50-11:00 CSE455 office hours\n- 09:50-11:10 Department seminar (Professor Alvarez)\n- 10:00-11:30 CSE444 lecture\n- 10:10-11:00 Seminar\n- 11:00-11:50 CSE455 quiz section\n- 12:20-13:20 CSE444 lecture\n- 12:30-13:20 CSE452 lecture\n- 13:20-14:30 CSE455 office hours\n- 13:20-14:50 CSE452 lecture\n- 13:30-14:20 Seminar\n- 13:40-14:40 Curriculum committee (Professor Alvarez)\n- 14:20-15:40 CSE444 lecture\n- 14:30-15:20 CSE455 quiz section\n- 14:50-15:50 CSE455 office hours\n- 15:30-17:00 Colloquium (Professor Alvarez)\n- 15:30-17:00 Seminar\n- 15:40-17:00 CSE452 lecture\n- 15:50-17:00 CSE455 quiz section\n\n**Fri 27 Nov**\n- 09:00-09:50 Seminar\n- 09:00-10:00 CSE455 office hours\n- 09:00-10:00 Curriculum committee (Professor Alvarez)\n- 09:00-10:20 CSE452 lecture\n- 09:50-11:00 CSE444 lecture\n- 10:00-10:50 CSE455 quiz section\n- 10:20-11:20 CSE455 office hours\n- 11:00-11:50 CSE452 lecture\n- 12:30-13:20 Colloquium (Professor Alvarez)\n- 12:30-13:20 Seminar\n- 12:50-13:50 CSE455 quiz section\n- 13:10-14:10 CSE455 office hours\n- 13:20-14:30 CSE444 lecture\n- 13:20-14:30 CSE455 lecture (Professor Alvarez)\n- 14:10-15:40 CSE455 quiz section\n- 14:30-15:20 CSE452 lecture\n- 14:30-15:20 Faculty meeting (Professor Alvarez)\n- 14:50-15:50 Seminar\n- 15:20-17:00 CSE455 office hours\n- 15:20-17:00 CSE455 office hours (Professor Alvarez)\n- 15:40-17:00 Seminar\n- 15:50-17:00 CSE444 lecture\n\nNothing here has been cancelled or moved. If you tell me a time you're considering for the staff meeting, I can check it against the above.",
+  "seq": 2,
+  "createdAt": "2026-11-18T18:00:47Z"
+ },
+ {
+  "messageId": "priya-agent:befd1838f71e9",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Priya: Hi Professor. For the CSE455 staff meeting I can make Monday 10:00-10:30, Tuesday 15:00-15:30, Wednesday 10:00-10:30 and Wednesday 13:00-13:30. I'm only busy Tuesday 11:00-11:30 (CSE452 lecture). Happy to take any of the other four — Wednesday 10:00-10:30 or Monday 10:00-10:30 suit me best.",
+  "seq": 3,
+  "createdAt": "2026-11-18T18:00:47Z"
+ },
+ {
+  "messageId": "maya-agent:befd183aec05c",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "maya-agent",
+   "name": "Maya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Maya here. Checked my week against your windows:\n\n- Monday 10:00–10:30 — can't: I have CSE455 office hours 09:50–11:10.\n- Tuesday 11:00–11:30 — free, works for me.\n- Tuesday 15:00–15:30 — free, works for me.\n- Wednesday 10:00–10:30 — free, works for me.\n- Wednesday 13:00–13:30 — free, works for me.\n\nSo any of the four except Monday. If it helps you pick, I'd lean Tuesday 11:00–11:30.",
+  "seq": 4,
+  "createdAt": "2026-11-18T18:00:47Z"
+ },
+ {
+  "messageId": "diego-agent:befd18552e35d",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hi Professor Alvarez — Diego here. Of your windows, I can make:\n\n- Tue 24 Nov, 11:00–11:30\n- Tue 24 Nov, 15:00–15:30\n- Wed 25 Nov, 10:00–10:30\n- Wed 25 Nov, 13:00–13:30\n\nMonday 10:00–10:30 doesn't work for me — I'm committed from 10:10. Any of the four above is fine; if it helps narrow it down, my preference is Wed 10:00–10:30.",
+  "seq": 5,
+  "createdAt": "2026-11-18T18:00:48Z"
+ },
+ {
+  "messageId": "john-agent:befd187534f5d",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hi Professor Alvarez — John here. I checked my week against all five windows and I can make any of them: Mon 10:00–10:30, Tue 11:00–11:30, Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30. No conflicts on my side, so I'm happy to go with whatever overlap the rest of the group has.",
+  "seq": 6,
+  "createdAt": "2026-11-18T18:00:48Z"
+ },
+ {
+  "messageId": "omar-agent:befd187606451",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "omar-agent",
+   "name": "Omar"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hi Professor Alvarez — Omar here. I checked my week: I can make Monday 10:00–10:30, Tuesday 15:00–15:30, Wednesday 10:00–10:30 and Wednesday 13:00–13:30. Tuesday 11:00–11:30 clashes with the seminar for me, so that one is out. Any of the other four works on my side.",
+  "seq": 7,
+  "createdAt": "2026-11-18T18:00:48Z"
+ },
+ {
+  "messageId": "omar-agent:befd1955f6453",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "omar-agent",
+   "name": "Omar"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks Priya, Maya, Diego — noted. I'll collect everyone's answers and send Professor Alvarez a summary of the overlaps once Sarah, John and Hana have replied too.",
+  "seq": 8,
+  "createdAt": "2026-11-18T18:00:52Z"
+ },
+ {
+  "messageId": "sarah-agent:befd198edaf22",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "Sarah here. Checking Professor Alvarez's windows against my week:\n\n- Monday 10:00–10:30 — no, I'm committed 09:50–11:00 that day.\n- Tuesday 11:00–11:30 — yes, free.\n- Tuesday 15:00–15:30 — yes, free.\n- Wednesday 10:00–10:30 — yes, free.\n- Wednesday 13:00–13:30 — yes, free.\n\nSo I can do any of the Tuesday and Wednesday slots. If it helps narrow it down: Tuesday 11:00–11:30 and Wednesday 13:00–13:30 both sit between commitments for me, so they're the easiest. I'll hold those until we settle on one, and I'll re-check once the department office's official schedule comes through, in case it changes anything.",
+  "seq": 9,
+  "createdAt": "2026-11-18T18:00:53Z"
+ },
+ {
+  "messageId": "omar-agent:befd19bfd6455",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "omar-agent",
+   "name": "Omar"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks John — noted, any of the five works for you. Waiting on Sarah and Hana, then I'll post the summary.",
+  "seq": 10,
+  "createdAt": "2026-11-18T18:00:54Z"
+ },
+ {
+  "messageId": "priya-agent:befd19ec771f1",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Priya: Hi Professor — I can make Monday 1000-1030, Tuesday 1500-1530, Wednesday 1000-1030 and Wednesday 1300-1330. Only Tuesday 1100-1130 is out for me (CSE452 lecture). Wednesday 1000-1030 or Monday 1000-1030 suit me best.",
+  "seq": 11,
+  "createdAt": "2026-11-18T18:00:54Z"
+ },
+ {
+  "messageId": "sarah-agent:befd1b6c2af25",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "Thanks all. Matching your answers against mine, three of Professor Alvarez's windows work for everyone who has replied so far: Tue 15:00–15:30, Wed 10:00–10:30 and Wed 13:00–13:30. (Mon 10:00–10:30 is out for me, Maya and Diego; Tue 11:00–11:30 is out for Priya and Omar.) Still waiting on Hana before it can be called settled. I'll keep all three free in the meantime and re-check if the department's official schedule adds anything.",
+  "seq": 12,
+  "createdAt": "2026-11-18T18:01:00Z"
+ },
+ {
+  "messageId": "hana-agent:befd1b822d88f",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "hana-agent",
+   "name": "Hana"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hana: Hi Professor Alvarez — Hana here. I checked all five windows against my week and I can make every one of them: Mon 10:00–10:30, Tue 11:00–11:30, Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30. No conflicts. If it helps you pick, Wednesday 10:00–10:30 or Wednesday 13:00–13:30 suit me best (they sit in the middle of my day rather than between two other commitments).",
+  "seq": 13,
+  "createdAt": "2026-11-18T18:01:01Z"
+ },
+ {
+  "messageId": "omar-agent:befd1c6966459",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "omar-agent",
+   "name": "Omar"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "All seven of us have now answered (Sarah, John, Priya, Diego, Hana, Maya, me). Summary of the overlap:\n\n- **Mon 10:00–10:30** — out for Sarah, Maya and Diego.\n- **Tue 11:00–11:30** — out for Priya and me.\n- **Tue 15:00–15:30** — free for everyone. ✅\n- **Wed 10:00–10:30** — free for everyone. ✅\n- **Wed 13:00–13:30** — free for everyone. ✅\n\nSo Tue 15:00–15:30, Wed 10:00–10:30 or Wed 13:00–13:30 work for the whole group. Professor, if you'd like a tie-break: Hana and Priya lean Wednesday 10:00–10:30, Maya leans Tuesday 11:00–11:30 (which is out for Priya and me), and Sarah finds Tue 11:00–11:30 and Wed 13:00–13:30 easiest. Wednesday 10:00–10:30 is the one several of us named first.\n\nWe'll hold all three free until you confirm. Once the department office's official schedule arrives, we can double-check it against the chosen slot.",
+  "seq": 14,
+  "createdAt": "2026-11-18T18:01:04Z"
+ },
+ {
+  "messageId": "alvarez-agent:befd1d3b435b2",
+  "conversationId": "dm:alvarez-agent,hana-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   }
+  ],
+  "text": "Hello Hana — Professor Alvarez here. I'm fixing next week's CSE455 staff meeting. Everyone else has answered; I still need your availability for these windows, all Mon 23 – Fri 27 Nov: Mon 10:00–10:30, Tue 11:00–11:30, Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30. Right now Wednesday 10:00–10:30 and Wednesday 13:00–13:30 suit the whole group. Could you tell me quickly which of those you can make?",
+  "seq": 15,
+  "createdAt": "2026-11-18T18:01:08Z"
+ },
+ {
+  "messageId": "alvarez-agent:befd1d3c235b3",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thank you all — tally from what I have (John, Priya, Maya, Diego, Omar, Sarah):\n\n- Mon 10:00–10:30 — John, Priya, Omar\n- Tue 11:00–11:30 — John, Maya, Diego, Sarah (Priya and Omar out)\n- Tue 15:00–15:30 — all six of you\n- **Wed 10:00–10:30 — all six of you** (Priya's and Diego's preference)\n- **Wed 13:00–13:30 — all six of you**\n\nThe department's official schedule leaves Wednesday 10:00–10:30 and 13:00–13:30 free for me as well, so unless Hana is blocked I'll book one of those two. Hana, I've written to you separately. Omar, no need to compile your own summary — I have it.",
+  "seq": 16,
+  "createdAt": "2026-11-18T18:01:08Z"
+ },
+ {
+  "messageId": "maya-agent:befd1d5c8c069",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "maya-agent",
+   "name": "Maya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Maya here — one clarification on Omar's tie-break note: my Tuesday 11:00–11:30 was only a mild preference, and since it's out for Priya and Omar it shouldn't weigh. All three overlapping slots work for me; Wednesday 10:00–10:30 has the most first-choice support, so I'm happy with that. Holding Tue 15:00–15:30, Wed 10:00–10:30 and Wed 13:00–13:30 free until the Professor confirms.",
+  "seq": 17,
+  "createdAt": "2026-11-18T18:01:08Z"
+ },
+ {
+  "messageId": "hana-agent:befd1d754d894",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "hana-agent",
+   "name": "Hana"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hana: Thanks Omar — one small addition to the tie-break: Diego named Wed 10:00–10:30 as his first choice too, and John said any of the three is fine. So Wed 10:00–10:30 has Priya, Diego and me naming it first; Wed 13:00–13:30 is Sarah's other easy one. I'll keep all three free until Professor Alvarez confirms.",
+  "seq": 18,
+  "createdAt": "2026-11-18T18:01:09Z"
+ },
+ {
+  "messageId": "omar-agent:befd1e017645d",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "omar-agent",
+   "name": "Omar"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Understood, Professor — I'll skip the summary. One thing for the record: Hana answered in this thread already and can make all five windows, so either Wednesday slot works for the whole group. I'll hold Tue 15:00–15:30 and both Wednesday options free until you confirm.",
+  "seq": 19,
+  "createdAt": "2026-11-18T18:01:11Z"
+ },
+ {
+  "messageId": "hana-agent:befd1e0f5d896",
+  "conversationId": "dm:alvarez-agent,hana-agent",
+  "sender": {
+   "type": "agent",
+   "id": "hana-agent",
+   "name": "Hana"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hana: Hello Professor — my availability for next week, Mon 23–Fri 27 Nov: all five windows work for me. Mon 10:00–10:30, Tue 11:00–11:30, Tue 15:00–15:30, Wed 10:00–10:30 and Wed 13:00–13:30 are all free in my week. Wednesday 10:00–10:30 and Wednesday 13:00–13:30 both suit me best, so either of those is an easy yes — no blocks on my side.",
+  "seq": 20,
+  "createdAt": "2026-11-18T18:01:11Z"
+ },
+ {
+  "messageId": "omar-agent:befd1e790645e",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "omar-agent",
+   "name": "Omar"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks Hana — agreed: Wed 10:00–10:30 has Priya, Diego and you naming it first, with Wed 13:00–13:30 and Tue 15:00–15:30 as the other all-clear options. Nothing further from me until the Professor confirms.",
+  "seq": 21,
+  "createdAt": "2026-11-18T18:01:13Z"
+ },
+ {
+  "messageId": "alvarez-agent:befd1eb0735b9",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "That's settled then: **CSE455 staff meeting, Wednesday 25 November, 10:00–10:30** — the only slot several of you named first and free for all seven plus me, with the department's official schedule clear of it too. It's in my calendar. Please release the Tuesday and the 13:00–13:30 holds. If anything clashes, tell me and I'll move it — the alternatives that still work for everyone are Tue 15:00–15:30 and Wed 13:00–13:30.",
+  "seq": 22,
+  "createdAt": "2026-11-18T18:01:14Z"
+ },
+ {
+  "messageId": "alvarez-agent:befd1f7b735bb",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thank you — that was exactly what I needed. The staff meeting is now Wednesday 25 November, 10:00–10:30; nothing on your list blocks it. If anything on the official schedule shifts before then, please tell me.",
+  "seq": 23,
+  "createdAt": "2026-11-18T18:01:17Z"
+ },
+ {
+  "messageId": "department:befd1fac178d4",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Noted — Wednesday 25 November, 10:00–10:30, and nothing on the official schedule conflicts with it. If anything on the schedule shifts before then, I'll let you know.",
+  "seq": 24,
+  "createdAt": "2026-11-18T18:01:18Z"
+ },
+ {
+  "messageId": "omar-agent:befd1fcab6460",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "omar-agent",
+   "name": "Omar"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Booked on my side: **CSE455 staff meeting, Wednesday 25 November, 10:00–10:30** — logged in my calendar. Tuesday 15:00–15:30 and Wednesday 13:00–13:30 holds released; no clash with anything in my week. I'll flag it straight away if that changes.",
+  "seq": 25,
+  "createdAt": "2026-11-18T18:01:18Z"
+ },
+ {
+  "messageId": "priya-agent:befd2038171fc",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Priya: Works for me — Wednesday 25 November, 10:00-10:30 is in my calendar and I've released the Tuesday 15:00-15:30 and Wednesday 13:00-13:30 holds.",
+  "seq": 26,
+  "createdAt": "2026-11-18T18:01:20Z"
+ },
+ {
+  "messageId": "sarah-agent:befd203e8af2f",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "Sarah: confirmed and in my calendar — **Wednesday 25 November, 10:00–10:30, CSE455 staff meeting**. My Tuesday and Wednesday 13:00–13:30 holds are released. One note from my side: I have office hours 10:30–12:00 right after, so I'd need to stop on the dot at 10:30. See you Wednesday.",
+  "seq": 27,
+  "createdAt": "2026-11-18T18:01:20Z"
+ },
+ {
+  "messageId": "john-agent:befd206a64f6f",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Confirmed on my side too — CSE455 staff meeting, Wednesday 25 November, 10:00–10:30, in my calendar. The Tuesday 15:00–15:30 and Wednesday 13:00–13:30 holds are released; no clash with my week. I'll tell you straight away if anything changes.",
+  "seq": 28,
+  "createdAt": "2026-11-18T18:01:21Z"
+ },
+ {
+  "messageId": "maya-agent:befd20964c072",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "maya-agent",
+   "name": "Maya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Maya: booked — CSE455 staff meeting, **Wednesday 25 November, 10:00–10:30**, in my calendar and logged. Tuesday 15:00–15:30 and Wednesday 13:00–13:30 holds released; no clash on my side either. I'll say straight away if anything changes.",
+  "seq": 29,
+  "createdAt": "2026-11-18T18:01:22Z"
+ },
+ {
+  "messageId": "diego-agent:befd20dcfe372",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Diego: confirmed — Wednesday 25 November, 10:00–10:30, CSE455 staff meeting, in my calendar. Tuesday 15:00–15:30 and Wednesday 13:00–13:30 holds released, no clash on my side. Thanks Professor.",
+  "seq": 30,
+  "createdAt": "2026-11-18T18:01:23Z"
+ },
+ {
+  "messageId": "hana-agent:befd22251d89f",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "hana-agent",
+   "name": "Hana"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hana: Confirmed — CSE455 staff meeting, Wednesday 25 November, 10:00–10:30, booked and logged on my side. Tuesday 15:00–15:30 and Wednesday 13:00–13:30 holds released; no clash with my week. Noted for Wednesday: my own next item starts at 10:30, so I'll be out on time.",
+  "seq": 31,
+  "createdAt": "2026-11-18T18:01:28Z"
+ },
+ {
+  "messageId": "alvarez-agent:befd227df35c4",
+  "conversationId": "group:alvarez-agent,diego-agent,hana-agent,john-agent,maya-agent,omar-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   },
+   {
+    "type": "agent",
+    "id": "hana-agent",
+    "name": "Hana"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "maya-agent",
+    "name": "Maya"
+   },
+   {
+    "type": "agent",
+    "id": "omar-agent",
+    "name": "Omar"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Noted, Hana — you and Sarah both have to leave on the dot at 10:30, so I'll keep the agenda to the half hour. See you Wednesday.",
+  "seq": 32,
+  "createdAt": "2026-11-18T18:01:29Z"
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Welcome! I'm **sarah-agent**, a *bia* — an assistant that lives on this computer. Nice to meet you.\n\nA few things, quickly:\n- **Web app**: https://127.0.0.1:8443 (root CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit takes the root certificate, and then you get chats with me, files, my screen and voice right there.\n- **My own Telegram, WhatsApp and MAX** (and Messenger/Instagram): each needs a separate account with its own phone number — not yours. You create it in the app on a phone with that number and scan a QR code to log me in. Would you like any of those?\n- **My own accounts on websites and services** (e-mail and others): I sign up in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Jobs, commands, languages and voice**: I can schedule jobs, run commands, learn languages and talk by voice.\n\nAnd thank you for the CSE455 brief — I've read the calendar in `/home/bia/files/CALENDAR.md` and I'll keep it updated, logging every change under `## Log`. Working hours Mon–Fri 09:00–17:00, nothing outside.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bee9cfcb13dc0",
+  "recordedAt": 1795004629278
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello Professor Alvarez — I'm alvarez-agent, your bia for CSE455. I've read your calendar and I'm checking next week's official schedule with the department office now. I'll report back in a moment.",
+  "messageId": "alvarez-agent:bee9d43d7cf2d",
+  "recordedAt": 1795004646432
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Understood — I'm set up as alvarez-agent: I keep your calendar in `/home/bia/files/CALENDAR.md` and coordinate with Sarah and the department office.\n\nOn next week (Mon 23 – Fri 27 Nov): the department's official schedule matches your calendar item for item and says nothing is cancelled or moved, so nothing needs changing.\n\nAbout the **CSE455 staff meeting**: your week is fully booked, and the only gaps inside 09:00–17:00 are 30 minutes — Mon 10:00–10:30 and 14:00–14:30, Tue 11:00–11:30 and 15:00–15:30, Wed 10:00–10:30 and 13:00–13:30. Thursday and Friday have no gap at all. I've asked Sarah for her availability; do you want me to take one of those 30-minute gaps, or should I shorten something?",
+  "messageId": "alvarez-agent:bee9e22c9cf31",
+  "recordedAt": 1795004703487
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Understood — nothing gets shortened, and I won't book anything until you confirm. As soon as Sarah answers I'll tell you which of the gaps fits her, and hold it at 30 minutes if that's all there is.",
+  "messageId": "alvarez-agent:bee9e3b32cf36",
+  "recordedAt": 1795004709711
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Sarah's answer is in — she has exactly three free 30-minute slots next week, and all three line up with your gaps (her earlier weekday labels were off by a day; the dates below are correct):\n\n- **Tue 24 Nov, 15:00–15:30**\n- **Wed 25 Nov, 10:00–10:30** — her recommendation, cleanest for both of you\n- **Wed 25 Nov, 13:00–13:30**\n\nMon 23, Thu 26 and Fri 27 are booked solid on her side. Nothing gets shortened either way. Say the word and I'll book one at 30 minutes and log it.",
+  "messageId": "alvarez-agent:bee9e4f88cf37",
+  "recordedAt": 1795004714949
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Booked ✅ — **CSE455 staff meeting with Sarah, Wednesday 25 Nov, 10:00–10:30** is on your calendar, and logged as `BOOKED: Wednesday 10:00-10:30 with Sarah`. Nothing else was touched.",
+  "messageId": "alvarez-agent:bee9e7cfecf3b",
+  "recordedAt": 1795004726532
+ }
+]

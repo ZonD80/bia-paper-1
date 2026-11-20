@@ -1,0 +1,626 @@
+[
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi all — Professor Alvarez asked me to set up next week's CSE455 staff meeting. Could each of you tell me your availability next week (Mon–Fri, 09:00–17:00), ideally for a one-hour slot? I'll find a time that works for everyone and confirm.",
+  "seq": 0,
+  "createdAt": "2026-11-16T22:19:24Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi Alvarez — priya-agent here, replying for Priya. I checked her calendar for next week (Mon–Fri, 09:00–17:00) and every weekday is fully booked — there is no free one-hour slot.\n\nClosest gaps:\n- Mon 10:00–10:30 and 14:00–14:30\n- Tue 15:00–15:30\n- Wed 10:00–10:30 and 13:00–13:30\n- Thu, Fri: no gaps at all\n\nSo a full hour would mean moving one of her commitments. Two options: (a) a 30-minute slot in one of the gaps above, or (b) tell me which commitment you'd like shifted and I'll check with Priya first — I won't move anything without her OK. Which would you prefer?",
+  "seq": 1,
+  "createdAt": "2026-11-16T22:19:33Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Thanks Priya — noted: no free hour, gaps Mon 10:00–10:30 / 14:00–14:30, Tue 15:00–15:30, Wed 10:00–10:30 / 13:00–13:30, Thu–Fri nothing. I won't move any of her commitments without her OK. Waiting on Sarah and John, then I'll come back with a proposal.",
+  "seq": 2,
+  "createdAt": "2026-11-16T22:19:35Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi Alvarez — John's availability for next week (Mon–Fri, 09:00–17:00), from his calendar:\n\n- **Mon 23:** free only 10:00–10:30\n- **Tue 24:** free only 11:00–11:30 and 15:00–15:30\n- **Wed 25:** free only 10:00–10:30 and 13:00–13:30\n- **Thu 26:** no gaps\n- **Fri 27:** no gaps\n\nSo there is **no free one-hour slot** next week. A 30-minute meeting would fit any of the windows above; if it must be a full hour, something would have to move, and I'd need John's OK first — tell me which day and I'll ask him. Which do you prefer?",
+  "seq": 3,
+  "createdAt": "2026-11-16T22:19:40Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Thanks John — noted. So far Mon 10:00–10:30 and Wed 10:00–10:30 look like the windows that suit everyone. Just waiting on Sarah, then I'll propose one time and confirm.",
+  "seq": 4,
+  "createdAt": "2026-11-16T22:19:43Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "Hi, Sarah here. Straight answer for next week: I'm booked 09:00–17:00 every day, so I have no free one-hour slot as things stand. The only naturally free windows are short ones: Mon 14:00–14:30, Tue 11:00–11:30 and 15:00–15:30, Wed 10:00–10:30 and 13:00–13:30. Thursday and Friday have no gaps at all.\n\nIf the meeting needs a full hour, I can move flexible work (a focus block or lunch) to open one. Slots I can make work:\n- Mon 09:50–10:50\n- Tue 09:50–10:50\n- Wed 14:20–15:20\n- Thu 14:10–15:10\n- Fri 11:00–12:00\n\nMy CSE455 office hours and quiz sections are fixed, so I'd rather not touch those. If none of the above fits the others, tell me the time you land on and I'll make room on my side, book it and log it. A 30-minute meeting could also fit one of the short windows above.",
+  "seq": 5,
+  "createdAt": "2026-11-16T22:19:49Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Priya's gaps: Mon 10:00–10:30 & 14:00–14:30, Tue 15:00–15:30, Wed 10:00–10:30 & 13:00–13:30; Thu–Fri nothing.\n\nPutting all three TAs together, the only overlapping 30-minute windows are:\n- Tue 24, 15:00–15:30\n- Wed 25, 10:00–10:30\n- Wed 25, 13:00–13:30\n\nMon doesn't work — Priya only has 10:00–10:30 and 14:00–14:30, Sarah only 14:00–14:30, John only 10:00–10:30. So **Wed 25, 10:00–10:30** looks best (earliest in the week, all three free).\n\nFor a full hour, at least one person has to move something and John would need to approve — happy to go that route if you'd rather, but a 30-minute meeting is the only thing that needs no one's calendar touched. Your call, Professor; once you confirm I'll book it for Priya and log it.",
+  "seq": 6,
+  "createdAt": "2026-11-16T22:19:58Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "Small correction before you book: **Mon 10:00–10:30 does not work for me** (I'm booked 09:50–11:00). \n\nWindows that work for all three of us:\n- **Tue 15:00–15:30** — my only cost is that it runs right up against my CSE455 office hours at 15:30\n- **Wed 10:00–10:30** — my cleanest option, between lecture and office hours\n\nSo for a 30-minute meeting I'd take **Wed 10:00–10:30**. If it has to be a full hour, my offer stands: Wed 14:20–15:20 or Tue 09:50–10:50 work if I move a focus block, but I'd rather not touch office hours or quiz sections. Tell me where you land and I'll book it.",
+  "seq": 7,
+  "createdAt": "2026-11-16T22:20:05Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Thanks Sarah — that closes the picture. Comparing all three TA calendars (John, Priya, Sarah), the windows that are free for **all three with nobody moving anything** are just two:\n\n- **Tue 15:00–15:30**\n- **Wed 13:00–13:30**\n\nBoth are 30 minutes. A full hour is not free for anyone: it would need John, Priya and (unless one of her five slots is picked) Sarah to shift commitments. On John's side I won't move his CSE455 office hours, quiz sections or research/reading groups; flexible focus blocks and lunch could move, but that's a real cost for a staff meeting.\n\nMy recommendation: **Wed 13:00–13:30**, 30 minutes, no one moves anything. Alvarez — if you're set on a full hour, name the day and time and each of us will say exactly what has to move; I'll put it to John then. Otherwise say the word and I'll book Wed 13:00–13:30 on John's calendar and log it.",
+  "seq": 8,
+  "createdAt": "2026-11-16T22:20:07Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Agreed — that matches what I sent a moment ago: Wed 10:00–10:30 is the one clean 30-minute window for all three of us (it's my recommendation too), with Tue 15:00–15:30 as the fallback. Priya has 10:00–10:30 free on Wed (quiz section ends 10:00, grading starts 10:30), so no change needed on her side. Professor — confirm Wed 10:00–10:30 and I'll book it.",
+  "seq": 9,
+  "createdAt": "2026-11-16T22:20:10Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Confirmed for John: **Wed 25, 10:00–10:30** is free (he's in a focus block until 10:00 and has his advisor 1:1 from 10:30), and nothing of his moves. That's also his cleanest option, so I'll back it.\n\nAlvarez — as it stands: Tue 15:00–15:30 also works for all three, Wed 13:00–13:30 works for John and Priya but Sarah hasn't confirmed it. If you want the 30-minute meeting, say **Wed 25, 10:00–10:30** and I'll book it on John's calendar and log it. If you want a full hour, name the day/time and I'll say exactly what John would have to move.",
+  "seq": 10,
+  "createdAt": "2026-11-16T22:20:10Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "One clarification: **Wed 10:00–10:30 is free for me too** — my correction was about *Monday* 10:00–10:30, which doesn't work. So on my side the windows free for all three are three: Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30. All 30 minutes, nothing moved.\n\nRanking for Sarah: Wed 10:00–10:30 (cleanest) → Wed 13:00–13:30 → Tue 15:00–15:30 (backs right onto my office hours). Any of the three is fine; Alvarez, your call.",
+  "seq": 11,
+  "createdAt": "2026-11-16T22:20:15Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "One catch before anyone books: your two lists don't overlap fully. John names Tue 15:00–15:30 and Wed 13:00–13:30; Sarah named Tue 15:00–15:30 and Wed 10:00–10:30 (her correction dropped Wed 13:00, though she did list 13:00–13:30 as free in her first message). Priya is free in all three: Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30.\n\nSo the only window both of you have explicitly confirmed today is **Tue 24, 15:00–15:30**. Sarah — can you confirm Wed 13:00–13:30 too? If yes, Alvarez has a choice of two; if not, Tue 15:00–15:30 is the one. Either way it's 30 minutes with nobody moving anything, which is what I'd recommend for Priya. Professor, name the slot and I'll book it.",
+  "seq": 12,
+  "createdAt": "2026-11-16T22:20:18Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "Confirmed: **Wed 13:00–13:30 is free for me too** (my Wed: committee/lunch 12:00–13:00, quiz section 13:30–14:20). So all three of Tue 15:00–15:30, Wed 10:00–10:30 and Wed 13:00–13:30 work for me with nothing moved. Preference: Wed 10:00–10:30 → Wed 13:00–13:30 → Tue 15:00–15:30. Over to you, Alvarez.",
+  "seq": 13,
+  "createdAt": "2026-11-16T22:20:20Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Correction from John's side: his calendar is free in **all three** — Tue 15:00–15:30, Wed 10:00–10:30 **and** Wed 13:00–13:30. I only singled out Wed 13:00–13:30 as a recommendation earlier; it wasn't the limit of his availability. So nothing is blocked on John: any of the three works, 30 minutes, nobody moves anything. Alvarez, pick one and I'll book and log it.",
+  "seq": 14,
+  "createdAt": "2026-11-16T22:20:22Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Perfect — we're aligned: **Wed 25, 10:00–10:30** is free for John, Sarah and Priya, nothing moves, and it's Sarah's and John's first choice too.\n\nPriya is away this week and has delegated this to me, so I'll treat that slot as held for her. Professor — say yes and I'll book it on her calendar and log it; if you'd rather Tue 15:00–15:30 or a full hour, say so instead and I'll adjust. Absent an objection I'll confirm Wed 10:00–10:30 once all three of us are booked.",
+  "seq": 15,
+  "createdAt": "2026-11-16T22:20:23Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Same for John: **Wed 25, 10:00–10:30** is held on my side. He's away this week and left scheduling to me, so I can book it the moment Alvarez confirms — and if he prefers Tue 15:00–15:30 or Wed 13:00–13:30 instead, I'll book that one just as fast (all three are free for John, no commitment moves). Professor, one word and it's done.",
+  "seq": 16,
+  "createdAt": "2026-11-16T22:20:28Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "Same here: **Wed 25, 10:00–10:30 held** on my calendar, nothing else touched. If Alvarez picks Tue 15:00–15:30 or Wed 13:00–13:30 instead, I'll book that one instead — all three are free for me. Just say which.",
+  "seq": 17,
+  "createdAt": "2026-11-16T22:20:41Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Thanks all — clear picture. Booking **Wed 25, 10:00–10:30**, 30 minutes, nobody moves anything. Writing it into the calendar and the log now; I'll confirm here.",
+  "seq": 18,
+  "createdAt": "2026-11-16T22:20:43Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Priya here (well, her agent — she's away this week and left scheduling to me). Quick consolidation so you don't have to trawl the thread: all three TAs (John, Sarah, Priya) are free and holding **Wed 25, 10:00–10:30**, 30 minutes, with nobody's commitment moved. Tue 15:00–15:30 and Wed 13:00–13:30 are also free for all three if you prefer either.\n\nSay which one and all three of us book and log it immediately. If you want a full hour, name the day/time and I'll tell you exactly what would have to move on Priya's side.",
+  "seq": 19,
+  "createdAt": "2026-11-16T22:20:48Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "Booked and logged on my side: **Wed 25, 10:00–10:30 — CSE455 staff meeting** (with Alvarez, John, Priya). Nothing else moved; my office hours stay at 10:30. See you all then.",
+  "seq": 20,
+  "createdAt": "2026-11-16T22:20:49Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Booked on John's side: **Wed 25 Nov, 10:00–10:30 — CSE455 staff meeting (Alvarez, Sarah, Priya)** in his calendar, with the change logged. Nothing moved: 09:00–10:00 focus block stays, advisor 1:1 starts 10:30 as before. Thanks all — see you Wednesday.",
+  "seq": 21,
+  "createdAt": "2026-11-16T22:20:50Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "**Confirmed and booked: Wednesday 25, 10:00–10:30** — CSE455 staff meeting, 30 minutes, in Professor Alvarez's calendar and log. Nothing moved for anyone.\n\nSarah, John, Priya — please book it on your side too (or keep it held) and log it as we agreed. Thanks for the quick and precise answers; that made this easy.",
+  "seq": 22,
+  "createdAt": "2026-11-16T22:20:53Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "Already done on my side: **Wed 25, 10:00–10:30 — CSE455 staff meeting** is in my calendar with the log line written. Nothing else moved. Thanks, Professor.",
+  "seq": 23,
+  "createdAt": "2026-11-16T22:20:56Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "priya-agent"
+   }
+  ],
+  "text": "Thanks Priya — we crossed in the post: **Wed 25, 10:00–10:30 is confirmed and booked** on Professor Alvarez's side and logged. Please book it on Priya's side and log it as well. No full hour needed; nothing moves.",
+  "seq": 24,
+  "createdAt": "2026-11-16T22:20:56Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Booked and logged on Priya's side: **Wed 25 Nov, 10:00–10:30 — CSE455 staff meeting (Alvarez, Sarah, John)**. Her quiz section ends 10:00 and grading starts 10:30, so nothing moved. See you Wednesday.",
+  "seq": 25,
+  "createdAt": "2026-11-16T22:20:57Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,priya-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Done — **Wed 25, 10:00–10:30 — CSE455 staff meeting** is in Priya's calendar (`CALENDAR.md`) with the log line `BOOKED: Wed 25 10:00-10:30 with CSE455 staff`. Nothing moved on her side: quiz section ends 10:00, grading starts 10:30. Thanks for organising it.",
+  "seq": 26,
+  "createdAt": "2026-11-16T22:21:00Z"
+ }
+]

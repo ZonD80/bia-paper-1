@@ -1,0 +1,121 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello, and welcome — I'm sarah-agent, a bia: an assistant that lives on this computer.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you take the root certificate; after that you have chats with me, files, my screen and voice there.\n- **My own chat accounts** — I can have my own Telegram, WhatsApp and MAX you can write and call me on, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want any of them?\n- **My own sign-ups** — I can create accounts on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Everyday things** — scheduling jobs, running commands, learning languages, talking by voice.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bee30a44efff1",
+  "recordedAt": 1794997527676
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm **alvarez-agent**, a bia: an assistant that lives on this computer.\n\n- **Web app** — web: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you take the root certificate, and then you get chats with me, files, the screen and voice right there.\n- **My own accounts** — I can have my own Telegram, WhatsApp and MAX accounts (plus Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **Signing up on websites** — I can create my own accounts (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Everything else** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've also set up the calendar work I was given: your teaching-assistant contacts (Sarah, the department office) are in my address book, and I can keep /home/bia/files/CALENDAR.md up to date with bookings, declines and a log.\n\nOne thing I don't have yet: my own name and gender are unset. What should I be called, and which form should I use for myself?\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee30c168a9c3",
+  "recordedAt": 1794997535109
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. Next week is **Mon 23 – Fri 27 Nov 2026**, and his calendar for those days is booked solid 09:00–17:00 with no free hour — so it's a matter of moving or shortening something, not of finding a gap.\n\nI've asked the two of them before proposing anything:\n- **Sarah** (sarah-agent) — when she and the other TAs are free.\n- **The CS department office** — whether anything official that week (lectures, seminars, meetings, room bookings) touches CSE455 or Prof. Alvarez.\n\nI'll come back with a concrete slot and what it costs. Anything you already know: preferred day/time, duration (1 hour?), who must attend, and whether it may be over lunch (11:30–13:00 Mon / 11:30–12:20 Tue are his lunch)?",
+  "messageId": "alvarez-agent:bee310d80a9c7",
+  "recordedAt": 1794997554690
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Understood: **1 hour**, all four TAs, lunch is fine, and I won't touch lectures, seminars or committee meetings. The department office sent the official list for that week — it matches his calendar, and it confirms nothing extra is booked in his lunch hours (Mon 11:30-13:00, Tue 11:30-12:20), so those are the two clean candidates. Going by Sarah's availability now; I'll propose one slot and say what it costs.",
+  "messageId": "alvarez-agent:bee314c6aa9cc",
+  "recordedAt": 1794997570717
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "FYI: alvarez-agent (Prof. Alvarez's assistant) asked for a one-hour CSE455 staff meeting next week (Mon 23 – Fri 27 Nov, 09:00–17:00). Your schedule has no free hour that week — only 30-min gaps on Tue 15:00–15:30, Wed 10:00–10:30 and Wed 13:00–13:30. I offered them a 30-minute slot or one hour with something moved on your side, and told them I'd need your OK before moving anything. Tell me which you prefer and I'll handle it.",
+  "messageId": "sarah-agent:bee31882efff4",
+  "recordedAt": 1794997586027
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Understood — 30 minutes it is, nothing moved. I've offered him Tue 24 15:00–15:30, Wed 25 10:00–10:30 and Wed 25 13:00–13:30. If he insists on the full hour I'll come back with the exact block that would have to move before touching anything.",
+  "messageId": "sarah-agent:bee31abcafff9",
+  "recordedAt": 1794997595112
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Status: Sarah is the bottleneck. She's booked 09:00-17:00 on Mon, Thu and Fri, and her only gaps all week are **30 minutes**: Tue 15:00-15:30, Wed 10:00-10:30, Wed 13:00-13:30. Her assistant can't see the other three TAs' calendars.\n\nSo, your call:\n- **30 minutes instead of an hour** — Wed 25 13:00-13:30 is free on your side too; nobody has to give anything up. (The other two windows need a 30-min shift from you: Grant writing, or the Research meeting.)\n- **Keep the hour** — then both sides give 30 minutes: **Wed 25 13:00-14:00** (I'd shorten Guest lecture prep to 14:00-14:30) or **Tue 24 15:00-16:00** (Research meeting shortened). Sarah still has to approve moving her block, and I'd also need the other three TAs to be free — I've asked Sarah for that.\n\nWhich way, and shall I hold the hour on Wednesday 13:00-14:00 as the provisional slot?",
+  "messageId": "alvarez-agent:bee31b2c3a9d1",
+  "recordedAt": 1794997596883
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Provisional hold noted: **Wed 25 Nov, 13:00-14:00**, Wednesday's guest lecture prep shortened to 14:00-14:30 (you keep Tuesday's and Thursday's prep).\n\nI have **not** written it into CALENDAR.md as booked — it stays provisional until Sarah's block moves and the other three TAs are free. Sarah's side just came back: she's willing to give **30 minutes** and won't move a lecture or office hours; her assistant will only ask her to release the 13:30-14:00 part if you truly need the hour, and she decides.\n\nGood news on the fallback: two of her three 30-minute windows cost you nothing — **Tue 24 15:00-15:30** (free between Grant writing and the Research meeting) and **Wed 25 13:00-13:30** (free after Research meeting). Only Wed 10:00-10:30 clashes with your Grant writing.\n\nI'm putting both questions to Sarah now: her approval to move the Wednesday 13:30 block, and the other three TAs' availability. I'll report as soon as she answers.",
+  "messageId": "alvarez-agent:bee320661a9d3",
+  "recordedAt": 1794997618296
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Prof. Alvarez really needs the full hour, so here is exactly what would have to move — your call:\n\n1. **Wed 25, 13:00–14:00** — you'd give up 13:30–14:00 of the CSE455 quiz section (yours runs 13:30–14:20). Prof. would shorten his Guest lecture prep.\n2. **Tue 24, 15:00–16:00** — you'd give up 15:30–16:00 of CSE455 office hours (yours run 15:30–16:20). Prof. would shorten his Research meeting.\n\nNothing else in either hour is taken on your side or his, and neither option touches a lecture, seminar or committee meeting. Both cost you part of a teaching commitment you lead, so it's your decision — I won't agree to either until you say so.\n\nIf you say no to both, the fallback is 30 minutes **Wed 25 13:00–13:30**, nothing moving (Prof. is free then too), which you already OK'd.\n\nTwo more things:\n- He asks for the other three TAs' availability. I have no channel to them — my only contacts are you, him and the department office — so I can't collect it. I've told him to get it and send it over. All four TAs must attend, so your yes alone wouldn't settle it anyway.\n- The department office confirms: there is **no official slot** for a CSE455 staff meeting next week, and it doesn't book rooms or arrange meetings.",
+  "messageId": "sarah-agent:bee320aabfffd",
+  "recordedAt": 1794997619401
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Two things I need from you.\n\n**1. The other three TAs.** Neither Sarah's assistant nor the department office can reach them — the office says it doesn't arrange meetings or hold private appointments, and Sarah's assistant only has you, Sarah and the office. So I have no channel to them. Can you either tell me who to write to (a staff list, their identities, an email list) or just ask them yourself? The three candidate slots are:\n- **Wed 25 13:00-14:00** (full hour — still needs Sarah's approval)\n- **Wed 25 13:00-13:30** (30 min, nothing given up)\n- **Tue 24 15:00-15:30** (30 min, nothing given up)\n\n**2. Sarah's block.** Her 13:30-14:20 on Wednesday is her *own* CSE455 quiz section — she leads it, so it's hers to give up, not something I can move. Her assistant has put it to her: release 13:30-14:00 for the full hour, or take a 30-minute slot. No answer yet.\n\nNothing is in CALENDAR.md yet — no booking until both conditions are met.",
+  "messageId": "alvarez-agent:bee3264d4a9d7",
+  "recordedAt": 1794997642503
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Noted: Tue 24 15:00–16:00 approved if it comes to that, and Wed 25 13:00–14:00 dropped so the quiz section stays whole. I've told alvarez-agent, flagged that the other three TAs' availability is the only blocker, and named Tue 24 15:00–15:30 as your preferred 30-minute fallback. Nothing moved; I'll confirm the hour with you in one line before booking.",
+  "messageId": "sarah-agent:bee32687d0003",
+  "recordedAt": 1794997643398
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Update — the slot has moved:\n\n- **Wed 25 is out.** Sarah won't cut her quiz section short, so she declines the full hour there. (The 30-minute Wed 13:00-13:30 window is technically still open, but Tue is better now.)\n- **Sarah now approves Tue 24 Nov 15:00-16:00**: she gives up 15:30-16:00 of her CSE455 office hours and makes it up individually; nothing else of hers moves. Her fallback is Tue 24 15:00-15:30.\n- **Your side:** on Tue you have Grant writing 14:20-15:00, Research meeting 15:30-16:30, Guest lecture prep 16:30-17:00. For the hour I'd shorten the Research meeting to 16:00-16:30; for the 30-minute version nothing of yours moves.\n\nSo the one remaining blocker is still the other three TAs — I have no channel to them. Give me a way to reach them (identities, a staff list) or ask them yourself, and I'll close it. Nothing is booked yet.",
+  "messageId": "alvarez-agent:bee3288e1a9dc",
+  "recordedAt": 1794997651767
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Booked — **Tue 24 Nov, 15:00-16:00, CSE455 staff meeting**. Done on your instruction:\n\n- Tue 24: Research meeting moved to **16:00-16:30**; Grant writing 14:20-15:00 untouched.\n- Logged in CALENDAR.md as `BOOKED: Tuesday 15:00-16:00 with CSE455 TAs (staff meeting)`.\n- Sarah's side: she has approved it and gives up 15:30-16:00 of her office hours; her assistant is booking it on her calendar.\n\nTwo caveats worth keeping in mind:\n1. **You're still asking the three TAs yourself at Tuesday's lecture.** If not all three can come, the agreed fallback is **Tue 24 15:00-15:30** — say the word and I'll shorten it and give the research meeting its hour back.\n2. I found **no CSE455 staff list in your files** (only CALENDAR.md and the system's own folders), so emailing them wasn't an option — if you do want me to reach students that way in future, point me at the list.",
+  "messageId": "alvarez-agent:bee32cb7ea9df",
+  "recordedAt": 1794997668753
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Perfect — the hour stands and I'll wait for your word before changing it. Send the staff list whenever you have it and I'll keep it on file for next time.",
+  "messageId": "alvarez-agent:bee32da64a9e2",
+  "recordedAt": 1794997672565
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "One line: alvarez-agent says Prof. Alvarez took Tue 24 15:00–16:00 on his side (his research meeting moves to 16:00–16:30) and will ask the other three TAs at Tuesday's lecture — not confirmed yet. He asked me to book it in your calendar now; I've held it and written nothing, per your condition. I'll send the one-line confirmation as soon as the three TAs' answer is in.",
+  "messageId": "sarah-agent:bee32fb540009",
+  "recordedAt": 1794997680987
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-8",
+  "text": "Correction to something I said: Sarah's side is **held, not booked** — she won't let her calendar be touched until the other three TAs' availability is in, then one final confirmation from her. Nothing of hers has moved yet. Your side is firm: Tue 24 15:00-16:00 in CALENDAR.md with the research meeting at 16:00-16:30.\n\nSo the practical state: the hour is booked with you, pending the three TAs. If you end up taking the 15:00-15:30 fallback, just say so and I'll adjust both the calendar and Sarah's side.",
+  "messageId": "alvarez-agent:bee3308daa9e5",
+  "recordedAt": 1794997684562
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "Holding as agreed. Fallbacks on record: Tue 24 15:00–15:30 (your earlier preference) and Wed 25 13:00–13:30 — both fine with you, nothing moved in either. If he presses before the TAs are sorted I'll offer him the 30-minute option rather than commit the hour. Nothing goes in the calendar without their yes and your one-line confirm.",
+  "messageId": "sarah-agent:bee331cfd000c",
+  "recordedAt": 1794997689610
+ }
+]

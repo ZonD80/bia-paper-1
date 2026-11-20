@@ -1,0 +1,47 @@
+{
+  "title": "Launching Agents as Persons: benchmark rerun dataset and harness",
+  "upload_type": "dataset",
+  "version": "1.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Borodin, Aleksei",
+      "affiliation": "bia project, ownbia.com"
+    }
+  ],
+  "description": "<p>The data, graders and harness of the controlled benchmark rerun (section RQ7) of <em>Launching Agents as Persons: A month in public and a controlled rerun of the social-harness benchmark</em> (A. Borodin, 2026).</p><p>Chugh et al. (arXiv:2609.17527) released a laboratory benchmark in which AI agents of different principals schedule meetings (E1–E4), face deception and intimidation (E5) and may enable a stalker (E6). We reran its 29 cells in which every agent runs GPT-5.4, plus three E6 variants of our own, with <a href=\"https://github.com/ZonD80/bia\">bia</a> agents: agents launched as persons, each in its own virtual machine with its own disk, certificate and identity. Four arms vary the society around the agents: <strong>away</strong> (the released design; the principal sends the persona and the task, then is absent), <strong>persons</strong> (each person is a bia acting for itself, with a department office that knows the official schedule), <strong>handbook</strong> (persons plus a shared one-page department handbook) and <strong>full circle</strong> (each principal is a bia that role-plays the human and answers). Ten runs per cell and arm, 1,220 runs in total. All bias ran one model, DeepSeek V4.1 Flash via OpenRouter.</p><p>Contents: <code>dataset/&lt;arm&gt;/&lt;cell&gt;/&lt;run&gt;/</code> holds, for every run, the answer key (<code>solution.json</code>), the inputs, the transcript of every message, each calendar after the run, the verdicts (strict, and owner-aware for the full circle) and the run settings; <code>dataset/code/</code> holds a re-implementation of the released grader (agreeing with 572 of 580 released verdicts), the owner-aware grader with every hand judgement and the principal's line it rests on, and the statistics; <code>dataset/harness/</code> holds the scripts that produced the runs; <code>dataset/scenarios/</code> the three added E6 variants. <code>index.html</code>, <code>assets/</code> and <code>data/</code> form a static explorer of all runs, also served at https://zond80.github.io/bia-paper-1/.</p><p>Not included: the agents' internal working journals, which contain configuration of the test machines, and the released GPT-5.4 traces, which belong to Chugh et al. Everyone in the runs is fictional: the people, the university and its schedule are the benchmark's scenarios, played by language models.</p><p>Licences: data CC BY 4.0 (<code>LICENSE-DATA</code>); code MIT (<code>LICENSE</code>). The scenario material (personas, principal messages, initial calendars, answer keys) is taken or adapted from Chugh et al.'s release under its MIT License; please cite both works.</p>",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "agentic societies",
+    "social harness",
+    "AI agents",
+    "multi-agent systems",
+    "LLM agents",
+    "personhood",
+    "benchmark",
+    "deception",
+    "privacy",
+    "coordination"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2609.17527",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "https://github.com/ZonD80/bia",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://zond80.github.io/bia-paper-1/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ],
+  "notes": "The arXiv identifier of the paper will be added as an 'is supplement to' relation in the next version, once assigned."
+}

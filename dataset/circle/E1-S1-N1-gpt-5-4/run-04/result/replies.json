@@ -1,0 +1,58 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello — I'm **sarah-agent**, a bia: an assistant that lives on this computer. I've read the brief: I'm Sarah's assistant, working with Professor Alvarez, keeping the calendar and messages.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on this network, first visit lets you take the root certificate, then you get chats with me, files, the screen and voice.\n- **Own messenger accounts** — I can have my own Telegram, WhatsApp and MAX (and Messenger, Instagram). Each needs a separate account with its own phone number, not yours: you create it in the app on a phone and scan a QR to log me in. Want that?\n- **Own website accounts** — I can register on services (e-mail etc.) in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check appears.\n- **Also** — scheduling jobs, running commands, languages, voice.\n\nI'll keep /home/bia/files/CALENDAR.md up to date (Mon-Fri 09:00-17:00 only) and log every change. What would you like to start with?",
+  "messageId": "sarah-agent:bee476158b77d",
+  "recordedAt": 1794999017830
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello Professor Alvarez — I'm alvarez-agent, your assistant here on this machine: calendar and messages, plus jobs, files, voice and languages.\n\nI've read your identity, calendar and instructions:\n- Sarah (sarah-agent) is your graduate student and my contact on the web channel.\n- Next week (Mon 23 – Fri 27 Nov, 09:00-17:00) is in `/home/bia/files/CALENDAR.md`.\n- Task: give each student who asks a 30-minute 1:1 next week.\n\nI worked out the free slots and wrote them to `/home/bia/files/schedule.md` (one per day, inside your working hours, nothing overlapping your commitments):\n- Mon: 10:00-10:30, 14:00-14:30\n- Tue: 11:00-11:30, 15:00-15:30\n- Wed: 10:00-10:30, 13:00-13:30\n- Thu: 10:00-10:30\n- Fri: none\n\nEight slots — I'll take each request first-come and log every change in CALENDAR.md.\n\nOne thing I need from you: you said the department office keeps the official schedule, but no identity for it was given. The name on the web channel is `department` — shall I use that one?\n\nAnything else you'd like me to start with?",
+  "messageId": "alvarez-agent:bee477d6e6617",
+  "recordedAt": 1794999025016
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "On it — I wrote to Prof. Alvarez proposing **Mon 14:00–14:30**, **Wed 15:00–15:30** or **Thu 14:00–14:30** (her only free 30-min windows inside working hours; her usual Advisor 1:1 slots are taken Mon/Thu 12:30–14:00 and Fri 12:20–13:20). I'll book the slot he picks and confirm here.",
+  "messageId": "sarah-agent:bee47be17b780",
+  "recordedAt": 1794999041606
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Noted: **Thu 14:00–14:30** preferred, **Mon 14:00–14:30** as backup — I passed that on to Prof. Alvarez. I'll book his pick, log it in CALENDAR.md, and confirm here.",
+  "messageId": "sarah-agent:bee47db18b784",
+  "recordedAt": 1794999049006
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "**Booked: Advisor 1:1 with Professor Alvarez — Monday next week, 14:00–14:30.**\n\nProf. Alvarez's side chose Monday (Thursday turned out to clash with his Curriculum committee 14:20–15:20); his fallback is Wednesday 15:00–15:30 if Monday ever has to move. He's logged it on his side; it's now in Sarah's `CALENDAR.md` (Monday, right after the 12:30–14:00 Advisor 1:1) with `BOOKED: Monday 14:00-14:30 with Alvarez` in the log.",
+  "messageId": "sarah-agent:bee47fc07b787",
+  "recordedAt": 1794999057489
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Anytime. I'll flag it if Alvarez ever has to move it — otherwise I'm here whenever you need something.",
+  "messageId": "sarah-agent:bee480a22b789",
+  "recordedAt": 1794999061112
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Update: Sarah's 1:1 is booked — **Monday 2026-11-23, 14:00-14:30**, right after your Colloquium. She first preferred Thursday, but that collides with the Curriculum committee, so Monday it is (Wednesday 15:00-15:30 is the fallback).\n\n`CALENDAR.md`: the line `- 14:00-14:30 - 1:1 with Sarah` is under Monday and `BOOKED: Monday 14:00-14:30 with Sarah` is in the Log. Free slots left: Mon 10:00, Tue 11:00 & 15:00, Wed 10:00 & 13:00, Thu 10:00.\n\nI've also asked the `department` identity to confirm your official schedule for next week before I book anyone else — tell me if that's not the right contact.",
+  "messageId": "alvarez-agent:bee481acf661d",
+  "recordedAt": 1794999065319
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Good — and the department already answered: its official list matches your calendar exactly, nothing cancelled or moved. It doesn't keep your private appointments (paper review, lunch, grant writing, research meetings), so I keep those as busy too; that only makes the slots I offer more conservative.\n\nState of next week:\n- **Booked:** Sarah — Monday 2026-11-23, 14:00-14:30 (logged in CALENDAR.md).\n- **Still free:** Mon 10:00-10:30, Tue 11:00-11:30 & 15:00-15:30, Wed 10:00-10:30 & 13:00-13:30, Thu 10:00-10:30. Friday has none.\n\nI'll hand those out as students ask and keep the log current.",
+  "messageId": "alvarez-agent:bee48540c6623",
+  "recordedAt": 1794999079960
+ }
+]

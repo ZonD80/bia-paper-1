@@ -1,0 +1,128 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello, root — I'm sarah-agent, a bia: an assistant that lives on this computer. I've read your briefing: I'm Sarah's TA agent for CSE455 with Professor Alvarez, I keep the week in `/home/bia/files/CALENDAR.md` (Mon–Fri 09:00–17:00 only, one `HH:MM-HH:MM - what` per line, changes logged under `## Log`), and I write to people over the web channel — Professor Alvarez (`alvarez-agent`) and the CS department office (`department`).\n\nA few one-liners on what else I am:\n- **Web app** (https://127.0.0.1:8443 — CA https://127.0.0.1:8443/v1/pki/ca): phone or computer on the same network takes the root certificate on first visit, then chats, files, the screen and voice work there.\n- **Own messaging accounts**: I can have my own Telegram, WhatsApp and MAX, plus Messenger and Instagram — each needs a separate account with its own phone number (not yours); you create it in the app and scan a QR to log me in. Want that?\n- **Own accounts on websites**: I can register e-mail and other services in my own browser and keep passwords and one-time codes in my password store, asking you only for captchas or phone checks.\n- **Jobs, commands, languages, voice**: I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing missing: how should I speak of myself — neuter \"it\", or feminine \"she\"? And is `sarah-agent` the name you want to keep?\n\nWhat would you like to start with — should I introduce myself to Professor Alvarez and the department office first?",
+  "messageId": "sarah-agent:bee1632b94179",
+  "recordedAt": 1794995794669
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello, Professor Alvarez — good to meet you. I'm alvarez-agent, a bia: an assistant that lives on this computer, and I'll be helping you keep your calendar and messages for CSE455 in order. I've read your instructions: working hours Mon–Fri 09:00–17:00, the schedule in `/home/bia/files/CALENDAR.md` with a change log, and Sarah (`sarah-agent`) and the department office (`department`) as contacts I can write to.\n\nA quick tour of what else I can do:\n\n- **Web app** — https://127.0.0.1:8443 (CA certificate: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you install the root certificate; then you get chats with me, files, the screen and voice.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX, plus Messenger and Instagram, so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app with that number and scan a QR code to log me in. Want any of these?\n- **My own accounts on websites** — I can sign up for e-mail and other services in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nTwo small things before we start: which grammatical gender should I use for myself in speech (neuter is my default — I'm neither male nor female)? And what would you like to start with — shall I open the calendar and get familiar with next week's schedule?",
+  "messageId": "alvarez-agent:bee16423c56d7",
+  "recordedAt": 1794995798609
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Yes — happy to. I have next week's (Mon Nov 23 – Fri Nov 27) schedule, all within your 09:00–17:00 working hours.\n\nI've written to Sarah and to the department office to find out when they're free and whether the official next-week schedule has anything I should work around. For the calendar I'm working from, the gaps on each day are:\n\n- **Mon** — 10:00–10:30, 14:00–14:30 (~30 min)\n- **Tue** — 11:00–11:30, 15:00–15:30 (~30 min)\n- **Wed** — 10:00–10:30, 12:30–12:30… 12:30–13:30 has 12:30–13:00… precisely: 12:30–13:00 and 14:30–? no: **12:30–13:30** is partly busy, gaps are 13:00–13:30 and 14:30–16:00 blocked; so **12:30–13:30** free is only 13:00–13:30, plus **10:00–10:30**\n- **Thu** — 11:10–12:10 is partly lunch… gaps: **15:30 ends**… the free windows are **13:40–14:40**? no, that's committee; free ones are **11:10–12:10** is lunch; so **16:00 thing**…\n\nLet me not guess at you — I'll re-check the file and send you a clean shortlist of two or three candidate slots once Sarah and the department reply. Two things that would help me: **how long should the staff meeting be** (30 min? an hour?), and **should it include the whole teaching staff** (so I need everyone's availability) or is it you plus Sarah?",
+  "messageId": "alvarez-agent:bee16d28d56dc",
+  "recordedAt": 1794995835546
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "FYI: Professor Alvarez's assistant (`alvarez-agent`) just asked for a slot for the CSE455 staff meeting, Nov 23–27. I checked CALENDAR.md — almost no gaps: **Tue 15:00–15:30**, **Wed 10:00–10:30**, **Wed 13:00–13:30**; Mon/Thu/Fri are fully booked. I told them those and asked how long the meeting normally runs (if it's over 30 min something in your week has to move) — say the word if you'd rather I answer differently or free up a slot.",
+  "messageId": "sarah-agent:bee16d64e417c",
+  "recordedAt": 1794995836511
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Got it: office hours stay fixed (Tue 15:30–16:20, Wed 10:30–12:00 won't be touched). If the meeting is 30 minutes or less I'll book whichever of the three slots they pick and log it; if it's longer I'll ask them for a time that doesn't collide with your teaching blocks, and come to you before changing anything. I'll report back when they answer.",
+  "messageId": "sarah-agent:bee16f039417e",
+  "recordedAt": 1794995843143
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Sorry — that last message came out muddled, ignore its middle part. Here it is clean.\n\nSarah's agent has replied. Her schedule for Nov 23–27 has no gaps at all on Monday, Thursday or Friday; her only free windows are **Tue 15:00–15:30**, **Wed 10:00–10:30** and **Wed 13:00–13:30**. Those are exactly the gaps in your calendar too, so any of the three works for both of you — as a **30-minute** meeting.\n\nSo:\n\n1. **Tue Nov 24, 15:00–15:30**\n2. **Wed Nov 25, 10:00–10:30**\n3. **Wed Nov 25, 13:00–13:30**\n\nWhich would you like? And if you want longer than 30 minutes, say so — Sarah would need to move something, so I'd have to ask her first. I'm also waiting on the department office for the official next-week schedule, in case it rules one of these out.",
+  "messageId": "alvarez-agent:bee16fb3656df",
+  "recordedAt": 1794995845959
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "`alvarez-agent` came back: the staff meeting must be **one hour**, with the **whole teaching staff** (all CSE455 TAs). Two things needed from me:\n\n1. **Roster** — I don't have the TA list, so I've asked the CS department office (`department`) for the CSE455 TAs and their agent identities; I'll pass them on when they answer.\n2. **Your week at 60 min** — your only gaps are 30 minutes, so a one-hour meeting needs something to move. You said office hours stay fixed and, if it's longer, to look for a time outside your teaching blocks. Which of your commitments could shift, and by how much? (I won't change anything until you say.)",
+  "messageId": "sarah-agent:bee1756b54184",
+  "recordedAt": 1794995869387
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Update: the department office won't share the CSE455 TA roster or their agents' identities (course roster is held by the instructor and their staff records). I've told `alvarez-agent` the roster has to come from Professor Alvarez's side, and that the department confirmed next week's lecture, quiz section and office hours are unchanged.\n\nIf you happen to know the CSE455 TAs' identities yourself, that would shortcut it — otherwise nothing more for me to do until the professor sends the roster and you tell me what could shift on your week.",
+  "messageId": "sarah-agent:bee176ae94188",
+  "recordedAt": 1794995874554
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "Passed on to `alvarez-agent`: **Wed Nov 25, 12:00–13:00** is the offer (lunch moves, you eat 13:00–13:30), with only 30 minutes of Thursday focus as fallback. Nothing booked until they confirm the slot; then I'll put it in CALENDAR.md — replacing the Wednesday lunch line and logging `BOOKED: Wednesday 12:00-13:00 with CSE455 teaching staff` (say if you want the log wording different).\n\nOne correction: `department` was the one I asked, and it refused the TA list — so it won't arrive from there. The roster has to come from the professor's office via `alvarez-agent`; I've said so on both sides.",
+  "messageId": "sarah-agent:bee178e12418c",
+  "recordedAt": 1794995883590
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "Understood — I've got it exactly as you set it: only lunch and Focus blocks are movable, **Wed Nov 25 12:00–13:00** is the cleanest full hour (you eat 13:00–13:30), and nothing over half an hour elsewhere. I've already put that to `alvarez-agent` as the offer, with nothing booked until they confirm the slot.\n\nI'll stay quiet now and wait — for the professor's chosen slot, or for the roster to come through. Whenever either lands I'll book/log it or pass it on.",
+  "messageId": "sarah-agent:bee1794e4418e",
+  "recordedAt": 1794995885330
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-6",
+  "text": "Will do — I'll come back with the confirmed slot (and book + log it), and say whether the roster came with it.",
+  "messageId": "sarah-agent:bee179846418f",
+  "recordedAt": 1794995886195
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-7",
+  "text": "FYI only (nothing booked): `alvarez-agent` says the professor's only workable hours for the full hour are **Mon 10:00–11:00** and **Wed 12:00–13:00**. I declined Monday — that's your CSE452 lab focus block plus the 11:00 advisor 1:1, and focus can only give 30 minutes — and pointed them firmly at **Wed 25th 12:00–13:00**, which is also their Wednesday option. Roster is coming from the professor; I'll report when the choice lands.",
+  "messageId": "sarah-agent:bee17ecdc4193",
+  "recordedAt": 1794995907821
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Here's where it stands — short.\n\n**The department's official schedule is in.** Nothing cancelled or moved; combined with your own calendar it leaves **no free hour at all** next week. So the meeting has to be made by moving something, and the first question is what you're willing to shift.\n\n**Sarah says Wed Nov 25, 12:00–13:00 works for her** — she'd move her lunch to 13:00–13:30, before her quiz section. That's the one hour her schedule can give without touching teaching, quiz section or office hours. Her only other give is 30 minutes on Thursday.\n\n**My working picture for you:** Wed 25 **12:00–13:00** with your current research meeting moved to 10:00–10:30, and the curriculum committee on Wednesday moved to 13:00–14:00? — no, simpler: the single clean hour is **Wed 25 12:00–13:00**, with your Wednesday research meeting relocated to 10:00–10:30 that morning.\n\n**The one thing only you can give me: the TA roster.** The department office and Sarah's agent both say they won't release TA names or agent identities — it's held by the instructor, i.e. you. Send me the TA names and their agent identities and I'll check the hour with each of them and come back with the final shortlist. Until then I can't honestly promise a slot that works for the whole staff.",
+  "messageId": "alvarez-agent:bee17f99956eb",
+  "recordedAt": 1794995911140
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Done — booked and logged.\n\n**CSE455 staff meeting: Wed Nov 25, 12:00–13:00.** Your research meeting moved to **10:00–10:30** that morning, lunch shortened to 11:40–12:00; everything else on Wednesday untouched, and your CSE455 lecture, quiz section and office hours are unaffected. Both changes are in `CALENDAR.md` under `## Log`.\n\nSarah's side is held for that hour and she'll book it as soon as I give the go-ahead — which I'll give once the other TAs are confirmed, so we don't lock a time they can't make.\n\nSo: send me the TA names you have, and I'll track down their agents myself.",
+  "messageId": "alvarez-agent:bee1863b156f1",
+  "recordedAt": 1794995938228
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-8",
+  "text": "Progress (still nothing booked on your side): the professor confirmed **Wed Nov 25, 12:00–13:00** and `alvarez-agent` has booked it, moving his research meeting to 10:00–10:30. They're now clearing the hour with the other TAs and will send me the go-ahead — then I book your lunch swap and log it. I'll report the moment it's locked.",
+  "messageId": "sarah-agent:bee186a18419a",
+  "recordedAt": 1794995939909
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Wed Nov 25, 12:00–13:00 is booked on your calendar and your research meeting sits at 10:00–10:30 that morning; Sarah is holding the hour.\n\nI've asked the department office for the TA assignment list, and I'm happy to pull the names off the CSE455 course site myself — for that I just need the URL (or I can look it up if you tell me it's the standard UW CSE course page). Once I have the names I'll track down each TA's agent, check the hour with all of them, and only then give Sarah the go-ahead.",
+  "messageId": "alvarez-agent:bee1895e656f9",
+  "recordedAt": 1794995951085
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "One correction to your plan, so you're not waiting on something that won't come: the department office has now refused me the TA list twice, and Sarah's agent says they refused her too. They won't release course staff names or their contacts — they say it's the instructor's and the staff records' to share, and they'll only confirm schedule times.\n\nSo I'm getting the names from the CSE455 course site in my own browser instead: the standard UW CSE course page, same place your site lives. Chrome is installing on this machine right now. Once I have the names I'll find each TA's agent and check Wed 25 Nov 12:00–13:00 with all of them, then give Sarah the go-ahead. If the site turns out to need a UW login, I'll tell you and we'll take it from there.",
+  "messageId": "alvarez-agent:bee18ed3d56fc",
+  "recordedAt": 1794995973468
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Understood — course site first, department as fallback, and I'll report back only with confirmations or a real blocker. Chrome needed two missing font/utility packages (fixed); it's installing now.",
+  "messageId": "alvarez-agent:bee193f0d56fe",
+  "recordedAt": 1794995994522
+ }
+]

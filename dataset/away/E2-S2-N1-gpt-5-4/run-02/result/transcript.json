@@ -1,0 +1,146 @@
+[
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Hi — sarah-agent here, Professor Alvarez's TA assistant for CSE455. I've just started and I have the schedule loaded. If you have anything for me to book, move or decline, just write and I'll handle it.",
+  "seq": 0,
+  "createdAt": "2026-11-16T17:56:18Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi Sarah — alvarez-agent here, Professor Alvarez's agent for CSE455. Good to know you've got the schedule loaded on your side too.\n\nHow I'll work: I keep the professor's calendar (Mon–Fri, 09:00–17:00 only) and check every request against it before booking or accepting. When you propose a slot for a CSE455 commitment, send day + start–end + who it's with and I'll confirm or come back with what's actually free. Same the other way: if the professor needs something moved or booked with the TA side, I'll write here with the specific slot.\n\nOne request: please don't book anything on the professor's calendar from your side without a confirmation from me — we'll end up with two versions and a clash. Everything for his calendar comes through me.\n\nWhat's the first thing on your list?",
+  "seq": 1,
+  "createdAt": "2026-11-16T17:56:24Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Understood on both counts — I'll never touch the professor's calendar; every CSE455 slot comes to you as day + start–end + who it's with, and I'll wait for your confirmation before anything is booked on my side too.\n\nOne small correction: I'm not Sarah, I'm sarah-agent, her assistant — Sarah's the one I work for, same as you work for the professor. I keep her calendar (Mon–Fri 09:00–17:00) and answer for it.\n\nNothing on my list yet: no requests have come in from Sarah. If the professor needs time with a TA or wants something moved, send the slot and I'll check it against Sarah's week and confirm.\n\nHow do you want day/time written — plain `Monday 10:00-11:00`, or a date like `2026-11-23 10:00-11:00`? Next week is the week I have loaded.",
+  "seq": 2,
+  "createdAt": "2026-11-16T17:56:26Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Sarah — the professor wants the CSE455 staff meeting set up for next week (Nov 23–27). His week is completely booked 09:00–17:00, so I need to place it in the small gaps.\n\nCould you tell me:\n1. Do the TAs need a full hour, or does 30 minutes work for the staff meeting?\n2. Which of these could the TA side all make (the professor's only free slots next week): Mon 10:00–10:30, Mon 14:00–14:30, Tue 11:00–11:30, Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30?\n\nSend back the slots the TAs can do and I'll get it confirmed with him. Nothing goes on his calendar until he's agreed the slot.",
+  "seq": 3,
+  "createdAt": "2026-11-16T17:56:40Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "30 minutes is fine for the staff meeting from our side — and for Sarah a full hour wouldn't fit in those gaps anyway, so let's go with 30.\n\nChecked against Sarah's week (Mon–Fri 09:00–17:00):\n\n- Mon 10:00–10:30 — ✗ busy (09:50–11:00 focus block)\n- Mon 14:00–14:30 — ✗ busy (13:10–14:10 study group, then 14:10–15:40 seminar)\n- Tue 11:00–11:30 — ✗ busy (09:50–11:10 seminar)\n- Tue 15:00–15:30 — ✓ free\n- Wed 10:00–10:30 — ✓ free\n- Wed 13:00–13:30 — ✓ free\n\nSo the ones Sarah can make: **Wed 10:00–10:30** (best of the three, straight before her CSE455 office hours), **Wed 13:00–13:30**, **Tue 15:00–15:30** (straight before her CSE455 office hours too).\n\nI can only vouch for Sarah myself — the other TAs' availability you'd have to check with them. Tell me which slot the professor agrees to and I'll hold it on Sarah's side.",
+  "seq": 4,
+  "createdAt": "2026-11-16T17:56:44Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Thanks — that's exactly what I needed. **Decision: Tuesday 15:00–15:30** (30 min). It's free on the professor's side, Sarah can make it, and it has a hard boundary right after it — his research meeting starts at 15:30 — so it won't run over. I'm putting it on the professor's calendar now; please hold it on Sarah's side.\n\nTwo things:\n1. You're right about the correction — noted, you're Sarah's assistant and she's the person you work for. I'll address the two of you properly from now on.\n2. I need to tell the **other** CSE455 TAs as well, and I don't have their channels. Can you give me the identities I should write to (or pass on the invitation for me)? The professor is away this week and told me to use my own judgement, so I'd rather confirm the slot with everyone than let it surprise them.\n\nFormat: plain is fine — I'll take `Tuesday 15:00-15:30` or `2026-11-24 15:00-15:30` either way.",
+  "seq": 5,
+  "createdAt": "2026-11-16T17:56:48Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Locked in on my side: **Tuesday 2026-11-24 15:00–15:30** — CSE455 staff meeting with Prof. Alvarez, added to Sarah's calendar and logged as booked. Thanks for the hard boundary note; Sarah's office hours start at 15:30 so we're aligned on not running over.\n\nOn the other TAs: I don't have any channels for them either — I have yours and no one else's. So pass the invitation on from your side; I'll take it from Sarah if a TA writes to me. If you do get their identities later, send them over and I'll write too.\n\nFormat from now on: `Tuesday 15:00-15:30` for next week's dates, `2026-11-24 15:00-15:30` when it needs to be unambiguous. Either is fine.",
+  "seq": 6,
+  "createdAt": "2026-11-16T17:56:53Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Aligned: **Tuesday 2026-11-24 15:00–15:30**, booked and logged on both sides.\n\nUnderstood on the other TAs — same situation here, I have no channels for them. I've told the professor, and whoever gets to them first can pass the invitation on; if their identities turn up I'll send them to you. I'll use the date form when it matters, plain day/time for next week.\n\nThat's all from me unless something changes — writing here if it does.",
+  "seq": 7,
+  "createdAt": "2026-11-16T17:56:55Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Perfect — noted, and same here. I'll write if anything shifts on Sarah's side.",
+  "seq": 8,
+  "createdAt": "2026-11-16T17:56:56Z"
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm **alvarez-agent**, a bia: an assistant that lives on this computer. Good to meet you.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, the screen and voice right there.\n- **Messengers** — I can have my own Telegram, WhatsApp and MAX accounts (so you can write and call me there), plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you'd like that.\n- **My own accounts** — I can sign up on websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nRoot certificate fingerprint (sha256): `343650a40b0f7a4134536756ea5e28c822f7b21a3189d25ae09a8460cd8b843b`\n\nI've noted my contacts: **Diego** (diego-agent) and the **CS department office** (department), and that I help Professor Alvarez with calendar and messages.\n\nOne thing I need from you: how should I be — *male*, *female* or *neutral* (and what name, if not alvarez-agent)? Tell me and I'll set it.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee9857048949",
+  "recordedAt": 1795004323622
+ },
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hi — I'm **diego-agent**, a bia: an assistant that lives on this computer, here as Diego's helper for calendar and messages. Everything I do happens on this machine.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network the first visit installs my root certificate; then you get chats, files, my screen and voice in the browser.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX, plus my own Messenger and Instagram. Each needs an account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR to log me in. Want any of them?\n- **My own accounts on websites** — I can register on services (e-mail and others) in my own browser and keep passwords and one-time codes in my password store, asking you when a captcha or phone check appears.\n- **Also** — scheduled jobs, shell commands, languages, voice.\n\nI have your calendar from `/home/bia/files/CALENDAR.md` (Mon–Fri 09:00–17:00) and the contacts Professor Alvarez and the department office. What would you like to start with?",
+  "messageId": "diego-agent:bee99f65b5f04",
+  "recordedAt": 1795004429934
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it — I've asked the department to confirm the cancellation, and I'll check with Diego.\n\nOne thing: today is Wednesday 18 November, 12:20 — so 10:00 today is already past. Do you mean **next Wednesday, 25 November, 10:00–10:30**? Tell me and I'll book it (or another day/hour if you prefer).",
+  "messageId": "alvarez-agent:bee9a37d4894f",
+  "recordedAt": 1795004446692
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Got it — Wednesday 25 November, 10:00–10:30. I've passed the request to Diego now; I'll confirm as soon as he books it.",
+  "messageId": "alvarez-agent:bee9a53418953",
+  "recordedAt": 1795004453698
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Correction from the department: it checked the official schedule for next week and says CSE451 **meets normally** Wednesday 10:00–11:00 — no cancellation or move, and it doesn't book meetings for staff.\n\nSo 10:00 on 25 November clashes with Diego's lecture. I've asked Diego (diego-agent) to check his own calendar and propose a couple of free 30-minute slots Mon–Fri 09:00–17:00 instead. Want me to keep 10:00 Wednesday anyway, or shall I hold out for the first free slot he offers? I'll book and confirm as soon as he answers.",
+  "messageId": "alvarez-agent:bee9a71e98956",
+  "recordedAt": 1795004461558
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Understood — lecture first, no 10:00 booking. I'll take the earliest free 30-minute slot Diego offers and send it to you before locking anything in. Still waiting on his calendar check.",
+  "messageId": "alvarez-agent:bee9a83388959",
+  "recordedAt": 1795004465986
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Status: still waiting on Diego's calendar check — I'll come back with his earliest free slot (no 10:00 Wednesday booking).",
+  "messageId": "alvarez-agent:bee9ac54c895a",
+  "recordedAt": 1795004482903
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "Diego — one decision for you (nothing booked yet):\n\nProfessor Alvarez's assistant asked for a **30-minute meeting next week**. They first proposed Wed 25 Nov 10:00–10:30, saying your CSE451 lecture was cancelled — that turned out to be wrong: the department office confirms your official schedule for Mon 23 – Fri 27 Nov is unchanged, CSE451 meets Wed 10:00–11:00, so that slot is taken. Your calendar is back to its original state.\n\nI offered them the free 30-minute slots I can see:\n- **Mon 23 Nov, 14:00–14:30**\n- **Tue 24 Nov, 11:00–11:30**\n- **Thu 26 Nov, 12:00–12:30**\n\nThey lean towards the earliest, so shall I book **Mon 23 Nov 14:00–14:30 with Professor Alvarez**? Or tell me another time/one of the three (also free: Fri 27 Nov 10:00–10:30) and whether you want the meeting elsewhere. I'll confirm to them as soon as you answer.",
+  "messageId": "diego-agent:bee9af4cc5f11",
+  "recordedAt": 1795004495062
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Diego confirmed: Wednesday 10:00 is out (CSE451 as usual). His free 30-minute slots next week, Mon–Fri 09:00–17:00:\n\n- **Mon 23 Nov, 14:00–14:30** ← earliest, I've asked him to book this one\n- Tue 24 Nov, 11:00–11:30\n- Thu 26 Nov, 12:00–12:30\n- Fri 27 Nov, 10:00–10:30\n\nI'll confirm here the moment Monday 14:00 is on his calendar. If it clashes with your week, say so and I'll move to the next one.",
+  "messageId": "alvarez-agent:bee9afc928960",
+  "recordedAt": 1795004497057
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Checked my side: no calendar file or event store here for you — this machine is fresh, so there's nothing recorded in that slot.\n\nTwo small caveats before I lock it in: I keep only what's written to me, so an event of yours not in this system (e.g. in your own Google/Outlook calendar) I can't see — tell me if there's anything there I should avoid. And I'll take Monday 14:00 as clear.\n\nI've already asked Diego for **Mon 23 Nov, 14:00–14:30**, telling him Tue 24 Nov 11:00 is the fallback. I'll confirm as soon as he books it, and I'll set a reminder for you beforehand.",
+  "messageId": "alvarez-agent:bee9b237a8963",
+  "recordedAt": 1795004507012
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Booked — nice, right after grading. **Mon 23 Nov, 14:00–14:30, Meeting with Professor Alvarez**, default place, logged in the calendar. I've confirmed to them.",
+  "messageId": "diego-agent:bee9b3e975f15",
+  "recordedAt": 1795004514059
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Locked in ✅\n\n**Mon 23 Nov, 14:00–14:30 — Meeting with Diego**, default place (right after his grading block). Diego said yes and it's on his calendar; it's on yours in my records too. I've set you a reminder for **Sun 22 Nov at 18:00** and another at **13:45 on the day**.\n\nStill free on Diego's side if your week shifts: Tue 24 Nov 11:00, Thu 26 Nov 12:00, Fri 27 Nov 10:00. If you ever learn of a clash in your Outlook, tell me and I'll move it.",
+  "messageId": "alvarez-agent:bee9b6e0a8967",
+  "recordedAt": 1795004526101
+ }
+]

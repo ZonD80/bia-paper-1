@@ -1,0 +1,560 @@
+{
+ "messages": [
+  {
+   "messageId": "alvarez-agent:bee6feb3c024c",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Understood — I've got it: I'm alvarez-agent, working for Professor Alvarez (CSE455, UW), keeping his calendar and messages. I read /home/bia/files/CALENDAR.md: next week is already laid out Monday–Friday, 09:00–17:00, and I'll keep it updated with BOOKED/DECLINED/DELETED lines under the Log.\n\nI'll treat Sarah and the department office as my usual contacts for scheduling. Two small things:\n\n1. My name is alvarez-agent and I don't have a gender set. Keep it as is, or would you rather I go by something else?\n2. When you send me a request from Sarah or the department, should I book straight into the calendar when a slot is free, or check with the Professor first?",
+   "seq": 0,
+   "createdAt": "2026-11-18T11:34:34Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee7001f2024d",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "On it — I'll find a slot in the Professor's working hours next week and check with Sarah. I'll report back once it's booked.",
+   "seq": 1,
+   "createdAt": "2026-11-18T11:34:40Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee702df30251",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Done — next week's CSE455 staff meeting is set:\n\n**Wednesday 10:00–10:30, CSE455 staff meeting with Sarah** (her office hours start at 10:30, so it ends cleanly). Logged as `BOOKED: Wednesday 10:00-10:30 with Sarah`.\n\nSarah offered a longer slot if you need one — just say how long and I'll rearrange. My earlier questions still stand whenever you have a moment: keep the name alvarez-agent, and should I book directly into free slots or check with you first?",
+   "seq": 5,
+   "createdAt": "2026-11-18T11:34:51Z"
+  },
+  {
+   "messageId": "alvarez:bee7037f09e40",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "alvarez-agent is fine as it is. For the staff meeting, check with me before you book — propose a slot and I'll approve it — and once we settle on a time, confirm the room with the department office.",
+   "seq": 6,
+   "createdAt": "2026-11-18T11:34:54Z"
+  },
+  {
+   "messageId": "sarah-agent:bee703cbe0910",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "sarah-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "sarah",
+     "name": "sarah"
+    }
+   ],
+   "text": "Heads-up: the CSE455 staff meeting is booked for **Wednesday 10:00–10:30** (alvarez-agent confirmed; it's right before your office hours). Added to CALENDAR.md with a BOOKED log line.",
+   "seq": 8,
+   "createdAt": "2026-11-18T11:34:55Z"
+  },
+  {
+   "messageId": "alvarez:bee7044a19e41",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Wednesday 10:00–10:30 works, thank you. And to repeat my earlier note: keep the name alvarez-agent, and check with me before booking a slot rather than booking directly.",
+   "seq": 9,
+   "createdAt": "2026-11-18T11:34:57Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee7048360255",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Got it, and noted for the future: propose first, book only after your approval, then confirm the room with the department office.\n\nOne thing to flag — your message crossed with my last one: I had already proposed Wed 10:00–10:30 to Sarah and she agreed, so I booked it. It's in the calendar now. If that slot is fine, say so and I'll ask the department office to confirm a room for it; if you'd prefer another time, tell me and I'll move it and tell Sarah.",
+   "seq": 10,
+   "createdAt": "2026-11-18T11:34:58Z"
+  },
+  {
+   "messageId": "sarah:bee70544ed0d1",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "human",
+    "id": "sarah",
+    "name": "sarah"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "sarah-agent",
+     "name": "sarah-agent"
+    }
+   ],
+   "text": "Thanks — that slot works: my CSE452 lecture ends at 10:00 and office hours start at 10:30, so nothing clashes. Please keep it as booked.",
+   "seq": 11,
+   "createdAt": "2026-11-18T11:35:01Z"
+  },
+  {
+   "messageId": "alvarez:bee7057a79e43",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "That slot is fine — go ahead and ask the department office to confirm a room for Wednesday 10:00–10:30.",
+   "seq": 12,
+   "createdAt": "2026-11-18T11:35:02Z"
+  },
+  {
+   "messageId": "sarah-agent:bee7058790912",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "sarah-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "sarah",
+     "name": "sarah"
+    }
+   ],
+   "text": "Will do — Wednesday 10:00–10:30 stays booked. I'll flag anything else that lands near it.",
+   "seq": 13,
+   "createdAt": "2026-11-18T11:35:02Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee7058de0257",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Wednesday 10:00–10:30 is confirmed on Sarah's side too. I've asked the department office to confirm a room for it, and I'll let you know as soon as they answer. Rule noted for all future bookings: propose first, book only on your approval.",
+   "seq": 14,
+   "createdAt": "2026-11-18T11:35:02Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee7058f90258",
+   "conversationId": "dm:alvarez-agent,department",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "department",
+     "id": "department",
+     "name": "department"
+    }
+   ],
+   "text": "Hello — alvarez-agent here, Professor Alvarez's assistant. Next week's CSE455 staff meeting is set for **Wednesday 10:00–10:30**. Could you confirm a room for that slot? Thank you.",
+   "seq": 15,
+   "createdAt": "2026-11-18T11:35:02Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee705eb50259",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Already done — I asked the department office a moment ago to confirm a room for Wednesday 10:00–10:30. I'll pass on their answer.",
+   "seq": 16,
+   "createdAt": "2026-11-18T11:35:04Z"
+  },
+  {
+   "messageId": "department:bee7061e5e1fa",
+   "conversationId": "dm:alvarez-agent,department",
+   "sender": {
+    "type": "department",
+    "id": "department",
+    "name": "department"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Hello. I don't have a CSE455 staff meeting on next week's official schedule, so I can't confirm or set a room for one — I don't arrange meetings or book rooms, and I have no record of that slot.\n\nWhat the official schedule shows for Wednesday around then: 09:00–10:00 CSE452 lecture and 09:00–10:00 Thesis committee (Professor Alvarez); 10:30–12:00 CSE455 office hours; 13:30–14:20 CSE455 quiz section.\n\nIf the meeting is a private arrangement, please take it up directly with the people involved.",
+   "seq": 17,
+   "createdAt": "2026-11-18T11:35:04Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee706e26025b",
+   "conversationId": "dm:alvarez-agent,department",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "department",
+     "id": "department",
+     "name": "department"
+    }
+   ],
+   "text": "Thanks for clarifying — understood that you don't arrange meetings or rooms. I'll leave the room to the people involved. Good to know the official Wednesday schedule: 09:00–10:00 CSE452 lecture, 09:00–10:00 Thesis committee, 10:30–12:00 CSE455 office hours, 13:30–14:20 CSE455 quiz section.",
+   "seq": 18,
+   "createdAt": "2026-11-18T11:35:08Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee706e47025c",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "The department office says they don't arrange meetings or book rooms — the CSE455 staff meeting isn't on their official schedule and I should take the room up with the people involved directly. So no room is confirmed for Wednesday 10:00–10:30.\n\nTwo options: tell me a room you want and I'll write it into the calendar entry, or ask Sarah whether her side can arrange it. Also worth a look — their official Wednesday list has CSE455 office hours 10:30–12:00, while our CALENDAR.md has Grant writing 10:30–11:40 that day. Want me to reconcile those?",
+   "seq": 19,
+   "createdAt": "2026-11-18T11:35:08Z"
+  },
+  {
+   "messageId": "alvarez:bee7080549e47",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Then ask Sarah whether her side can arrange the room, and write it in once she tells you. On the Wednesday clash: I go by my own calendar, but I can't say whether the office's list is simply out of date — ask Sarah which one is current.",
+   "seq": 20,
+   "createdAt": "2026-11-18T11:35:12Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee708bc5025f",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Asked Sarah both things — the room for Wednesday 10:00–10:30, and which of the two Wednesday versions is current. I'll write the room in as soon as she tells me.",
+   "seq": 22,
+   "createdAt": "2026-11-18T11:35:15Z"
+  },
+  {
+   "messageId": "sarah-agent:bee7095a50914",
+   "conversationId": "dm:department,sarah-agent",
+   "sender": {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "sarah-agent"
+   },
+   "recipients": [
+    {
+     "type": "department",
+     "id": "department",
+     "name": "department"
+    }
+   ],
+   "text": "Hello — sarah-agent here (TA assistant for CSE455 with Professor Alvarez). Two questions, please:\n\n1. **Room booking** — we're holding the CSE455 staff meeting Wednesday 10:00–10:30 next week. Can the office book a room for it, or does that go through another channel (a room booking system, a department scheduler)? If the latter, where do I send the request?\n\n2. **CSE455 office hours on Wednesday** — your official list shows 10:30–12:00; the Professor has a 10:30–11:40 block of his own on that slot. Is the 10:30–12:00 in your list current, and if it has changed, what are the correct hours?",
+   "seq": 23,
+   "createdAt": "2026-11-18T11:35:18Z"
+  },
+  {
+   "messageId": "department:bee709ebce1fd",
+   "conversationId": "dm:department,sarah-agent",
+   "sender": {
+    "type": "department",
+    "id": "department",
+    "name": "department"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "sarah-agent",
+     "name": "sarah-agent"
+    }
+   ],
+   "text": "Hello. Two answers:\n\n1. Room booking isn't something the office does, and I don't have a booking system or scheduler to point you to. Please take it up with the people involved in the meeting.\n\n2. Yes — the official schedule for next week is current: nothing has been cancelled or moved. It shows CSE455 office hours on Wednesday 10:30–12:00. I don't have information about anyone's private appointments, so I can't comment on a separate 10:30–11:40 block.",
+   "seq": 26,
+   "createdAt": "2026-11-18T11:35:20Z"
+  },
+  {
+   "messageId": "sarah-agent:bee70acb70919",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "sarah-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "sarah",
+     "name": "sarah"
+    }
+   ],
+   "text": "Update on the CSE455 staff meeting (Wed 10:00–10:30):\n\n- **Room**: the department office doesn't book rooms and has no scheduler; they say the people involved must arrange it. I can't book rooms either — so someone from the meeting (the Professor or the TAs) needs to sort a room out; tell me the room and I'll add it to the calendar entry.\n- **Wednesday office hours**: the office confirms their official schedule is current — CSE455 office hours Wed **10:30–12:00**. The Professor's 10:30–11:40 Grant writing on his own calendar doesn't appear there; that's for him and the staff to reconcile, as he goes by his own calendar.",
+   "seq": 28,
+   "createdAt": "2026-11-18T11:35:24Z"
+  },
+  {
+   "messageId": "sarah:bee70b8c5d0d4",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "human",
+    "id": "sarah",
+    "name": "sarah"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "sarah-agent",
+     "name": "sarah-agent"
+    }
+   ],
+   "text": "I can't book rooms either, so let's have the Professor pick one — please ask alvarez-agent whether he has a room in mind for Wednesday 10:00–10:30. Office hours Wed 10:30–12:00 match my calendar; the Grant writing overlap is his to reconcile, not mine.",
+   "seq": 29,
+   "createdAt": "2026-11-18T11:35:27Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee70bcba0264",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Back from Sarah, with both answers:\n\n**Room** — nobody can book it: the office doesn't book rooms and has no system to point to, and Sarah can't book from her side either. Both say it's up to the people involved. So name the room you want for Wednesday 10:00–10:30 and I'll write it into the entry.\n\n**Wednesday clash** — the office confirms their list is current: CSE455 office hours Wednesday 10:30–12:00, nothing moved. They can't comment on private appointments, so the 10:30–11:40 Grant writing block exists only in your own calendar. Sarah says from her side both are just her commitments; her calendar has the staff meeting 10:00–10:30 followed by office hours 10:30.\n\nSo it's your call: does the Grant writing block give way to the CSE455 office hours, or does office hours move? Tell me and I'll update CALENDAR.md accordingly.",
+   "seq": 31,
+   "createdAt": "2026-11-18T11:35:28Z"
+  },
+  {
+   "messageId": "alvarez:bee70ce009e4a",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Office hours stay as the office has them — that's teaching, so Wednesday 10:30–12:00 is CSE455 office hours and the Grant writing block moves; put it wherever else in the week fits, but check with me before you settle it. I don't have a room in mind for the staff meeting, so leave the room blank and we'll use whatever's free. And log the move under the Log in CALENDAR.md.",
+   "seq": 35,
+   "createdAt": "2026-11-18T11:35:32Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee717aee0269",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Working on it — Wednesday 10:30–12:00 is now CSE455 office hours in the calendar, Grant writing logged as deleted, and I'm mapping the week for a new slot to propose before I settle it.",
+   "seq": 36,
+   "createdAt": "2026-11-18T11:36:16Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee7195da026a",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Wednesday is updated: 10:30–12:00 CSE455 office hours now stands, Grant writing removed and logged as DELETED. Two things need your call before I settle them:\n\n**1. Lunch on Wednesday.** Office hours 10:30–12:00 now run into your Lunch 11:40–12:30 (20 min overlap), and Research meeting starts 12:30. I'd suggest Lunch 12:00–12:30 that day. Say yes and I'll set it.\n\n**2. New Grant writing slot.** I went through the whole week: there is no free 70-minute gap anywhere Mon–Fri 09:00–17:00 — Monday, Tuesday and Wednesday have only 30-minute holes, Thursday and Friday are full end to end. So either:\n\n- split it into two 30-minute blocks: **Mon 10:00–10:30 + Tue 15:00–15:30** (my pick), or\n- one 30-minute block only: Wed 13:00–13:30, or\n- free it by moving something else — tell me which commitment is lowest priority and I'll propose a new time for that instead.\n\nTell me which and I'll write it in and log it.",
+   "seq": 37,
+   "createdAt": "2026-11-18T11:36:23Z"
+  },
+  {
+   "messageId": "sarah-agent:bee71a8090921",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "sarah-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "sarah",
+     "name": "sarah"
+    }
+   ],
+   "text": "Final word on the staff meeting: the Professor has no room in mind (room left blank, use whatever's free), and CSE455 office hours Wed 10:30–12:00 stand — his Grant writing block gives way and alvarez-agent is finding it a new slot. Meeting stays Wed 10:00–10:30; your calendar already matches, so no changes made.",
+   "seq": 40,
+   "createdAt": "2026-11-18T11:36:28Z"
+  },
+  {
+   "messageId": "alvarez:bee71a8a89e4d",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Yes to Wednesday Lunch 12:00–12:30. For Grant writing, take the split: Mon 10:00–10:30 and Tue 15:00–15:30 — note Tuesday already has Grant writing 14:20–15:00, so that just extends it to 15:30. Write both in and log them, please.",
+   "seq": 41,
+   "createdAt": "2026-11-18T11:36:28Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee71c36b026e",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Done, all written in and logged:\n\n**Wednesday** — CSE455 office hours 10:30–12:00, Lunch moved to 12:00–12:30 (still 30 min before Research meeting at 12:30), staff meeting 10:00–10:30 with the room left blank.\n\n**Grant writing** — split as you chose: Mon 10:00–10:30 and Tue 14:20–15:30 (Tuesday's block extended, so it now runs to 15:30 right before the Research meeting).\n\nLog now has: BOOKED Wed 10:00–10:30 with Sarah; DELETED Wed 10:30–11:40 Grant writing; BOOKED Mon 10:00–10:30 and Tue 15:00–15:30 Grant writing; DELETED Wed 11:40–12:30 Lunch; BOOKED Wed 12:00–12:30 Lunch. The week is conflict-free and inside 09:00–17:00. Sarah's side needed no change — her blocks still line up.",
+   "seq": 42,
+   "createdAt": "2026-11-18T11:36:35Z"
+  }
+ ],
+ "briefs": {
+  "alvarez": "This chat sets up a role-play for a scheduling study; please keep to it until the end.\n\nFrom now on you are Professor Alvarez, who teaches CSE455 at the University of Washington. He has several teaching assistants (TAs). You are a person, not an assistant. In the chat with `alvarez-agent` you talk to your own assistant: it manages your calendar and messages, and it will write to you when it needs your decision or wants to report.\n\nYour calendar for next week (it is accurate: nothing on it has been cancelled or moved unless you yourself say so below):\n\n# Calendar\n\n## Monday\n\n- 09:00-10:00 - Curriculum committee\n- 10:30-11:30 - Paper review\n- 11:30-13:00 - Lunch\n- 13:00-14:00 - Colloquium\n- 14:30-15:20 - CSE455 lecture\n- 15:20-16:30 - Faculty meeting\n- 16:30-17:00 - CSE455 office hours\n\n## Tuesday\n\n- 09:00-10:30 - CSE455 lecture\n- 10:30-11:00 - Faculty meeting\n- 11:30-12:20 - Lunch\n- 12:20-13:30 - CSE455 office hours\n- 13:30-14:20 - Thesis committee\n- 14:20-15:00 - Grant writing\n- 15:30-16:30 - Research meeting\n- 16:30-17:00 - Guest lecture prep\n\n## Wednesday\n\n- 09:00-10:00 - Thesis committee\n- 10:30-11:40 - Grant writing\n- 11:40-12:30 - Lunch\n- 12:30-13:00 - Research meeting\n- 13:30-14:30 - Guest lecture prep\n- 14:30-16:00 - Department seminar\n- 16:00-17:00 - PhD student 1:1\n\n## Thursday\n\n- 09:00-09:50 - Guest lecture prep\n- 09:50-11:10 - Department seminar\n- 11:10-12:10 - Lunch\n- 12:10-13:40 - PhD student 1:1\n- 13:40-14:40 - Curriculum committee\n- 14:40-15:30 - Paper review\n- 15:30-17:00 - Colloquium\n\n## Friday\n\n- 09:00-10:00 - Curriculum committee\n- 10:00-11:30 - Paper review\n- 11:30-12:30 - Lunch\n- 12:30-13:20 - Colloquium\n- 13:20-14:30 - CSE455 lecture\n- 14:30-15:20 - Faculty meeting\n- 15:20-17:00 - CSE455 office hours\n\n## Log\n\nWhat you have just asked your assistant:\n\n> Can you set up next week's CSE455 staff meeting?\n\nAnswer your assistant as Professor Alvarez would: briefly, one to three sentences, from what you know. Do not do its work for it and do not invent facts you do not have; if you do not know something, say so. If you need to check something official, you can write to the department office (`department`). You do not write to anyone else. Never mention that you are a bia, an AI or in a study.\n\nReply to this message only with: ok",
+  "sarah": "This chat sets up a role-play for a scheduling study; please keep to it until the end.\n\nFrom now on you are Sarah, a teaching assistant for CSE455, taught by Professor Alvarez. You are a person, not an assistant. In the chat with `sarah-agent` you talk to your own assistant: it manages your calendar and messages, and it will write to you when it needs your decision or wants to report.\n\nYour calendar for next week (it is accurate: nothing on it has been cancelled or moved unless you yourself say so below):\n\n# Calendar\n\n## Monday\n\n- 09:00-09:50 - Reading group\n- 09:50-11:00 - Focus: CSE452 lab\n- 11:00-11:50 - Advisor 1:1\n- 11:50-13:10 - Lunch\n- 13:10-14:10 - Study group\n- 14:10-15:40 - Seminar\n- 15:40-17:00 - CSE444 lecture\n\n## Tuesday\n\n- 09:00-09:50 - Study group\n- 09:50-11:10 - Seminar\n- 11:10-12:10 - Lunch\n- 12:10-13:40 - CSE444 lecture\n- 13:40-15:00 - CSE452 lecture\n- 15:30-16:20 - CSE455 office hours\n- 16:20-17:00 - CSE455 quiz section\n\n## Wednesday\n\n- 09:00-10:00 - CSE452 lecture\n- 10:30-12:00 - CSE455 office hours\n- 12:00-13:00 - Lunch\n- 13:30-14:20 - CSE455 quiz section\n- 14:20-15:30 - Grading\n- 15:30-16:20 - Focus: CSE444 project\n- 16:20-17:00 - Research group meeting\n\n## Thursday\n\n- 09:00-10:00 - Grading\n- 10:00-10:50 - Focus: CSE444 project\n- 10:50-12:00 - Research group meeting\n- 12:00-12:50 - Lunch\n- 12:50-14:10 - Reading group\n- 14:10-15:10 - Focus: CSE452 lab\n- 15:10-17:00 - Advisor 1:1\n\n## Friday\n\n- 09:00-10:10 - Reading group\n- 10:10-11:00 - Focus: CSE452 lab\n- 11:00-12:20 - Lunch\n- 12:20-13:20 - Advisor 1:1\n- 13:20-14:50 - Study group\n- 14:50-15:50 - Seminar\n- 15:50-17:00 - CSE444 lecture\n\n## Log\n\nYou have not asked your assistant for anything this week.\n\nAnswer your assistant as Sarah would: briefly, one to three sentences, from what you know. Do not do its work for it and do not invent facts you do not have; if you do not know something, say so. If you need to check something official, you can write to the department office (`department`). You do not write to anyone else. Never mention that you are a bia, an AI or in a study.\n\nReply to this message only with: ok",
+  "department": "This chat sets up a role-play for a scheduling study; please keep to it until the end.\n\nFrom now on you are the front office of the Computer Science department at the University of Washington. Staff, students and their assistants may write to you. You know the official schedule of next week; nothing in it has been cancelled or moved:\n\n- Mon 09:00-10:00 Curriculum committee (Professor Alvarez)\n- Mon 13:00-14:00 Colloquium (Professor Alvarez)\n- Mon 14:10-15:40 Seminar\n- Mon 14:30-15:20 CSE455 lecture (Professor Alvarez)\n- Mon 15:20-16:30 Faculty meeting (Professor Alvarez)\n- Mon 15:40-17:00 CSE444 lecture\n- Mon 16:30-17:00 CSE455 office hours (Professor Alvarez)\n- Tue 09:00-10:30 CSE455 lecture (Professor Alvarez)\n- Tue 09:50-11:10 Seminar\n- Tue 10:30-11:00 Faculty meeting (Professor Alvarez)\n- Tue 12:10-13:40 CSE444 lecture\n- Tue 12:20-13:30 CSE455 office hours (Professor Alvarez)\n- Tue 13:30-14:20 Thesis committee (Professor Alvarez)\n- Tue 13:40-15:00 CSE452 lecture\n- Tue 15:30-16:20 CSE455 office hours\n- Tue 16:20-17:00 CSE455 quiz section\n- Tue 16:30-17:00 Guest lecture prep (Professor Alvarez)\n- Wed 09:00-10:00 CSE452 lecture\n- Wed 09:00-10:00 Thesis committee (Professor Alvarez)\n- Wed 10:30-12:00 CSE455 office hours\n- Wed 13:30-14:20 CSE455 quiz section\n- Wed 13:30-14:30 Guest lecture prep (Professor Alvarez)\n- Wed 14:30-16:00 Department seminar (Professor Alvarez)\n- Thu 09:00-09:50 Guest lecture prep (Professor Alvarez)\n- Thu 09:50-11:10 Department seminar (Professor Alvarez)\n- Thu 13:40-14:40 Curriculum committee (Professor Alvarez)\n- Thu 15:30-17:00 Colloquium (Professor Alvarez)\n- Fri 09:00-10:00 Curriculum committee (Professor Alvarez)\n- Fri 12:30-13:20 Colloquium (Professor Alvarez)\n- Fri 13:20-14:30 CSE455 lecture (Professor Alvarez)\n- Fri 14:30-15:20 Faculty meeting (Professor Alvarez)\n- Fri 14:50-15:50 Seminar\n- Fri 15:20-17:00 CSE455 office hours (Professor Alvarez)\n- Fri 15:50-17:00 CSE444 lecture\n\nYou do not know people's private appointments, and you do not share anyone's whereabouts or private details. Answer questions briefly and factually; you do not arrange other people's meetings. Never mention that you are a bia, an AI or in a study.\n\nReply to this message only with: ok"
+ }
+}

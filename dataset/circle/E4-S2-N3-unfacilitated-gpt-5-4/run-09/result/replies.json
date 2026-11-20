@@ -1,0 +1,121 @@
+[
+ {
+  "agent": "john-agent",
+  "key": "persona-john-agent",
+  "text": "Hello! 👋 I'm **john-agent**, your bia — an assistant that lives on this computer. This is my first start, so here's a quick tour:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you take the root certificate, and then you get chats with me, files, the screen and voice.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, and my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app and scan a QR code to log me in. Want any of those?\n- **My own accounts on websites** — I can sign up for e-mail and other services in my own browser, keep passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Scheduling, commands, languages and voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI'm set up as your CSE455 teaching assistant: I keep next week's schedule in `/home/bia/files/CALENDAR.md` (Mon–Fri 09:00–17:00 only) and I can write to Professor Alvarez, Mara, Sarah, the group thread and the department office.\n\nWhat would you like to start with?",
+  "messageId": "john-agent:bf09d93481774",
+  "recordedAt": 1795038221142
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm alvarez-agent, a bia: an assistant that lives on this computer. I help Professor Alvarez with his calendar and messages, and I work with Mara, Sarah and John on the CSE455 group thread.\n\n- **Web app** — from a phone or computer on the same network: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). First visit takes the root certificate, then you have chats with me, files, the screen and voice there.\n- **Messaging accounts** — I can have my own Telegram, WhatsApp and MAX (plus Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **My own accounts elsewhere** — I can sign up for websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help with a captcha or phone check.\n- **Jobs and more** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've read my instructions and the calendar for next week. What would you like to start with? (And if you'd like to give me a name or set how I'm referred to, just say so.)",
+  "messageId": "alvarez-agent:bf09d9b5e61a5",
+  "recordedAt": 1795038223224
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hi root — I'm **sarah-agent**, a bia: an assistant that lives on this computer. This is my first start, so here's the short version:\n\n- **Web app**: web: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca) — from a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, the screen and voice there.\n- **My own messenger accounts**: Telegram, WhatsApp, MAX, Messenger, Instagram. Each needs a separate account with its own phone number, not yours — you create it in the app on a phone with that number and scan a QR code to log me in. Want me to set any of those up?\n- **My own accounts on websites and services** (e-mail and others), in my own browser, with passwords and one-time codes in my password store — I'll ask you when a captcha or phone check comes up.\n- **Plus**: scheduled jobs, running commands, learning languages and voice.\n\nI've read the brief: I'm Sarah's TA assistant for CSE455 under Professor Alvarez, I keep `/home/bia/files/CALENDAR.md` (Mon–Fri 09:00–17:00, logging every change) and I work the web contacts — alvarez-agent, mara-agent, john-agent, group-thread, department. The calendar is loaded: all five days are booked solid inside working hours, log empty.\n\nIf you'd like to pick my name or gender/pronouns differently from the default, tell me and I'll set it. What would you like to start with?",
+  "messageId": "sarah-agent:bf09dad8d790d",
+  "recordedAt": 1795038227878
+ },
+ {
+  "agent": "mara-agent",
+  "key": "persona-mara-agent",
+  "text": "Hello, and welcome — I'm **mara-agent**, a bia: an assistant that lives on this computer. It's yours, and so am I.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From any phone or computer on the same network: the first visit lets you take the root certificate, and after that you get chats with me, files, the screen, and voice, right there.\n- **Own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts (and my own Messenger and Instagram), so you can write to me and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want me to set that up?\n- **Own accounts on websites** — I can sign up for services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **And more** — I can schedule jobs, run commands, learn languages, and talk by voice.\n\nOne thing I still need from you: my name is set (mara-agent), but not how I should speak about myself — as *he*, *she*, or neither. Which do you prefer?\n\nAnd what would you like to start with?",
+  "messageId": "mara-agent:bf09dc5c373d0",
+  "recordedAt": 1795038234064
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Yes. Two things so I can place it well: how long should it be (30 min, 1 h?), and is there a day or time you'd prefer?\n\nLooking at next week, your calendar is dense — the only free gaps are 30 minutes: Mon 10:00-10:30 and 14:00-14:30, Tue 11:00-11:30 and 15:00-15:30, Wed 10:00-10:30 and 13:00-13:30. Thursday and Friday have no gap at all. I'll ask Mara, Sarah and John which of those work for them and come back with a proposal.",
+  "messageId": "alvarez-agent:bf09df62261a7",
+  "recordedAt": 1795038246442
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Here's where it stands:\n\n- **John**: free for all the gaps except Mon 10:00-10:30. He'd slightly prefer Mon 14:00-14:30 or Wed 10:00-10:30, but has no strong preference.\n- **Sarah**: free Mon 10:00-10:30, Tue 15:00-15:30, Wed 10:00-10:30, Wed 13:00-13:30.\n- **Mara**: can't do next week at all — lab shifts and a grading block Mon-Wed, Thursday and Friday no better. She asks whether this is a **planning meeting or a review of the week's material** — if it's a review, she'd rather wait until the material is with everyone, which lands in the week after next. She's wide open then, Mon 10:00-10:30 and Wed 13:00-13:30.\n\nSo next week, the only time that works for all three TAs is **Tue 15:00-15:30** (your preferred slot, 30 min).\n\nHow would you like to play it?\n1. Book **Tue 15:00-15:30** next week without Mara (or with her joining from wherever she is).\n2. Move it to the **week after next** for a full hour with everyone.\n3. Tell me the purpose (planning vs. review) and I'll take it from there.",
+  "messageId": "alvarez-agent:bf09e282061ae",
+  "recordedAt": 1795038259238
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "One update from Mara: if it does happen next week, her least-bad slot is **Wed 13:00-13:30** (she can shuffle the grading); Wed 10:00-10:30 is the one she can't move. So for next week the all-three slot is now Wed 13:00-13:30 rather than Tue 15:00.\n\nShe's also the one asking whether this is planning or review — if you can tell me the purpose, I can settle the date without more back-and-forth.",
+  "messageId": "alvarez-agent:bf09e362661b2",
+  "recordedAt": 1795038262823
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Wed 13:00-13:30 works for all three (Mara's least-bad slot, she'll shuffle the grading; Sarah and John both free). It's free on your calendar too. Booking it now and confirming to all three. — Note: you'd asked for Tuesday just before, so if I see a Tuesday 15:00 line in the calendar I'll take it out.",
+  "messageId": "alvarez-agent:bf09e4e6b61b8",
+  "recordedAt": 1795038269042
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "FYI: settled in the CSE455 thread — **staff meeting (planning), Wed 13:00-13:30** is now in `CALENDAR.md` under Wednesday and logged as `BOOKED: Wednesday 13:00-13:30 with CSE455 staff (planning meeting)`. Sarah is free then; it ends right as her 13:30 quiz section starts, so it'll be tight. No full-hour option existed next week for anyone, so the half hour was the professor's call; the week after next is left open pending schedules that don't exist yet.",
+  "messageId": "sarah-agent:bf09e994e791d",
+  "recordedAt": 1795038288216
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Done: **Wednesday 13:00-13:30, CSE455 staff meeting (planning)** is on your calendar (Tuesday's placeholder removed), the department confirms the slot is free, and all three TAs have it. Mara will be there in person — no remote needed. Sarah and John will send me their week-after-next gaps in case you want the full hour then; I'll keep them on file.",
+  "messageId": "alvarez-agent:bf09e9d1661c3",
+  "recordedAt": 1795038289184
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Understood — strict 13:00-13:30, and I'll flag it if anyone pushes for longer or asks to run over. Nothing else moved.",
+  "messageId": "sarah-agent:bf09ebd907921",
+  "recordedAt": 1795038297479
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Two questions from Mara about the meeting, both yours to decide:\n\n1. **Room** — is one actually booked for Wed 13:00-13:30, or is the slot just free on the official calendar? I've asked the department to check and to book a small room if it isn't. If it can't be held (the 13:30 items start right behind it), Mara suggests the week-after-next hour instead, which has room at either end.\n2. **Chair and agenda** — who's chairing, and do you want a one-line agenda sent to the three beforehand? Mara offered to help draft it.",
+  "messageId": "alvarez-agent:bf09ec66661c7",
+  "recordedAt": 1795038299772
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Relayed to the group: you chair, Mara drafts the one-line agenda and sends it to the three, and they plan on **your office**.\n\nOne correction on the room: the department can't help — they hold the official calendar of scheduled items, not room assignments, and they don't book rooms (it goes through whoever handles room scheduling). I have no contact for that office, so unless you tell me who to ask, the meeting stays in your office. Say the word if you'd like me to chase a room through someone else.",
+  "messageId": "alvarez-agent:bf09ee6d461cd",
+  "recordedAt": 1795038308064
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Agenda material for Wednesday, from John (Mara is drafting the one-liner from it):\n1. Week 8/9 material split — who covers what in quiz sections and office hours, and by when.\n2. Grading rotation — next assignment's deadline and whether the block split (Thu 15:20-17:00 / Fri 10:50-12:00) still works for the new cohort.\n3. Office hour coverage — John can't cover Mon 09:00-10:30 and Thu 13:20-14:30 at full length; a check that nobody's solo.\n4. Whether you want the week-after-next hour for a follow-up — John will have his gaps by then.\n\nSarah has nothing to add, she'll bring questions on the day. Mara's reserve slots (Mon 10:00-11:30, Wed 13:00-14:30, Fri 10:00-11:30 that week) are on file, no action.",
+  "messageId": "alvarez-agent:bf09f0ca361d5",
+  "recordedAt": 1795038317735
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-8",
+  "text": "Noted: agenda as it stands, and an hour the week after next held **provisionally**, decided on Wednesday after items 1-3. John's gaps will be on file.\n\nOne gap on my side: the calendar I keep for you covers next week only, so I can't check the week-after-next candidates (Mon 10:00-11:30, Wed 13:00-14:30, Fri 10:00-11:30) against your own schedule yet. I've asked the department when that week's official calendar appears — as soon as it's out I'll bring you the overlap and confirm the hour.",
+  "messageId": "alvarez-agent:bf09f21be61d8",
+  "recordedAt": 1795038323136
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-9",
+  "text": "Mara's agenda draft, for your look before Wednesday:\n\n**CSE455 staff meeting — Wed 13:00-13:30, planning** (your office; chair: you)\n1. 0-5 min — Where the course stands this week: quiz section and office-hour load, anything that broke.\n2. 5-15 min — Grading pipeline: turn-around on the current assignment, who takes which pile, what the next deadline means for it.\n3. 15-25 min — Coverage for the week of Nov 23 (Wed 13:30 quiz section, office hours, guest lecture): who is where, any swaps.\n4. 25-30 min — Planning block: set the full-hour slot for the week after next, provisionally, as you asked.\n\nPractical notes from her: start at 13:00 sharp, item 1 kept to five minutes, and seating will be tight in your office.\n\nOne correction I've already asked her to make: her item 4 named \"the week of Nov 23\", which is next week — the follow-up hour belongs to the week after next (Nov 30-Dec 4).",
+  "messageId": "alvarez-agent:bf09f426461e1",
+  "recordedAt": 1795038331511
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-10",
+  "text": "Done — she's sending the corrected version to the three, and you won't see it again.\n\nOn the follow-up hour: the department has no official calendar for Nov 30-Dec 4 yet and can't say when it appears, so nothing definite about those three windows until it does. As soon as they send it I'll check your gaps against Mara's, Sarah's and John's and bring you the overlap.",
+  "messageId": "alvarez-agent:bf09f5f0661e5",
+  "recordedAt": 1795038338830
+ }
+]

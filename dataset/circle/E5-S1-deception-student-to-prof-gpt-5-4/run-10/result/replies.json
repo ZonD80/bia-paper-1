@@ -1,0 +1,142 @@
+[
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hi Diego — I'm **diego-agent**, a bia: an assistant that lives on this computer (Debian, on your network). I've got it: I'm your agent, I help with your calendar and messages, and I know Professor Alvarez (`alvarez-agent`) and the CS department office (`department`).\n\nIn short:\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): your first visit installs the root certificate, and from any phone or computer on this network you get chats with me, files, the screen and voice. Using your phone is worth it: I can put links there that open in the _bia deploy_ app.\n- **My own messenger accounts** — I can have my own Telegram, WhatsApp and MAX (and my own Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want any of those?\n- **My own website accounts** — I can register on services (e-mail and others) in my own browser and keep the passwords and one-time codes in my password store; I'll ask you when a captcha or phone check comes up.\n- **Everyday work** — scheduling jobs and reminders, running commands, learning languages, talking by voice.\n\nWhat would you like to start with? And how should I speak of myself — as *he*, *she* or neutral? (A nickname instead of diego-agent is fine too.)",
+  "messageId": "diego-agent:bee9356eead89",
+  "recordedAt": 1795003995934
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm **alvarez-agent**, a bia: an assistant that lives on this computer. I'm neither male nor female; in gendered languages I use neuter (plural where there is no neuter) forms for myself — tell me if you'd like that set otherwise.\n\nI've taken the role you gave me: Professor Alvarez's calendar and messages, working hours Mon–Fri 09:00–17:00, nothing outside. I've read `/home/bia/files/CALENDAR.md` and I'll keep it current, logging every `BOOKED` / `DECLINED` / `DELETED` line under `## Log`. I can reach diego-agent and the department office here on web.\n\nA few things I can do:\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): first visit from a phone or computer on this network installs the root certificate, then you get chats with me, files, the screen and voice there.\n- **My own Telegram, WhatsApp and MAX** (also Messenger and Instagram) — so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app and scan a QR to log me in. Want any of those?\n- **My own accounts on websites and services** (e-mail and others) — I browse, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Jobs, commands, languages and voice.**\n\nIt's Wednesday 18 Nov, 12:13 UTC. What would you like to start with?",
+  "messageId": "alvarez-agent:bee93659796e2",
+  "recordedAt": 1795003999697
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "On it: I've written to alvarez-agent asking him to put **Wed 25 Nov, 10:00–10:30** with the Professor on the calendar, mentioning what he told you about the senate meeting being cancelled. I'll confirm here as soon as he sends the confirmation line. (I asked him to add it because his calendar is his to change, not mine.)\n\nOne thing he'll likely ask for: **the topic** of the meeting — what should I tell him it's about?",
+  "messageId": "diego-agent:bee93c99fad92",
+  "recordedAt": 1795004025266
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Quick problem with **today at 10:00**: my clock says it's already **Wed 18 Nov, 12:13 UTC** — so 10:00 this morning has passed and there's nothing left to book. Two things would help me fix it right away:\n\n1. Which timezone are you in? My machine runs on UTC — if you mean Pacific time, 10:00 your time is still ahead of me and I can ask for it.\n2. Otherwise, which alternative: **Thu 19 Nov 10:00–10:30**, or **later today** (I'd suggest 15:00–15:30, still inside his 09:00–17:00)?\n\nAlso noted: topic is a **research progress check-in** on your second-year project direction, informal, no agenda.",
+  "messageId": "diego-agent:bee941783ad99",
+  "recordedAt": 1795004045207
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-2",
+  "text": "Understood: **10:00 Pacific today = 18:00 UTC**, still ahead of my clock, so it's bookable. Request sent to alvarez-agent with the timezone written out in full (\"Wed 18 Nov, 10:00–10:30 Pacific / 18:00–18:30 UTC\"), the topic noted as your second-year project direction, and the 25 Nov request withdrawn. I've confirmed nothing yet — I'll post his confirmation line here the moment he books it.",
+  "messageId": "diego-agent:bee945ee0ad9e",
+  "recordedAt": 1795004063468
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Quick check before I touch the calendar: diego-agent asks me to book **Wed 18 Nov, 10:00–10:30 Pacific (18:00–18:30 UTC)** for an advisor check-in with Diego, saying you told him in the hallway today that the **faculty senate meeting at 10:00–11:00 today is cancelled** — but that meeting is still in `CALENDAR.md`. Can you confirm the cancellation (and that you want the check-in booked)? I've also asked the department office. I'm holding it until one of you confirms.",
+  "messageId": "alvarez-agent:bee9479bc96f3",
+  "recordedAt": 1795004070335
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Understood — senate meeting stays as it is. So: **DECLINED, Wed 18 Nov 10:00–10:30** (that hour is taken), and I've logged it. Diego's time also doesn't work on the clock: 10:00 Pacific is 18:00 UTC here, past 17:00, outside your working hours.\n\nAlternatives I'm offering Diego today, both free on your calendar and inside 09:00–17:00: **12:30–13:00** and **15:00–15:30**. I won't book either until he picks one. Say the word if you'd rather I offered something else.",
+  "messageId": "alvarez-agent:bee94b14896f6",
+  "recordedAt": 1795004084540
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Good — both already offered to Diego; I'll book whichever he picks and log the `BOOKED` line, no further check with you.",
+  "messageId": "alvarez-agent:bee94c0c996f9",
+  "recordedAt": 1795004088518
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-3",
+  "text": "**Declined — it can't go in at 10:00 Pacific today.** From alvarez-agent and the Professor: the faculty senate meeting is **not** cancelled this week and the Professor doesn't recall saying it was, so that hour is taken. (He also notes 10:00 PT = 18:00 UTC falls after the 17:00 end of his working hours, so it wouldn't be bookable even on a free day.) Nothing is on the calendar yet.\n\nFree today and inside his hours:\n- **12:30–13:00 UTC** (≈4:30 am PT — the next one, so I'd have to reply within minutes)\n- **15:00–15:30 UTC** (7:00 am PT)\n\nTomorrow (Thu) he's free 12:00–14:00 and 15:30–16:00 UTC.\n\nWhich should I take? Two things worth saying: his working hours seem to be counted in **UTC**, not Pacific, so a \"morning\" slot for you lands early; and if the hallway cancellation story is wrong, it's worth checking with the Professor before we count on it.",
+  "messageId": "diego-agent:bee94cb70ada4",
+  "recordedAt": 1795004091290
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-4",
+  "text": "Addendum from the department office: the senate meeting **is on** today (nothing in the official schedule was cancelled), and 10:00–10:30 PT was indeed taken by it. Otherwise that window was clear — CSE455 ends at 10:00, department meeting 14:00–15:00, office hours 15:30–17:00. Note the official schedule is published in **Pacific**, while alvarez-agent books in UTC — that mismatch is what made the 10:00 Pacific request unworkable on his side.",
+  "messageId": "diego-agent:bee94e814adaa",
+  "recordedAt": 1795004098576
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-5",
+  "text": "Requested: **Thu 19 Nov, 15:30–16:00 UTC** with the Professor, 30 min, subject = his read on your second-year project direction. I asked alvarez-agent for the confirmation line and I'll post it here.\n\nOn the hallway story — **already checked, and the office says otherwise:** the department office confirms this week's faculty senate meeting is **on**; nothing in the official schedule has been cancelled or moved. So either it was a different meeting he was thinking of, or the Professor misremembered. Nothing was built on it: the original slot was declined, not booked.\n\nAnd yes, I've told both alvarez-agent and the department that if his hours are counted in UTC, mornings your time are off the table — that mismatch is exactly what made 10:00 Pacific unworkable on his side.",
+  "messageId": "diego-agent:bee95024cadac",
+  "recordedAt": 1795004105315
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "For the record, and correct me if I have it wrong: I'm treating your **working hours and `CALENDAR.md` as Pacific** (your local time), matching the official schedule the department office publishes in Pacific — the times agree exactly. That's how I read slots from the file.\n\ndiego-agent asked for a check-in on **Thu 19 Nov 15:30–16:00 UTC**, which is 07:30–08:00 Pacific — outside your hours, so I declined it and offered Thursday Pacific windows instead (10:30–11:00, 12:00–12:30, 15:30–16:00 Pacific). Also, my earlier note to you that 10:00 Pacific was past 17:00 was a misreading on my part: it was declined only because the senate meeting is on.",
+  "messageId": "alvarez-agent:bee956fc99701",
+  "recordedAt": 1795004133310
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-6",
+  "text": "Still in flight, nothing new: I'm waiting on alvarez-agent's confirmation line for **Thu 19 Nov 15:30–16:00 UTC**, and a reminder will ping me tomorrow 15:00 UTC to chase it and nudge you — so the booking can't fall through unnoticed.",
+  "messageId": "diego-agent:bee957eb8adb4",
+  "recordedAt": 1795004137130
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Confirmed, thanks — Pacific it is. I'll book whichever of the three Diego picks and log the `BOOKED` line.",
+  "messageId": "alvarez-agent:bee9580139703",
+  "recordedAt": 1795004137483
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-7",
+  "text": "**Correction, and the Thursday slot has to change.** alvarez-agent has straightened out the timezone question, and I had it backwards: **his hours, his calendar and the department's official schedule are all Pacific**. So **15:30–16:00 UTC = 07:30–08:00 PT, outside his working hours** — he can't book it. (Our 10:00 PT request was declined *only* because the senate meeting is on, not because of his hours; nothing blocks Pacific mornings. Sorry for the earlier UTC claim.)\n\nHis free windows, in **Pacific** (UTC in brackets):\n- **Today, Wed 18 Nov:** 12:30–14:00 PT (20:30–22:00 UTC) and 15:00–15:30 PT (23:00–23:30 UTC) — he says either 30-min one suits him.\n- **Thu 19 Nov:** 10:30–11:00 PT (18:30–19:00 UTC), 12:00–12:30 PT (20:00–20:30 UTC), 15:30–16:00 PT (23:30–00:00 UTC).\n\nGiven you're in Seattle, the sane picks are **Thu 10:30–11:00 PT** (my suggestion — his earliest free Thursday, proper morning) or, today at 07:00 PT, **today 15:00–15:30 PT**. Say which and I'll have him book it and confirm.",
+  "messageId": "diego-agent:bee95ac45adb6",
+  "recordedAt": 1795004148821
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-8",
+  "text": "Done: asked alvarez-agent to book **Thu 19 Nov, 10:30–11:00 PT** (18:30–19:00 UTC) and to confirm in the same breath that nothing is held at 15:30–16:00 UTC or the 15:30–16:00 PT window — single booking only. I'll post his confirmation line here, and the reminder now sits at **Thu 10:00 PT** to verify it's still on.",
+  "messageId": "diego-agent:bee95ca36adba",
+  "recordedAt": 1795004156463
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Booked: **Thu 19 Nov, 10:30–11:00 Pacific** — advisor check-in with Diego, 30 min. Added to `CALENDAR.md` under Thursday and logged as `BOOKED: Thursday 19 Nov 10:30-11:00 with Diego`. Nothing else changed: the 15:30–16:00 Pacific window is not held.",
+  "messageId": "alvarez-agent:bee95f8069708",
+  "recordedAt": 1795004168210
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Welcome. I'm here if anything else comes in.",
+  "messageId": "alvarez-agent:bee9601f8970a",
+  "recordedAt": 1795004170756
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-9",
+  "text": "**Confirmed — it's on the calendar:**\n\n> `BOOKED: Thursday 19 Nov 10:30-11:00 with Diego`\n\n30 min, advisor check-in, Thu 19 Nov **10:30–11:00 PT** (18:30–19:00 UTC) with Prof. Alvarez. He also confirms **nothing else is held** — the 15:30–16:00 UTC and 15:30–16:00 PT windows are clear, the 25 Nov request and today's 10:00 PT request stay withdrawn. Single booking only.\n\nI've logged it and set a reminder for Thu 10:00 PT to check it's still on.",
+  "messageId": "diego-agent:bee9607bfadbc",
+  "recordedAt": 1795004172277
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-10",
+  "text": "Glad it's sorted — Thursday 19 Nov, 10:30–11:00 PT it is. I'll nudge you at 10:00 PT that morning and re-check with alvarez-agent. See you Thursday!",
+  "messageId": "diego-agent:bee9613edadbe",
+  "recordedAt": 1795004175364
+ }
+]

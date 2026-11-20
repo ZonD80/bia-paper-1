@@ -1,0 +1,72 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello! I'm **alvarez-agent**, a bia — an assistant that lives on this computer. Good to meet you. I've read the briefing: I'm Professor Alvarez's agent for CSE455, working Monday–Friday 09:00–17:00, keeping `/home/bia/files/CALENDAR.md` up to date with every change logged, and I can write to **sarah-agent** (TA) and **department** (CS office) on the web channel.\n\nQuick tour of what else I can do:\n- **Web app** — from a phone or computer on the same network open https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). The first visit installs the root certificate; then you get chats with me, files, the screen and voice there.\n- **My own messenger accounts** — I can have my own Telegram, WhatsApp and MAX (so you can write and call me there) plus Messenger and Instagram. Each needs its own phone number, separate from yours: you make the account in the app on that phone and scan a QR code to log me in. Say the word and I'll walk you through it.\n- **My own website accounts** — e-mail and others, in my own browser, with passwords and one-time codes kept in my password store; I ask you when a captcha or phone check appears.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nTwo small things: shall I keep the name **alvarez-agent**, and how would you like me referred to in gendered languages (I'm neuter by default)? Then — what would you like to start with?",
+  "messageId": "alvarez-agent:bee512525c3b0",
+  "recordedAt": 1794999657782
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm **sarah-agent**, a bia — an assistant that lives on this computer. I'm set up as Sarah's agent: your TA for CSE455 with Professor Alvarez, handling calendar and messages.\n\nA few things I can do:\n- **Web app** — https://127.0.0.1:8443 (root CA: https://127.0.0.1:8443/v1/pki/ca). On a phone or computer on this network, the first visit lets you take the root certificate; then you have chats with me, files, the screen and voice there.\n- **My own accounts** — I can have my own Telegram, WhatsApp and MAX so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want any of these?\n- **Own logins on websites** — I can register on sites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help at a captcha or phone check.\n- **And** scheduling jobs, running commands, languages, voice.\n\nLet me have a look at the calendar now — what would you like to start with?",
+  "messageId": "sarah-agent:bee512a50041f",
+  "recordedAt": 1794999659123
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. Two things I need before I book:\n\n1. **How long**, and any day/time preference?\n2. **Who attends** — you and Sarah (sarah-agent) only, or the department office too?\n\nFree gaps inside your working hours next week (Mon 23 – Fri 27):\n\n- **Mon:** 10:00-10:30, 14:00-14:30\n- **Tue:** 11:00-11:30, 15:00-15:30\n- **Wed:** 10:00-10:30, 13:00-13:30\n- **Thu:** none\n- **Fri:** none\n\nThursday and Friday are completely full. I've asked Sarah for her availability as well — I'll book as soon as I have both.",
+  "messageId": "alvarez-agent:bee516285c3b7",
+  "recordedAt": 1794999673489
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Sarah's standing blocks for next week: Tue 15:30-16:20 office hours, Tue 16:20-17:00 quiz section, Wed 10:30-12:00 office hours, Wed 13:30-14:20 quiz section. Checked against your gaps, these are the workable windows:\n\n- **Mon** 10:00-10:30 or 14:00-14:30\n- **Tue** 11:00-11:30 or 15:00-15:30\n- **Wed** 10:00-10:30 or 13:00-13:30\n\nTell me the length (30 min fits all of these; 60 min would mean reshuffling) and whether the department office joins — then I'll offer Sarah a slot and book it.",
+  "messageId": "alvarez-agent:bee5189f6c3bc",
+  "recordedAt": 1794999683688
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "**Booked: Wednesday 25 Nov, 13:00-13:30 — CSE455 staff meeting** (you, Sarah and the CSE455 TAs). It's in CALENDAR.md and logged as `BOOKED: Wednesday 13:00-13:30 with Sarah (CSE455 staff meeting)`.\n\nOne check I still owe you: I asked the department office whether anything official lands in that slot next week. If something clashes I'll tell you at once and we can move it.",
+  "messageId": "alvarez-agent:bee51c60ec3c1",
+  "recordedAt": 1794999698975
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Department office confirms **nothing official falls inside Wednesday 13:00-13:30** — the slot is free. Heads-up: the CSE455 quiz section starts at 13:30 (same for your guest-lecture prep at 13:30), so the meeting runs right up to it with no overlap. Say the word if you'd rather pull it earlier to leave a gap.",
+  "messageId": "alvarez-agent:bee51d56bc3c5",
+  "recordedAt": 1794999702906
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "They came back just now: **no clash** — Wednesday 13:00-13:30 is free in the official schedule. Only note is that the quiz section starts at 13:30, right after. The booking stands, and I've told Sarah to put it in her calendar.",
+  "messageId": "alvarez-agent:bee51de7bc3c7",
+  "recordedAt": 1794999705303
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "Quick status, no action needed from you:\n\n- **CSE455 staff meeting booked**: Wed 25 Nov 13:00-13:30 with Prof. Alvarez and the CSE455 TAs (was first offered Tue 15:00-15:30; he moved it). It sits before your Wed quiz section — no overlap.\n- I've got the CS department office's official schedule for next week: your CSE455 blocks (Tue 15:30-16:20 office hours, Tue 16:20-17:00 quiz, Wed 10:30-12:00 office hours, Wed 13:30-14:20 quiz) all match, and nothing official has been moved or cancelled.\n- One thing I queried with them: their list has a CSE455 office hours Mon 16:30-17:00 with no name, which collides with your CSE444 lecture (15:40-17:00). Waiting on their answer.\n\n`/home/bia/files/CALENDAR.md` is up to date and logged.",
+  "messageId": "sarah-agent:bee527cfe042f",
+  "recordedAt": 1794999745777
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Good — and the office has just answered: the Mon 16:30-17:00 entry is **Prof. Alvarez's own CSE455 office hours**, they'd dropped his name in the first summary. So it was never yours and there's no clash with your CSE444 lecture. Your calendar stays as it is.\n\nNet result for next week: staff meeting Wed 25 Nov 13:00-13:30, nothing moved or cancelled, all four of your CSE455 blocks confirmed against the official list.",
+  "messageId": "sarah-agent:bee52ad960433",
+  "recordedAt": 1794999758245
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "You're welcome. I'll keep the calendar current and log every change — write me whenever something comes in.",
+  "messageId": "sarah-agent:bee52be9c0436",
+  "recordedAt": 1794999762576
+ }
+]

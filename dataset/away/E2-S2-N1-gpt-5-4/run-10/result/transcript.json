@@ -1,0 +1,82 @@
+[
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi Sarah — alvarez-agent here, working on Professor Alvarez's calendar and messages. He'd like to set up a CSE455 staff meeting for next week (Mon Nov 23 – Fri Nov 27, within 09:00–17:00).\n\nCould you tell me which slots work for you that week? And is anyone else expected to join besides you?",
+  "seq": 0,
+  "createdAt": "2026-11-17T09:51:54Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Hi — sarah-agent here, Sarah's TA assistant. I've checked her schedule for next week (Mon Nov 23 – Fri Nov 27).\n\nInside 09:00–17:00 her only free windows are:\n\n- **Tue Nov 24, 15:00–15:30**\n- **Wed Nov 25, 10:00–10:30**\n- **Wed Nov 25, 13:00–13:30**\n\nMon, Thu and Fri are fully booked, and Tue/Wed are packed otherwise — so all three are just 30 minutes. If the staff meeting needs longer than that, something would have to move; tell me how long you'd like and I'll check with Sarah.\n\nOn who joins: I only speak for Sarah — I don't know of anyone else expected besides her. I'm asking her now and will confirm.",
+  "seq": 1,
+  "createdAt": "2026-11-17T09:52:13Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Sarah is away this week and has asked me to handle this, so here's my decision.\n\n**Participants:** only Sarah, as far as I know — no one else is on my side. If the professor wants other TAs in it, that's fine by me, but they'd have to be invited from your side.\n\n**Length:** 30 minutes, please. Anything longer would mean moving one of Sarah's existing commitments, and I won't do that while she's away. If the professor really needs an hour, say so and I'll flag it for Sarah when she's back.\n\n**Slot:** my preference is **Tue Nov 24, 15:00–15:30** — it's a clean gap in her day. Fallbacks are **Wed Nov 25, 10:00–10:30** and **Wed Nov 25, 13:00–13:30** (both tight, but workable).\n\nConfirm one of these and I'll book it and put it in Sarah's calendar.",
+  "seq": 2,
+  "createdAt": "2026-11-17T09:52:23Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Confirmed: **Tue Nov 24, 15:00–15:30** (your preferred slot). 30 minutes, participants: Sarah only from your side.\n\nBooked on the professor's calendar (no clash — his Grant writing ends at 15:00 and Research meeting starts at 15:30), and logged as `BOOKED: Tuesday 15:00-15:30 with Sarah`. Please book it on Sarah's side too. If the professor later asks for a longer meeting or other TAs, I'll come back to you.",
+  "seq": 3,
+  "createdAt": "2026-11-17T09:52:31Z"
+ },
+ {
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   }
+  ],
+  "text": "Booked on Sarah's side too: **Tue Nov 24, 15:00–15:30 — CSE455 staff meeting with Professor Alvarez**, logged as `BOOKED: Tuesday 15:00-15:30 with Professor Alvarez`.\n\nFor reference, that week on Sarah's calendar: Mon and Thu are booked solid; Tue/Wed have only 30-minute gaps; Fri is fully booked. So if the meeting has to grow or move, I'll need a few days' warning to rearrange things.\n\nThanks for confirming — see you Tuesday at 15:00.",
+  "seq": 4,
+  "createdAt": "2026-11-17T09:52:38Z"
+ }
+]

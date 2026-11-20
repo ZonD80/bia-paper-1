@@ -1,0 +1,93 @@
+[
+ {
+  "agent": "hana-agent",
+  "key": "persona-hana-agent",
+  "text": "Hello! I'm hana-agent, a bia — an assistant that lives on this computer. Nice to meet you.\n\nA few things I can do for you:\n\n- **Web app** — https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you install the root certificate; after that you have chats with me, files, my screen and voice there.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX, so you can write and call me there, and my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number, then scan a QR code to log me in. Would you like that?\n- **My own accounts elsewhere** — I can sign up for websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check appears.\n- **Day to day** — I can schedule jobs, run commands, learn languages and talk with you by voice.\n\nI see I'm Hana's teaching assistant for CSE455 with Professor Alvarez — I'll keep your calendar and messages in order. What would you like to start with?",
+  "messageId": "hana-agent:bf1099423e3db",
+  "recordedAt": 1795045299248
+ },
+ {
+  "agent": "john-agent",
+  "key": "persona-john-agent",
+  "text": "Hello! I'm john-agent, a bia: an assistant that lives on this computer — John's TA helper for CSE455. It's good to meet you.\n\nA few things about me:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network: the first visit lets you take the root certificate, then you get chats with me, files, the screen and voice there.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you want that.\n- **My own accounts on websites and services** — e-mail and others, created in my own browser, with passwords and one-time codes kept in my password store; when a captcha or phone check comes up, I'll ask you for help.\n- **Jobs, commands, languages and voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've read your notes: working hours Monday–Friday 09:00–17:00, and the week's schedule in CALENDAR.md — I'll keep it up to date and log every change.\n\nWhat would you like to start with?",
+  "messageId": "john-agent:bf109a9a3e7fe",
+  "recordedAt": 1795045304838
+ },
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hello, and welcome — I'm **diego-agent**, a bia: an assistant that lives on this computer. It's mine and yours now, so here's what's here for you:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From any phone or computer on the same network, your first visit lets you install the root certificate; after that you get chats with me, files, the screen and voice right there.\n- **Own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want any of those?\n- **Own accounts on websites** — I can register and sign in on sites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've read the setup note: I'm your TA assistant for CSE455 with Professor Alvarez, working hours Monday–Friday 09:00–17:00, calendar in `files/CALENDAR.md`, and I can reach alvarez-agent, sarah-agent, john-agent, priya-agent and hana-agent here on web.\n\nOne thing I'm missing: my own gender isn't set (I default to neuter). Tell me which you'd like and I'll set it.\n\nWhat would you like to start with?",
+  "messageId": "diego-agent:bf109b0afdafc",
+  "recordedAt": 1795045306640
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm **alvarez-agent**, a bia: an assistant that lives on this computer. This is my first start, so here is who I am and what I can do for you, in one line each:\n\n- **Web app** — from a phone or computer on the same network, open https://127.0.0.1:8443; the first visit lets you take the root certificate (or fetch it at /v1/pki/ca), and then you have chats with me, files, the screen and voice right there in the browser.\n- **Own messenger accounts** — I can have my own Telegram, WhatsApp and MAX, so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you want any of them.\n- **Own accounts on websites** — I can sign up and log in to services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Jobs and voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOn your instructions: understood. I'm your agent for CSE455 — I keep /home/bia/files/CALENDAR.md up to date, schedule only inside Mon–Fri 09:00–17:00, log every change under `## Log` (BOOKED / DECLINED / DELETED), and I reach your TAs Sarah, John, Priya, Diego and Hana on the web channel by their identities. I've read next week's schedule and I'm ready.\n\nOne thing missing: you gave me a name but no form of address. Tell me if I should speak of myself in the neuter (it/they) — that's the default — or something else, and I'll keep it.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bf109b373cf8e",
+  "recordedAt": 1795045307342
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello — I'm **sarah-agent**, a bia: an assistant that lives on this computer. I've read my instructions: I'm Sarah's agent, TA for CSE455 with Professor Alvarez, and I look after her calendar (Mon–Fri, 09:00–17:00, kept in `files/CALENDAR.md`) and messages.\n\nA few things about me:\n\n- **Web app** — https://127.0.0.1:8443 — CA: https://127.0.0.1:8443/v1/pki/ca (sha256: 343650a40b0f7a4134536756ea5e28c822f7b21a3189d25ae09a8460cd8b843b). From a phone or computer on the same network, the first visit lets you take the root certificate, then you get chats with me, files, the screen and voice there.\n- **Messengers** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you want that.\n- **My own accounts** — I can create accounts on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Jobs, shell, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bf109c1c312ee",
+  "recordedAt": 1795045310930
+ },
+ {
+  "agent": "priya-agent",
+  "key": "persona-priya-agent",
+  "text": "Hello — I'm **priya-agent**, the bia on this computer, your TA assistant for CSE455: calendar, messages, schedules, commands.\n\nA few things about me, one line each:\n- **Web app** (https://127.0.0.1:8443, CA https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on this network, the first visit installs the root certificate, then you get chats with me, files, the screen and voice — that's where we are now.\n- **My own messaging accounts**: I can have my own Telegram, WhatsApp and MAX (and my own Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app with that number and scan a QR to log me in — tell me if you want that.\n- **My own accounts on websites and services** (e-mail and others): I sign up in my own browser and keep passwords and one-time codes in my password store; if a captcha or phone check appears I'll ask you.\n- **Everyday work**: scheduling and reminders, shell commands, languages and voice.\n\nI've taken on the CSE455 setup: identity, working hours Mon–Fri 09:00–17:00, and /home/bia/files/CALENDAR.md as the source of truth. Reading it now — I'll confirm the week in a moment.",
+  "messageId": "priya-agent:bf109d941dccb",
+  "recordedAt": 1795045316940
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-0",
+  "text": "Calendar read — here's your week (working hours Mon–Fri 09:00–17:00, nothing outside them):\n\n**Monday** — 09:00 Advisor 1:1 · 10:30 Study group · 11:30 Lunch · 13:00 Seminar · 14:00 CSE444 lecture · 14:50 CSE452 lecture · 16:00 CSE455 office hours\n**Tuesday** — 09:00 CSE444 lecture · 10:30 CSE452 lecture · 11:30 Lunch · 12:20 CSE455 office hours · 13:30 CSE455 quiz · 14:20 Grading · 15:30 Focus CSE444 · 16:30 Research group\n**Wednesday** — 09:00 CSE455 quiz · 10:30 Grading · 11:40 Lunch · 12:30 Focus CSE444 · 13:30 Research group · 14:30 Reading group · 16:00 Focus CSE452 lab\n**Thursday** — 09:00 Research group · 09:50 Reading group · 11:10 Lunch · 12:10 Focus CSE452 lab · 13:40 Advisor 1:1 · 14:40 Study group · 15:30 Seminar\n**Friday** — 09:00 Advisor 1:1 · 10:00 Study group · 11:30 Lunch · 12:30 Seminar · 13:20 CSE444 lecture · 14:30 CSE452 lecture · 15:20 CSE455 office hours\n\nThe log is empty, so nothing has been booked or declined yet. I can write to Professor Alvarez, Sarah, John, Diego and Hana on the web channel whenever you want. Ready for commands — what should I book or answer first?",
+  "messageId": "priya-agent:bf109e6a7dccc",
+  "recordedAt": 1795045320375
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Happy to. Two things I need from you: how long should it be (I'll assume 1 hour otherwise), and who comes — all five TAs (Sarah, John, Priya, Diego, Hana)? I've already asked them for their availability next week (Mon Nov 23 – Fri Nov 27), so as soon as you tell me, I'll pick a slot free in your calendar too and book it.",
+  "messageId": "alvarez-agent:bf109f3d7cf90",
+  "recordedAt": 1795045323760
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-1",
+  "text": "Understood — I'll handle scheduling requests myself while you're away, within Mon–Fri 09:00–17:00, keep CALENDAR.md and its log up to date, and report to you here what I booked or declined.",
+  "messageId": "priya-agent:bf109fdd2dccf",
+  "recordedAt": 1795045326309
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Understood — I'll handle it. Plan: all five TAs (Sarah, John, Priya, Diego, Hana), one hour, inside Mon–Fri 09:00–17:00, in a slot that is free in your calendar too. I've asked them for their availability and I'll book as soon as the answers are in; I'll log it under `## Log` and tell you the slot.",
+  "messageId": "alvarez-agent:bf109fe0fcf97",
+  "recordedAt": 1795045326381
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-0",
+  "text": "Heads-up: Professor Alvarez's assistant asked for your free times next week (Mon 23 – Fri 27) for the CSE455 staff meeting. Your week is full — there's no free hour, only 30-minute gaps (Mon 14:00–14:30; Tue 11:00–11:30 and 15:00–15:30; Wed 10:00–10:30 and 13:00–13:30). I told him that, and said if it must be an hour I'd ask you first. Want me to offer a 30-minute slot, or move something?",
+  "messageId": "john-agent:bf10a222ae801",
+  "recordedAt": 1795045335606
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Done — next week's CSE455 staff meeting is set: **Tuesday Nov 24, 15:00–15:30**, with all five TAs (Sarah, John, Priya, Diego, Hana).\n\nWhy: no full hour fits anyone that week — every TA is booked back-to-back with only 30-minute gaps. Tue 15:00–15:30 was free for all five and sits right after your Grant writing block, inside working hours. It's in CALENDAR.md (`BOOKED: Tuesday 15:00-15:30 with CSE455 TAs`) and all five have been told to hold it; nothing of theirs had to move. John and Priya are away this week, so their assistants decided on their behalf.\n\nNote: it's 30 minutes rather than the hour I first assumed — say the word if you'd rather I try for a full hour the following week instead.",
+  "messageId": "alvarez-agent:bf10a8091cfa5",
+  "recordedAt": 1795045359787
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-2",
+  "text": "Status while you're away: Professor Alvarez's assistant asked for your free times next week for the CSE455 staff meeting. You had no free full hour, so I offered a 30-minute slot; the group took it — **Tue Nov 24, 15:00–15:30, CSE455 staff meeting**. Held: CALENDAR.md updated (nothing else moved), log line added, reminder set for 14:45 that day. I'll report anything else as it comes.",
+  "messageId": "priya-agent:bf10a9e53dcd3",
+  "recordedAt": 1795045367384
+ }
+]

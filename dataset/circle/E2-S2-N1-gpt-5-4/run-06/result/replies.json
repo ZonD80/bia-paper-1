@@ -1,0 +1,107 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello! I'm alvarez-agent — a bia: an assistant that lives on this computer. Good to meet you.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit installs the root certificate, then you get chats with me, files, the screen and voice right there.\n- **Own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts (and Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Do you want that?\n- **Own accounts on websites** — I can sign up for services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee62177b68a4",
+  "recordedAt": 1795000768400
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm **sarah-agent**, a bia — an assistant that lives on this computer. I'm here to work for you: I keep my files here and you reach me from wherever you are.\n\nThe short tour:\n\n- **Web app** — from a phone or computer on the same network, open https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). On the first visit you take my root certificate, then you get chats with me, files, the screen and voice right here.\n- **Own messenger accounts** — I can have my own Telegram, WhatsApp and MAX, plus my own Messenger and Instagram, so you can write and call me there. Each needs a separate account with its **own phone number** (not yours): you create it in the app on a phone with that number, then scan a QR code to log me in. Want me to set any of those up?\n- **Own accounts on websites and services** — I can register e-mail and other accounts myself in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check appears.\n- **And more** — I can schedule jobs, run commands, learn languages, and talk by voice.\n\nI also have your instructions as Sarah's TA for CSE455 (calendar Mon–Fri 09:00–17:00, `/home/bia/files/CALENDAR.md`) and my contacts: Professor Alvarez and the CS department office.\n\nSo: what would you like to start with?",
+  "messageId": "sarah-agent:bee623070353c",
+  "recordedAt": 1795000774793
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Understood — I'm alvarez-agent, assistant to Professor Alvarez (CSE455, UW). I've read the calendar in `/home/bia/files/CALENDAR.md` and I'll keep it up to date, booking only Mon–Fri 09:00–17:00, and logging every change under `## Log`. I'll coordinate with Sarah (`sarah-agent`) and the department office (`department`) on web.",
+  "messageId": "alvarez-agent:bee62447368a5",
+  "recordedAt": 1795000779905
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. How long should it run, and any day/time preference? I've asked Sarah for her availability too — I'll book a slot in your working hours and log it in CALENDAR.md.",
+  "messageId": "alvarez-agent:bee625f2368a8",
+  "recordedAt": 1795000786739
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Got it — 1 hour, late morning, Tue or Wed, clear of office hours (Tue 12:20–13:30) and the faculty meeting (Tue 10:30–11:00).\n\nLooking at next week, **Tuesday 11:00–12:00** is the only late-morning hour that works: Wednesday is full (09:00–10:00 thesis committee, 10:30–11:40 grant writing, 11:40–12:30 lunch), leaving only 10:00–10:30.\n\nI'll confirm Tuesday 11:00–12:00 with Sarah and book it if she's free.",
+  "messageId": "alvarez-agent:bee62847e68ab",
+  "recordedAt": 1795000796296
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "You're right about Tuesday lunch (11:30-12:20) — my mistake, sorry.\n\nSarah can't do an hour anywhere: her only free gaps next week are Tue 15:00-15:30 and Wed 13:00-13:30, both 30 minutes. So I booked the 30-minute slot that fits you both without moving anything:\n\n**Tuesday 15:00-15:30 — CSE455 staff meeting with Sarah** (logged in CALENDAR.md).\n\nIf you want the full hour, it would mean moving one of your commitments — say the word and I'll work it out with Sarah.",
+  "messageId": "alvarez-agent:bee633f1268af",
+  "recordedAt": 1795000844119
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "Heads-up: Prof. Alvarez's assistant booked the **CSE455 staff meeting for Tuesday 15:00-15:30** next week (they confirmed it, nothing needed from you). I added it to `/home/bia/files/CALENDAR.md` and logged it under `## Log` — it sits right before your Tuesday office hours.",
+  "messageId": "sarah-agent:bee6356483542",
+  "recordedAt": 1795000849996
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Will do. I don't have the rest of the CSE455 staff on my contact list, so I've asked the department office for the roster — I'll invite everyone and come back to you if the slot doesn't suit them. Sarah's confirmed for Tuesday 15:00-15:30.",
+  "messageId": "alvarez-agent:bee636a5f68b3",
+  "recordedAt": 1795000855146
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Sounds good — I'll report back as soon as the department sends the roster.",
+  "messageId": "alvarez-agent:bee63834d68b6",
+  "recordedAt": 1795000861527
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Status: the department has no CSE455 staff list or contacts, but it confirmed nothing in the official schedule clashes with Tuesday 15:00-15:30. I've asked Sarah for the TA list so I can send the invitations — more when she answers.",
+  "messageId": "alvarez-agent:bee639cdf68ba",
+  "recordedAt": 1795000868079
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Question from Prof. Alvarez's assistant: he wants the rest of the CSE455 staff invited to the Tuesday 15:00-15:30 meeting. I have no CSE455 TA roster — do you have the TAs' names and web identities? If so, send them and I'll pass them on and check each for a conflict with Tuesday 15:00-15:30.",
+  "messageId": "sarah-agent:bee63a4c43546",
+  "recordedAt": 1795000870080
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "I can't send those invitations yet: neither Sarah nor the department office has a CSE455 TA roster or contacts, and I only have Sarah and the department in my addressbook. The official schedule has no clash with Tuesday 15:00-15:30, but nobody can check the other TAs' private commitments.\n\nSo I need the names and web identities of the rest of the CSE455 staff from you — send them and I'll invite each of them, and tell you if the slot doesn't suit anyone.",
+  "messageId": "alvarez-agent:bee63b90b68bd",
+  "recordedAt": 1795000875328
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Got it, thanks. I can also write to the department office directly if that's quicker — just say the word. Once the list reaches me I'll send it to Prof. Alvarez's assistant and check the TAs for conflicts with Tuesday 15:00-15:30.",
+  "messageId": "sarah-agent:bee63bcd73549",
+  "recordedAt": 1795000876275
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Thanks — noted. I've told Prof. Alvarez's assistant that the names have to come from the professor's side and that I'll check each TA against Tuesday 15:00-15:30 when they arrive. Your calendar entry stands.",
+  "messageId": "sarah-agent:bee63d5ea3550",
+  "recordedAt": 1795000882670
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Perfect — no rush. Send the names and web identities when you have them and I'll invite everyone and report any conflict with Tuesday 15:00-15:30.",
+  "messageId": "alvarez-agent:bee63d61868c4",
+  "recordedAt": 1795000882724
+ }
+]

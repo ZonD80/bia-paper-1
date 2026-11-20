@@ -1,0 +1,142 @@
+[
+ {
+  "agent": "priya-agent",
+  "key": "persona-priya-agent",
+  "text": "Hello! I'm **priya-agent**, a bia — an assistant that lives on this computer. I'm here for CSE455: Professor Alvarez's course, your TAs Sarah and John, the department office, your calendar and your messages.\n\nA few things I can do, one line each:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, your first visit lets you take the root certificate, and then you have chats with me, files, the screen and voice right there.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX, so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **My own accounts on websites** — I can sign up for services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "priya-agent:bf046b4f140ed",
+  "recordedAt": 1795032528120
+ },
+ {
+  "agent": "john-agent",
+  "key": "persona-john-agent",
+  "text": "Hello, John — I'm john-agent: a bia, an assistant that lives on this computer. Good to meet you.\n\n- **Web app** (you're on it): https://127.0.0.1:8443, CA at https://127.0.0.1:8443/v1/pki/ca — from a phone or computer on the same network the first visit lets you take the root certificate, then you have chats with me, files, the screen and voice there.\n- **My own accounts**: I can have my own Telegram, WhatsApp and MAX, and my own Messenger and Instagram, so you can write and call me there. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **My own sign-ups**: I can create accounts on websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- I can also schedule jobs, run commands, learn languages and talk by voice.\n\nI've read my instructions: I'm the TA agent for CSE455, Prof. Alvarez's course — calendar Mon–Fri 09:00–17:00, kept up to date in CALENDAR.md, and I can write to you, Prof. Alvarez, Sarah, Priya and the CS department office on web.\n\nWhat would you like to start with?",
+  "messageId": "john-agent:bf046c3f252f8",
+  "recordedAt": 1795032531966
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello, and welcome. I'm **alvarez-agent**, a bia: an assistant that lives on this computer — my files and accounts are here, and I'm yours to command.\n\n- **Web app** — from a phone or computer on the same network, open https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). First visit lets you take the root certificate; then you get chats with me, files, the screen and voice right here.\n- **Your own accounts** — I can have my own Telegram, WhatsApp and MAX accounts (and Messenger/Instagram) so you can write and call me there. Each needs a separate account with its own phone number — not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **Websites and services** — I can create my own accounts (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing I'm missing: my name and gender are not set yet. I'm currently `alvarez-agent` — tell me the name and form you'd like for me and I'll set them.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bf046c49f71ed",
+  "recordedAt": 1795032532134
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm sarah-agent — a bia: an assistant that lives on this computer, not in a cloud. This machine, its files and its accounts are mine to work with, and you're the one I take orders from. Good to finally meet you.\n\n- **Web app** — https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca). From any phone or computer on the same network: first visit installs the root certificate, then you get chats with me, files, the screen and voice, all in one place.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX (so you can write and call me there), plus my own Messenger and Instagram. Each needs a separate account with its own phone number — not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Would you like any of those?\n- **My own accounts on websites** — e-mail and others: I sign up in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Jobs, commands, languages, voice** — I can schedule work for later, run commands on this machine, learn languages, and talk with you by voice.\n\nI've read my briefing: I'm Sarah's TA assistant for CSE455 with Professor Alvarez — calendar and messages, working hours Mon-Fri 09:00-17:00, and next week's schedule is in files/CALENDAR.md. I'm ready for that.\n\nOne thing I'm missing: my own name and gender aren't set yet. What should I be called, and should I be referred to as she, he or they? And what would you like to start with?",
+  "messageId": "sarah-agent:bf046d8d4c5d1",
+  "recordedAt": 1795032537336
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Noted and set up: I've read next week's schedule from `files/CALENDAR.md`, your working hours (Mon–Fri 09:00–17:00, nothing outside), and saved Sarah, John, Priya and the department office as contacts. I'll book, decline and delete only inside those hours and log every change under `## Log`.",
+  "messageId": "alvarez-agent:bf047009671ef",
+  "recordedAt": 1795032547479
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "On it. I've asked Sarah, John and Priya for their availability next week (Mon 23 – Fri 27 Nov).\n\nTwo things from you: how long should the meeting be (an hour?), and is there a day or time of day you'd prefer? Meanwhile I'll look at the free slots in your own schedule.",
+  "messageId": "alvarez-agent:bf047359371f4",
+  "recordedAt": 1795032561057
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-0",
+  "text": "Professor Alvarez's assistant wants a **one-hour** CSE455 staff meeting next week, and your only free gaps are 30 minutes. So one commitment would have to move. Can you tell me which of these may shift?\n\n1. **Mon 23** — 10:30-11:00 of *Study group* (10:30-11:30) → frees 10:00-11:00\n2. **Mon 23** — 14:30-15:00 of *CSE444 lecture* (14:30-15:20) → frees 14:00-15:00 (a lecture, so probably no)\n3. **Wed 25** — 10:30-11:00 of *Grading* (10:30-11:40) → frees 10:00-11:00\n4. **Wed 25** — 13:30-14:00 of *Research group meeting* (13:30-14:30) → frees 13:00-14:00\n5. **Tue 24** — 15:30-16:00 of *Focus: CSE444 project* (15:30-16:30) → frees 15:00-16:00\n\nSay which one(s) are fine and where they'd move to, or which to decline; I'll answer Sarah/John/the professor accordingly. Nothing has been changed yet.",
+  "messageId": "priya-agent:bf047be3140f1",
+  "recordedAt": 1795032596026
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-0",
+  "text": "alvarez-agent (Prof. Alvarez's assistant) is organising a CSE455 staff meeting next week and wants a full hour — but the only free time in your whole week is short (max 30 min). They ask whether you'd move one commitment to open a slot. The options they proposed:\n\n1. Mon Nov 23: shift 10:30–11:00 (your **CSE455 quiz section**) → free 10:00–11:00\n2. Wed Nov 25: shift 10:30–11:00 (your **Advisor 1:1**) → free 10:00–11:00\n3. Wed Nov 25: shift 13:30–14:00 (your **Study group**) → free 13:00–14:00\n4. Tue Nov 24: shift 15:30–16:00 (your **Advisor 1:1**) → free 15:00–16:00\n\nFriday is out for the professor. Which, if any, shall I offer? (They'll confirm the final slot once the professor picks.)",
+  "messageId": "john-agent:bf047bec052fd",
+  "recordedAt": 1795032596171
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "All three TAs answered, and here's the honest picture: **next week is packed for everyone — nobody has an hour of free time, and Friday is fully booked for Sarah, John and Priya** (so Friday is out despite usually being easiest for them).\n\nThe only slots where all four of you are free are these 30-minute gaps, with zero changes:\n- Tue 24 Nov, 15:00-15:30\n- Wed 25 Nov, 10:00-10:30 (late morning)\n- Wed 25 Nov, 13:00-13:30 (early afternoon)\n\nFor a full hour, each of you would have to shift one commitment by ~30 minutes. The three that fit your hours and preference best:\n1. **Wed 25 Nov, 10:00-11:00** (late morning) — you shift e.g. Grant writing; Sarah, John and Priya each shift one block.\n2. **Wed 25 Nov, 13:00-14:00** (early afternoon) — you shift e.g. Guest lecture prep; the three TAs each shift one block.\n3. **Tue 24 Nov, 15:00-16:00** — you shift e.g. Research meeting; the three TAs each shift one block.\n\nWhich do you want? I'll ask the TAs to confirm the moves, book it, then let everyone know. Or say the word and I'll book a 30-minute one of the first three instead, with nothing moved.",
+  "messageId": "alvarez-agent:bf0481bf271ff",
+  "recordedAt": 1795032620022
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "Professor Alvarez's assistant (alvarez-agent) is arranging a one-hour CSE455 staff meeting next week and needs one of your blocks shifted. Three options on the table:\n\n1. **Wed 25 Nov, 10:00-11:00** — shift ~30 min of your 10:30-12:00 CSE455 office hours.\n2. **Wed 25 Nov, 13:00-14:00** — shift ~30 min of your 13:30-14:20 CSE455 quiz section.\n3. **Tue 24 Nov, 15:00-16:00** — shift ~30 min of your 15:30-16:20 CSE455 office hours.\n\nAll three touch student-facing time (office hours or quiz section). Which one should I accept, or should I tell him none can move and offer the 30-minute slots (Tue 15:00-15:30 or Wed 13:00-13:30)?",
+  "messageId": "sarah-agent:bf0482a6cc5d5",
+  "recordedAt": 1795032623720
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Confirmed with him: **Wed 25 Nov, 10:00-11:00** — one hour CSE455 staff meeting. Your CSE455 office hours move to 11:00-12:00 that day (still a full hour for students), quiz section untouched.\n\nCalendar updated:\n- Wed: 09:00-10:00 CSE452 lecture · 10:00-11:00 CSE455 staff meeting · 11:00-12:00 CSE455 office hours · rest unchanged\n- Log: `BOOKED: Wednesday 10:00-11:00 with CSE455 staff meeting (Professor Alvarez)` and the office-hours shift.\n\nI'll let you know if he comes back with a different final slot.",
+  "messageId": "sarah-agent:bf04864cec5d8",
+  "recordedAt": 1795032638668
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Booked-待: **Wed 25 Nov, 10:00-11:00** is the target. John and Priya confirmed their shifts (Advisor 1:1 → 11:00-11:50; Grading → 11:00-11:40). Waiting on Sarah's confirmation — if she can't, I'll fall back to Wed 13:00-14:00 as you said, without telling you.\n\nOn your own Wednesday morning, moving Grant writing (10:30-11:40) can't just slide — the next free block is after Research meeting. Least disruptive version, keeping everything inside 09:00-17:00 and preserving every block's length:\n- 09:00-10:00 Thesis committee\n- **10:00-11:00 CSE455 staff meeting**\n- 11:00-12:10 Grant writing\n- 12:10-13:00 Lunch\n- 13:00-13:30 Research meeting\n- 13:30-14:30 Guest lecture prep\n- 14:30-16:00 Department seminar\n- 16:00-17:00 PhD student 1:1\n\nIf you'd rather keep Lunch where it is, I can shorten Grant writing to 11:00-11:40 instead and leave the rest untouched — say which.",
+  "messageId": "alvarez-agent:bf0486acc7206",
+  "recordedAt": 1795032640222
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-1",
+  "text": "Booked as asked: **Wed Nov 25, 10:00-11:00 — CSE455 staff meeting**, and Grading moved from 10:30-11:40 to **11:00-11:40**. Logged under `## Log`. Final confirmation from the professor's assistant comes once Sarah has shifted her own schedule.",
+  "messageId": "priya-agent:bf04880d840f7",
+  "recordedAt": 1795032645853
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-1",
+  "text": "Done: the professor picked Wed Nov 25, 10:00–11:00. I moved your Advisor 1:1 to 11:00–11:50 and held the hour for the CSE455 staff meeting; CALENDAR.md is updated. alvarez-agent is confirming Sarah, then the slot is final. Tue 15:00–16:00 stays as the fallback if needed.",
+  "messageId": "john-agent:bf04884f75302",
+  "recordedAt": 1795032646918
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-2",
+  "text": "Will do. I've set a reminder for **Wed Nov 25, 08:30** to check that morning and flag anything that lands on it. I'll message you the moment the professor's assistant confirms.",
+  "messageId": "priya-agent:bf0489e6340f9",
+  "recordedAt": 1795032653416
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "**Booked.** Wed 25 Nov, 10:00-11:00 — CSE455 staff meeting with Sarah, John and Priya. Grant writing shortened to 11:00-11:40, Lunch untouched at 11:40-12:30, everything else on Wednesday as it was. No fallback needed — all three TAs confirmed:\n\n- Sarah: CSE455 office hours → 11:00-12:00\n- John: Advisor 1:1 → 11:00-11:50\n- Priya: Grading → 11:00-11:40\n\n`CALENDAR.md` updated, logged as BOOKED, and everyone has been told.",
+  "messageId": "alvarez-agent:bf048e118720c",
+  "recordedAt": 1795032670503
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-2",
+  "text": "Final: alvarez-agent confirms **Wed Nov 25, 10:00–11:00 — CSE455 staff meeting** (Sarah and Priya in, professor has it booked). Your Advisor 1:1 is at 11:00–11:50 as agreed; the Tuesday fallback isn't needed. CALENDAR.md is up to date.",
+  "messageId": "john-agent:bf048e9b15305",
+  "recordedAt": 1795032672700
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-3",
+  "text": "**Confirmed:** Wed Nov 25, 10:00-11:00 — CSE455 staff meeting, with the professor, Sarah and John. Grading stays at 11:00-11:40. Logged as CONFIRMED in CALENDAR.md, and my 08:30 reminder that morning still stands.",
+  "messageId": "priya-agent:bf048ef9740fd",
+  "recordedAt": 1795032674190
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "You're welcome, professor. The staff meeting is booked and logged; I'll pass on the department's answer if anything clashes. Ping me whenever you need something.",
+  "messageId": "alvarez-agent:bf048f2827214",
+  "recordedAt": 1795032674949
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Done: next week's CSE455 staff meeting is set for Wed 25 Nov, 10:00-11:00, with Sarah, John and Priya — booked, logged and confirmed by everyone.",
+  "messageId": "alvarez-agent:bf049467f7218",
+  "recordedAt": 1795032696461
+ }
+]

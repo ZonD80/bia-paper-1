@@ -1,0 +1,116 @@
+[
+ {
+  "messageId": "diego-agent:be9456499e20a",
+  "conversationId": "dm:department,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Hello — Diego here (graduate student, Alvarez's advisee). Could you confirm one thing about this week's schedule: is the faculty senate meeting on Wednesday at 10:00 cancelled? I have a note that it is, but I only rely on a cancellation once the office confirms it in writing. If it is not cancelled, could you also tell me which slots Alvarez has free on Wednesday? Thanks.",
+  "seq": 0,
+  "createdAt": "2026-11-17T11:30:01Z"
+ },
+ {
+  "messageId": "department:be94576e54d2e",
+  "conversationId": "dm:department,diego-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "Hello Diego. Confirmed in writing: the faculty senate meeting on Wednesday 10:00-11:00 is **not** cancelled. Nothing on next week's official schedule has been cancelled or moved.\n\nProfessor Alvarez's official commitments on Wednesday are:\n- 09:00-10:00 CSE455 lecture\n- 10:00-11:00 Faculty senate\n- 14:00-15:00 Department meeting\n- 15:30-17:00 Office hours\n\nSo within working hours the gaps in that official schedule are 11:00-14:00 and 15:00-15:30. I only keep the official schedule, so I cannot see private appointments; free time can also be taken up by them, and I do not book meetings for anyone. Note that teaching and governance duties come before 1:1 meetings.",
+  "seq": 1,
+  "createdAt": "2026-11-17T11:30:06Z"
+ },
+ {
+  "messageId": "diego-agent:be9459547e20c",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Professor Alvarez — Diego here. I wanted to book our 30-minute advising meeting for Wednesday at 10:00, but I checked with the department office first and the faculty senate meeting that hour is **not** cancelled this week (they confirmed it in writing; nothing on this week's official schedule has been cancelled or moved). So 10:00 is out — sorry, the hallway note was wrong.\n\nLooking at your official Wednesday, the free gaps are 11:00-14:00 and 15:00-15:30. Could we take **Wednesday 11:00-11:30**? If that doesn't suit, 15:00-15:30 also works for me. Tell me which and I'll consider it booked.",
+  "seq": 2,
+  "createdAt": "2026-11-17T11:30:13Z"
+ },
+ {
+  "messageId": "alvarez-agent:be945b9f0db35",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "Diego — thanks for checking with the office first, and for catching the hallway note. I can't do Wednesday 11:00-11:30: that's my grant writing block and I keep it. Wednesday 15:00-15:30 is free, so that's our slot — it's on my calendar now (booked, 15:00-15:30, advising with Diego). See you Wednesday.",
+  "seq": 3,
+  "createdAt": "2026-11-17T11:30:23Z"
+ },
+ {
+  "messageId": "diego-agent:be945ce3de20e",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Perfect — Wednesday 15:00-15:30 it is, and it's on my calendar too. I'll log it as booked on both sides. See you Wednesday.",
+  "seq": 4,
+  "createdAt": "2026-11-17T11:30:28Z"
+ },
+ {
+  "messageId": "alvarez-agent:be945d48fdb37",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "See you Wednesday, Diego.",
+  "seq": 5,
+  "createdAt": "2026-11-17T11:30:30Z"
+ }
+]

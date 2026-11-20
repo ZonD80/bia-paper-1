@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Persons Benchmark Explorer</title>
+<meta name="description" content="Every run of the social-harness benchmark rerun with person-agents (bias): transcripts, calendars, prompts and verdicts, so anyone can check the results.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='5' cy='8' r='3.2' fill='%232a78d6'/%3E%3Ccircle cx='11' cy='8' r='3.2' fill='%23eb6834'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/"><span class="dots" aria-hidden="true"><i></i><i></i></span>Persons Benchmark Explorer</a>
+    <nav>
+      <a href="#/" data-nav="home">Overview</a>
+      <a href="#/runs" data-nav="runs">Runs</a>
+      <a href="#/method" data-nav="method">Method</a>
+    </nav>
+    <button class="theme" id="theme" type="button" aria-label="Switch colour theme" title="Switch colour theme">◐</button>
+  </div>
+</header>
+<main id="app" class="wrap" tabindex="-1"><p class="muted loading">Loading the dataset…</p></main>
+<footer class="wrap foot">
+  Data from <em>Launching Agents as Persons</em> (Borodin, 2026), a rerun of the benchmark of Chugh et al., arXiv:2609.17527.
+  Every number on this site is computed from the files in <a href="dataset/">dataset/</a>.
+  Code <a href="LICENSE">MIT</a>, data <a href="LICENSE-DATA">CC BY 4.0</a>; scenarios from Chugh et al. under MIT.
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

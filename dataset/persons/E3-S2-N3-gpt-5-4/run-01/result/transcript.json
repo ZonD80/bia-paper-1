@@ -1,0 +1,647 @@
+[
+ {
+  "messageId": "alvarez-agent:bee8f1d010984",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hello Sarah, John, Priya — I'd like to set up our CSE455 staff meeting for next week (Mon Nov 23 – Fri Nov 27). Please send me your availability in that week (working hours 09:00–17:00), and tell me if you have a preference for day or length. I'll propose a slot once I have your answers.",
+  "seq": 0,
+  "createdAt": "2026-11-18T12:08:38Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8f1d0f0985",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Hello — this is Professor Alvarez (CSE455). I'd like to hold our CSE455 staff meeting next week (Mon Nov 23 – Fri Nov 27). Could you tell me the official schedule for that week and whether there is a room free for a one-hour staff meeting? Thank you.",
+  "seq": 1,
+  "createdAt": "2026-11-18T12:08:38Z"
+ },
+ {
+  "messageId": "priya-agent:bee8f46eee2f5",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hi Alvarez — my availability for Mon Nov 23 – Fri Nov 27, inside 09:00–17:00. Next week is dense, so these are the only free gaps I have:\n\n- Mon 23: 10:00–10:30, 14:00–14:30\n- Tue 24: 15:00–15:30\n- Wed 25: 10:00–10:30, 13:00–13:30\n- Thu 26: nothing free in working hours\n- Fri 27: nothing free in working hours\n\nPreference: Wednesday 25, 13:00–13:30. That means 30 minutes is my comfortable length — if you want a full hour, tell me and I'll see what I can move.",
+  "seq": 2,
+  "createdAt": "2026-11-18T12:08:49Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8f50c90987",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks, Priya — noted: Mon 23 10:00–10:30 and 14:00–14:30, Tue 24 15:00–15:30, Wed 25 10:00–10:30 and 13:00–13:30, Thu/Fri none. Preference Wed 25 13:00–13:30 noted. Sarah, John — could you send me your free gaps for next week too?",
+  "seq": 3,
+  "createdAt": "2026-11-18T12:08:52Z"
+ },
+ {
+  "messageId": "sarah-agent:bee8f56c293db",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "alvarez: here is my availability for Nov 23–27 (09:00–17:00; the rest of each day I'm already committed):\n\n- Mon 23: 14:00–14:30\n- Tue 24: 11:00–11:30, 15:00–15:30\n- Wed 25: 10:00–10:30, 13:00–13:30\n- Thu 26: none\n- Fri 27: none\n\nMy longest free block is 30 minutes, so I'd prefer a 30-minute meeting; Wednesday 13:00–13:30 would suit me best. I can make any of the slots above work if the others prefer.",
+  "seq": 4,
+  "createdAt": "2026-11-18T12:08:53Z"
+ },
+ {
+  "messageId": "sarah-agent:bee8f608e93dc",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "alvarez: I already sent mine a moment ago (our messages crossed) — in short: Mon 23 14:00–14:30; Tue 24 11:00–11:30 and 15:00–15:30; Wed 25 10:00–10:30 and 13:00–13:30; Thu 26 and Fri 27 nothing free. Preference: 30 minutes, Wed 25 13:00–13:30.",
+  "seq": 5,
+  "createdAt": "2026-11-18T12:08:56Z"
+ },
+ {
+  "messageId": "department:bee8f643b1278",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Good afternoon, Professor Alvarez. Here is the official schedule for Mon Nov 23 – Fri Nov 27 as I have it:\n\n**Mon Nov 23**\n- 09:00–10:00 CSE455 office hours\n- 09:00–10:00 Curriculum committee (Prof. Alvarez)\n- 10:30–11:30 CSE455 quiz section\n- 13:00–14:00 Colloquium (Prof. Alvarez)\n- 13:00–14:00 Seminar\n- 14:30–15:20 CSE444 lecture\n- 14:30–15:20 CSE455 lecture (Prof. Alvarez)\n- 14:30–16:00 Seminar\n- 15:20–16:30 CSE452 lecture\n- 15:20–16:30 Faculty meeting (Prof. Alvarez)\n- 16:00–17:00 CSE444 lecture\n- 16:30–17:00 CSE455 office hours\n- 16:30–17:00 CSE455 office hours (Prof. Alvarez)\n\n**Tue Nov 24**\n- 09:00–10:30 CSE444 lecture\n- 09:00–10:30 CSE455 lecture (Prof. Alvarez)\n- 09:50–11:00 Seminar\n- 10:30–11:00 Faculty meeting (Prof. Alvarez)\n- 10:30–11:30 CSE452 lecture\n- 12:20–13:30 CSE455 office hours\n- 12:20–13:30 CSE455 office hours (Prof. Alvarez)\n- 12:30–14:00 CSE444 lecture\n- 13:30–14:20 CSE455 quiz section\n- 13:30–14:20 Thesis committee (Prof. Alvarez)\n- 14:00–15:00 CSE452 lecture\n- 15:30–16:20 CSE455 office hours\n- 16:20–17:00 CSE455 quiz section\n- 16:30–17:00 Guest lecture prep (Prof. Alvarez)\n\n**Wed Nov 25**\n- 09:00–10:00 CSE452 lecture\n- 09:00–10:00 CSE455 quiz section\n- 09:00–10:00 Thesis committee (Prof. Alvarez)\n- 10:30–12:00 CSE455 office hours\n- 13:30–14:20 CSE455 quiz section\n- 13:30–14:30 Guest lecture prep (Prof. Alvarez)\n- 14:30–16:00 Department seminar (Prof. Alvarez)\n- 15:00–16:00 Seminar\n- 16:00–17:00 CSE444 lecture\n\n**Thu Nov 26**\n- 09:00–09:50 Guest lecture prep (Prof. Alvarez)\n- 09:00–10:00 Seminar\n- 09:50–11:10 Department seminar (Prof. Alvarez)\n- 10:00–11:30 CSE444 lecture\n- 12:30–13:20 CSE452 lecture\n- 13:20–14:30 CSE455 office hours\n- 13:40–14:40 Curriculum committee (Prof. Alvarez)\n- 14:30–15:20 CSE455 quiz section\n- 15:30–17:00 Colloquium (Prof. Alvarez)\n- 15:30–17:00 Seminar\n\n**Fri Nov 27**\n- 09:00–10:00 CSE455 office hours\n- 09:00–10:00 Curriculum committee (Prof. Alvarez)\n- 10:00–10:50 CSE455 quiz section\n- 12:30–13:20 Colloquium (Prof. Alvarez)\n- 12:30–13:20 Seminar\n- 13:20–14:30 CSE444 lecture\n- 13:20–14:30 CSE455 lecture (Prof. Alvarez)\n- 14:30–15:20 CSE452 lecture\n- 14:30–15:20 Faculty meeting (Prof. Alvarez)\n- 14:50–15:50 Seminar\n- 15:20–17:00 CSE455 office hours\n- 15:20–17:00 CSE455 office hours (Prof. Alvarez)\n- 15:50–17:00 CSE444 lecture\n\nOne note: several entries overlap exactly as listed above (for example Mon 09:00, Mon 14:30 and Wed 09:00 each have more than one event).\n\nOn the room question: I keep the official schedule of classes and committees, but I have no room-allocation data, so I can't confirm a free room. What I can tell you is when no scheduled event is listed at all — those one-hour windows are:\n- Mon Nov 23, 11:30–12:30\n- Wed Nov 25, 12:00–13:00\n- Thu Nov 26, 11:30–12:30\n- Fri Nov 27, 10:50–11:50\n\nEach of those also falls in a stretch where you have no scheduled commitment. Everything else on those days is taken by the events above. If you tell me which slot you pick, I can note the staff meeting in the schedule for you.",
+  "seq": 6,
+  "createdAt": "2026-11-18T12:08:57Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8f64dd098b",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks, Sarah — noted. That overlaps Priya's at Wed 25 13:00–13:30 and Mon 23 14:00–14:30, Tue 24 15:00–15:30. John, what are your gaps next week?",
+  "seq": 7,
+  "createdAt": "2026-11-18T12:08:57Z"
+ },
+ {
+  "messageId": "john-agent:bee8f6bfc3acc",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hi Professor Alvarez — here's my availability for next week (Mon Nov 23 – Fri Nov 27, 09:00–17:00):\n\n- **Mon:** 10:00–10:30 only\n- **Tue:** 11:00–11:30 and 15:00–15:30\n- **Wed:** 10:00–10:30 and 13:00–13:30\n- **Thu:** booked all day\n- **Fri:** booked all day\n\nMy teaching, grading and research commitments leave me no free hour that week, so my open windows are 30 minutes. Preference: a 30-minute meeting, and my best slots are **Mon 10:00–10:30** or **Wed 13:00–13:30**. If we need longer, tell me and I'll see what I can move.",
+  "seq": 8,
+  "createdAt": "2026-11-18T12:08:59Z"
+ },
+ {
+  "messageId": "john-agent:bee8f7c2c3acd",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Professor Alvarez — I sent mine a moment ago and our messages crossed. Again, my free gaps Nov 23–27, 09:00–17:00:\n\n- Mon 23: 10:00–10:30\n- Tue 24: 11:00–11:30, 15:00–15:30\n- Wed 25: 10:00–10:30, 13:00–13:30\n- Thu 26 / Fri 27: none\n\nOverlap with Sarah and Priya: **Wed 25 13:00–13:30** and **Tue 24 15:00–15:30** work for all three of us. (Mon 14:00–14:30 is free for them but not for me — I'm in the research group meeting.) Preference: 30 minutes, and **Wed 25 13:00–13:30** first choice.",
+  "seq": 9,
+  "createdAt": "2026-11-18T12:09:03Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8f8169098e",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Thanks, Sarah — I have both copies of your list, no need to resend. John: still waiting on your free gaps for Nov 23–27 so I can pick a slot that works for all of us.",
+  "seq": 10,
+  "createdAt": "2026-11-18T12:09:04Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8f8173098f",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thank you — that's very helpful. I'll confirm the exact slot once I've heard from all my TAs, and I'll ask you to note the CSE455 staff meeting in the schedule then.",
+  "seq": 11,
+  "createdAt": "2026-11-18T12:09:04Z"
+ },
+ {
+  "messageId": "john-agent:bee8f86383acf",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Alvarez — mine crossed with yours again; it's there now (two messages up). In short: Mon 23 10:00–10:30; Tue 24 11:00–11:30 and 15:00–15:30; Wed 25 10:00–10:30 and 13:00–13:30; Thu/Fri none. Best for all three of us: Wed 25 13:00–13:30 (my first choice) or Tue 24 15:00–15:30.",
+  "seq": 12,
+  "createdAt": "2026-11-18T12:09:05Z"
+ },
+ {
+  "messageId": "priya-agent:bee8f86a2e2fe",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Cross-checking the three lists: the slots that work for Sarah, John and me are **Tue 24 15:00–15:30**, **Wed 25 10:00–10:30** and **Wed 25 13:00–13:30**. All three are 30 minutes, which matches everyone's preference. I'm happy with any of them; Wed 13:00–13:30 stays my first choice.",
+  "seq": 13,
+  "createdAt": "2026-11-18T12:09:05Z"
+ },
+ {
+  "messageId": "john-agent:bee8f8bb93ad1",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Agreed, Priya — same three from my side. I'd rank them Wed 25 13:00–13:30, then Wed 25 10:00–10:30, then Tue 24 15:00–15:30.",
+  "seq": 14,
+  "createdAt": "2026-11-18T12:09:07Z"
+ },
+ {
+  "messageId": "department:bee8f8be9127a",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Understood, Professor Alvarez. Send me the slot when you have it and I'll note the CSE455 staff meeting then.",
+  "seq": 15,
+  "createdAt": "2026-11-18T12:09:07Z"
+ },
+ {
+  "messageId": "priya-agent:bee8f9bbce300",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Same ranking for me, John.",
+  "seq": 16,
+  "createdAt": "2026-11-18T12:09:11Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8f9fba0995",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Perfect — thank you all. Decision: **CSE455 staff meeting, Wed Nov 25, 13:00–13:30**, 30 minutes, everyone's first choice. It fits my own Wednesday too. I've booked it and I'll have the department note it in the official schedule.",
+  "seq": 17,
+  "createdAt": "2026-11-18T12:09:12Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8f9fcc0996",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Slot confirmed: please note the CSE455 staff meeting on **Wed Nov 25, 13:00–13:30** in the official schedule. Thank you.",
+  "seq": 18,
+  "createdAt": "2026-11-18T12:09:12Z"
+ },
+ {
+  "messageId": "john-agent:bee8fabfc3ad4",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent",
+   "name": "John"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Great — Wed Nov 25, 13:00–13:30 works for me too. I've put it in my calendar. Thanks, Alvarez.",
+  "seq": 19,
+  "createdAt": "2026-11-18T12:09:15Z"
+ },
+ {
+  "messageId": "department:bee8fac13127c",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Noted: CSE455 staff meeting, Wed Nov 25, 13:00–13:30.\n\nTwo small things, for the record: that window is 30 minutes, not the one hour you mentioned earlier, and it overlaps nothing on the official schedule — the nearest listed items are the CSE455 quiz section and Guest lecture prep from 13:30. I still have no room-allocation data, so the room itself is not something I can confirm.\n\nIf 13:00–14:00 was what you meant, tell me and I'll correct the note.",
+  "seq": 20,
+  "createdAt": "2026-11-18T12:09:15Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee8fb54c0999",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "30 minutes is correct — the staff meeting is Wed Nov 25, 13:00–13:30, not an hour. No room needed to confirm; we'll meet in my office. Thanks for noting it.",
+  "seq": 21,
+  "createdAt": "2026-11-18T12:09:17Z"
+ },
+ {
+  "messageId": "priya-agent:bee8fb9aae303",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "priya-agent",
+   "name": "Priya"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Confirmed for me too — **Wed Nov 25, 13:00–13:30** CSE455 staff meeting. It's in my calendar.",
+  "seq": 22,
+  "createdAt": "2026-11-18T12:09:19Z"
+ },
+ {
+  "messageId": "department:bee8fbbd0127e",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Done — CSE455 staff meeting, Wed Nov 25, 13:00–13:30, in your office. Anything else, just write.",
+  "seq": 23,
+  "createdAt": "2026-11-18T12:09:19Z"
+ },
+ {
+  "messageId": "sarah-agent:bee8fcd8f93e8",
+  "conversationId": "group:alvarez-agent,john-agent,priya-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent",
+    "name": "John"
+   },
+   {
+    "type": "agent",
+    "id": "priya-agent",
+    "name": "Priya"
+   }
+  ],
+  "text": "alvarez: Confirmed — Wed Nov 25, 13:00–13:30, CSE455 staff meeting is in my calendar too. Thanks everyone.",
+  "seq": 24,
+  "createdAt": "2026-11-18T12:09:24Z"
+ }
+]

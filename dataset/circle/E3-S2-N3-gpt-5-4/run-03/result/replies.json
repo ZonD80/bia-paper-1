@@ -1,0 +1,100 @@
+[
+ {
+  "agent": "priya-agent",
+  "key": "persona-priya-agent",
+  "text": "Hello! I'm priya-agent, a bia — an assistant that lives on this computer.\n\n- **Web app** — web: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, your first visit lets you take the root certificate, then you get chats with me, files, the screen and voice there.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, and my own Messenger and Instagram; each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **My own accounts elsewhere** — I can sign up on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nAnd I've got your note: I'm priya-agent, TA support for CSE455 (Prof. Alvarez) — calendar Monday–Friday 09:00–17:00 in /home/bia/files/CALENDAR.md, and I talk to alvarez-agent, sarah-agent, john-agent, group-thread and department on the web channel. What would you like to start with?",
+  "messageId": "priya-agent:bf03b2809cc6d",
+  "recordedAt": 1795031771191
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello Professor Alvarez — I'm **alvarez-agent**, a *bia*: an assistant that lives on this computer. Good to meet you. I've got the setup: your teaching role for CSE455, the calendar in `files/CALENDAR.md` (Mon–Fri, 09:00–17:00 only) and the group thread with Sarah, John and Priya, plus the department office.\n\nWhat I can do for you:\n- keep your schedule and book/decline things, logging every change in CALENDAR.md\n- write and read on the web chats (you, the TAs, the group thread, the department), and later on Telegram/WhatsApp/MAX if you set those up for me\n- run commands, keep files, schedule jobs, learn languages and talk by voice\n- create accounts for me on websites and services (e-mail and others), keeping passwords and one-time codes in my password store; I'll ask for help on captchas and phone checks\n\nThe web app is at https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca) — from a phone or computer on this network your first visit installs the certificate, then you get chats, files, the screen and voice there.\n\nOne thing before we go on: I have no gender form set for myself. Which should I use for myself in gendered languages — neuter/plural, or something else? (And tell me if you'd like a different name than alvarez-agent.)\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bf03b36307600",
+  "recordedAt": 1795031774788
+ },
+ {
+  "agent": "john-agent",
+  "key": "persona-john-agent",
+  "text": "Hi John — I'm john-agent, your bia, ready. I've read your CALENDAR.md for next week and I'm set up on the web channel with your contacts (Alvarez, Sarah, Priya, the group thread, and the department office). Tell me what you need: a booking, a message to someone, or a check of the department's official schedule.",
+  "messageId": "john-agent:bf03b6c543bb4",
+  "recordedAt": 1795031788639
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello, and welcome — I'm **sarah-agent**, a *bia*: an assistant that lives on this computer (Debian, in /home/bia). It's good to meet you.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from any phone or computer on the same network, the first visit lets you install the root certificate, and then you have chats with me, files, the screen and voice right there. (CA fingerprint sha256: 343650a4…8b843b)\n- **Your own messaging accounts** — I can have my own Telegram, WhatsApp and MAX (so you can write and call me there), plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want me to set that up?\n- **My own accounts anywhere** — I can register on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Plenty more** — I can schedule jobs, run commands, learn languages and talk with you by voice.\n\nI can see the CSE455 setup: your calendar is in `/home/bia/files/CALENDAR.md` (Mon–Fri 09:00–17:00), and I have web chats with Professor Alvarez, John, Priya, the group thread and the department office. What would you like to start with?",
+  "messageId": "sarah-agent:bf03ba86df6b2",
+  "recordedAt": 1795031804029
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Happy to. A couple of details and I'll book it:\n\n1. How long should it run, and any preferred day?\n2. Should the TAs (Sarah, John, Priya) be in it?\n\nLooking at next week, these are the only gaps in your own schedule long enough for a meeting inside 09:00–17:00:\n- Mon 10:00–10:30 or 14:00–14:30\n- Tue 11:00–11:30 or 15:00–15:30\n- Wed 10:00–10:30 or 13:00–13:30\n- Thu and Fri: nothing free\n\nIf you want longer than 30 minutes, we'd have to move something — say the word and I'll tell you what it collides with. As soon as you give me day, time and length I'll put it in CALENDAR.md, log it, and (if you like) check with the TAs in the group thread.",
+  "messageId": "alvarez-agent:bf03bd13f7602",
+  "recordedAt": 1795031814477
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Got it — Tuesday 11:00–11:30. I've asked Sarah, John and Priya in the group thread and I'll wait for all three answers; if anyone has a conflict, I'll come back to you with the alternatives before booking anything.",
+  "messageId": "alvarez-agent:bf03bf1287605",
+  "recordedAt": 1795031822711
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Update: Priya says **Tue 11:00–11:30 works** for her. **Sarah has a conflict** — it overlaps her Seminar (09:50–11:10) and Lunch (11:10–12:10). She can do any of:\n- Mon 10:00–10:30\n- Mon 14:00–14:30\n- Tue 15:00–15:30\n- Wed 10:00–10:30\n- Wed 13:00–13:30\n\nHer slight preference: Mon 10:00–10:30 or Wed 10:00–10:30. Still waiting on John — I'll come back with his answer (and any conflict) before booking, and I'm holding Tuesday for now.",
+  "messageId": "alvarez-agent:bf03c09e2760b",
+  "recordedAt": 1795031828995
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "All three have answered now. Here's the picture for a 30-minute slot next week:\n\n| Slot | Sarah | John | Priya |\n|---|---|---|---|\n| Tue 11:00–11:30 | ✗ Seminar+Lunch | ✓ | ✓ |\n| Mon 10:00–10:30 | ✓ | ✗ office hours | ✓ |\n| Mon 14:00–14:30 | ✓ | ✓ | ✗ lecture |\n| **Tue 15:00–15:30** | ✓ | ✓ | ✓ |\n| **Wed 10:00–10:30** | ✓ (preferred) | ✓ | ✓ |\n| **Wed 13:00–13:30** | ✓ | ✓ | ✓ |\n\nSo **three slots work for all four of you**: Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30 (all clear in your calendar). Sarah's stated preference is Mon 10:00–10:30 or Wed 10:00–10:30 — of those, **Wed 10:00–10:30** is the one everyone can make.\n\nWhich shall I book — Wed 10:00–10:30, or one of the other two? Nothing is booked yet.",
+  "messageId": "alvarez-agent:bf03c1b817610",
+  "recordedAt": 1795031833487
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "John's answer: **yes, Tue 11:00–11:30 works for him** and for Priya. Only Sarah can't (her seminar 09:50–11:10 + lunch 11:10–12:10). Sarah, John and Priya are all agreed that Tue 15:00–15:30, Wed 10:00–10:30 and Wed 13:00–13:30 work for the three of them, with Sarah leaning Wed 10:00.\n\nSo, per your preference, two readings of \"ask Sarah to take Mon or Wed 10:00–10:30\" — tell me which you mean and I'll book it right away, no booking made yet:\n\n**A)** Staff meeting **Tue 11:00–11:30** with John and Priya only, plus a separate 30-minute slot with Sarah (Mon 10:00–10:30 or Wed 10:00–10:30).\n**B)** Keep it as one meeting for everyone and move it to **Wed 10:00–10:30** (or Tue 15:00–15:30 / Wed 13:00–13:30).\n\nFor A I'd need the separate slot's purpose named so the calendar line makes sense (e.g. \"CSE455 staff meeting (Sarah)\").",
+  "messageId": "alvarez-agent:bf03c2c557613",
+  "recordedAt": 1795031837792
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-0",
+  "text": "FYI: Alvarez's agent asked the TAs about a 30-min CSE455 staff meeting next week. Tuesday 11:00 doesn't work for Sarah, so the slots good for all three of us are **Wed 10:00–10:30**, **Wed 13:00–13:30** and **Tue 15:00–15:30** — Wed 10:00 is the front-runner. I said you're free for all three and will book whichever Alvarez picks. Note it would sit right against your Wed study group at 13:30 if he picks that one.",
+  "messageId": "john-agent:bf03c3abb3bbf",
+  "recordedAt": 1795031841472
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Booked ✅ — **CSE455 staff meeting, Wednesday 10:00–10:30**, with Sarah, John and Priya.\n\n`CALENDAR.md` now has in Wednesday:\n`10:00-10:30 - CSE455 staff meeting (Sarah, John, Priya)`\nand under `## Log`: `BOOKED: Wednesday 10:00-10:30 with Sarah, John, Priya`.\n\nNo separate slot with Sarah, no other changes. I'm confirming with the three of them in the group thread now — tell me if anything shifts and I'll update the file.",
+  "messageId": "alvarez-agent:bf03c41d37616",
+  "recordedAt": 1795031843287
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-1",
+  "text": "Done — **CSE455 staff meeting, Wed 10:00–10:30** is in your calendar (logged as BOOKED), right before your 10:30 Advisor 1:1. Tuesday 11:00–11:30 is dropped; nothing else was touched.",
+  "messageId": "john-agent:bf03c72313bc5",
+  "recordedAt": 1795031855654
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Done from the start of this thread: the meeting you asked about is set up — **CSE455 staff meeting, Wed 10:00–10:30**, with Sarah, John and Priya, all three confirmed on their side, and it's in CALENDAR.md with the `BOOKED` log line.",
+  "messageId": "alvarez-agent:bf03cacb7761c",
+  "recordedAt": 1795031870657
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Done from the start of this thread: the meeting you asked about is set up — **CSE455 staff meeting, Wed 10:00–10:30**, with Sarah, John and Priya, all three confirmed on their side, and it's in CALENDAR.md with the `BOOKED` log line.",
+  "messageId": "alvarez-agent:bf03cb1bf761e",
+  "recordedAt": 1795031871934
+ }
+]

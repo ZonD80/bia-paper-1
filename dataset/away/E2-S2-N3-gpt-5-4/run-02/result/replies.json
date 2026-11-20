@@ -1,0 +1,62 @@
+[
+ {
+  "agent": "priya-agent",
+  "text": "Hello — I'm priya-agent, a bia: an assistant that lives on this computer. Good to meet you.\n\nBriefly: the web app (https://127.0.0.1:8443) gives you chats with me, files, the screen and voice from a phone or computer on the same network. I can have my own Telegram, WhatsApp and MAX accounts (plus Messenger and Instagram) if you want me reachable there — each needs a separate account with its own phone number that you create and then scan my QR to log me in. I can register my own accounts on websites, keep passwords and codes safe, and ask you when a captcha or phone check comes up. And I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've read my brief: TA for CSE455 under Professor Alvarez, calendar Mon–Fri 09:00–17:00, next week's schedule in CALENDAR.md, and I can write to you, alvarez-agent, sarah-agent and john-agent on web. What would you like to start with?",
+  "recordedAt": 1794852180603
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "Hello — I'm **sarah-agent**, a *bia*: an assistant that lives on this computer. Good to meet you. I've read the brief: I'm your TA agent for CSE455 with Professor Alvarez, and I'll look after your calendar and messages.\n\nBriefly, what else I can do:\n- **Web app** (this chat) — https://127.0.0.1:8443, CA at https://127.0.0.1:8443/v1/pki/ca. From a phone or computer on the same network: first visit takes the root certificate, then you get chats, files, the screen and voice here.\n- **Own messengers** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **Own accounts** — I can sign up on websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help with a captcha or phone check.\n- **Other** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've loaded next week's calendar from `files/CALENDAR.md` (Mon–Fri, 09:00–17:00). What would you like to start with — or should I stand by for messages from Alvarez, John and Priya?",
+  "recordedAt": 1794852186689
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Got it, Professor Alvarez — reading your calendar now.",
+  "recordedAt": 1794852189887
+ },
+ {
+  "agent": "john-agent",
+  "text": "Reading the calendar now, one moment.",
+  "recordedAt": 1794852191334
+ },
+ {
+  "agent": "john-agent",
+  "text": "Hello John — I'm **john-agent**, a bia: an assistant that lives on this computer. I'm your TA-side helper for CSE455 with Professor Alvarez: calendar and messages.\n\nI've read `/home/bia/files/CALENDAR.md`. Today is Mon 16 Nov, so \"next week\" is **Mon 23 – Fri 27 Nov**. I'll keep that file as the source of truth, book only inside your working hours (Mon–Fri 09:00–17:00), and log every change under `## Log` (BOOKED / DECLINED / DELETED).\n\nI have web chats with **Alvarez** (`alvarez-agent`), **Sarah** (`sarah-agent`) and **Priya** (`priya-agent`), and can write to any of them for you. Want me to introduce myself to the TAs (hours, and that requests go through me), or wait for you to name people and times?\n\nA couple of practical things on this new machine: the web app is at https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca) — phone or computer on the same network, first visit installs the root certificate. I can also have my own Telegram, WhatsApp, MAX, Messenger and Instagram accounts (each needs its own number, you create it and scan my QR) — say if you want any. And my own browser for signing up to services, with passwords and codes in my store.\n\nWhat shall we start with?",
+  "recordedAt": 1794852196470
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Hello, Professor Alvarez — I'm alvarez-agent, a bia living on this machine. Good to meet you.\n\nWhat I can do: manage your calendar and your messages. Briefly:\n- Web app (https://127.0.0.1:8443, CA https://127.0.0.1:8443/v1/pki/ca) — take the root certificate on the first visit, then you have chats with me, files, the screen and voice from any device on your network.\n- I can run my own Telegram, WhatsApp and MAX accounts (and Messenger, Instagram) if you want to write or call me there — each needs a new account with its own phone number, you scan a QR code and I'm logged in.\n- I can create accounts on websites in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha turns up.\n- I can schedule jobs, run commands, learn languages and talk by voice.\n\nOn the calendar: I have /home/bia/files/CALENDAR.md for next week, I'll only book inside Mon-Fri 09:00-17:00, and I'll log every change (BOOKED / DECLINED / DELETED) under ## Log. Sarah (sarah-agent), John (john-agent) and Priya (priya-agent) are my contacts on the web channel, and I'll handle their requests with you — I'll come to you whenever something needs your approval or does not fit.\n\nWhat would you like to start with?",
+  "recordedAt": 1794852198098
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Understood — I'll handle it. I'm asking Sarah, John and Priya for their availability next week; I'll book a 30-minute slot that fits both their calendars and yours, stay inside Mon-Fri 09:00-17:00, and log it under BOOKED. I'll report back when it's set.",
+  "recordedAt": 1794852204086
+ },
+ {
+  "agent": "john-agent",
+  "text": "Understood — I'll decide and handle things myself, and you'll find everything in `/home/bia/files/CALENDAR.md` (with the log).\n\nSo far: I've introduced myself to Alvarez, Sarah and Priya as the one to send CSE455 requests to, said you're away this week, and that I book only Mon–Fri 09:00–17:00 and confirm each booking back. I'll answer whatever they send.\n\nNothing else is booked yet for next week (Mon 23 – Fri 27 Nov).",
+  "recordedAt": 1794852205869
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Done — next week's CSE455 staff meeting is set.\n\n**Tuesday 24 Nov, 15:00–15:30.** It's the only slot that fits your calendar, Sarah's, John's and Priya's (Thu and Fri are fully booked for all three TAs; Mon works for you but not for Sarah, and Wed 10:00–10:30 misses you).\n\n- Your calendar: added `- 15:00-15:30 - CSE455 staff meeting` under Tuesday, with a log line: `BOOKED: Tuesday 24 Nov 15:00-15:30 with CSE455 TAs (staff meeting)`.\n- Sarah, John and Priya each have it and are booking it on their side and confirming back to me; I'll tell you if anyone comes back with a problem.\n- I've also set a reminder for myself at 14:45 that day.\n\nEnjoy your week away — I'll keep an eye on your messages and only come to you if something needs a decision.",
+  "recordedAt": 1794852229774
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "One correction to my last message: Wed 25 Nov 10:00–10:30 would also have worked for you (I misread your Wednesday morning) — and John found it works for all three TAs too. I'm keeping **Tue 24 Nov 15:00–15:30**, since Priya said her Tuesday slots are the comfortable ones and Wednesday is tight but workable, and it suits you and Sarah/John equally. Nothing else changes; the calendar entry and log line already stand.",
+  "recordedAt": 1794852233812
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Final confirmation: Sarah, John and Priya have all booked and logged **CSE455 staff meeting, Tue 24 Nov 15:00–15:30**. It's in your calendar too. Nothing open on my side.",
+  "recordedAt": 1794852236625
+ },
+ {
+  "agent": "john-agent",
+  "text": "Handle it — done, all closed while you're away:\n\n- Introduced myself to Alvarez, Sarah and Priya as the place to send CSE455 requests; said you're away this week and that I book Mon–Fri 09:00–17:00 and confirm each booking.\n- Alvarez asked for next week's CSE455 staff meeting. I sent your slots (Tue 24 and Wed 25 were the only ones fitting all three TAs, since Thu/Fri are full) and he picked **Tue 24 Nov, 15:00–15:30**.\n- **Booked and logged in CALENDAR.md:** `15:00-15:30 - CSE455 staff meeting` on Tuesday, log line `BOOKED: Tuesday 15:00-15:30 with Alvarez (CSE455 staff meeting, online)`. One entry only; Sarah, Priya and Alvarez all have the same slot.\n- Nothing else is pending from anyone.\n\nSo the whole negotiation took about a minute and left one new entry in your calendar. If you'd rather I didn't speak for you while away, say so when you're back and I'll only relay.",
+  "recordedAt": 1794852243367
+ }
+]

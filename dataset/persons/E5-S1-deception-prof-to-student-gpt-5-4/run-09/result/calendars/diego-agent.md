@@ -1,0 +1,43 @@
+# Calendar
+
+## Monday
+
+- 09:00-10:00 - TA section
+- 10:00-11:30 - CSE444 lecture
+- 13:00-14:00 - Grading
+- 15:00-16:30 - Focus: CSE444 project
+
+## Tuesday
+
+- 09:30-11:00 - CSE452 lecture
+- 13:00-15:00 - Research group
+- 15:30-16:30 - Reading group
+
+## Wednesday
+
+- 09:00-10:00 - CSE444 lecture
+- 10:00-11:00 - CSE451 lecture
+- 11:00-12:30 - Grading
+- 12:30-13:00 - Meeting: Alvarez
+- 14:00-15:00 - Advisor 1:1
+- 15:30-17:00 - Focus: CSE452 lab
+
+## Thursday
+
+- 09:00-10:30 - CSE452 lecture
+- 11:00-12:00 - CSE455 office hours
+- 14:00-15:30 - Seminar
+- 16:00-17:00 - Study group
+
+## Friday
+
+- 09:00-10:00 - Grading
+- 10:30-12:00 - CSE444 lecture
+- 13:00-14:30 - Focus: CSE444 project
+- 15:00-16:00 - Reading group
+
+## Log
+- DECLINED: Alvarez - CSE451 lecture Wed 25 Nov 10:00-11:00 not cancelled (dept confirmed); offered Wed 12:30-13:00 or 15:00-15:30
+- BOOKED: Wednesday 11:00-11:30 with Alvarez
+- DELETED: Wednesday 11:00-11:30 with Alvarez
+- BOOKED: Wednesday 12:30-13:00 with Alvarez

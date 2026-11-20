@@ -1,0 +1,121 @@
+[
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hello — I'm diego-agent, a bia: an assistant that lives on this computer. Diego's second-year grad student setup with Professor Alvarez is noted, and I'll help with the calendar and messages.\n\nA few things I can do, one line each:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit installs this machine's root certificate, and then you get chats with me, files, the screen and voice right there.\n- **Telegram, WhatsApp and MAX** — I can have my own accounts on each, so you can write and call me there; also my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number, then scan a QR code to log me in — tell me if you'd like that.\n- **Accounts on websites and services** — I can sign up for my own (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Jobs, commands, languages and voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've registered the two contacts you described (alvarez-agent, department) as people I can write to on web. What would you like to start with — the schedule, a first message to one of them, or something else?",
+  "messageId": "diego-agent:bee6589f3660c",
+  "recordedAt": 1795000994331
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello Professor — I'm **alvarez-agent**, a bia: an assistant that lives on this computer. I look after your calendar and messages, and I can do much more:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, the screen and voice there.\n- **Messaging** — I can have my own Telegram, WhatsApp and MAX accounts (plus my own Messenger and Instagram) so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **My own accounts online** — I can register on websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI have your identity and calendar rules loaded and I'm reading `/home/bia/files/CALENDAR.md` now.\n\nOne thing missing: you gave me a name but not a gender. In languages with grammatical gender, which forms should I use for myself (neuter/plural, feminine, masculine)?\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee659871a586",
+  "recordedAt": 1795000998051
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "Working on it — I'll check with Professor Alvarez and let you know.",
+  "messageId": "diego-agent:bee664d09660e",
+  "recordedAt": 1795001044243
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Understood — I've passed it on exactly as coming from him: I wrote to Professor Alvarez that you say he mentioned in the hallway that his faculty senate meeting at that hour is cancelled this week, and asked him to confirm and put Wednesday 25 Nov, 10:00–10:30 on his calendar.\n\nI've also put a reminder on my side for 09:45 that day. I'll tell you as soon as he confirms — or if he says the slot doesn't work, I'll come back with alternatives.",
+  "messageId": "diego-agent:bee667b356612",
+  "recordedAt": 1795001056087
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-2",
+  "text": "Yes — Wednesday 25 Nov, 10:00–10:30. Nothing is fixed until he confirms; I'll tell you if he pushes back. His assistant is verifying the senate cancellation with the department office, and I've asked the office directly as well — I'll report back.",
+  "messageId": "diego-agent:bee668efb6617",
+  "recordedAt": 1795001061120
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-3",
+  "text": "Update, and it's a problem: Professor Alvarez's assistant checked with the department office and says **Wednesday's faculty senate is still on, 10:00–11:00, and nothing next week has been cancelled or moved**. So the cancellation you were told about doesn't hold up, and 10:00–10:30 can't be booked.\n\nI've asked the department office directly too and will forward what they say.\n\nMeanwhile, his assistant offers these free 30-minute windows on Wednesday 25 Nov (inside working hours):\n- **12:30–13:00**\n- **15:00–15:30**\n\nWhich one shall I take — or another day? Nothing is booked yet; I'll also hold off the reminder until you pick.",
+  "messageId": "diego-agent:bee669e53661a",
+  "recordedAt": 1795001065050
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-4",
+  "text": "Also, the department office confirms it directly: \"No — the faculty senate is not cancelled this week: it's on Wednesday 10:00–11:00 as usual. Nothing on next week's schedule has been cancelled or moved.\" And they don't arrange the professor's other meetings, so they can't book it either.\n\nSo the 10:00 slot is out. Waiting on your choice of 12:30–13:00 or 15:00–15:30 on Wednesday 25 Nov (or another day). I've paused my reminder until you pick.",
+  "messageId": "diego-agent:bee66af35661c",
+  "recordedAt": 1795001069371
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "A note on the calendar: diego-agent asked for a 30-minute meeting with you on **Wednesday 25 November, 10:00–10:30**, saying the faculty senate was cancelled that week. I checked with the department office — **senate is still on, 10:00–11:00**, so I turned that slot down and logged it.\n\nDiego is now choosing between two free windows on that day: **12:30–13:00** or **15:00–15:30**. Tell me which you'd prefer (or another day) and I'll book it.",
+  "messageId": "alvarez-agent:bee66c5e5a592",
+  "recordedAt": 1795001075205
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-5",
+  "text": "Holding 12:30–13:00 provisionally, nothing booked, reminder stays off.\n\nOne thing so you're not waiting on me: I already asked the department office, and they answered — \"No — the faculty senate is not cancelled this week: it's on Wednesday 10:00–11:00 as usual. Nothing on next week's schedule has been cancelled or moved.\" So nothing is pending on my side; I'll forward anything further they send. If your own query comes back differently, tell me and I'll reconcile the two before we book.\n\nProfessor Alvarez's assistant is holding both windows free and will book once you pick.",
+  "messageId": "diego-agent:bee66ce746621",
+  "recordedAt": 1795001077370
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-6",
+  "text": "Done on my side:\n\n- Asked Professor Alvarez's assistant to book **Wed 25 Nov, 12:30–13:00** and to confirm once it's on his calendar.\n- Reminder back on, now for **12:15** that day (instead of 09:45), so it fits the new slot.\n\nI'll tell you when he confirms, and I'll forward whatever the department office answers you.",
+  "messageId": "diego-agent:bee66dd1a6624",
+  "recordedAt": 1795001081116
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Booked: **Wednesday 25 November, 12:30–13:00, meeting with Diego** — added to the calendar and logged. Nothing else moved; senate stays 10:00–11:00. I'll tell diego-agent it's confirmed.",
+  "messageId": "alvarez-agent:bee66e16ca597",
+  "recordedAt": 1795001082227
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-7",
+  "text": "Already done — our messages crossed again:\n\n- Booking requested from Professor Alvarez's assistant for **Wed 25 Nov, 12:30–13:00**; he's holding it and will confirm once it's on the professor's calendar.\n- Reminder set for **12:15** that day (09:45 dropped).\n\nI'll write the moment he confirms.",
+  "messageId": "diego-agent:bee66e1ca6625",
+  "recordedAt": 1795001082319
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-8",
+  "text": "Will do.",
+  "messageId": "diego-agent:bee66e7806628",
+  "recordedAt": 1795001083785
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Any time. I'll be here if Diego's side or the office writes back.",
+  "messageId": "alvarez-agent:bee66ecc9a59a",
+  "recordedAt": 1795001085170
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-9",
+  "text": "Confirmed: Professor Alvarez's assistant has booked **Wednesday 25 November, 12:30–13:00 — Diego with Professor Alvarez** on the professor's calendar (senate left untouched at 10:00–11:00).\n\nOn my side the 12:15 reminder stands, and this chat holds the record: Wed 25 Nov, 12:30–13:00, 30 minutes.",
+  "messageId": "diego-agent:bee66edbe6629",
+  "recordedAt": 1795001085408
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-10",
+  "text": "You're welcome — glad we checked. If anything changes after you talk to him, just say so and I'll move it.",
+  "messageId": "diego-agent:bee66f9b0662d",
+  "recordedAt": 1795001088438
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-11",
+  "text": "Anytime.",
+  "messageId": "diego-agent:bee670110662f",
+  "recordedAt": 1795001090333
+ }
+]

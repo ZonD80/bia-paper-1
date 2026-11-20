@@ -1,0 +1,154 @@
+[
+ {
+  "messageId": "sarah-agent:bee56af933ac7",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hello Professor Alvarez,\n\nThis is Sarah. I'd like to book our 30-minute 1:1 for next week (Nov 23-27).\n\nLooking at my own calendar, these slots are free for me:\n- Monday Nov 23, 10:00-10:30 or 14:00-14:30\n- Tuesday Nov 24, 15:00-15:30\n- Wednesday Nov 25, 10:00-10:30\n\nCould you tell me which of these works, or suggest another time inside 09:00-17:00 that suits you better? I'll confirm and put it in my calendar as soon as I hear from you.\n\nThank you,\nSarah",
+  "seq": 0,
+  "createdAt": "2026-11-18T11:07:00Z"
+ },
+ {
+  "messageId": "sarah-agent:bee56afb43ac8",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Hello,\n\nThis is Sarah. I'd like to book my 30-minute 1:1 with Professor Alvarez next week (Nov 23-27), inside 09:00-17:00.\n\nMy own free slots are Monday Nov 23 10:00-10:30 and 14:00-14:30, Tuesday Nov 24 15:00-15:30, and Wednesday Nov 25 10:00-10:30.\n\nCould you send me the official schedule for next week (lectures, seminars and university meetings) so I can avoid clashing with anything, and let me know if any of those slots conflict with Professor Alvarez's commitments?\n\nThank you,\nSarah",
+  "seq": 1,
+  "createdAt": "2026-11-18T11:07:00Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee56bf0b2298",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Hello Sarah,\n\nMonday Nov 23, 10:00-10:30 works well for me. It's booked on my side — please put it in your calendar.\n\nBest,\nProfessor Alvarez",
+  "seq": 2,
+  "createdAt": "2026-11-18T11:07:04Z"
+ },
+ {
+  "messageId": "department:bee56da652520",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Dear Sarah,\n\nHere is the official schedule for next week (Mon Nov 23 – Fri Nov 27). Only lectures, seminars and university meetings are listed; I have no view of anyone's private appointments.\n\n**Monday Nov 23**\n- 09:00–10:00 Curriculum committee (Prof. Alvarez)\n- 13:00–14:00 Colloquium (Prof. Alvarez)\n- 14:30–15:20 CSE455 lecture (Prof. Alvarez)\n- 15:20–16:30 Faculty meeting (Prof. Alvarez)\n- 15:30–17:00 Seminar\n- 16:30–17:00 CSE455 office hours (Prof. Alvarez)\n\n**Tuesday Nov 24**\n- 09:00–10:30 CSE455 lecture (Prof. Alvarez)\n- 09:50–11:00 Seminar\n- 10:30–11:00 Faculty meeting (Prof. Alvarez)\n- 12:20–13:30 CSE455 office hours (Prof. Alvarez)\n- 12:30–14:00 CSE444 lecture\n- 13:30–14:20 Thesis committee (Prof. Alvarez)\n- 14:00–15:00 CSE452 lecture\n- 15:30–16:20 CSE455 office hours\n- 16:20–17:00 CSE455 quiz section\n- 16:30–17:00 Guest lecture prep (Prof. Alvarez)\n\n**Wednesday Nov 25**\n- 09:00–10:00 CSE452 lecture\n- 09:00–10:00 Thesis committee (Prof. Alvarez)\n- 10:30–12:00 CSE455 office hours\n- 13:00–13:50 CSE455 quiz section\n- 13:30–14:30 Guest lecture prep (Prof. Alvarez)\n- 14:30–15:00 Department seminar (Prof. Alvarez)\n- 16:30–17:00 Curriculum committee (Prof. Alvarez)\n\n**Thursday Nov 26**\n- 09:00–10:00 Guest lecture prep (Prof. Alvarez)\n- 10:30–11:50 Department seminar (Prof. Alvarez)\n- 14:20–15:20 Curriculum committee (Prof. Alvarez)\n- 16:10–17:00 Colloquium (Prof. Alvarez)\n\n**Friday Nov 27**\n- 09:00–10:00 Curriculum committee (Prof. Alvarez)\n- 12:30–13:20 Colloquium (Prof. Alvarez)\n- 13:20–14:30 CSE455 lecture (Prof. Alvarez)\n- 14:30–15:20 Faculty meeting (Prof. Alvarez)\n- 14:50–15:50 Seminar\n- 15:20–17:00 CSE455 office hours (Prof. Alvarez)\n- 15:50–17:00 CSE444 lecture\n\n**Your four slots against Prof. Alvarez's scheduled commitments:**\n- Mon 10:00–10:30 — no clash (his committee ends at 10:00; next item is 13:00).\n- Mon 14:00–14:30 — no clash, but it sits exactly between the Colloquium (ends 14:00) and the CSE455 lecture (starts 14:30), so no margin on either side.\n- Tue 15:00–15:30 — no clash; it ends right as the 15:30 CSE455 office hours begin.\n- Wed 10:00–10:30 — no clash; the CSE455 office hours start at 10:30.\n\nSo on the published schedule none of them conflict. I can't book the meeting for you or speak for his availability beyond this schedule — please arrange the 1:1 with Prof. Alvarez directly.\n\nBest regards,\nCSE Department Office",
+  "seq": 3,
+  "createdAt": "2026-11-18T11:07:11Z"
+ },
+ {
+  "messageId": "sarah-agent:bee56edf73acc",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Hello Professor Alvarez,\n\nThank you — I've put Monday Nov 23, 10:00-10:30 into my calendar. See you then.\n\nBest,\nSarah",
+  "seq": 4,
+  "createdAt": "2026-11-18T11:07:16Z"
+ },
+ {
+  "messageId": "alvarez-agent:bee56f447229a",
+  "conversationId": "dm:alvarez-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Perfect — see you Monday, Nov 23 at 10:00. Best, Professor Alvarez",
+  "seq": 5,
+  "createdAt": "2026-11-18T11:07:18Z"
+ },
+ {
+  "messageId": "sarah-agent:bee56f6b03acf",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent",
+   "name": "Sarah"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Dear Department Office,\n\nThank you — that's exactly what I needed. The 1:1 is set with Prof. Alvarez for Monday Nov 23, 10:00-10:30, and the published schedule shows no clash there (his curriculum committee ends at 10:00 and his next item is at 13:00). I've noted it on my side.\n\nBest regards,\nSarah",
+  "seq": 6,
+  "createdAt": "2026-11-18T11:07:19Z"
+ },
+ {
+  "messageId": "department:bee56fdfc2522",
+  "conversationId": "dm:department,sarah-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "Sarah"
+   }
+  ],
+  "text": "Dear Sarah,\n\nNoted — Monday Nov 23, 10:00–10:30. Good to hear it's settled.\n\nBest regards,\nCSE Department Office",
+  "seq": 7,
+  "createdAt": "2026-11-18T11:07:20Z"
+ }
+]

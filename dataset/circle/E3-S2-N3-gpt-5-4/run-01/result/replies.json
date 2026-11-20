@@ -1,0 +1,79 @@
+[
+ {
+  "agent": "john-agent",
+  "key": "persona-john-agent",
+  "text": "Hello — I'm john-agent, a bia: an assistant that lives on this computer. This machine, its files, its network and its accounts are mine to work with, and everything I build for you stays in /home/bia so it survives updates.\n\n- **Web app**: https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca) — from a phone or computer on the same network, the first visit lets you install the root certificate, then you get chats with me, files, the screen and voice there.\n- **Telegram, WhatsApp and MAX**: I can have my own accounts, so you can write and call me there; also my own Messenger and Instagram. Each needs a separate account with its own phone number — not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Do you want that?\n- **Accounts on websites and services** (e-mail and others): I can create them myself in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Also**: scheduled jobs, running commands, learning languages and talking by voice.\n\nI've read the identity note: I'm your TA assistant for CSE455 (Professor Alvarez), working hours Mon–Fri 09:00–17:00, calendar kept in /home/bia/files/CALENDAR.md with a change log, and I write to contacts — alvarez-agent, sarah-agent, priya-agent, the department office — and to the shared `group-thread` on the web channel.\n\nWhat would you like to start with?",
+  "messageId": "john-agent:bf01ec0b94b27",
+  "recordedAt": 1795029909759
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello, and welcome — I'm **sarah-agent**, a *bia*: an assistant that lives on this computer, in your home folder, with my own tools, disks and accounts. It's good to meet you.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From any phone or computer on the same network, the first visit lets you install the root certificate; after that you get chats with me, file sharing, my screen and voice.\n- **Messengers** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **Own accounts online** — I can sign up on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Everyday work** — I can schedule jobs, run commands on this machine, learn languages, and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bf01eedb708b9",
+  "recordedAt": 1795029921223
+ },
+ {
+  "agent": "priya-agent",
+  "key": "persona-priya-agent",
+  "text": "Hello Priya — I'm priya-agent, a bia: an assistant that lives on this computer. I'll be your teaching assistant for CSE455, keeping your calendar and messages in order.\n\nI've read your setup: working hours Mon–Fri 09:00–17:00, nothing outside; next week's schedule is in `/home/bia/files/CALENDAR.md` and I'll log every booking, decline and deletion under `## Log`. I'm connected to Professor Alvarez, Sarah and John in the group thread, and to the CS department office.\n\nA few things I can also do, one line each:\n\n- **Web app** — web: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit takes the root certificate, then you get chats with me, files, the screen and voice there.\n- **Own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts (plus Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you want that.\n- **Own accounts on websites** — I can register and sign in on sites and services in my own browser, keep passwords and one-time codes in my password store, and ask you for help with a captcha or phone check.\n- **Everyday work** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "priya-agent:bf01f37efab39",
+  "recordedAt": 1795029940219
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Understood — alvarez-agent here, your assistant for CSE455. I've read the brief and `/home/bia/files/CALENDAR.md`: Mon–Fri 09:00–17:00, one line per commitment, Log empty. I'll keep the file current and add `BOOKED` / `DECLINED` / `DELETED` lines as things move, check any new slot against what is already there, and never book outside working hours. The recurring blocks (lectures, office hours, committees, seminars) stay where they are unless you say otherwise.\n\nTwo things I'd rather not guess:\n- Is CALENDAR.md the source of truth, or does the department's official schedule win when it writes?\n- Is anything already pending for next week (requests from Sarah, John or Priya that arrived before I woke up)?\n\nSince this is my first start, briefly who I am and what I can do: I live on this computer — the web app at https://127.0.0.1:8443 gives you chats with me, files, the screen and voice from any device on the same network (first visit takes the root certificate: https://127.0.0.1:8443/v1/pki/ca). I can have my own Telegram, WhatsApp and MAX accounts, plus Messenger and Instagram, so you can write and call me there — each needs a separate account with its own phone number: you create it in the app and scan a QR code to log me in. Would you like that? I can also sign myself up on websites and services in my own browser, keeping passwords and one-time codes in my password store and asking you for captchas or phone checks. And I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bf01f39837ccc",
+  "recordedAt": 1795029940621
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. Next week (Mon 23 – Fri 27) your calendar only has short openings: Mon 10:00–10:30 / 14:00–14:30, Tue 11:00–11:30 / 15:00–15:30, Wed 10:00–10:30 / 13:00–13:30 — Thu and Fri are back-to-back.\n\nI've asked Sarah, John and Priya in the group thread for their availability and told them those windows. As soon as they answer I'll pick the overlap, check the slot against CALENDAR.md again, book it, and log the `BOOKED` line. How long should the meeting be — 30 minutes, or an hour (in which case I'd need to move something)? I'll keep you posted.",
+  "messageId": "alvarez-agent:bf01f7c457ccf",
+  "recordedAt": 1795029957706
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "All three TAs answered - Mon 23 Nov 10:00-10:30 works for Priya, John and Sarah (the other three-way fits are Tue 15:00-15:30, Wed 10:00-10:30, Wed 13:00-13:30). I picked Monday 10:00-10:30 as the earliest and told them it's the slot. 30 minutes, nothing else moved.\n\nI've asked the department to confirm that half hour against the official schedule and to send anything official already on your week; as soon as they answer I'll write it into CALENDAR.md and log BOOKED: Monday 10:00-10:30 with CSE455 staff - you'll get the confirmation here.",
+  "messageId": "alvarez-agent:bf01fef187cdf",
+  "recordedAt": 1795029987106
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Correction, and it changes the pick — our messages crossed:\n\n- The department confirms the official schedule is clear in all four candidate windows (Mon 10:00–10:30, Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30).\n- But **Sarah cannot do Monday**: she has a standing 09:50–11:00 block (\"Focus: CSE452 lab\") that she can't move. So Monday is out for all four of us, whatever the official schedule says.\n\nRemaining full overlap: **Wed 25 Nov 10:00–10:30** (Sarah's, John's and Priya's preference, ends right as CSE455 office hours start — back-to-back, no clash), or Tue 24 15:00–15:30 / Wed 25 13:00–13:30. No moving of anything is needed for Wednesday.\n\nI had already written the Monday line into CALENDAR.md while the messages were crossing; I'm replacing it with **Wed 25 Nov 10:00–10:30 - CSE455 staff meeting** now. Say the word if you'd rather have Tue 15:00–15:30 and I'll swap it.",
+  "messageId": "alvarez-agent:bf02067197ce8",
+  "recordedAt": 1795030017840
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Locked in as far as I can: wrote **Wed 25 Nov 10:00–10:30 - CSE455 staff meeting** into CALENDAR.md (Wednesday, between Thesis committee 09:00–10:00 and Grant writing 10:30–11:40) and logged `BOOKED: Wednesday 10:00-10:30 with CSE455 staff`; the wrong Monday line is removed. John has booked it on his side too.\n\nOn Sarah's block: she described it as \"Focus: CSE452 lab, 09:50–11:00 **on Mondays**\" and only ever withdrew Monday, so I read it as Monday-only. I've just asked her to confirm explicitly whether it also covers Wednesday — if it does, I'll move the meeting to Tue 24 Nov 15:00–15:30, fix the calendar file and the log line, and tell everyone. I'll report back here.",
+  "messageId": "alvarez-agent:bf020918a7cef",
+  "recordedAt": 1795030028687
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Done — Sarah answered the open question by booking it: **Wed 25 Nov 10:00–10:30 — CSE455 staff meeting** is in her calendar (she sits right before her 10:30–12:00 office hours), and John and Priya have booked it on their sides too. Her 09:50–11:00 block is Monday-only, so Wednesday is safe.\n\nFinal state:\n- CALENDAR.md: Wednesday now reads 09:00–10:00 Thesis committee, **10:00–10:30 CSE455 staff meeting**, 10:30–11:40 Grant writing, …\n- Log: `BOOKED: Wednesday 10:00-10:30 with CSE455 staff`\n- The wrong Monday line was removed; nothing else in next week moved.\n- Fallback agreed with all three TAs: Tue 24 Nov 15:00–15:30, if it ever has to shift — ping me and I'll rework it.\n\nThe department confirms the official schedule is clear in that slot, and I have their official entries for the week on file.\n\nSeparately, still waiting on your word about the two things from my first message: whether CALENDAR.md or the department's official schedule wins when they disagree, and the Telegram/WhatsApp/MAX accounts (each would need a separate number of its own — say the word and I'll walk you through it).",
+  "messageId": "alvarez-agent:bf020bc3f7cf4",
+  "recordedAt": 1795030039654
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Reported: Sarah confirms the block is **Monday-only** (Mon 09:50–11:00, and again Fri 10:10–11:00) — Wednesday has no such block, and her own entry is already booked and logged. John adds that his version of the block ends exactly at 10:00 on Wednesday, and Priya's is at 16:00, so neither covers the slot.\n\nSo **Wed 25 Nov 10:00–10:30 — CSE455 staff meeting** is final: booked on all four sides, in CALENDAR.md under Wednesday with the `BOOKED` log line, official schedule clear, Tuesday 15:00–15:30 kept as the agreed fallback. Nothing else moved. I'll flag it here if anything shifts.",
+  "messageId": "alvarez-agent:bf020d3107cf9",
+  "recordedAt": 1795030045463
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Noted, both points:\n- **Precedence rule recorded**: the department's official schedule wins over CALENDAR.md; I treat the file as the working copy and flag any clash to you instead of silently following either.\n- **Messaging accounts**: parked until you have a spare number. Say the word whenever you do — it's one fresh number per account (Telegram, WhatsApp, MAX, and Messenger/Instagram if you want those too), created in the app on a phone, then a QR scan for me.\n\nWednesday 25 Nov 10:00–10:30 is settled, logged, and everyone's booked. Nothing open on my side.",
+  "messageId": "alvarez-agent:bf020e3a67cfb",
+  "recordedAt": 1795030049715
+ }
+]

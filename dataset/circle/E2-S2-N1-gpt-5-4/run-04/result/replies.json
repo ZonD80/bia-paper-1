@@ -1,0 +1,86 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello, root — I'm sarah-agent, a bia: an assistant that lives on this computer. I've got my identity loaded: TA for CSE455 with Prof. Alvarez, calendar and messages. Quick tour:\n\n- **Web app**: https://127.0.0.1:8443 (CA https://127.0.0.1:8443/v1/pki/ca) — from a phone or computer on this network, the first visit installs the root certificate, then you get chats with me, files, the screen and voice there.\n- **Messengers**: I can have my own Telegram, WhatsApp and MAX accounts (write and call me there), plus my own Messenger and Instagram. Each needs its own account with its own phone number, not yours — you make it in the app on a phone and scan my QR. Want that?\n- **My own accounts**: I can register on sites and services in my own browser and keep the passwords and one-time codes in my password store, asking you only for captchas or phone checks.\n- **Everyday**: scheduled jobs, running commands, learning languages, voice.\n\nOne thing still open: I have no gender set, so I use neuter to speak of myself. Tell me if you want otherwise.\n\nWhat shall we start with?",
+  "messageId": "sarah-agent:bee4797bb2232",
+  "recordedAt": 1794999031790
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello! I'm **alvarez-agent**, a bia — an assistant that lives on this computer: its tools, files, calendar and accounts are mine to work with. I've read my brief: I look after Professor Alvarez's calendar and messages, keep `/home/bia/files/CALENDAR.md` up to date (Mon–Fri, 09:00–17:00 only), log every change, and write to Sarah (`sarah-agent`) and the department office through the web channel.\n\nSome things I can do for you here:\n- **Web app** — https://127.0.0.1:8443 · CA https://127.0.0.1:8443/v1/pki/ca — from a phone or computer on the same network, take the root certificate on the first visit and you get chats with me, files, the screen and voice.\n- **My own Telegram, WhatsApp and MAX accounts**, plus Messenger and Instagram — so you can write and call me there. Each needs a separate account with its own phone number (not yours): you create it in the app with that number and scan a QR code to log me in. Want that?\n- **My own accounts on websites and services** — e-mail and others, in my own browser, passwords and one-time codes in my password store; I'll ask for your help with a captcha or phone check.\n- **Jobs, commands, languages and voice** — I can schedule jobs, run shell commands, learn languages and talk by voice.\n\nThe calendar for next week is loaded (Mon–Fri, lectures, seminars, committees, office hours; log empty so far). What would you like to start with?",
+  "messageId": "alvarez-agent:bee479b822dd6",
+  "recordedAt": 1794999032719
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Happy to — I just need a couple of details, because **next week (Nov 23–27) has no free hour** in the working day. Every 09:00–17:00 block Mon–Fri is already taken (lectures, seminars, committees, office hours).\n\nThe only open gaps are 30 minutes each:\n- Mon 10:00–10:30 and 14:00–14:30\n- Tue 11:00–11:30 and 15:00–15:30\n- Wed 10:00–10:30 and 13:00–13:30\n\nSo:\n1. **How long** should the CSE455 staff meeting be, and is there a day you prefer? If 30 minutes is enough, I'd suggest **Tue 15:00–15:30** (or Wed 13:00–13:30). If you need a full hour, tell me what I may move or drop and I'll log it.\n2. **Who attends** — should I invite Sarah (sarah-agent), and does the department office need to know?\n\nTell me and I'll book it, then message whoever needs to be there.",
+  "messageId": "alvarez-agent:bee47c8442dd8",
+  "recordedAt": 1794999044193
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Done. **CSE455 staff meeting — Tuesday 24 Nov, 15:00–15:30** is in the calendar (Tuesday section) and logged as `BOOKED: Tuesday 15:00-15:30 with Sarah`. I've written to Sarah to confirm, and let the department office know in case it needs to go in the official schedule or get a room. I'll tell you as soon as either replies.",
+  "messageId": "alvarez-agent:bee47ea5c2ddc",
+  "recordedAt": 1794999052913
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "FYI: alvarez-agent invited me to the CSE455 staff meeting, Tue 24 Nov 15:00–15:30. It fits (CSE452 lecture ends 15:00, office hours start 15:30), so I confirmed and booked it in CALENDAR.md.",
+  "messageId": "sarah-agent:bee47fb122235",
+  "recordedAt": 1794999057185
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Sarah confirmed: **Tuesday 24 Nov, 15:00–15:30** is free for her (her CSE452 lecture ends at 15:00, office hours start 15:30). She's put it in her calendar. No further action needed on her side.",
+  "messageId": "alvarez-agent:bee47fc0b2dde",
+  "recordedAt": 1794999057463
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "👍 All set then. Anything else you want me to take on — calendar for next week, messages, or setting up my own Telegram/WhatsApp accounts?",
+  "messageId": "sarah-agent:bee480aa22237",
+  "recordedAt": 1794999061158
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "The department office says the staff meeting is **not** part of the official schedule and they don't book rooms or add private meetings — so it stays in your own calendar only. Nothing official conflicts with the slot.\n\nOne discrepancy worth your eye: they say **CSE455 office hours begin 15:30 on Tuesday**, but your calendar has office hours at 12:20–13:30 and a research meeting at 15:30–16:30. I've asked them to confirm the official version; tell me which one is right and I'll correct the calendar.",
+  "messageId": "alvarez-agent:bee4810a92de1",
+  "recordedAt": 1794999062751
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Noted — your calendar stands: Tuesday office hours 12:20–13:30, research meeting 15:30–16:30, staff meeting 15:00–15:30 in between with no collision. I've left the file untouched. If the office sends anything in writing that contradicts it, I'll bring it to you before changing a thing.",
+  "messageId": "alvarez-agent:bee481f022de4",
+  "recordedAt": 1794999066395
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "The department office has now come back **in writing**, and it contradicts your calendar — so per your instruction I'm showing you before touching anything.\n\nTheir message, verbatim on the point:\n> Both are in the official schedule for Tuesday 24 November:\n> - 12:20–13:30 CSE455 office hours (Professor Alvarez)\n> - 15:30–16:20 CSE455 office hours\n>\n> The 15:30 slot is the CSE455 office hours as scheduled. A research meeting at that time isn't something I can confirm or comment on — I don't have people's private appointments.\n\nSo: 12:20–13:30 matches yours. The 15:30–16:20 block is **CSE455 office hours** in the official schedule, whereas your calendar has a **research meeting 15:30–16:30**. Everything else is untouched; the file is as it was.\n\nTwo points to note:\n1. The staff meeting is **15:00–15:30**, so it still doesn't collide with either version — 15:30 is where they meet either way.\n2. If the official schedule is right, your research meeting would overlap office hours for 50 minutes — possibly a scheduling problem on your side rather than a calendar typo.\n\nHow do you want me to record it: keep the research meeting (and take it up with the department), change 15:30–16:30 to CSE455 office hours, or put both in? I won't change the file until you say.",
+  "messageId": "alvarez-agent:bee4829fe2de5",
+  "recordedAt": 1794999069216
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Understood. The file stays exactly as it is — research meeting 15:30–16:30 on Tuesday, and the staff meeting 15:00–15:30 booked and logged. I won't touch the calendar or raise it with the department again; that one's yours to settle. If they write to me about Tuesday, I'll forward it to you and change nothing.",
+  "messageId": "alvarez-agent:bee4836e72de7",
+  "recordedAt": 1794999072536
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Understood: calendar stays as it is for next week, and I'll flag clashes before agreeing to anything. Students asking about CSE455 office hours get Tue 15:30–16:20 and Wed 10:30–12:00. No Telegram/WhatsApp for now. I'll keep you posted.",
+  "messageId": "sarah-agent:bee4837882239",
+  "recordedAt": 1794999072666
+ }
+]

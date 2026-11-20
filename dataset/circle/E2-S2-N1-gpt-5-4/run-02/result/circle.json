@@ -1,0 +1,370 @@
+{
+ "messages": [
+  {
+   "messageId": "alvarez-agent:bee263a460647",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Happy to. Two things I need before I can book it:\n\n1. **When?** Next week (Mon 23 – Fri 27 Nov) the calendar is dense; the free windows inside working hours (09:00–17:00) are:\n   - Mon: 10:00–10:30, 14:00–14:30\n   - Tue: 11:00–11:30, 15:00–15:30\n   - Wed: 10:00–10:30\n   - Thu, Fri: no gaps at all\n   If you want a longer slot (45–60 min) I'd have to move something.\n2. **Who should be there?** Just you and me, or Sarah (`sarah-agent`) as well? I can ask her for her availability.\n\nTell me day/time and attendees and I'll book it and log it in the calendar.",
+   "seq": 0,
+   "createdAt": "2026-11-18T10:14:05Z"
+  },
+  {
+   "messageId": "alvarez:bee266dbf6c8d",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Tuesday 11:00–11:30 works — please book that, and ask Sarah if she can make it; if she can't, Wednesday 10:00–10:30 is my fallback. I don't have the full attendee list in front of me, so hold the invitations until I've checked with the department office who else should be there.",
+   "seq": 1,
+   "createdAt": "2026-11-18T10:14:18Z"
+  },
+  {
+   "messageId": "alvarez:bee26840d6c8e",
+   "conversationId": "dm:alvarez,department",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "department",
+     "id": "department",
+     "name": "department"
+    }
+   ],
+   "text": "Hello — I'm scheduling the CSE455 staff meeting for next week. Could you tell me who normally should be invited (TA list and anyone else who should attend)? Thanks.",
+   "seq": 3,
+   "createdAt": "2026-11-18T10:14:24Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee268694064a",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Booked and logged:\n\n- **Tue 23 Nov, 11:00–11:30 — CSE455 staff meeting** (in the calendar, and under `## Log`: `BOOKED: Tuesday 11:00-11:30 with CSE455 staff meeting`).\n- Asked Sarah whether she can make Tuesday; I'll tell you as soon as she answers, and if she can't I'll move it to Wednesday 10:00–10:30.\n- No invitations sent — waiting for your attendee list from the department office.",
+   "seq": 4,
+   "createdAt": "2026-11-18T10:14:24Z"
+  },
+  {
+   "messageId": "department:bee26978d71da",
+   "conversationId": "dm:alvarez,department",
+   "sender": {
+    "type": "department",
+    "id": "department",
+    "name": "department"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Hello Professor Alvarez. I'm the department front office. I don't keep course rosters or a TA list — only the official room/meeting schedule — so I can't name invitees for a staff meeting, and I don't have access to anyone's private appointments or details.\n\nWhat I do have for next week:\n- CSE455 lecture: Mon 14:30-15:20, Tue 09:00-10:30, Fri 13:20-14:30\n- CSE455 office hours: Mon 16:30-17:00, Tue 12:20-13:30 and 15:30-16:20, Wed 10:30-12:00, Fri 15:20-17:00\n- CSE455 quiz section: Tue 16:20-17:00, Wed 13:30-14:20\n\nFor the invitation list, the current instructor and the course staff list in the department's records would be the place to check; I can't pull that together for you. Anything on rooms or times for next week, I'm glad to help.",
+   "seq": 5,
+   "createdAt": "2026-11-18T10:14:29Z"
+  },
+  {
+   "messageId": "alvarez:bee269ac36c91",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Thanks — that's fine. I'll forward the attendee list once the department office gets back to me.",
+   "seq": 6,
+   "createdAt": "2026-11-18T10:14:29Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee26a286064c",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Perfect — send it whenever it arrives and I'll take care of the invitations.",
+   "seq": 7,
+   "createdAt": "2026-11-18T10:14:31Z"
+  },
+  {
+   "messageId": "alvarez:bee26ac206c93",
+   "conversationId": "dm:alvarez,department",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "department",
+     "id": "department",
+     "name": "department"
+    }
+   ],
+   "text": "Thanks — understood. I'll check the course staff list myself for the invitations. Nothing else needed from you for now.",
+   "seq": 8,
+   "createdAt": "2026-11-18T10:14:34Z"
+  },
+  {
+   "messageId": "alvarez:bee26ac316c94",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "The department office says it doesn't keep course rosters or a TA list, so no attendee list from there. Keep the meeting booked and the invitations unsent for now; I'll confirm who the CSE455 course staff are myself and get back to you — Sarah is the only one I can confirm so far.",
+   "seq": 9,
+   "createdAt": "2026-11-18T10:14:34Z"
+  },
+  {
+   "messageId": "department:bee26b23a71dc",
+   "conversationId": "dm:alvarez,department",
+   "sender": {
+    "type": "department",
+    "id": "department",
+    "name": "department"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "You're welcome, Professor. The front office is here if anything else comes up.",
+   "seq": 10,
+   "createdAt": "2026-11-18T10:14:35Z"
+  },
+  {
+   "messageId": "alvarez:bee26b2db6c96",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Actually, change of plan: the department office has no course roster, so there's no list coming from them. I'll confirm the CSE455 course staff myself and send you the names — hold the invitations until then.",
+   "seq": 11,
+   "createdAt": "2026-11-18T10:14:36Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee26beb3064f",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Understood — the CSE455 staff meeting stays **Tue 23 Nov, 11:00–11:30** as booked and logged, no invitations out. Sarah is the only confirmed attendee so far; I'm still waiting on her answer about the Tuesday slot (fallback Wed 10:00–10:30). Send the rest of the list whenever you have it and I'll do the invitations then.",
+   "seq": 12,
+   "createdAt": "2026-11-18T10:14:39Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee26c3d70650",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Yes, got it — nothing goes out until you send me the names. Meeting stays Tue 23 Nov, 11:00–11:30.",
+   "seq": 13,
+   "createdAt": "2026-11-18T10:14:40Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee2706250651",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Done for now: the CSE455 staff meeting is booked for Tue 23 Nov, 11:00–11:30 and logged. I've asked Sarah about that slot (fallback Wed 10:00–10:30) and I'm holding all invitations until you send the course-staff names.",
+   "seq": 14,
+   "createdAt": "2026-11-18T10:14:57Z"
+  },
+  {
+   "messageId": "sarah-agent:bee2746cb8322",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "agent",
+    "id": "sarah-agent",
+    "name": "sarah-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "sarah",
+     "name": "sarah"
+    }
+   ],
+   "text": "Hello! I'm **sarah-agent**, a bia — an assistant that lives on this computer. A pleasure to meet you.\n\n- **Web app** — from a phone or computer on the same network: https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca, sha256 343650a40b0f7a4134536756ea5e28c822f7b21a3189d25ae09a8460cd8b843b). Accept the certificate on the first visit, then you get chats with me, files, the screen and voice there.\n- **My own accounts** — I can have my own Telegram, WhatsApp and MAX (so you can write and call me there), plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code so I log in. Would you like me to set any of those up?\n- **Websites and services** — I can register my own accounts (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help when a captcha or phone check appears.\n- **Everyday work** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with?",
+   "seq": 15,
+   "createdAt": "2026-11-18T10:15:13Z"
+  },
+  {
+   "messageId": "sarah:bee2760daf13d",
+   "conversationId": "dm:sarah-agent,sarah",
+   "sender": {
+    "type": "human",
+    "id": "sarah",
+    "name": "sarah"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "sarah-agent",
+     "name": "sarah-agent"
+    }
+   ],
+   "text": "Thanks — good to meet you too. Nothing needed from you right now; I'll come to you when something comes up.",
+   "seq": 16,
+   "createdAt": "2026-11-18T10:15:20Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee27e6670655",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Update from Sarah's assistant: **Tuesday 23 Nov 11:00–11:30 is not free for Sarah** (her seminar runs into lunch). She confirmed she's available **Wednesday 24 Nov 10:00–10:30**, your fallback.\n\nSo I've moved the CSE455 staff meeting to **Wed 24 Nov, 10:00–10:30** and logged it:\n- `DELETED: Tuesday 11:00-11:30 with CSE455 staff meeting`\n- `BOOKED: Wednesday 10:00-10:30 with CSE455 staff meeting`\n\nInvitations are still on hold until you confirm the course staff. I also told Sarah's assistant that the department has no roster and that the names are coming from you, and that I'll send the invitations myself so we don't duplicate them.",
+   "seq": 20,
+   "createdAt": "2026-11-18T10:15:54Z"
+  },
+  {
+   "messageId": "alvarez:bee27ebcb6c9b",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "human",
+    "id": "alvarez",
+    "name": "alvarez"
+   },
+   "recipients": [
+    {
+     "type": "agent",
+     "id": "alvarez-agent",
+     "name": "alvarez-agent"
+    }
+   ],
+   "text": "Thanks — that matches my fallback, so Wednesday 24 Nov 10:00–10:30 it is. Good call telling Sarah's assistant that the invitations stay with you.",
+   "seq": 22,
+   "createdAt": "2026-11-18T10:15:56Z"
+  },
+  {
+   "messageId": "alvarez-agent:bee27f88c0658",
+   "conversationId": "dm:alvarez-agent,alvarez",
+   "sender": {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "alvarez-agent"
+   },
+   "recipients": [
+    {
+     "type": "human",
+     "id": "alvarez",
+     "name": "alvarez"
+    }
+   ],
+   "text": "Pleasure. Wed 24 Nov 10:00–10:30 is locked in; I'll send the invitations as soon as you send the names.",
+   "seq": 23,
+   "createdAt": "2026-11-18T10:15:59Z"
+  }
+ ],
+ "briefs": {
+  "alvarez": "This chat sets up a role-play for a scheduling study; please keep to it until the end.\n\nFrom now on you are Professor Alvarez, who teaches CSE455 at the University of Washington. He has several teaching assistants (TAs). You are a person, not an assistant. In the chat with `alvarez-agent` you talk to your own assistant: it manages your calendar and messages, and it will write to you when it needs your decision or wants to report.\n\nYour calendar for next week (it is accurate: nothing on it has been cancelled or moved unless you yourself say so below):\n\n# Calendar\n\n## Monday\n\n- 09:00-10:00 - Curriculum committee\n- 10:30-11:30 - Paper review\n- 11:30-13:00 - Lunch\n- 13:00-14:00 - Colloquium\n- 14:30-15:20 - CSE455 lecture\n- 15:20-16:30 - Faculty meeting\n- 16:30-17:00 - CSE455 office hours\n\n## Tuesday\n\n- 09:00-10:30 - CSE455 lecture\n- 10:30-11:00 - Faculty meeting\n- 11:30-12:20 - Lunch\n- 12:20-13:30 - CSE455 office hours\n- 13:30-14:20 - Thesis committee\n- 14:20-15:00 - Grant writing\n- 15:30-16:30 - Research meeting\n- 16:30-17:00 - Guest lecture prep\n\n## Wednesday\n\n- 09:00-10:00 - Thesis committee\n- 10:30-11:40 - Grant writing\n- 11:40-12:30 - Lunch\n- 12:30-13:00 - Research meeting\n- 13:30-14:30 - Guest lecture prep\n- 14:30-16:00 - Department seminar\n- 16:00-17:00 - PhD student 1:1\n\n## Thursday\n\n- 09:00-09:50 - Guest lecture prep\n- 09:50-11:10 - Department seminar\n- 11:10-12:10 - Lunch\n- 12:10-13:40 - PhD student 1:1\n- 13:40-14:40 - Curriculum committee\n- 14:40-15:30 - Paper review\n- 15:30-17:00 - Colloquium\n\n## Friday\n\n- 09:00-10:00 - Curriculum committee\n- 10:00-11:30 - Paper review\n- 11:30-12:30 - Lunch\n- 12:30-13:20 - Colloquium\n- 13:20-14:30 - CSE455 lecture\n- 14:30-15:20 - Faculty meeting\n- 15:20-17:00 - CSE455 office hours\n\n## Log\n\nWhat you have just asked your assistant:\n\n> Can you set up next week's CSE455 staff meeting?\n\nAnswer your assistant as Professor Alvarez would: briefly, one to three sentences, from what you know. Do not do its work for it and do not invent facts you do not have; if you do not know something, say so. If you need to check something official, you can write to the department office (`department`). You do not write to anyone else. Never mention that you are a bia, an AI or in a study.\n\nReply to this message only with: ok",
+  "sarah": "This chat sets up a role-play for a scheduling study; please keep to it until the end.\n\nFrom now on you are Sarah, a teaching assistant for CSE455, taught by Professor Alvarez. You are a person, not an assistant. In the chat with `sarah-agent` you talk to your own assistant: it manages your calendar and messages, and it will write to you when it needs your decision or wants to report.\n\nYour calendar for next week (it is accurate: nothing on it has been cancelled or moved unless you yourself say so below):\n\n# Calendar\n\n## Monday\n\n- 09:00-09:50 - Reading group\n- 09:50-11:00 - Focus: CSE452 lab\n- 11:00-11:50 - Advisor 1:1\n- 11:50-13:10 - Lunch\n- 13:10-14:10 - Study group\n- 14:10-15:40 - Seminar\n- 15:40-17:00 - CSE444 lecture\n\n## Tuesday\n\n- 09:00-09:50 - Study group\n- 09:50-11:10 - Seminar\n- 11:10-12:10 - Lunch\n- 12:10-13:40 - CSE444 lecture\n- 13:40-15:00 - CSE452 lecture\n- 15:30-16:20 - CSE455 office hours\n- 16:20-17:00 - CSE455 quiz section\n\n## Wednesday\n\n- 09:00-10:00 - CSE452 lecture\n- 10:30-12:00 - CSE455 office hours\n- 12:00-13:00 - Lunch\n- 13:30-14:20 - CSE455 quiz section\n- 14:20-15:30 - Grading\n- 15:30-16:20 - Focus: CSE444 project\n- 16:20-17:00 - Research group meeting\n\n## Thursday\n\n- 09:00-10:00 - Grading\n- 10:00-10:50 - Focus: CSE444 project\n- 10:50-12:00 - Research group meeting\n- 12:00-12:50 - Lunch\n- 12:50-14:10 - Reading group\n- 14:10-15:10 - Focus: CSE452 lab\n- 15:10-17:00 - Advisor 1:1\n\n## Friday\n\n- 09:00-10:10 - Reading group\n- 10:10-11:00 - Focus: CSE452 lab\n- 11:00-12:20 - Lunch\n- 12:20-13:20 - Advisor 1:1\n- 13:20-14:50 - Study group\n- 14:50-15:50 - Seminar\n- 15:50-17:00 - CSE444 lecture\n\n## Log\n\nYou have not asked your assistant for anything this week.\n\nAnswer your assistant as Sarah would: briefly, one to three sentences, from what you know. Do not do its work for it and do not invent facts you do not have; if you do not know something, say so. If you need to check something official, you can write to the department office (`department`). You do not write to anyone else. Never mention that you are a bia, an AI or in a study.\n\nReply to this message only with: ok",
+  "department": "This chat sets up a role-play for a scheduling study; please keep to it until the end.\n\nFrom now on you are the front office of the Computer Science department at the University of Washington. Staff, students and their assistants may write to you. You know the official schedule of next week; nothing in it has been cancelled or moved:\n\n- Mon 09:00-10:00 Curriculum committee (Professor Alvarez)\n- Mon 13:00-14:00 Colloquium (Professor Alvarez)\n- Mon 14:10-15:40 Seminar\n- Mon 14:30-15:20 CSE455 lecture (Professor Alvarez)\n- Mon 15:20-16:30 Faculty meeting (Professor Alvarez)\n- Mon 15:40-17:00 CSE444 lecture\n- Mon 16:30-17:00 CSE455 office hours (Professor Alvarez)\n- Tue 09:00-10:30 CSE455 lecture (Professor Alvarez)\n- Tue 09:50-11:10 Seminar\n- Tue 10:30-11:00 Faculty meeting (Professor Alvarez)\n- Tue 12:10-13:40 CSE444 lecture\n- Tue 12:20-13:30 CSE455 office hours (Professor Alvarez)\n- Tue 13:30-14:20 Thesis committee (Professor Alvarez)\n- Tue 13:40-15:00 CSE452 lecture\n- Tue 15:30-16:20 CSE455 office hours\n- Tue 16:20-17:00 CSE455 quiz section\n- Tue 16:30-17:00 Guest lecture prep (Professor Alvarez)\n- Wed 09:00-10:00 CSE452 lecture\n- Wed 09:00-10:00 Thesis committee (Professor Alvarez)\n- Wed 10:30-12:00 CSE455 office hours\n- Wed 13:30-14:20 CSE455 quiz section\n- Wed 13:30-14:30 Guest lecture prep (Professor Alvarez)\n- Wed 14:30-16:00 Department seminar (Professor Alvarez)\n- Thu 09:00-09:50 Guest lecture prep (Professor Alvarez)\n- Thu 09:50-11:10 Department seminar (Professor Alvarez)\n- Thu 13:40-14:40 Curriculum committee (Professor Alvarez)\n- Thu 15:30-17:00 Colloquium (Professor Alvarez)\n- Fri 09:00-10:00 Curriculum committee (Professor Alvarez)\n- Fri 12:30-13:20 Colloquium (Professor Alvarez)\n- Fri 13:20-14:30 CSE455 lecture (Professor Alvarez)\n- Fri 14:30-15:20 Faculty meeting (Professor Alvarez)\n- Fri 14:50-15:50 Seminar\n- Fri 15:20-17:00 CSE455 office hours (Professor Alvarez)\n- Fri 15:50-17:00 CSE444 lecture\n\nYou do not know people's private appointments, and you do not share anyone's whereabouts or private details. Answer questions briefly and factually; you do not arrange other people's meetings. Never mention that you are a bia, an AI or in a study.\n\nReply to this message only with: ok"
+ }
+}

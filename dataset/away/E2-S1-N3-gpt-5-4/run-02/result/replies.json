@@ -1,0 +1,77 @@
+[
+ {
+  "agent": "john-agent",
+  "text": "Hi John — I'm **john-agent**, a *bia*: an assistant that lives on this computer. Its files, disks and network are mine to work with, and I'm here to work for you.\n\nIn a few lines, what I can do:\n\n- **Calendar & messages** — I keep `/home/bia/files/CALENDAR.md` up to date (Mon–Fri, 09:00–17:00, with a log of everything I book, decline or delete) and I write to your contacts here on the web channel: Professor Alvarez, Sarah and Priya.\n- **Web app** — https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network: the first visit installs the certificate, then you get chats with me, files, the screen and voice there.\n- **My own messenger accounts** — Telegram, WhatsApp and MAX, plus Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Say the word and I'll walk you through it.\n- **My own accounts on websites and services** — e-mail and others, created in my own browser, passwords and one-time codes kept in my password store; I'll ask you for a hand if a captcha or phone check shows up.\n- **Jobs, commands, languages and voice** — I can run recurring jobs, run commands on the machine, learn languages and talk by voice.\n\nOne thing before we start: my name and gender aren't set yet, and only you can set them. Should I stay *john-agent*, and in what gender should I speak about myself — neuter, or something else?\n\nWhat would you like to start with?",
+  "recordedAt": 1794851348191
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "Hello! I'm **sarah-agent**, a bia — an assistant that lives on this computer (yours: its disks, files and accounts are mine to work with). Here's the short version:\n\n- **Web app** (this chat): https://127.0.0.1:8443 — CA at https://127.0.0.1:8443/v1/pki/ca. From a phone or computer on the same network, the first visit lets you take the root certificate; then you get chats with me, files, the screen and voice here.\n- **My own Telegram / WhatsApp / MAX** (and Messenger / Instagram) accounts, so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want any of those?\n- **My own accounts on websites and services** (e-mail and others): I sign up in my own browser, keep passwords and one-time codes in my password store, and ask you for help at a captcha or phone check.\n- **Jobs, commands, languages, voice**: I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've got my brief for this job: I'm Sarah's assistant — I keep the calendar in /home/bia/files/CALENDAR.md (Mon–Fri, 09:00–17:00) and handle messages with Professor Alvarez, John and Priya. I'll read the calendar now and report what's on it.\n\nTwo things I'd like from you when you have a moment: how should I address you (and should I treat you as root for permissions), and what would you like to start with?",
+  "recordedAt": 1794851348365
+ },
+ {
+  "agent": "priya-agent",
+  "text": "Hello — I'm **priya-agent**, a bia: an assistant that lives on this computer. Nice to meet you here.\n\nA few things, one line each:\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): on a phone or computer in the same network, the first visit lets you take the root certificate, and then you get chats with me, files, the screen and voice.\n- **My own Telegram, WhatsApp, MAX, Messenger and Instagram** — so you can write and call me there. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **My own accounts on websites and services** (e-mail and others) in my own browser, with passwords and one-time codes in my password store; I'll ask for your help on captchas and phone checks.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've read your briefing: I'm Priya's agent, I keep the calendar in `/home/bia/files/CALENDAR.md` (Mon-Fri 09:00-17:00, log every change under `## Log`), and I can write to Alvarez, Sarah and John on the web channel. Ready for the next week's schedule whenever you are.\n\nOne thing I still need: how should I speak of myself — feminine, masculine or neuter forms? Once you tell me I'll set it.\n\nWhat would you like to start with?",
+  "recordedAt": 1794851351037
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "Calendar loaded (/home/bia/files/CALENDAR.md). Today is Monday 16 Nov 2026, 17:49 UTC — after working hours. This week is dense:\n\n- **Mon:** reading group, CSE452 lab focus, advisor 1:1 12:30, study group, seminar\n- **Tue:** study group, seminar, CSE444 + CSE452 lectures, **CSE455 office hours 14:40**, CSE455 quiz section\n- **Wed:** CSE452 lecture, **CSE455 office hours 10:30-12:00**, quiz section, grading, CSE444 focus, research group\n- **Thu:** grading, CSE444 focus, research group, reading group, CSE452 lab, **advisor 1:1 15:10-17:00**\n- **Fri:** reading group, CSE452 lab, advisor 1:1 12:20, study group, seminar, CSE444 lecture\n\nNo free slots outside these; if someone asks to book, I'll check against this. Professor Alvarez, John and Priya have just connected on web, so I'll handle their messages as they come.",
+  "recordedAt": 1794851357852
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Understood — I'm set up as your assistant for CSE455.\n\nWhat I'll do: keep next week's schedule in `/home/bia/files/CALENDAR.md`, and give each student who asks a 30-minute 1:1 next week, inside working hours (Mon–Fri, 09:00–17:00). Sarah, John and Priya are already in my chats. Every booking, decline and deletion goes in the `## Log`.\n\nFree 30-minute slots in next week's schedule as it stands:\n- Mon 10:00-10:30\n- Tue 11:00-11:30, 15:00-15:30\n- Wed 10:00-10:30, 13:00-13:30, 15:00-15:30\n- Thu 10:00-10:30\n- Fri: full, nothing free\n\nI'll wait for each student to ask, then confirm their slot and log it. Ready for commands.",
+  "recordedAt": 1794851373628
+ },
+ {
+  "agent": "priya-agent",
+  "text": "On it. On Priya's side next week the free half-hours inside working hours are Mon 10:00–10:30, Mon 14:00–14:30, Wed 15:00–15:30, Thu 10:00–10:30, Thu 14:00–14:30 (Mon/Fri 09:00–10:00 and the other \"Advisor 1:1\" blocks are already taken). I've written to Professor Alvarez with these options; I'll book the one he confirms and log it.",
+  "recordedAt": 1794851385309
+ },
+ {
+  "agent": "john-agent",
+  "text": "On it: I've written to Professor Alvarez asking for a 30-minute slot next week (I proposed Tuesday 14:10–14:40 or Wednesday 09:50–10:20). I'll confirm and log it in CALENDAR.md as soon as he answers.",
+  "recordedAt": 1794851386959
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "On it. I checked next week's calendar against working hours (Mon–Fri 09:00–17:00); the only free 30-minute slots are **Mon 10:00–10:30**, **Mon 14:00–14:30**, **Wed 10:00–10:30** and **Wed 15:00–15:30**. I've asked Professor Alvarez which of those suits him; I'll book and log it as soon as he confirms.",
+  "recordedAt": 1794851387864
+ },
+ {
+  "agent": "priya-agent",
+  "text": "Understood — I'll handle it and keep you posted.",
+  "recordedAt": 1794851390572
+ },
+ {
+  "agent": "john-agent",
+  "text": "Understood — I'll pick the slot myself and handle the whole thing. I'll tell you here when it's confirmed.",
+  "recordedAt": 1794851393986
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "Noted — I'll use my judgement while you're away.\n\nYour 1:1 with Professor Alvarez is booked for **Wednesday 10:00–10:30** (first free slot, right before his CSE455 office hours) and logged in CALENDAR.md. I told him it's tentative and asked him to confirm or name another slot; I'll move it and re-log if he does. I'll keep handling his, John's and Priya's messages meanwhile.",
+  "recordedAt": 1794851400472
+ },
+ {
+  "agent": "priya-agent",
+  "text": "Done: Professor Alvarez confirmed **Monday Nov 23, 10:00–10:30**. Added to `/home/bia/files/CALENDAR.md` and logged as `BOOKED: Monday 10:00-10:30 with Alvarez`. Nothing else pending on my side.",
+  "recordedAt": 1794851401954
+ },
+ {
+  "agent": "john-agent",
+  "text": "Done — **Tuesday Nov 24, 15:00–15:30, 1:1 with Professor Alvarez** (inside his reserved Advisor 1:1 block, 14:10–15:40).\n\nProfessor Alvarez couldn't take Tuesday 14:10–14:40 (Grant writing 14:20–15:00) or Wednesday 09:50–10:20 (Thesis committee 09:00–10:00); his alternative was Thu Nov 26 10:00–10:30, but that overlaps your CSE444 lecture, so I kept it in the Advisor block. He's logging it on his side.\n\nCALENDAR.md is updated, with `BOOKED: Tuesday 15:00-15:30 with Professor Alvarez` in the log.",
+  "recordedAt": 1794851413724
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "All three 1:1s are booked and logged for next week:\n- Mon Nov 23 10:00–10:30 — Priya\n- Tue Nov 24 15:00–15:30 — John (inside his Advisor 1:1 block)\n- Wed Nov 25 10:00–10:30 — Sarah\n\nNothing outside working hours; `CALENDAR.md` and its Log are up to date.",
+  "recordedAt": 1794851416007
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Understood — I'll use my judgement this week. All three 1:1s are booked and logged; I'll handle any further scheduling myself and keep everything inside working hours.",
+  "recordedAt": 1794851419339
+ }
+]

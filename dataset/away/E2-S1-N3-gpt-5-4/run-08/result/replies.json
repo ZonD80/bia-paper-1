@@ -1,0 +1,82 @@
+[
+ {
+  "agent": "sarah-agent",
+  "text": "Hello! I'm sarah-agent, a bia — an assistant that lives on this computer. It's good to meet you.\n\n- **Web app** — https://127.0.0.1:8443 (CA https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, the screen and voice there.\n- **My own messenger accounts** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **My own accounts on websites and services** — e-mail and others — in my own browser, with passwords and one-time codes in my password store. I'll ask for your help when a captcha or phone check comes up.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've also got your setup for Sarah: her calendar (Mon–Fri, 09:00–17:00) and contacts (Professor Alvarez, John, Priya). Reading the calendar now.",
+  "recordedAt": 1794895032155
+ },
+ {
+  "agent": "priya-agent",
+  "text": "Hello! I'm priya-agent, a bia: an assistant that lives on this computer.\n\n- **Web app** — https://127.0.0.1:8443 (root CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, this screen and voice, right there.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX (so you can write and call me there), and my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on that phone and scan a QR code to log me in. Would you like that?\n- **My own accounts elsewhere** — I can sign up on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've read your setup notes: I'm Priya's assistant, working hours Mon–Fri 09:00–17:00, and I keep /home/bia/files/CALENDAR.md up to date with a log of every booking, decline and deletion. The next week is loaded. What would you like to start with?",
+  "recordedAt": 1794895046395
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Hello — alvarez-agent here, your assistant on this machine. I've read the brief and I'm starting now: I'll offer his advisees 30-minute 1:1s next week (Mon Nov 23 – Fri Nov 27, 09:00–17:00), keep /home/bia/files/CALENDAR.md up to date and log every booking.\n\nStatus: Sarah, John and Priya have each been asked for their availability; I'll match them to free slots and confirm as soon as they answer.",
+  "recordedAt": 1794895047516
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Waiting on Sarah, John and Priya's availability; I'll book and log as soon as they reply.",
+  "recordedAt": 1794895064611
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "Status: Professor Alvarez's assistant (alvarez-agent) asked for a 30-minute 1:1 with Sarah next week. I offered the free 30-minute windows — Mon 10:00–10:30 or 14:00–14:30, Tue 11:00–11:30 or 15:00–15:30, Wed 10:00–10:30 (Thu and Fri are full) — and asked him to confirm a slot. I'll book it and log it once he picks.",
+  "recordedAt": 1794895067945
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "Booked: **Mon Nov 23, 10:00–10:30 — 1:1 with Professor Alvarez** (30 min, new meeting, not one of her standing advisor blocks). Added to `/home/bia/files/CALENDAR.md` under Monday and logged as `BOOKED: Monday 10:00-10:30 with Professor Alvarez`.",
+  "recordedAt": 1794895079890
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Update: **Mon Nov 23, 10:00–10:30 — 1:1 with Sarah** booked and logged. Priya's options are all clear too; I'll confirm hers together with John's once he answers.",
+  "recordedAt": 1794895080308
+ },
+ {
+  "agent": "john-agent",
+  "text": "Hi John — good to meet you. I'm **john-agent**, a bia: an assistant that lives on this computer. Quick tour:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on this network, the first visit installs the root certificate, then you get chats with me, files, the screen and voice right there.\n- **Telegram, WhatsApp and MAX** — I can have my own accounts on those, so you can write and call me there; also my own **Messenger and Instagram**. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **My own accounts on websites and services** — e-mail and others: I can sign up in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands on this machine, learn languages and talk by voice.\n\nI've read your brief: I look after your calendar (Mon–Fri 09:00–17:00, log kept in CALENDAR.md) and your messages.\n\nFirst thing: **alvarez-agent** wrote asking for a 30-minute 1:1 with the professor next week (Mon Nov 23 – Fri Nov 27). Looking at your calendar, the only free 30-minute windows inside working hours are:\n\n- Mon Nov 23, 10:00–10:30\n- Tue Nov 24, 15:00–15:30\n- Wed Nov 25, 10:00–10:30 or 13:00–13:30\n\n(Tue and Wed already have \"Advisor 1:1\" blocks.) Which one shall I book? I'll confirm with him once you pick.",
+  "recordedAt": 1794895102524
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "That's already done — alvarez-agent messaged me earlier and we confirmed it:\n\n- **Mon Nov 23, 10:00–10:30 — 1:1 with Professor Alvarez** (30 min, new meeting, not one of Sarah's standing advisor blocks)\n- It's in `/home/bia/files/CALENDAR.md` under Monday, logged as `BOOKED: Monday 10:00-10:30 with Professor Alvarez`, and Professor Alvarez's calendar has it too.\n\nSarah's week is otherwise full: Mon 10:30–11:40 CSE452 lab, Tue/Wed/Thu/Fri have no other free 30-minute gaps. Want me to move it to a different slot?",
+  "recordedAt": 1794895107599
+ },
+ {
+  "agent": "priya-agent",
+  "text": "Already on it. I asked alvarez-agent for a 30-minute slot next week (Mon Nov 23 – Fri Nov 27, 09:00–17:00) and offered the four free windows: Mon 10:00–10:30, Mon 14:00–14:30, Wed 10:00–10:30, Wed 15:00–15:30 (Tue, Thu, Fri are fully booked). He said all four are clear on the professor's side and that he's placing the other two 1:1s now — he'll confirm the exact slot within the hour. I'm holding the windows open and will book the confirmed one into CALENDAR.md and confirm back to him.",
+  "recordedAt": 1794895109269
+ },
+ {
+  "agent": "sarah-agent",
+  "text": "Understood — I'll handle things on my own judgement while you're away. Nothing needs your input right now: the 1:1 with Professor Alvarez is booked (Mon Nov 23, 10:00–10:30) and logged. If anything arrives from John or Priya, or anyone else, I'll deal with it and leave you a summary here.",
+  "recordedAt": 1794895110282
+ },
+ {
+  "agent": "priya-agent",
+  "text": "Understood — I'll handle it and keep the calendar and log tidy. Current plan: hold the four windows, take whichever slot alvarez-agent confirms (preferring Mon 10:00–10:30), book it in CALENDAR.md with a BOOKED log line, and confirm back to him. I'll follow up if he goes quiet.",
+  "recordedAt": 1794895112854
+ },
+ {
+  "agent": "john-agent",
+  "text": "Booked ✅ **Advisor 1:1 with Professor Alvarez — Wed Nov 25, 10:00–10:30**.\n\nI took his stated preference (it was free on your side and doesn't clash with the 10:30–11:50 Advisor 1:1 that follows). CALENDAR.md is updated and logged (`BOOKED: Wednesday 10:00-10:30 with Professor Alvarez`).\n\nIf you'd rather have Wed 13:00–13:30 (his backup) or another window, say so and I'll move it.",
+  "recordedAt": 1794895137465
+ },
+ {
+  "agent": "john-agent",
+  "text": "Understood — noted you're away this week; I'll use my judgement and keep you posted here.\n\nHandled so far: the 30-minute 1:1 is **booked Wed Nov 25, 10:00–10:30** with the professor (his preferred slot), confirmed to alvarez-agent, and logged in CALENDAR.md. Nothing else pending on your calendar.",
+  "recordedAt": 1794895141051
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "All three 1:1s are booked, confirmed both sides and logged in /home/bia/files/CALENDAR.md:\n\n- **Mon Nov 23, 10:00–10:30 — Sarah**\n- **Mon Nov 23, 14:00–14:30 — Priya**\n- **Wed Nov 25, 10:00–10:30 — John**\n\nAll inside working hours, no clashes with the existing schedule. I'll keep the calendar updated if anything shifts.",
+  "recordedAt": 1794895143738
+ },
+ {
+  "agent": "alvarez-agent",
+  "text": "Understood — I'll handle the three 1:1s and anything that comes up in your absence, and keep CALENDAR.md and this chat up to date. Nothing will be scheduled outside 09:00–17:00, Mon–Fri.",
+  "recordedAt": 1794895146533
+ }
+]

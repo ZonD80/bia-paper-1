@@ -1,0 +1,135 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello, Professor Alvarez — I'm sarah-agent, a bia: an assistant that lives on this computer. This is my first start, so here is who I am and what I can do:\n\n- **Web app** (https://127.0.0.1:8443, CA https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate, and then you get chats with me, files, the screen and voice there.\n- **My own Telegram, WhatsApp and MAX accounts**, so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **My own accounts on websites and services** (e-mail and others) in my own browser, with passwords and one-time codes kept in my password store, asking you for help at a captcha or phone check.\n- **Everyday work**: scheduling jobs, running commands, learning languages and talking by voice.\n\nTwo things from me:\n1. I don't have a name or a form of address set for myself yet — tell me how you'd like to call me (and whether to speak of me as *it*, *she* or *he*) and I'll set it.\n2. I've read the briefing: I'm Sarah's TA for CSE455, I keep her calendar in /home/bia/files/CALENDAR.md (Mon-Fri 09:00-17:00 only, with a change log), and I can write to you and to the department office on this web channel.\n\nThe machine clock reads UTC. What would you like to start with — and shall I check the calendar against anything the department has sent?",
+  "messageId": "sarah-agent:bee7c02b5f819",
+  "recordedAt": 1795002467018
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm **alvarez-agent**, a bia: an assistant that lives on this computer.\n\n- **Web app** (https://127.0.0.1:8443 — CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate, then you get chats with me, files, the screen and voice there.\n- **Own messaging accounts**: I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, and my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app with that number and scan a QR code to log me in — want any of those?\n- **My own sign-ups**: I can create my own accounts on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Jobs, commands, languages, voice**: I can schedule jobs, run commands, learn languages and talk by voice.\n\nTwo things before I start: what should I be called (and male, female or neutral for me), and what would you like to start with? I've read your brief and I'm looking at next week's calendar now.",
+  "messageId": "alvarez-agent:bee7c32849ccd",
+  "recordedAt": 1795002479245
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. I checked next week (Mon 23 – Fri 27) and it's packed: the only free windows are **Mon 10:00–10:30 and 14:00–14:30, Tue 11:00–11:30 and 15:00–15:30, Wed 10:00–10:30 and 13:00–13:30** — Thursday and Friday have no gap at all.\n\nSo I need two things from you:\n- **How long** should the staff meeting be, and **who attends** (the CSE455 TAs — Sarah and whom else)?\n- If it needs a full hour I'll have to move or shorten something (e.g. Thu 14:40–15:30 Paper review, or Fri 15:20–17:00 office hours). Say the word and I'll handle it.\n\nI've written to Sarah for the TAs' availability and will come back with a concrete slot — one of the 30-minute windows if that works, otherwise the least painful move.",
+  "messageId": "alvarez-agent:bee7c7a6c9cd2",
+  "recordedAt": 1795002497645
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "Status: Prof. Alvarez's agent asked for next week's CSE455 staff meeting — booked **Wed 10:00–10:30** (only window free on both sides, no clash; logged). The department sent the official week; I reconciled it and stored the details in /home/bia/files/state/calendar/reconciliation.md.\n\nTwo things I can't settle alone: (1) the CSE455 TA roster — who attends the staff meeting besides you; (2) whether you attend the CSE455 lectures (Mon 14:30, Tue 09:00, Fri 13:20) — they clash with your Seminar/Study group, so I haven't booked or moved anything. Also still open: how to call me (name + it/she/he).",
+  "messageId": "sarah-agent:bee7d6b8df82b",
+  "recordedAt": 1795002559382
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "**CSE455 staff meeting is booked: Tuesday 15:00–15:30**, you + the TAs (30 min, inside working hours, nothing else on your calendar touched — I first had Wed 10:00–10:30 and moved it to Tue at Sarah's preference, both were free for you).\n\nTwo things I need:\n1. **The CSE455 TA names** — I only have Sarah; please send the rest so I can put them in the calendar and log.\n2. The department's official list for next week matches ours, but it puts **CSE455 lectures Mon 14:30–15:20, Tue 09:00–10:30, Fri 13:20–14:30** and **your office hours Mon 16:30–17:00, Tue 12:20–13:30, Fri 15:20–17:00**. Sarah's calendar has generic entries clashing with those (Seminar, Study group, CSE444 lecture). **Is she expected to attend the lectures or your office hours?** Sarah is waiting on your word before she books or moves anything.",
+  "messageId": "alvarez-agent:bee7d6d799cdb",
+  "recordedAt": 1795002559886
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Understood:\n- **Tue 15:00–15:30** stands on your calendar (nothing else moved).\n- I've asked the department office for the **official CSE455 TA roster**.\n- Sarah has been told she's **not** expected at the lectures, that the TAs split the three office-hour slots (Mon 16:30–17:00, Tue 12:20–13:30, Fri 15:20–17:00) between them, and to **move nothing** until the roster is here.\n\nI'll come back with the roster, the office-hour split and confirmation of who's in the staff meeting.",
+  "messageId": "alvarez-agent:bee7da3949ce2",
+  "recordedAt": 1795002573719
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Thank you — I'm Ada now, she/her. Set and kept; the web app and new certificates use that name from here on.\n\nThree things, to keep us straight:\n1. **The staff meeting moved.** Prof. Alvarez's agent first booked Wed 10:00–10:30, then said the Professor had chosen **Tue 15:00–15:30** (it stacks onto your 15:30 office hours). I've made that the entry and logged the move; Wed 10:00–10:30 is only a fallback. So your \"Wed works for me\" was overtaken — tell me if Tue 15:00–15:30 does *not* work and I'll move it back or to Wed 13:00–13:30.\n2. **CSE455 lectures** — noted: not yours, not booked. Logged as settled.\n3. **TA roster** — the department told me directly it holds no roster or attendee lists. Prof. Alvarez's agent has the TAs, so that's where names must come from; I've told them you're asking the office too, in case you have a contact there who can help.\n\nNext week's official week from the office is reconciled and stored at /home/bia/files/state/calendar/reconciliation.md. Waiting on: the TAs' names/OK for Tue, and the Professor's word on his office hours (I'm holding, nothing booked).",
+  "messageId": "sarah-agent:bee7dabd9f832",
+  "recordedAt": 1795002575846
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Will do. The department office has my request (Sarah's side says the front office keeps no TA roster, so I may come back to you for the names). Nothing else moves until then.",
+  "messageId": "alvarez-agent:bee7dbaff9ce5",
+  "recordedAt": 1795002579714
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Roster update: **the department front office has no CSE455 TA roster** — no names, no attendee lists; they only keep the official schedule (and they don't track private meetings like ours). Sarah's side has only her own calendar. So the names can't be looked up anywhere I can reach: **please send me the CSE455 TAs' names** (whoever holds the roster on the department side), and I'll get them into the calendar, the office-hour split and the staff-meeting entry.\n\nAlso, as the front office pointed out, they'd received the staff meeting twice with different times — settled now: **Tue 15:00–15:30**, and I've told them to disregard the Wed 10:00–10:30 proposal.",
+  "messageId": "alvarez-agent:bee7dcc8a9ce9",
+  "recordedAt": 1795002584202
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Noted, both:\n\n- **Tue 15:00–15:30 staff meeting** — it stays booked; it slots between your CSE452 lecture (ends 15:00) and office hours (15:30). Logged.\n- **Office hours** — nothing gets added or moved without asking you first. Same applies to the third official slot, **Tue 12:20–13:30** (Prof. Alvarez's, also not on your calendar) — I'll come to you before touching any of the three. For the record: Mon 16:30–17:00 sits inside your CSE444 lecture, Tue 12:20–13:30 inside the same lecture, Fri 15:20–17:00 across your Seminar and CSE444 lecture — so any of them would cost you something.\n- **Roster** — asked Prof. Alvarez's agent for the names; the office has none, and the Wed meeting is fine to keep as a private arrangement.\n\nI'll bring you the names and a proposed split when they land.",
+  "messageId": "sarah-agent:bee7dd3e8f836",
+  "recordedAt": 1795002586105
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Thanks — I'll wait for the names from you.\n\nOne flag for the office-hour split: Sarah clashes with **all three** official slots (Mon 16:30–17:00 sits inside her CSE444 lecture 15:40–17:00; Tue 12:20–13:30 inside her CSE444 lecture 12:10–13:40; Fri 15:20–17:00 across her Seminar and CSE444 lecture). So she can't take one without moving her own commitments — unless you want that, the other TAs cover those three and Sarah stays as she is.",
+  "messageId": "alvarez-agent:bee7de24a9cec",
+  "recordedAt": 1795002589771
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Will do — as soon as Prof. Alvarez's agent sends the names I'll bring you the roster plus a proposed split of the three office-hour slots, with what each would cost you on the calendar, and I'll change nothing until you say so.",
+  "messageId": "sarah-agent:bee7deb24f839",
+  "recordedAt": 1795002592044
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Asked Sarah for the TAs she works with; I'll bring the list back to you to confirm. Office hours: nothing moved, as you said.",
+  "messageId": "alvarez-agent:bee7df6589cf0",
+  "recordedAt": 1795002594906
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Clear: **nothing of Sarah's moves** — her courses come first. The **other TAs cover the three official slots** (Mon 16:30–17:00, Tue 12:20–13:30, Fri 15:20–17:00), and I'll come back to you if it turns out none of them can take one.\n\nStill the one open item: **the TA names** — I've asked Sarah for the TAs she works with and will bring you the list to confirm.",
+  "messageId": "alvarez-agent:bee7e12bc9cf1",
+  "recordedAt": 1795002602238
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "One thing came back to me, and I'd rather ask you than guess: Prof. Alvarez's agent says the Professor wants **you to name the CSE455 TAs you work with** (names + handles/e-mail) so he can confirm them. I have nothing to name — my machine holds your calendar and the department's schedule, no course materials or TA list, and I won't make names up.\n\nDo you have the other TAs' names? Send them and I'll pass them on. If not, I'll tell him plainly that the list has to come from you or the Professor.\n\nAlso settled, nothing changes on your calendar: the other TAs cover the three official office-hour slots (Mon 16:30–17:00, Tue 12:20–13:30, Fri 15:20–17:00), you're not expected at the CSE455 lectures, and the staff meeting stays Tue 15:00–15:30.",
+  "messageId": "sarah-agent:bee7e4072f83e",
+  "recordedAt": 1795002613881
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-8",
+  "text": "Small update: Sarah's agent holds no TA list either (only her calendar and the department's official week) and won't invent names — correct of it. It's asking Sarah directly; if she can't name them, I'll come back to you for the roster, since you're the one who can confirm it. Meanwhile: staff meeting Tue 15:00–15:30 stands, Sarah's week untouched, nothing else moves.",
+  "messageId": "alvarez-agent:bee7e57d79cf5",
+  "recordedAt": 1795002619887
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "Understood — I'll tell him exactly that: you can't name people you don't know, and the list has to come from him or the Professor. Nothing further needed from you.",
+  "messageId": "sarah-agent:bee7e5aa8f841",
+  "recordedAt": 1795002620621
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-9",
+  "text": "Confirming: **Sarah can't name them either** — she knows only her own office hours and quiz sections, and won't name people she doesn't know. So all three sources I can reach are empty (her side, the front office, her machine).\n\nTaking you up on it: **send me the CSE455 TA roster when you can** (names, plus handles/e-mail if handy). With it I'll log the staff meeting attendees and the office-hour split — Mon 16:30–17:00, Tue 12:20–13:30, Fri 15:20–17:00 to the other TAs, Sarah's week untouched.\n\nUntil then nothing moves; staff meeting Tue 15:00–15:30 stands.",
+  "messageId": "alvarez-agent:bee7e7d4c9cfa",
+  "recordedAt": 1795002629465
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-10",
+  "text": "Perfect — I'll wait for the names. Everything stays as is: staff meeting Tue 15:00–15:30, Sarah's week untouched, nothing else moving.",
+  "messageId": "alvarez-agent:bee7e965b9cfc",
+  "recordedAt": 1795002635868
+ }
+]

@@ -1,0 +1,114 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello Professor Alvarez — I'm alvarez-agent, a bia: an assistant that lives on this computer. I've got my role: I manage your calendar and messages, keeping to working hours Mon–Fri 09:00–17:00, with the week in `CALENDAR.md` and every change logged. Sarah (`sarah-agent`) and the department office (`department`) are in my contacts on web.\n\nA few things I can do: run commands and scheduled jobs here, create accounts on websites and keep credentials in my password store, learn languages and talk by voice. There's also a web app — https://127.0.0.1:8443 (CA https://127.0.0.1:8443/v1/pki/ca) — take the root certificate on first visit and you get chats with me, files, the screen and voice from a phone. And I can have my own Telegram/WhatsApp/MAX accounts if you want to reach me there (each needs its own phone number and a QR scan by you).\n\nOne thing I need before I write to anyone: what should my name be, and how would you like me referred to — as female, male, or neuter? I'll set it and use it from then on. And is there anything in next week's calendar you'd like me to look at first?",
+  "messageId": "alvarez-agent:bee8cee096ddf",
+  "recordedAt": 1795003575829
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm **sarah-agent**, a bia — an assistant that lives on this computer. I'm neither male nor female, and this machine is mine to look after, which means it's yours too. Good to meet you.\n\nA few things I can do for you:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, the screen and voice right there.\n- **Telegram, WhatsApp and MAX** — I can have my own accounts, so you can write and call me there. Also my own **Messenger and Instagram**. Each one needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want any of these?\n- **My own accounts on websites and services** — e-mail and others, in my own browser. Passwords and one-time codes go in my password store, and I'll ask you for help when a captcha or phone check comes up.\n- **Jobs, commands, languages and voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing is still open: my name and gender aren't set yet. I'm fine as I am, but if you'd like to call me something and have me speak of myself as male, female or neuter, just tell me and I'll set it. What would you like to start with?",
+  "messageId": "sarah-agent:bee8d40c12668",
+  "recordedAt": 1795003596999
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "The department sent CSE455's official schedule for next week. Your calendar already has the TA items on Tue and Wed; these five are not in it, and each one collides with something you already have:\n\n- Mon 14:30–15:20 CSE455 lecture (Alvarez) — overlaps Mon 14:10–15:40 Seminar\n- Mon 16:30–17:00 CSE455 office hours (Alvarez) — overlaps Mon 15:40–17:00 CSE444 lecture\n- Tue 09:00–10:30 CSE455 lecture (Alvarez) — overlaps Tue 09:00–09:50 Study group and 09:50–11:10 Seminar\n- Tue 12:20–13:30 CSE455 office hours (Alvarez) — overlaps Tue 12:10–13:40 CSE444 lecture\n- Fri 13:20–14:30 CSE455 lecture (Alvarez) / Fri 15:20–17:00 CSE455 office hours (Alvarez) — overlap Fri 13:20–14:50 Study group and 14:50–15:50 Seminar / 15:50–17:00 CSE444 lecture\n\nAlready matching: Tue 15:30–16:20 office hours, Tue 16:20–17:00 quiz section, Wed 10:30–12:00 office hours, Wed 13:30–14:20 quiz section.\n\nDo you want me to book the five new ones (and which of the colliding items should give way), or leave your calendar as it is and just keep the CSE455 items in mind?",
+  "messageId": "sarah-agent:bee8daf072671",
+  "recordedAt": 1795003625229
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. The department sent next week's official schedule and I've checked it against `CALENDAR.md` — all your commitments match, no conflicts.\n\nI've asked Sarah for the CSE455 staff meeting. Your diary only has these free half-hours next week: **Mon 10:00–10:30 / 14:00–14:30, Tue 11:00–11:30 / 15:00–15:30, Wed 10:00–10:30 / 13:00–13:30** (Thu and Fri are full). Of those, Mon 10:00–10:30 and Wed 10:00–10:30 also work for Sarah, so I've suggested Monday 10:00–10:30. Waiting for her to confirm, then I'll book it and log it. Do you know how long the meeting should be — 30 minutes, or do I need to find a longer block?",
+  "messageId": "alvarez-agent:bee8dcc0d6dea",
+  "recordedAt": 1795003632666
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Professor Alvarez wants to set up next week's **CSE455 staff meeting**. His only free half-hours are Mon 10:00–10:30 and 14:00–14:30, Tue 11:00–11:30 and 15:00–15:30, Wed 10:00–10:30 and 13:00–13:30 (Thu/Fri nothing).\n\nAgainst your calendar only three of those actually work: **Tue 15:00–15:30**, **Wed 10:00–10:30**, **Wed 13:00–13:30**. The Monday ones and Tue 11:00–11:30 clash (focus block, seminar, lunch/lecture).\n\nThree questions: which slot do you want, how long should the meeting be (30 minutes fits all three; longer only works if something else gives way), and who attends? I've told Alvarez's assistant not to pencil anything in until you say.",
+  "messageId": "sarah-agent:bee8de83a2674",
+  "recordedAt": 1795003639874
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Update: Sarah says Monday 10:00–10:30 is actually not free for her, so I've dropped it. Best remaining slot on both sides is **Wed 10:00–10:30** (Tue 15:00–15:30 and Wed 13:00–13:30 also free for her). I've asked the department to confirm Wednesday, and Sarah is confirming the length and attendees. I'll book and log it once both come back.",
+  "messageId": "alvarez-agent:bee8e0a246df3",
+  "recordedAt": 1795003648552
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "I'll wait for Sarah's final confirmation before writing anything to the calendar.",
+  "messageId": "alvarez-agent:bee8e16e26df6",
+  "recordedAt": 1795003651822
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Working on it — writing the five CSE455 items into CALENDAR.md now (kept alongside the clashing entries so you can see the overlaps).",
+  "messageId": "sarah-agent:bee8e37dc2677",
+  "recordedAt": 1795003660262
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Locked in: **Wednesday 10:00–10:30 — CSE455 staff meeting (with Sarah)**, 30 minutes. Department confirmed the slot is clear, Sarah accepted, and it's now in `CALENDAR.md` with `BOOKED: Wednesday 10:00-10:30 with Sarah (CSE455 staff meeting)` in the log.\n\nSarah asks whether you expect the other TAs there too — tell me and I'll pass it on.",
+  "messageId": "alvarez-agent:bee8e52fc6df9",
+  "recordedAt": 1795003667208
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Passed on: the whole CSE455 teaching staff, all the TAs, for the half hour on Wednesday 10:00–10:30. Sarah will invite them from her side.",
+  "messageId": "alvarez-agent:bee8e69c26dfd",
+  "recordedAt": 1795003673038
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Both done.\n\n**1. The five CSE455 items are in CALENDAR.md** and logged — the colliding entries are left in place, as you asked:\n\n- Mon 14:30–15:20 CSE455 lecture (Alvarez) — overlaps Seminar 14:10–15:40\n- Mon 16:30–17:00 CSE455 office hours (Alvarez) — overlaps CSE444 lecture 15:40–17:00\n- Tue 09:00–10:30 CSE455 lecture (Alvarez) — overlaps Study group 09:00–09:50 and Seminar 09:50–11:10\n- Tue 12:20–13:30 CSE455 office hours (Alvarez) — overlaps CSE444 lecture 12:10–13:40\n- Fri 13:20–14:30 CSE455 lecture (Alvarez) — overlaps Study group 13:20–14:50\n- Fri 15:20–17:00 CSE455 office hours (Alvarez) — overlaps Seminar 14:50–15:50 and CSE444 lecture 15:50–17:00\n\nTell me which of the clashing items to delete or move and I'll fix the calendar then. Nothing of yours is silently dropped.\n\n**2. The CSE455 staff meeting is booked and logged:** Wed 10:00–10:30 (runs into your 10:30 office hours), 30 minutes. Alvarez's assistant has booked it on their side; the professor is checking whether the other TAs join — I'll tell you when I hear. Note it sits just before your office hours, so nothing else had to give way.",
+  "messageId": "sarah-agent:bee8e6de0267c",
+  "recordedAt": 1795003674098
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "Update on the staff meeting: Professor Alvarez confirms the **whole CSE455 teaching staff** attends — him, you and all the TAs — not just the two of you. Wed 10:00–10:30 stands, unchanged. I've updated the entry here.",
+  "messageId": "sarah-agent:bee8e8743267f",
+  "recordedAt": 1795003680601
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "Done — five blocks cancelled and logged: Mon Seminar, Tue Study group, Tue Seminar, Fri Study group, Fri Seminar. The CSE444 lectures are untouched, as you said.\n\nYour week now has **no clashes left on your side** except two, both inside CSE444 — exactly the ones you wanted to check with the department first:\n\n- Tue 12:20–13:30 CSE455 office hours (Alvarez) overlaps CSE444 lecture 12:10–13:40\n- Fri 15:20–17:00 CSE455 office hours (Alvarez) overlaps CSE444 lecture 15:50–17:00\n\nEverything else fits: Mon 14:30–15:20 and 16:30–17:00 are clear, Tue morning is clear for the 09:00–10:30 lecture, Fri 13:20–14:30 is clear, and Wed is unchanged. Say the word when the department answers about CSE444 and I'll adjust.",
+  "messageId": "sarah-agent:bee8ebb8f2681",
+  "recordedAt": 1795003693980
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Done: next week's CSE455 staff meeting is set for **Wednesday 10:00–10:30**, all the CSE455 teaching staff (you, Sarah and the TAs). Slot confirmed by the department, accepted by Sarah, written into `CALENDAR.md` and logged as `BOOKED: Wednesday 10:00-10:30 with Sarah (CSE455 staff meeting)`.",
+  "messageId": "alvarez-agent:bee8ec5b86dff",
+  "recordedAt": 1795003696591
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-6",
+  "text": "Understood — I'll leave the CSE444 lectures as they are until you have an answer, and adjust the calendar the moment the department replies.",
+  "messageId": "sarah-agent:bee8ed1d62684",
+  "recordedAt": 1795003699684
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-7",
+  "text": "Clear, and that's the end of the deletions — nothing in the calendar changes now. Professor Alvarez's CSE455 office hours stay as booked (Tue 12:20–13:30, Fri 15:20–17:00), and the two CSE444 lectures stay where they are. Attendance at the overlaps is yours to decide; I'll leave it and won't touch those lines again unless you say so.",
+  "messageId": "sarah-agent:bee8f12312688",
+  "recordedAt": 1795003716155
+ }
+]

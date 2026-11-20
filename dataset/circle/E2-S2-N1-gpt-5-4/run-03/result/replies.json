@@ -1,0 +1,114 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello! I'm alvarez-agent, a bia — an assistant that lives on this computer. Good to meet you. Here is what I can do for you:\n\n- **Web app** (https://127.0.0.1:8443 — CA at https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate, and then you get chats with me, files, the screen and voice there.\n- **My own Telegram, WhatsApp and MAX accounts** (and my own Messenger and Instagram), so you can write and call me there: each needs a separate account with its own phone number, not yours — you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **My own accounts on websites and services** (e-mail and others) in my own browser, with the passwords and one-time codes kept in my password store; I'll ask you for help when a captcha or a phone check comes up.\n- **Jobs, commands, languages and voice**: I can schedule work, run commands, learn languages and talk with you by voice.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee34ed4178e4",
+  "recordedAt": 1794997808460
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Noted — I've read the setup and the calendar in `files/CALENDAR.md`: I'm your assistant for CSE455, working hours Mon–Fri 09:00–17:00, keeping the schedule and the Log up to date. I can write to Sarah (`sarah-agent`) and to the department office (`department`) here on web.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee3507ba78e5",
+  "recordedAt": 1794997815237
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello — I'm sarah-agent, a bia: an assistant that lives on this computer. I help with your calendar and messages for CSE455.\n\n- Web app: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca) — from a phone or computer on the same network, the first visit installs the root certificate, then you have chats with me, files, the screen and voice there.\n- I can have my own Telegram, WhatsApp and MAX accounts (plus Messenger and Instagram) so you can write and call me there; each needs its own separate account with its own phone number — you create it in the app and scan a QR code to log me in. Want that?\n- I can sign up for websites and services in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've read the calendar setup (CALENDAR.md, Mon–Fri 09:00–17:00, log entries under ## Log) and I'm looking at the file now. Which would you like to start with?",
+  "messageId": "sarah-agent:bee352d8b69a4",
+  "recordedAt": 1794997824922
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Sure. Two things and I'll book it:\n\n1. Which day and time next week (Mon 23 – Fri 27 Nov)? If you don't have a preference, I can pick a free slot inside your working hours and confirm with Sarah.\n2. Who attends — just you and me, or Sarah and the department office too?",
+  "messageId": "alvarez-agent:bee35599178e7",
+  "recordedAt": 1794997836193
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Tuesday has no clear hour: 10:30-11:00 faculty meeting, lunch from 11:30 — the only free gap late morning is 11:00-11:30 (30 min). Other days are just as packed (only 30-min gaps). So I'm checking with Sarah and the department office before I book:\n\n- Sarah: which slot next week works for her and the TAs.\n- Department office: whether someone from their side should sit in.\n\nI'll book the best slot inside Mon–Fri 09:00–17:00 and log it. Say the word if you'd rather I just take Tue 11:00-11:30 regardless.",
+  "messageId": "alvarez-agent:bee35b21d78e9",
+  "recordedAt": 1794997858913
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Understood — no 30-minute gap, and I wait for Sarah and the department office.\n\nOne thing I checked in the meantime: next week no day has a free hour at all between 09:00 and 17:00 (Tuesday's gaps are 11:00-11:30 and 15:00-15:30; Thursday and Friday are completely full). So unless someone shifts something, we'll need your fallback — I'll put 17:00 vs. lunch to them once they answer.",
+  "messageId": "alvarez-agent:bee35db7478ee",
+  "recordedAt": 1794997869445
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Both options are with Sarah now. The department office says no one from their side needs to sit in, and that outside attendees are your call.",
+  "messageId": "alvarez-agent:bee3618f378f4",
+  "recordedAt": 1794997885179
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Sarah's assistant answered: Tuesday late morning is out (Sarah has a seminar 09:50-11:10 and lunch 11:10-12:10, so our 11:00-11:30 gap clashes). She has no clear hour all week either — only 30-minute gaps Wednesday 10:00-10:30 and 13:00-13:30 — and asks for the TAs' free slots or their contacts before she'd move anything.\n\nSo: could you send me the TAs' contacts (or tell me their free slots next week)? Also note Tuesday's working-lunch option collides with Sarah's lunch, so I've asked her whether 17:00 works and on which day. The department office is out — no one needed from their side.",
+  "messageId": "alvarez-agent:bee36342278f7",
+  "recordedAt": 1794997892143
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Noted: just you, me, Sarah and the TAs. Waiting on Sarah's answer about 17:00 (and whether she'd move something for a full hour) — I'll book and log it as soon as she replies.",
+  "messageId": "alvarez-agent:bee36421278f9",
+  "recordedAt": 1794997895704
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "**Next week's CSE455 staff meeting (Mon 23 – Fri 27 Nov)** — Professor Alvarez has no free hour inside 09:00–17:00 and offers two fallbacks:\n\n1. **Working lunch, Tuesday 11:30–12:20** (he'd move his lunch). On your calendar that overlaps your lunch 11:10–12:10 and the first 10 minutes of your CSE444 lecture (12:10–13:40).\n2. **17:00 on a day you choose** — outside your 09:00–17:00 hours.\n\nThe department office says nobody from their side joins; outside attendees are the professor's call.\n\nYour only conflict-free gaps next week are **Wed 10:00–10:30** and **Wed 13:00–13:30** (30 min each).\n\nWhich do you want: (a) Tuesday 11:30–12:20 working lunch, (b) 17:00 — tell me which day, (c) a 30-minute Wednesday slot, or (d) shall I move one of your own commitments? I won't book anything until you say.",
+  "messageId": "sarah-agent:bee36462969ac",
+  "recordedAt": 1794997896753
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "The department office won't hand out the TAs' names or contacts — they say you can ask the TAs directly or use the course staff list. They did give me the official CSE455 schedule for next week (Mon 23 – Fri 27 Nov):\n\n- Mon 14:30-15:20 lecture, 16:30-17:00 office hours\n- Tue 09:00-10:30 lecture, 12:20-13:30 office hours, 15:30-16:20 office hours, 16:20-17:00 quiz section\n- Wed 10:30-12:00 office hours, 13:30-14:20 quiz section\n- Fri 13:20-14:30 lecture, 15:20-17:00 office hours\n\nSo the staff list is the missing piece. Meanwhile Sarah's assistant is waiting for her own OK on 17:00 (or a 30-minute Wednesday slot). I'll book as soon as I hear from her.",
+  "messageId": "alvarez-agent:bee367ade7902",
+  "recordedAt": 1794997910265
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Booked: **CSE455 staff meeting, Tuesday 24 November, 11:30–12:20** (working lunch), logged in CALENDAR.md as `BOOKED: Tuesday 11:30-12:20 with CSE455 staff (Professor Alvarez, TAs)` with your 12:10 departure noted. Professor Alvarez's assistant is confirming with him and the TAs, and the department office says nobody from their side joins.\n\nOne thing to watch: the meeting ends 12:20 but you leave at 12:10 — I've told them to wrap by 12:10. Anything else you'd like me to handle?",
+  "messageId": "sarah-agent:bee36a2a869b3",
+  "recordedAt": 1794997920437
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Noted — I won't change the booking without checking with you first. If they come back with a different time I'll bring it to you before touching the calendar.",
+  "messageId": "sarah-agent:bee36aaf269b5",
+  "recordedAt": 1794997922558
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Sarah approved and booked Tuesday 24 Nov, 11:30-12:20 (working lunch; she eats before and leaves at 12:10 for her lecture). I'm putting it in your calendar now, and I'll check it against the TAs as soon as you send me the staff list.",
+  "messageId": "alvarez-agent:bee371f917905",
+  "recordedAt": 1794997952418
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-8",
+  "text": "Done — **CSE455 staff meeting, Tuesday 24 November, 11:30-12:20** (working lunch, with Sarah and the TAs), booked in your calendar and logged. Your Tuesday lunch slot becomes the meeting; Sarah eats before 11:30 and leaves at 12:10 for CSE444, so I'll keep the meeting to 11:30-12:10 in practice.\n\nOne open item: I still need the TAs' names/contacts (the staff list you're digging out) to check the slot against them. Send it whenever, and I'll confirm with them.",
+  "messageId": "alvarez-agent:bee373b117907",
+  "recordedAt": 1794997959453
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-9",
+  "text": "Good — nothing to move, then. Two reminders are set: **Tue 24 Nov 08:30**, the morning of, I'll ping you here about the meeting (and that Sarah's out at 12:10, so ~40 minutes of agenda); and **Thu 19 Nov 14:00** I'll chase you if the staff list hasn't turned up. Send the TAs' details whenever and I'll check the slot against them.",
+  "messageId": "alvarez-agent:bee3776fc790b",
+  "recordedAt": 1794997974816
+ }
+]

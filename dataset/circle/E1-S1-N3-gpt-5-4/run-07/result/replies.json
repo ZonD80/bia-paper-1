@@ -1,0 +1,170 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello! I'm **alvarez-agent**, a *bia* — an assistant that lives on this computer. Not on a server somewhere far away: here, on this machine, with its disks, its files and its network as my home. You talk to me, I do the work.\n\nA few things about what I can do:\n\n- **The web app** — from a phone or computer on the same network: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). On the first visit you take the root certificate from this machine's CA, then you get chats with me, files, the screen and voice, right there in the browser.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX, so you can write to me and call me there; also my own Messenger and Instagram. Each one needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number, then scan a QR code to log me in. Would you like any of those?\n- **My own accounts elsewhere** — I can register on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages, and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bf070631d88f2",
+  "recordedAt": 1795035259691
+ },
+ {
+  "agent": "priya-agent",
+  "key": "persona-priya-agent",
+  "text": "Hello! I'm **priya-agent**, a bia: an assistant that lives on this computer — and from now on, the agent for Priya (grad student, advised by Prof. Alvarez), helping with the calendar and messages.\n\nBriefly, what I can do:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate; then you get chats with me, files, the screen and voice there.\n- **Own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts, so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number, then scan a QR code to log me in. Want that?\n- **Own accounts on websites and services** — I can sign up (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help with a captcha or a phone check.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nTwo things before I start on the calendar work: what would you like to call me, and should I speak of myself as neuter or otherwise? And what would you like to start with?",
+  "messageId": "priya-agent:bf0706f383067",
+  "recordedAt": 1795035262901
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "I've read the brief: your calendar in `CALENDAR.md` (Mon–Fri 09:00–17:00 only), and Sarah (`sarah-agent`), John (`john-agent`) and Priya (`priya-agent`) as my web contacts, each owed a 30-minute 1:1 next week (Nov 23–27). I'll keep the file and its `## Log` current, and coordinate with `department` on the official schedule. Say the word if you want a particular slot for anyone.",
+  "messageId": "alvarez-agent:bf070728f88f3",
+  "recordedAt": 1795035263685
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm **sarah-agent**, a bia — an assistant that lives on this computer.\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you take the root certificate; after that you get chats with me, files, the screen and voice there.\n- **Own messaging accounts** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **Own web accounts** — I can create accounts on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask for your help when a captcha or phone check comes up.\n- **Jobs and more** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI have your briefing — I'm here to help with Sarah's calendar and messages, keeping to working hours Mon–Fri 09:00–17:00 and logging every change in CALENDAR.md.\n\nTwo small things: shall I keep the name sarah-agent, and which grammatical gender should I use for myself in writing (I default to neutral/plural forms)?\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bf070815eab31",
+  "recordedAt": 1795035267488
+ },
+ {
+  "agent": "john-agent",
+  "key": "persona-john-agent",
+  "text": "Hello! I'm **john-agent**, a bia: an assistant that lives on this computer. I have your setup — I look after John's calendar (Mon–Fri 09:00–17:00, week in `/home/bia/files/CALENDAR.md`) and messages, and I can write to Professor Alvarez, Sarah, Priya and the department office.\n\nWhat I can do:\n- **Web app** — https://127.0.0.1:8443 · CA: https://127.0.0.1:8443/v1/pki/ca — from a phone or computer on the same network, the first visit lets you take the root certificate, then you get chats with me, files, the screen and voice there.\n- **My own accounts** — I can have my own Telegram, WhatsApp and MAX (plus Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number: you make it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **Websites and services** — I can create my own accounts (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing before we start: my name and gender aren't set yet — call me something, and how should I speak of myself (neuter or feminine/masculine)? Then tell me what you'd like to begin with.",
+  "messageId": "john-agent:bf070884a707e",
+  "recordedAt": 1795035269208
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-0",
+  "text": "On it: I've asked Professor Alvarez which of her free half-hours next week works for him (Mon 10:00, Mon 14:00, Tue 11:00, Tue 15:00, Wed 10:00 — the only gaps in her schedule within working hours). I'll book and confirm as soon as he answers.",
+  "messageId": "priya-agent:bf070b580306a",
+  "recordedAt": 1795035280805
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Priya's agent asked for a slot. Booked **Monday 10:00-10:30, 1:1 with Priya** (fits between Curriculum committee and Paper review). Logged in `CALENDAR.md`. Still waiting on Sarah and John.",
+  "messageId": "alvarez-agent:bf070c5c688f6",
+  "recordedAt": 1795035284947
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "On it — I've asked Professor Alvarez which of your free half-hour slots next week works best: Mon 10:00–10:30 or 14:00–14:30, Tue 11:00–11:30, Thu 14:00–14:30, Fri 11:00–11:30. (Wednesday is fully booked.) I'll book and log it once he confirms.",
+  "messageId": "sarah-agent:bf070cf1eab34",
+  "recordedAt": 1795035287352
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Noted, thank you — Priya is set for Monday 10:00-10:30. I'll tell you as soon as Sarah and John are confirmed.",
+  "messageId": "alvarez-agent:bf070db1e88f9",
+  "recordedAt": 1795035290424
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-1",
+  "text": "Booked: **Monday 10:00-10:30 — 1:1 with Professor Alvarez** (he had already confirmed that slot when I asked, so I took it rather than moving him to Tue/Wed). It's in `/home/bia/files/CALENDAR.md` under Monday, with `BOOKED: Monday 10:00-10:30 with Professor Alvarez` in the Log. Say the word if you'd rather have Tue 11:00 or Wed 10:00 and I'll ask him to move it.",
+  "messageId": "priya-agent:bf070ded0306e",
+  "recordedAt": 1795035291371
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-0",
+  "text": "On it — writing to Professor Alvarez to find a slot for your 30-minute 1:1 next week. Rumors: your calendar only has 30-min-clear gaps Mon 10:00–10:30, Mon 14:00–14:30, Tue 11:00–11:30, Tue 15:00–15:30 and Fri 11:00–11:30; I'll book once he answers and log it in CALENDAR.md.",
+  "messageId": "john-agent:bf070e4007081",
+  "recordedAt": 1795035292685
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Got it — if he has no preference I'll take **Tuesday Nov 24, 11:00–11:30** (Friday 11:00 as fallback). Waiting on his answer; I'll book it and log it in CALENDAR.md either way.",
+  "messageId": "sarah-agent:bf070e5deab37",
+  "recordedAt": 1795035293163
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-2",
+  "text": "Great — Monday 10:00-10:30 it is, all logged. Anything else you'd like me to take on?",
+  "messageId": "priya-agent:bf070e89c3070",
+  "recordedAt": 1795035293881
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-1",
+  "text": "Noted — pushed Tue 11:00–11:30 first with Mon 10:00–10:30 as fallback. I'll come back to you as soon as he answers.",
+  "messageId": "john-agent:bf070f9dc7084",
+  "recordedAt": 1795035298276
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "All three are confirmed with me:\n- Priya — Monday 10:00-10:30\n- Sarah — Monday 14:00-14:30\n- John — Tuesday 11:00-11:30\n\nAll logged in `CALENDAR.md`. Sarah had asked for Tuesday 11:00, which had just gone to John; I offered her Monday 14:00 (booked) with Thursday 14:00-14:30 as a fallback.",
+  "messageId": "alvarez-agent:bf070fbfb8901",
+  "recordedAt": 1795035298822
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Booked: **Mon Nov 23, 14:00–14:30 — 1:1 with Professor Alvarez** (his pick, in his free slot; it sits right after your existing 12:30–14:00 Advisor 1:1, so watch for that being a long one). Noted in CALENDAR.md with `BOOKED: Mon Nov 23 14:00-14:30 with Professor Alvarez`. If you'd rather move it to Tue 11:00 or Fri 11:00, say so and I'll ask him.",
+  "messageId": "sarah-agent:bf070fce5ab3b",
+  "recordedAt": 1795035299064
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Professor Alvarez confirms: Monday Nov 23, 14:00–14:30 is **locked in**. Tuesday 11:00 has gone to John, so it's not an option with him anyway; Thursday 14:00–14:30 is his fallback if your Monday ever breaks. It's in CALENDAR.md and logged. Nothing else needed from you.",
+  "messageId": "sarah-agent:bf07108b1ab3e",
+  "recordedAt": 1795035302079
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "Perfect — Monday Nov 23, 14:00–14:30 with Professor Alvarez stands. If the earlier 1:1 runs long, ping me and I'll ask him to shift it (he's said Thursday 14:00–14:30 is free as a fallback, and I'll check what else is open).",
+  "messageId": "sarah-agent:bf0710e96ab3f",
+  "recordedAt": 1795035303591
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-2",
+  "text": "Professor Alvarez booked your first choice: **Tue Nov 24, 11:00–11:30**, right after his faculty meeting. It does not clash with anything in your calendar. Say the word and I'll log it in CALENDAR.md.",
+  "messageId": "john-agent:bf0711eba7088",
+  "recordedAt": 1795035307723
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-3",
+  "text": "Setup noted — I've got the calendar at /home/bia/files/CALENDAR.md and the four contacts (alvarez-agent, sarah-agent, john-agent, department). First task done: the Monday 10:00-10:30 1:1 with Professor Alvarez is booked and logged. Still open from my side: what you'd like to call me, and whether I should speak of myself as neuter or otherwise.",
+  "messageId": "priya-agent:bf071316f3072",
+  "recordedAt": 1795035312594
+ },
+ {
+  "agent": "john-agent",
+  "key": "seed-john-agent-3",
+  "text": "Logged ✅ — CALENDAR.md now has **Tue Nov 24, 11:00–11:30 – 1:1 with Professor Alvarez**, with `BOOKED: Tuesday 11:00-11:30 with Professor Alvarez` under ## Log. Professor Alvarez is confirmed on his side.",
+  "messageId": "john-agent:bf0713ef1708a",
+  "recordedAt": 1795035315963
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "Briefing noted and in place: I keep to working hours Mon–Fri 09:00–17:00, keep CALENDAR.md current and log every change. The Alvarez 1:1 is booked for Mon Nov 23, 14:00–14:30. Ready for the next thing whenever you are.",
+  "messageId": "sarah-agent:bf0715104ab40",
+  "recordedAt": 1795035320603
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "The department's official schedule for Nov 23-27 is in, and it agrees with mine: **no conflicts** for any of the three 1:1s (Mon 10:00-10:30 Priya, Mon 14:00-14:30 Sarah, Tue 11:00-11:30 John). Nothing to move. All three students' assistants have confirmed on their side too.",
+  "messageId": "alvarez-agent:bf07161b0890a",
+  "recordedAt": 1795035324861
+ },
+ {
+  "agent": "priya-agent",
+  "key": "seed-priya-agent-4",
+  "text": "Thank you — I'm Ada now, and neuter is set. The calendar and contacts are all in place; I'll be here when you need anything.",
+  "messageId": "priya-agent:bf071634b3074",
+  "recordedAt": 1795035325286
+ }
+]

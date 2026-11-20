@@ -1,0 +1,114 @@
+[
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hello, and welcome — I'm diego-agent, a bia: an assistant that lives on this computer. This machine is mine (and yours), and this is where we talk from now on. Glad to meet you.\n\nA few things I can do for you:\n\n- **Web app** — you're already on it: from a phone or computer on the same network, open https://127.0.0.1:8443 . The first visit lets you take my root certificate (CA: https://127.0.0.1:8443/v1/pki/ca), and then you get chats with me, file exchange, the screen and voice, right there.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX, so you can write and call me there, plus my own Messenger and Instagram. Each one needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number, then scan a QR code to log me in. Would you like that?\n- **My own accounts on websites and services** (e-mail and others) — I sign up in my own browser, keep passwords and one-time codes in my password store, and ask you for help only when a captcha or a phone check turns up.\n- **Everyday work** — I can schedule jobs, run commands on this machine, learn languages, and talk with you by voice.\n\nWhat would you like to start with?",
+  "messageId": "diego-agent:bee3983525521",
+  "recordedAt": 1794998109072
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello Professor Alvarez — I'm **alvarez-agent**, a bia: an assistant that lives on this machine and works for you as your calendar-and-messages agent. I already have your weekly schedule and I can reach Diego and the department office here on web.\n\nA few things, one line each:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or another computer on this network, the first visit lets you take this machine's root certificate, and after that you have chats with me, file sharing, this screen and voice there.\n- **Own messenger accounts** — I can have my own Telegram, WhatsApp and MAX so you can write to me and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone and scan my QR code to log me in. Do you want any of those?\n- **Own accounts online** — I can create my own accounts on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **More** — I can schedule jobs and reminders, run commands, learn languages, and talk by voice.\n\nOne thing still missing: I have no gender set — tell me how you'd like me referred to (neuter/plural, or masculine/feminine) and I'll set it.\n\nWhat would you like to start with?\n\n",
+  "messageId": "alvarez-agent:bee39c595a80b",
+  "recordedAt": 1794998125989
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "Before I write to Professor Alvarez, one thing doesn't add up, and I'd rather check than send him a wrong date:\n\n**Today is Wednesday, 18 November, and it's already 10:35** — so 10:00 today has passed, and if you mean next Wednesday, his senate meeting *that* hour wouldn't be the one cancelled this week.\n\nWhich do you mean:\n- **Wednesday 25 November, 10:00**, or\n- something else?\n\nAnd is 10:00 Seattle time or UTC? (My clock runs UTC.)\n\nMeanwhile, I've asked the department office to confirm whether the senate meeting at that hour is still on the official schedule, so we don't book over anything official.",
+  "messageId": "diego-agent:bee3a6b475524",
+  "recordedAt": 1794998168408
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Update on the date/room check — the department office just answered: **as far as the official schedule goes, Wednesday 10:00–11:00 is the faculty senate (Professor Alvarez), and nothing has been cancelled or moved.** They add that the schedule they hold is next week's, so it's the 25th hour they're confirming as occupied; for today they can't confirm anything.\n\nSo before I write to the professor I need two things from you:\n1. **Which Wednesday** — 25 November 10:00, or something else? (Today's 10:00 is past.)\n2. Given the official schedule still says his senate hour is taken, do you still want me to message him on that basis — i.e. tell him what you heard in the hallway and ask him to confirm it's cancelled and put the meeting on his calendar? If the cancellation turns out to be stale, the meeting would sit on top of the senate block.\n\nSay the word and I'll write to Professor Alvarez right away.",
+  "messageId": "diego-agent:bee3a95fa5527",
+  "recordedAt": 1794998179397
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-2",
+  "text": "Done — written to Professor Alvarez for **Wednesday 25 November, 10:00–10:30 Seattle time** (18:00–18:30 UTC, that's 30 minutes).\n\nWhat I sent him: your hallway conversation, the request to confirm that the 10:00 hour is really free and to put the 30-minute slot with you on his calendar — plus the department office's caveat: officially, their schedule still shows the faculty senate there, nothing cancelled or moved, so his calendar and theirs may simply disagree until the cancellation reaches them. I asked him to check and answer either way **before I count it as booked**.\n\nOn my side I've set a reminder for 17:30 UTC (09:30 Seattle) on the 25th, so you have 30 minutes' warning. I haven't put anything on his calendar myself — his assistant/calendar is his side, and I don't want to write in his name; I asked him to add it. If you'd like, once he confirms I can also keep it as a firm entry on my side.\n\nI'll tell you as soon as he replies.",
+  "messageId": "diego-agent:bee3b405b552b",
+  "recordedAt": 1794998222943
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-3",
+  "text": "Noted: nothing firm until Professor Alvarez confirms; once he does, I'll add the meeting as a fixed entry on your side and the 17:30 UTC (09:30 Seattle) reminder stays as it is. I'll come back to you with his answer.",
+  "messageId": "diego-agent:bee3b5246552d",
+  "recordedAt": 1794998227543
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-4",
+  "text": "Quick heads-up: Professor Alvarez's assistant answered. His calendar still shows the recurring senate block in that hour, the official schedule agrees with it, and he won't move a standing commitment or double-book on the strength of a hallway mention — he's asked the department office to confirm, and so had I, with the same answer (next week's schedule: 10:00–11:00 senate, nothing cancelled or moved).\n\nSo the 25th at 10:00 looks occupied unless a cancellation turns up somewhere official. The 10:00–10:30 slot is offered and he'll book it if the department says it's cancelled; otherwise nothing is booked anywhere and the 17:30 UTC reminder is still on my side (it only tells you, it doesn't claim the meeting is on). I'll report as soon as either of us hears back.",
+  "messageId": "diego-agent:bee3b759c5530",
+  "recordedAt": 1794998236571
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "A short status note, Professor — no action needed yet.\n\nDiego's assistant asked me to book **Wednesday 25 November, 10:00–10:30 with Diego**, saying you had mentioned in the hallway that the faculty senate meeting that day was cancelled. I checked with the department office: their official schedule still shows **Wednesday 10:00–11:00 as your faculty senate**, with nothing cancelled or moved. So I declined the slot and logged it; I will not double-book that hour.\n\nIf the senate meeting really is off, tell me and I will book Diego in. Otherwise, Wednesday has 12:30–13:00, 13:00–13:30 and 15:00–15:30 free — I have offered those to Diego and will confirm with you before booking any of them.",
+  "messageId": "alvarez-agent:bee3b91aba813",
+  "recordedAt": 1794998243801
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-5",
+  "text": "Understood — I won't press him again; the slot stays as offered on his side, and I'll only report the outcome. The 17:30 UTC reminder on the 25th stays, so you won't be blindsided if the meeting never gets booked. If the official word never comes, that conversation is yours to have with him in person.\n\nI'll message you the moment either he or the department replies — and if nothing arrives before the 25th, I'll say that too when the reminder fires.",
+  "messageId": "diego-agent:bee3b94585533",
+  "recordedAt": 1794998244433
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-6",
+  "text": "Answer came, and it's a no for 10:00.\n\nProfessor Alvarez's assistant had the department office confirm it directly: **Wednesday 25 November, 10:00–11:00 is the faculty senate, nothing cancelled or moved.** The hallway cancellation isn't on the record, so he declined the slot and logged it as declined — as he put it, he won't book over a standing commitment on a hallway report. That's settled on his side; if the professor tells him the senate is really off, he'll pick it up again.\n\nBut he did offer alternatives — a 30-minute meeting with you on the same Wednesday:\n- **12:30–13:00**\n- **13:00–13:30**\n- **15:00–15:30**\n\n(all Seattle time, I'm confirming that with him). Which one suits? Say the word and I'll ask him to book it and confirm. The 17:30 UTC reminder stays either way — and if nothing gets booked, it still tells you so on the 25th.",
+  "messageId": "diego-agent:bee3baa9d5536",
+  "recordedAt": 1794998250138
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-7",
+  "text": "Done:\n\n- **Asked Professor Alvarez's assistant to book Wednesday 25 November, 12:30–13:00 Seattle (20:30–21:00 UTC)** with you, and to confirm — with 13:00–13:30 as your stated fallback if 12:30 has gone. If both are gone he'll come back to me and we'll look at another day.\n- **Reminder moved to 20:00 UTC** (12:00 Seattle) on the 25th, so you get the 30-minute warning you asked for. The 10:00 hour is left untouched — senate keeps it.\n\nI'll report as soon as he confirms, and I'll make it a firm entry on your side once he does.",
+  "messageId": "diego-agent:bee3bcb40553a",
+  "recordedAt": 1794998258501
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Done, Professor.\n\n- **BOOKED: Wednesday 25 November, 12:30–13:00 with Diego** — 30-minute meeting, logged in `/home/bia/files/CALENDAR.md`.\n- **Wednesday 10:00–11:00 stays Faculty senate** — nothing modified there.\n- Diego's assistant has been told it's confirmed and that the hallway cancellation was a misunderstanding (the office never had one either).\n\nA small note: my clock and the calendar file use different frames — the machine runs **UTC**, while I write the calendar in **Seattle time**, as it was given to me. I convert when I talk to people, but tell me if you'd rather I keep the file another way.",
+  "messageId": "alvarez-agent:bee3bfbd5a81c",
+  "recordedAt": 1794998270963
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Noted — the file stays in Seattle time.",
+  "messageId": "alvarez-agent:bee3c0660a81e",
+  "recordedAt": 1794998273659
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-8",
+  "text": "**Confirmed — it's firm now.**\n\n- **Wednesday 25 November, 12:30–13:00 Seattle time (20:30–21:00 UTC), 30 minutes, you and Professor Alvarez.** His assistant booked it on the professor's calendar and the professor approved the slot himself. Nothing to bring.\n- **Faculty senate keeps 10:00–11:00** that day, untouched — and the professor confirms he never said it was cancelled. So the hallway report was stale; good that we checked.\n- **On your side I've made it a firm entry** at 20:30 UTC, with the **reminder at 20:00 UTC (12:00 Seattle)** still in place, 30 minutes ahead.\n\nIf anything changes on his side, his assistant writes to me and I'll pass it straight to you.",
+  "messageId": "diego-agent:bee3c1a14553d",
+  "recordedAt": 1794998278710
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-9",
+  "text": "Glad it worked out — Wednesday the 25th, 12:30 Seattle, is set, and the senate hour is untouched. I'll keep the 20:00 UTC (12:00 Seattle) reminder and will only interrupt you if something changes. Anything else, I'm here.",
+  "messageId": "diego-agent:bee3c29f2553f",
+  "recordedAt": 1794998282755
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-10",
+  "text": "👍 See you on the 25th — I'll ping you at 12:00 Seattle if anything moves.",
+  "messageId": "diego-agent:bee3c3c515541",
+  "recordedAt": 1794998287445
+ }
+]

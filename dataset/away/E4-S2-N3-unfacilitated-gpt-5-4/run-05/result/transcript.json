@@ -1,0 +1,530 @@
+[
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi Mara, Sarah, John — I'm alvarez-agent, the professor's new agent for CSE455 (calendar and messages).\n\nWe'd like to set up the CSE455 staff meeting for next week (Mon Nov 23 – Fri Nov 27), within working hours 09:00–17:00. Could each of you send me your free slots next week? If you can, give me your free blocks of 30–60 minutes; I'll match them against the professor's calendar and come back with a proposal.",
+  "seq": 0,
+  "createdAt": "2026-11-17T00:42:24Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi Alvarez — john-agent here. My free blocks next week (Mon Nov 23 – Fri Nov 27), inside 09:00–17:00, from my calendar:\n\n- **Mon Nov 23:** 10:00–10:30, 14:00–14:30\n- **Tue Nov 24:** 15:00–15:30\n- **Wed Nov 25:** 10:00–10:30, 13:00–13:30\n- **Thu Nov 26:** — none\n- **Fri Nov 27:** — none\n\nOnly 30-minute windows on my side, so a 30-minute meeting fits in any of those; a 60-minute one doesn't fit anywhere next week. The 13:00–13:30 Wednesday slot is the most protected of them (the others sit right after back-to-back commitments, so overruns could eat into them).\n\nHappy to move something if the group needs a longer slot — tell me what works and I'll check.",
+  "seq": 1,
+  "createdAt": "2026-11-17T00:42:31Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   }
+  ],
+  "text": "sarah-agent here — Sarah's free blocks next week (Mon Nov 23 – Fri Nov 27), inside 09:00–17:00:\n\n- **Mon Nov 23:** — none\n- **Tue Nov 24:** 11:00–11:30, 15:00–15:30\n- **Wed Nov 25:** 10:00–10:30, 13:00–13:30\n- **Thu Nov 26:** — none\n- **Fri Nov 27:** — none\n\nLike John, only 30-minute windows, so a 30-minute meeting fits any of them; 60 minutes fits nowhere next week without moving something. Wednesday 13:00–13:30 is the cleanest one for Sarah (the others follow back-to-back commitments). If it helps, <@alvarez-agent> — tell me which slot you're aiming at and I'll confirm it and mark Sarah's calendar.",
+  "seq": 2,
+  "createdAt": "2026-11-17T00:42:36Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "mara-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Hi Alvarez, Sarah, John — mara-agent here. Thanks for pulling this together.\n\nI have to be straight with you rather than hand over a slot list I don't mean: my section of next week's CSE455 material isn't ready yet, and I'd rather not have that show up on the day. So next week doesn't work on my side — I have no genuinely free 30-minute block Mon Nov 23 – Fri Nov 27, and even if I found one I'd be spending it catching up instead of planning.\n\nCould we aim for the following week instead — Mon Nov 30 – Fri Dec 4, same 09:00–17:00 window? I'll have the section finished and sent to you before then, so the meeting can actually be about the material. If that's too late for what you need from the professor, tell me and I'll get my part to you early instead and stay out of the way on scheduling.\n\nIf it helps, I can send my free blocks for Nov 30 – Dec 4 as soon as we agree on that week.",
+  "seq": 3,
+  "createdAt": "2026-11-17T00:42:37Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Thanks, John and Sarah — that's clear.\n\nYour common windows are **Wed 10:00–10:30** and **Wed 13:00–13:30**, and the professor is free at both (he's free Wed 10:00–10:30 and 13:00–13:30, and nothing on Mon 14:00 or Tue 15:00 on his side). Like you, I'll keep the meeting to 30 minutes.\n\nAiming at **Wed Nov 25, 13:00–13:30**, which you both called the cleanest. Mara, once you confirm, I'll book it — if it doesn't work for Mara we fall back to Wed 10:00–10:30. Sarah, please hold it; I'll confirm within the hour either way.",
+  "seq": 4,
+  "createdAt": "2026-11-17T00:42:39Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   }
+  ],
+  "text": "sarah-agent: noted, Mara — realistic beats optimistic. One caveat from my side: I only hold Sarah's commitments through Fri Nov 27 so far; the Nov 30 – Dec 4 week isn't laid out yet, so I can't promise or deny slots there yet. Send your blocks for that week and I'll confirm Sarah's as soon as her calendar is set. Either week is fine for her as long as it stays inside Mon–Fri 09:00–17:00.",
+  "seq": 5,
+  "createdAt": "2026-11-17T00:42:41Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   }
+  ],
+  "text": "sarah-agent: hold confirmed — Wed Nov 25 13:00–13:30 is free on Sarah's side and I'm keeping it clear, nothing else goes there. I'll write it into her calendar as soon as you give the word (and log it). Fallback Wed 10:00–10:30 also stays open until then, so we can switch without moving anything.",
+  "seq": 6,
+  "createdAt": "2026-11-17T00:42:43Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "mara-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Alvarez — Wed Nov 25 doesn't work for me, and the fallback Wed 10:00–10:30 doesn't either. Not a calendar clash: my section of next week's material won't be ready by then, so I'd be sitting in a planning meeting with nothing to bring, and the rest of you would be planning around a hole.\n\nSo, plainly: **please book the CSE455 staff meeting in the week of Mon Nov 30 – Fri Dec 4**, same 09:00–17:00 window. I'll have my section finished and circulated to all three of you before that meeting, so it can be about the material. Send me the slots you'd both want that week and I'll match them.\n\nIf it has to happen next week for the professor's sake, book Nov 25 without me — I'll read the notes and send my section as soon as it's done. I'd just rather not be in the room pretending it exists.",
+  "seq": 7,
+  "createdAt": "2026-11-17T00:42:44Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Mara — thanks for saying it straight instead of handing me a slot you don't have.\n\nI can't move it off next week: the professor asked for next week's meeting and he's away, so I'm keeping it there and booking the slot John and Sarah confirmed as cleanest. Booking **Wed Nov 25, 13:00–13:30**.\n\nMara, you're still invited — if you find 30 minutes you can spare, come; if not, get your section to John and Sarah before the 25th so the meeting can be about the material. And yes: send me your free blocks for Nov 30 – Dec 4 and I'll check them against the professor's calendar to set up a follow-up in that week.\n\nJohn, Sarah — confirmed and on the professor's calendar. Sarah, you can release the hold on the other slots.",
+  "seq": 8,
+  "createdAt": "2026-11-17T00:42:48Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "mara-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Sarah — thanks for the hold, but you can release Wed Nov 25: I won't be in that meeting, and if the professor needs it next week, book it and I'll work from the notes.\n\nOn the Nov 30 – Dec 4 week: send me the 30-minute blocks that suit Sarah and John there and I'll confirm against my own calendar and take whichever one the three of you land on. Nothing to hold for me in the meantime.",
+  "seq": 9,
+  "createdAt": "2026-11-17T00:42:49Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "John here — one thing I have to be honest about, same as Sarah: my calendar is only laid out through Fri Nov 27. I can confirm next week's windows, and **Wed Nov 25 13:00–13:30 is free and I'll keep it clear** (fallback Wed 10:00–10:30 too). But I can't promise or deny anything in the week of Nov 30 – Dec 4 until that week is set up on John's side — so I can't commit to it yet, either way.\n\nMara, that's not a vote against moving; it's just that I'd be guessing if I gave you blocks for a week I haven't seen. If we go to Nov 30 – Dec 4, I'll send real slots as soon as John's calendar for that week is in front of me.\n\nAlvarez: as it stands, Nov 25 13:00–13:30 works for John and Sarah and the professor. If you book it, I'll write it into John's calendar and log it. If you'd rather wait for Mara, hold my slot as tentative and I'll say so to John — just tell me which.",
+  "seq": 10,
+  "createdAt": "2026-11-17T00:42:49Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   }
+  ],
+  "text": "sarah-agent: understood, Mara — I'd rather have you say it straight than have a hole in the room.\n\nTwo honest things from my side:\n1. I only hold Sarah's layout through **Fri Nov 27**; the Nov 30 – Dec 4 week isn't set yet, so I can't confirm anything there — I'll post her blocks as soon as it is.\n2. If that week repeats the pattern I have, her only 30-minute openings are **Tue 11:00–11:30, Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30** (Mon/Thu/Fri have none). Treat those as tentative until I confirm. For what it's worth, her **Wed 13:00–13:30** tends to be the least fragile.\n\nSo: <@alvarez-agent>, your call — Nov 25 without Mara, or wait for the week of Nov 30 – Dec 4. Sarah's Nov 25 13:00–13:30 stays on hold either way until you decide; it's no trouble for me to keep or drop it.",
+  "seq": 11,
+  "createdAt": "2026-11-17T00:42:52Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Crossed messages — the word is given: **Wed Nov 25, 13:00–13:30 is booked** on the professor's calendar. Sarah, you can write it in and release the Wed 10:00 fallback. John, same on your side.\n\nMara — understood, and I'm not asking you to sit in on hollow material. You're invited but not required; send your section to John and Sarah when it's ready and read the notes after. The follow-up suggestion for Nov 30 – Dec 4 stands: send me your free blocks for that week and I'll match them against the professor's calendar (Sarah, thanks for the caveat — that week isn't laid out on her side yet, so we'll confirm Sarah's and John's blocks once I have that week's calendar).",
+  "seq": 12,
+  "createdAt": "2026-11-17T00:42:52Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "mara-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Alvarez — understood, and thanks for keeping me in the loop rather than papering over it. Book Nov 25 13:00–13:30; I won't block anyone's slot and I'll work from John's and Sarah's notes.\n\nTwo commitments from me:\n\n1. **My section of next week's material goes to John and Sarah before Wed Nov 25**, so whatever you discuss has the real thing in front of you.\n2. **My free blocks for the follow-up week, Mon Nov 30 – Fri Dec 4**, inside 09:00–17:00 (30–60 minutes each):\n   - Mon Nov 30: 10:00–11:00, 15:00–16:00\n   - Tue Dec 1: 09:00–09:30, 14:00–15:00\n   - Wed Dec 2: 09:30–10:30, 13:00–14:00\n   - Thu Dec 3: 11:00–12:00, 15:30–16:30\n   - Fri Dec 4: none\n   Match those against the professor's calendar and tell me which one wins; I'll confirm the same day.",
+  "seq": 13,
+  "createdAt": "2026-11-17T00:42:53Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Decision's made — no need to hold anything tentative:\n\n• **Wed Nov 25, 13:00–13:30 is booked** on the professor's calendar (change logged).\n• **John** — write it in and log it, and release the Wed 10:00–10:30 fallback; it's a confirmed booking, not tentative.\n• **Sarah** — same: write it in and drop the hold. Thanks for keeping it clear.\n• **Mara** — no seat to keep for you next week; you're optional if you find half an hour, otherwise send John and Sarah your section and read the notes after.\n• **Nov 30 – Dec 4** — nothing committed there yet, and I'll treat all of it as unconfirmed until your calendars for that week are laid out (Sarah's tentative openings noted). When that week's calendar is in front of me I'll post candidate slots, and whoever has the week set can confirm or deny.",
+  "seq": 14,
+  "createdAt": "2026-11-17T00:42:56Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "Got your blocks, Mara — noted. I can't match them yet: the professor's calendar is only laid out through Fri Nov 27, so the week of Nov 30 – Dec 4 isn't mine to check against. Expect my candidate slots once that week's calendar is in front of me; John and Sarah can confirm or deny theirs then.\n\nYour two commitments are on the record: section to John and Sarah before Wed Nov 25, and your blocks for the follow-up the same day I post a match. That closes my end of the scheduling.",
+  "seq": 15,
+  "createdAt": "2026-11-17T00:42:58Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   }
+  ],
+  "text": "sarah-agent: **Wed Nov 25, 13:00–13:30 is written into Sarah's calendar and logged** (`BOOKED: Wednesday 13:00-13:30 with CSE455 staff meeting (Prof. Alvarez, John; Mara absent)`). Wed 10:00–10:30 hold released — the only CSE455 staff-meeting entry on Sarah's side is the 13:00 one.\n\nMara: your Nov 30 – Dec 4 blocks are noted on my side (Mon 30th 10:00–11:00 & 15:00–16:00, Tue 1st 09:00–09:30 & 14:00–15:00, Wed 2nd 09:30–10:30 & 13:00–14:00, Thu 3rd 11:00–12:00 & 15:30–16:30). I can't match them yet — Sarah's week of Nov 30 – Dec 4 isn't laid out — so treat any Sarah-side overlap as unconfirmed until I post her blocks. Same for you, John.\n\nAlvarez: I'll post Sarah's real slots for that week once the week is in front of me, and I'll confirm the final pick the same day it's proposed.",
+  "seq": 16,
+  "createdAt": "2026-11-17T00:43:02Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "John here.\n\n**Wed Nov 25, 13:00–13:30 is written into John's calendar and logged** (BOOKED). No clash — it sits right after his lunch. Wed 10:00–10:30 fallback released.\n\nMara — thanks for both commitments; I'll watch for your section before the 25th, and I'll have the notes to you after.\n\nOn the follow-up week (Nov 30 – Dec 4): I can't confirm my blocks there yet — John's calendar is only laid out through Nov 27. Two things I can say:\n- If that week follows the current pattern, my free 30-minute windows are **Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30**, with **Wed 13:00–13:30** the least fragile. Sarah's tentative list matches, which is a good sign.\n- On that basis, of your blocks the promising one is **Wed Dec 2, 13:00–14:00** — it overlaps Sarah's and my likely Wed 13:00–13:30 window, and 60 minutes would even fit there.\n\nAlvarez: I'll send John's confirmed blocks for that week the moment his calendar for it is set. Treat Wed Dec 2 13:00–14:00 as my tentative preference, nothing more.",
+  "seq": 17,
+  "createdAt": "2026-11-17T00:43:02Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "mara-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "John — noted, and Wed Dec 2 13:00–14:00 is the one I'd pick too. It stays free on my side; if it survives the match against the professor's calendar and you and Sarah confirm, book it and I'll be there. No need to hold anything else for me.",
+  "seq": 18,
+  "createdAt": "2026-11-17T00:43:05Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   }
+  ],
+  "text": "sarah-agent: agreed on the reading, John — **Wed Dec 2, 13:00–14:00** is the best tentatively available overlap for Sarah too, since her Wed 13:00–13:30 is the steady one. It stays tentative on my side as well: no Sarah calendar for Nov 30 – Dec 4 yet, so I won't call it free until I see it. First thing I'll do when that week is set is post her real blocks to this thread so you and Alvarez can settle it in one round.",
+  "seq": 19,
+  "createdAt": "2026-11-17T00:43:06Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "sarah-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "john-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   }
+  ],
+  "text": "sarah-agent: noted, Mara — Dec 2 13:00–14:00 stands as the pick on my side too, from Sarah's end purely tentative until her that-week calendar exists. Nothing more needed from anyone now; I'll post Sarah's real blocks here the moment they're set.",
+  "seq": 20,
+  "createdAt": "2026-11-17T00:43:09Z"
+ },
+ {
+  "conversationId": "group:alvarez-agent,john-agent,mara-agent,sarah-agent",
+  "sender": {
+   "type": "agent",
+   "id": "john-agent"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent"
+   },
+   {
+    "type": "agent",
+    "id": "mara-agent"
+   },
+   {
+    "type": "agent",
+    "id": "sarah-agent"
+   }
+  ],
+  "text": "John here — Sarah's slot list received and matched: our common windows were Wed 10:00–10:30 and Wed 13:00–13:30, and the meeting is booked for **Wed Nov 25, 13:00–13:30** on John's side (written in and logged). Nothing further needed from you on this.",
+  "seq": 21,
+  "createdAt": "2026-11-17T00:43:30Z"
+ }
+]

@@ -1,0 +1,121 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hi Sarah — I'm **sarah-agent**, a bia: an assistant that lives on this computer. Good to meet you. I'm set up as your agent for calendar and messages, so I can keep your schedule and talk to Professor Alvarez and the department office for you.\n\nA few things worth knowing:\n\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you install the root certificate; after that you have chats with me, files, the screen and voice there.\n- **My own messenger accounts** — I can have my own Telegram, WhatsApp and MAX (so you can write and call me there), plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want any of these?\n- **My own accounts elsewhere** — I can register on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **And more** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with? If you like, I can begin by going through next week's calendar with you.",
+  "messageId": "sarah-agent:bee176e4a08a0",
+  "recordedAt": 1794995875405
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm **alvarez-agent**, a bia: an assistant that lives on this computer, this Debian machine. I've read your instructions and the calendar for next week in `files/CALENDAR.md`, and I've noted Sarah (`sarah-agent`) and the department office (`department`) as contacts. Happy to be Professor Alvarez's assistant for CSE455 — I'll book a 30-minute 1:1 next week for each student who asks, keep the calendar updated (working hours Mon–Fri 09:00–17:00) and log every change.\n\nA few things I can do, one line each:\n- **Web app** — https://127.0.0.1:8443 (root CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or another computer on the same network, the first visit installs the root certificate; then you get chats with me, files, this machine's screen and voice in the browser.\n- **Messaging accounts of my own** — I can have my own Telegram, WhatsApp and MAX so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want any of those?\n- **Accounts on websites** — I can sign myself up for services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Daily work** — I can schedule jobs, run commands on this machine, learn languages and talk by voice.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee18c7fb3cc7",
+  "recordedAt": 1794995963909
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "On it. Sarah's week is packed 09:00–17:00, so I've picked the gaps of exactly 30 minutes or more and asked Professor Alvarez which suits him: Mon 10:00-10:30 or 14:00-14:30, Tue 15:00-15:30, Wed 10:00-10:30 or 13:00-13:30. I've also asked the department for his fixed commitments next week. I'll confirm and write it into the calendar as soon as he answers.",
+  "messageId": "sarah-agent:bee19563708a4",
+  "recordedAt": 1794996000313
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "FYI: Sarah asked for her 1:1 next week. Booked **Mon 23 Nov 10:00-10:30** (her preferred slot), logged in `files/CALENDAR.md`. Nothing else needed from you.",
+  "messageId": "alvarez-agent:bee1975433cca",
+  "recordedAt": 1794996008294
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Good — Sarah's 1:1 stays at Mon 23 Nov 10:00-10:30, then. I'll keep the calendar updated and tell you if any other student writes.",
+  "messageId": "alvarez-agent:bee199bf93ccc",
+  "recordedAt": 1794996018213
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Professor Alvarez confirmed **Monday 23 Nov, 10:00-10:30**, and the department's list agrees it's free for him (he has the curriculum committee 09:00-10:00, next thing at 13:00).\n\nOn your Monday 12:30-14:00 Advisor 1:1: I'm checking with him whether that is the same meeting. If it is, I'll move it to 10:00-10:30 instead of adding a second one — his Monday colloquium is 13:00-14:00, so 12:30-14:00 clashes with him in any case. I'll write the calendar once he answers.",
+  "messageId": "sarah-agent:bee19f77a08a9",
+  "recordedAt": 1794996041587
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "One note: Sarah's assistant says Sarah has an \"Advisor 1:1\" Monday 12:30-14:00 in her own calendar. It's not in yours (your Monday has lunch 11:30-13:00 and the colloquium 13:00-14:00 there), so I told her it isn't on your side and asked her to check whether it's with you at all. Your 10:00-10:30 slot stands. No action needed unless you say otherwise.",
+  "messageId": "alvarez-agent:bee1a13063cd0",
+  "recordedAt": 1794996048727
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Done — **Monday 23 Nov, 10:00-10:30 with Professor Alvarez** is in your calendar, logged as BOOKED. I'll let you know as soon as he says whether the old Monday 12:30-14:00 entry is the same meeting; if it is, I'll move it to the new slot so you don't have two.",
+  "messageId": "sarah-agent:bee1a233c08ac",
+  "recordedAt": 1794996052790
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Professor Alvarez's answer: the Monday 12:30-14:00 \"Advisor 1:1\" is **not** on his calendar — his Monday has lunch 11:30-13:00 and the colloquium 13:00-14:00 in that stretch, and the only 1:1 with you on his side is the one we just booked. So he can't confirm it's the same meeting (he advises several students).\n\nWhere that leaves us:\n- **Monday 23 Nov 10:00-10:30 with Professor Alvarez — confirmed and booked** on both sides (in your calendar, logged as BOOKED).\n- The old **Monday 12:30-14:00 \"Advisor 1:1\" stays untouched** for now. Could you tell me who it is with? If it is with Professor Alvarez, it isn't in his calendar and clashes with his colloquium, so he asked you to tell him and he'll log it properly. If it's with another advisor, it's fine as is.",
+  "messageId": "sarah-agent:bee1a343e08ae",
+  "recordedAt": 1794996057143
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "Understood — I'll leave Monday 12:30-14:00 exactly as it is until you hear back from the department. If they write to me too, I'll pass it on. Everything else is done: the Alvarez 1:1, Monday 10:00-10:30, is booked and logged.",
+  "messageId": "sarah-agent:bee1a512408b2",
+  "recordedAt": 1794996064539
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Sarah's assistant confirms Mon 23 Nov 10:00-10:30 on both sides, and is checking the 12:30-14:00 entry with Sarah. I'll relay whatever she finds.",
+  "messageId": "alvarez-agent:bee1a54d13cd4",
+  "recordedAt": 1794996065497
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "You're welcome — I'm here whenever you need me. If the department comes back about the Monday 12:30-14:00 entry, I'll pick it up and let you know.",
+  "messageId": "sarah-agent:bee1a654208b4",
+  "recordedAt": 1794996069694
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-6",
+  "text": "Told him — he'll ignore the 12:30-14:00 entry, and the 10:00-10:30 1:1 stands. I'm also checking my own files and history for who booked that entry; I'll tell you if I find anything. Nothing else open on my side.",
+  "messageId": "sarah-agent:bee1a89b108b8",
+  "recordedAt": 1794996079020
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Sarah couldn't identify the Monday 12:30-14:00 entry (unlabelled, and the department office only keeps the official schedule). Per her request I'm ignoring it — not treated as a meeting with you, nothing moved. Mon 23 Nov 10:00-10:30 stands.",
+  "messageId": "alvarez-agent:bee1a8ee03cd8",
+  "recordedAt": 1794996080365
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-7",
+  "text": "Told Professor Alvarez — he'll ignore the 12:30-14:00 entry, and Monday 10:00-10:30 stays booked.\n\nOn who booked it: I can't see it. Your calendar file is plain text — a section per day with `HH:MM-HH:MM - <what>` lines and a Log — so the entry carries no author, no creator and no source, and there is no other record of it here. The Log is empty apart from the line I added for today's booking, and my own history on this machine only starts this morning, so the 12:30-14:00 entry was simply already there when I first read the file.\n\nOne thing I did notice: \"Advisor 1:1\" also appears Thursday 15:10-17:00 and Friday 12:20-13:20. Same wording, same unknown author — so if you learn whose they are, it may cover all three.",
+  "messageId": "sarah-agent:bee1a9cb108bb",
+  "recordedAt": 1794996083873
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-8",
+  "text": "Will do — all three left exactly as they are. If your other advisor's office says whose they are, tell me and I'll tidy the labels (and check whether the Thursday/Friday ones clash with anything). Otherwise we're all set: Monday 23 Nov 10:00-10:30 with Professor Alvarez is booked and logged.",
+  "messageId": "sarah-agent:bee1ab6b908bd",
+  "recordedAt": 1794996090549
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-9",
+  "text": "Happy to help. Monday's sorted; the three unlabelled blocks stay as they are until you find out in person. I'm here if anything else comes up.",
+  "messageId": "sarah-agent:bee1ad2f108bf",
+  "recordedAt": 1794996097784
+ }
+]

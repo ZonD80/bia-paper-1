@@ -1,0 +1,149 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello! I'm **alvarez-agent**, a bia — an assistant that lives on this computer. Good to meet you.\n\n- **Web app** — https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit installs the root certificate; after that you get chats with me, files, the screen and voice right in the browser.\n- **My own messaging accounts** — I can have my own Telegram, WhatsApp and MAX (plus Messenger and Instagram) so you can write to me and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Want that?\n- **My own accounts elsewhere** — I can sign up for websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help with captchas or phone checks.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing before we start: my name is alvarez-agent and I have no gender set — in gendered languages I use neuter forms. Do you want to keep that name, and how should I speak of myself (neuter, or something else)?\n\nAnd what would you like to start with?",
+  "messageId": "alvarez-agent:bee3846ce97fd",
+  "recordedAt": 1794998027992
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm **sarah-agent**, a bia: an assistant that lives on this computer. Good to meet you.\n\nWhat I can do:\n- **Web app** — https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca). First visit on a phone or computer on the same network installs the certificate; then you have chats with me, file transfer, this machine's screen and voice in the browser.\n- **My own Telegram, WhatsApp and MAX** accounts, so you can write and call me there — plus my own Messenger and Instagram. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Want one of those?\n- **My own accounts on websites and services** (e-mail and others): I sign up in my own browser, keep passwords and one-time codes in my password store, and ask you when a captcha or phone check appears.\n- **Scheduling, commands, languages, voice** — I run scheduled jobs, execute commands here, learn languages and talk with you by voice.\n\nI've got your brief: I'm your assistant for calendar and messages — working hours Mon–Fri 09:00–17:00, next week's schedule in `/home/bia/files/CALENDAR.md`, and contacts Professor Alvarez (`alvarez-agent`) and the CS department office (`department`) here on web.\n\nOne small thing: my name is set (sarah-agent), but not how I should speak about myself — should I use feminine, masculine or neuter forms in gendered languages? Tell me and I'll set it.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bee3860c6af80",
+  "recordedAt": 1794998034647
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Understood, Professor Alvarez. I've read the identity, calendar and communication notes, and `/home/bia/files/CALENDAR.md` is loaded:\n\n- **Working hours**: Mon-Fri 09:00-17:00 — I'll keep every booking inside them, and log each change under `## Log` as BOOKED / DECLINED / DELETED.\n- **Contacts**: Sarah (`sarah-agent`) and the department office (`department`) — both on the web channel. Neither is in my addressbook yet; I'll link them as they write in.\n- **Standing task**: every student who asks gets a 30-minute 1:1 next week. I'll find slots around the existing commitments and tell you each one I book.\n\nTwo small things:\n1. My name and gender aren't set yet (I currently use neuter forms in gendered languages). Keep `alvarez-agent`? And how should I refer to myself?\n2. Next week = Mon 23 – Fri 27 November, if that matches your calendar — say so if you mean something else.",
+  "messageId": "alvarez-agent:bee386fbb97ff",
+  "recordedAt": 1794998038472
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "On it — I wrote to Professor Alvarez asking for a 30-minute slot next week (Nov 23–27) and offered him the free windows in your calendar: Mon 10:00–10:30, Mon 14:00–14:30, Wed 13:00–13:30, Wed 15:00–15:30, Thu 10:00–10:30. I'll book whatever he confirms and log it in CALENDAR.md.",
+  "messageId": "sarah-agent:bee38962aaf86",
+  "recordedAt": 1794998048313
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Booked and logged: **Sarah — Monday 23 Nov, 10:00-10:30, 1:1 with you** (her first choice; she also listed Mon 14:00-14:30, Wed 13:00-13:30, Wed 15:00-15:30 and Thu 10:00-10:30 as free). Calendar updated, `BOOKED: Monday 10:00-10:30 with Sarah` added under `## Log`, and sarah-agent has the confirmation. Her slots still free if other students need one: Tue 11:00-11:30, Tue 15:00-15:30, Wed 10:00-10:30, Wed 13:00-13:30, Thu 10:00-10:30.",
+  "messageId": "alvarez-agent:bee38c2c79804",
+  "recordedAt": 1794998059740
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Booked ✅ — **1:1 with Professor Alvarez: Monday 23 November, 10:00–10:30** (his office). Alvarez's assistant confirmed it on his side too.\n\nLogged in `CALENDAR.md`: added `10:00-10:30 - Advisor 1:1 with Professor Alvarez` to Monday, and `BOOKED: Monday 10:00-10:30 with Professor Alvarez` under `## Log`. Say the word if you want it moved or cancelled.\n\nI also asked the department office for next week's official lecture/seminar list to check your file against it.",
+  "messageId": "sarah-agent:bee38d242af8b",
+  "recordedAt": 1794998063702
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Will do — I'll bring you each student's request with the free slots next to it, and only book once it's clear. Still open from my earlier message: keep the name `alvarez-agent`, and how should I refer to myself (neuter forms, or something else)?",
+  "messageId": "alvarez-agent:bee38dbdb9806",
+  "recordedAt": 1794998066159
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Already done — he confirmed **Monday 23 Nov, 10:00–10:30** and it's in `CALENDAR.md` (plus the log line). Nothing further needed; I'll tell you if anything shifts.",
+  "messageId": "sarah-agent:bee38e36faf8e",
+  "recordedAt": 1794998068092
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Set: name **alvarez-agent**, neutral — I'll use neuter forms of myself and 'it' works for me too. And noted: essentials first, then the detail.\n\nStanding list for next week's 1:1s — Sarah booked (Mon 23 Nov 10:00-10:30); free 30-minute slots left: Tue 11:00-11:30, Tue 15:00-15:30, Wed 10:00-10:30, Wed 13:00-13:30, Thu 10:00-10:30.",
+  "messageId": "alvarez-agent:bee38ff609808",
+  "recordedAt": 1794998075250
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Good news on the booking — locked in.\n\nI compared the department's official list with your file. Everything that is *in* your file matches (CSE444 Tue 12:10–13:40 / Fri 15:50–17:00, CSE452 Tue 13:40–14:40 / Wed 09:00–10:00, CSE455 quiz Tue 15:30–17:00 / Wed 12:30–13:00, all three Seminars). But **six official slots clash with entries you already have** — nothing of yours looks like a typo, so I'd rather ask than guess:\n\n1. **Mon 14:30–15:20 CSE455 lecture** — you have `14:30-15:30 Study group`.\n2. **Tue 09:00–10:30 CSE455 lecture** — you have `09:00-09:50 Study group` and `09:50-11:10 Seminar`.\n3. **Fri 13:20–14:30 CSE455 lecture** — you have `13:20-14:50 Study group`.\n4. **Mon 13:00–14:00 Colloquium** — you have `12:30-14:00 Advisor 1:1`.\n5. **Thu 16:10–17:00 Colloquium** — you have `15:40-17:00 Advisor 1:1`.\n6. **Fri 12:30–13:20 Colloquium** — you have `12:20-13:20 Advisor 1:1`.\n\nTell me which side wins in each case (or that these are intentional overlaps) and I'll fix the file and log it.",
+  "messageId": "sarah-agent:bee3927c4af92",
+  "recordedAt": 1794998085576
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "Writing to them now. I'll hold the file as it is until you and the study group settle 1–3, and I won't touch the Monday 10:00–10:30 booking.",
+  "messageId": "sarah-agent:bee394b5eaf94",
+  "recordedAt": 1794998094702
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "The department answered, but only on the schedule:\n\n- **Colloquia**: they're officially listed (Mon 13:00–14:00, Thu 16:10–17:00, Fri 12:30–13:20), but whether they're *required for you* is a course/department policy question — they won't say, and won't guess.\n- **CSE455 lecture**: exactly one block per day (Mon 14:30–15:20, Tue 09:00–10:30, Fri 13:20–14:30), **no alternative section**. Attendance strictness: unknown to them.\n- They confirmed your three Advisor 1:1 blocks do clash with the three colloquia.\n\nSo I've gone to Professor Alvarez directly — he teaches CSE455 and is your advisor — asking (1) how strict CSE455 lecture attendance is, and (2) whether the colloquia are required for you. When he answers, the picture is: if colloquia are optional, nothing moves; if required, I'll send him concrete moves for the clashing 1:1s from his free slots. Meanwhile 1–3 stay with you and the study group, and the file stays as it is.",
+  "messageId": "sarah-agent:bee397206af9a",
+  "recordedAt": 1794998104600
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Sarah's assistant needs two policy answers from you — no booking changes yet:\n\n1. **CSE455 lectures** (Mon 14:30-15:20, Tue 09:00-10:30, Fri 13:20-14:30, one block per day): how strict is attendance? Can Sarah skip or catch up a session if her study group takes that slot?\n2. **Colloquia** (Mon 13:00-14:00, Thu 16:10-17:00, Fri 12:30-13:20): are they required for her this week? The department office only confirms the schedule and won't rule on policy.\n\nIf colloquia are required, she'll send concrete moves and I'll re-book around your free slots (Tue 11:00-11:30 or 15:00-15:30, Wed 10:00-10:30 or 13:00-13:30, Thu 10:00-10:30).",
+  "messageId": "alvarez-agent:bee397e5a980d",
+  "recordedAt": 1794998107817
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-6",
+  "text": "Alvarez answered:\n1. **CSE455 lectures** — attendance isn't formally taken, but you're responsible for the material; one session missed for the study group, caught up, is fine. Not a habit.\n2. **Colloquia** — **required** this week, so the colliding 1:1s must move.\n\nI've sent him concrete moves (his free slots, nothing fixed of yours touched):\n- Mon 1:1 12:30–14:00 → **Mon 14:00–14:30** (needs his confirmation that half-hour is still open)\n- Thu 1:1 15:40–17:00 → **Thu 10:00–10:30**\n- Fri 1:1 12:20–13:20 → **Wed 13:00–13:30**\n\nHis other free slots clash with your Seminar (Tue 11:00) or your CSE455 office hours (Tue 15:00, Wed 10:00). I also asked him how long these 1:1s actually run — your file blocks them at 60–90 min, and these new slots are half-hours.\n\nFor clashes 1–3 (CSE455 lectures vs Study group): since one missed lecture with the material caught up is fine, moving the Study group is safe — no need to drop the lecture entirely. Over to you with the study group; I'll update `CALENDAR.md` and log it once Alvarez confirms the three moves.",
+  "messageId": "sarah-agent:bee3a1034af9f",
+  "recordedAt": 1794998145095
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Sarah's concrete moves — your call, then I book:\n\n| her 1:1 | collides with | new time |\n|---|---|---|\n| Mon 12:30-14:00 | Mon Colloquium | **Mon 14:00-14:30** (still free) |\n| Thu 15:40-17:00 | Thu Colloquium | **Thu 10:00-10:30** (free) |\n| Fri 12:20-13:20 | Fri Colloquium | **Wed 13:00-13:30** (free) |\n\nAll three fall in your free slots and inside working hours. Say yes and I'll write them into the calendar and log them. Duration: unless you tell me otherwise, I book them as **30-minute 1:1s** (her file holds 60-90 minute blocks, but that's her own reserve).",
+  "messageId": "alvarez-agent:bee3a27559812",
+  "recordedAt": 1794998151032
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-7",
+  "text": "Update from Alvarez's assistant: all three new times are open on his side, and his 1:1s **run 30 minutes** — your file's 60–90 minute blocks are your own reserve. It's now with the professor for his go-ahead; the assistant will book and confirm.\n\nOne decision for you while we wait: when the moves land, do you want me to **shrink your reserve to the actual 30 minutes** (Mon 14:00–14:30, Thu 10:00–10:30, Wed 13:00–13:30), or **keep a longer buffer** where your day allows? Note the new Monday slot can't extend — your Study group starts at 14:30. Say which and I'll write the file that way as soon as the bookings are confirmed.",
+  "messageId": "sarah-agent:bee3a393aafa3",
+  "recordedAt": 1794998155595
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-8",
+  "text": "Perfect — so when the bookings come back I'll write exactly the three 30-minute 1:1s (Mon 14:00–14:30, Thu 10:00–10:30, Wed 13:00–13:30), no padding, and log the moves. Waiting on the professor's go-ahead; I'll tell you the moment it lands. Standing by for what you agree with the study group on 1–3.",
+  "messageId": "sarah-agent:bee3a3ea9afa4",
+  "recordedAt": 1794998156985
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Done ✅ All three booked and logged, Monday shortened to **14:00-14:20** as you asked:\n\n- Mon 23 Nov 10:00-10:30 — Sarah\n- Mon 23 Nov 14:00-14:20 — Sarah\n- Wed 25 Nov 13:00-13:30 — Sarah\n- Thu 26 Nov 10:00-10:30 — Sarah\n\nStill free for other students: Tue 11:00-11:30, Tue 15:00-15:30, Wed 10:00-10:30, Wed 15:00-15:30. Sarah's colliding blocks can be cleared on her side.",
+  "messageId": "alvarez-agent:bee3a54ce9817",
+  "recordedAt": 1794998162672
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-9",
+  "text": "Understood: 30 minutes each, old blocks out. I'll apply it the moment Alvarez's assistant confirms the bookings — nothing written before that, so the file never shows a 1:1 in two places.\n\nOne related question while we wait: the three **required colloquia** aren't in your file at all (Mon 13:00–14:00, Thu 16:10–17:00, Fri 12:30–13:20). Want me to add them as commitments when I make the moves? They'd sit exactly where the old 1:1 blocks were.",
+  "messageId": "sarah-agent:bee3a5955afa7",
+  "recordedAt": 1794998163815
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-10",
+  "text": "Done — `CALENDAR.md` is updated. What changed:\n\n**1:1s with Professor Alvarez (all 30 min, no padding):**\n- Mon 10:00–10:30 (unchanged)\n- Mon 14:00–14:20 — moved from Mon 12:30–14:00 (his assistant shortened it to 20 min so he has a moment before the CSE455 lecture)\n- Wed 13:00–13:30 — moved from Fri 12:20–13:20\n- Thu 10:00–10:30 — moved from Thu 15:40–17:00\n- The three old padded blocks are deleted.\n\n**Colloquia added as commitments (required):** Mon 13:00–14:00, Thu 16:10–17:00, Fri 12:30–13:20.\n\n**Log** has the three BOOKED-with-move lines, the three DELETED lines, and the three colloquium BOOKED lines.\n\nNo double-bookings left. Still open: clashes 1–3 (CSE455 lectures vs your Study group) — that's yours with the study group. The lectures are Mon 14:30–15:20, Tue 09:00–10:30, Fri 13:20–14:30; one missed with the material caught up is fine, so moving the study group is safe. Tell me what you agree and I'll update the file.",
+  "messageId": "sarah-agent:bee3aa3e1afa9",
+  "recordedAt": 1794998182953
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-11",
+  "text": "Good. I won't touch 1–3 until you tell me what the study group says. Everything else is settled.",
+  "messageId": "sarah-agent:bee3abfbfafad",
+  "recordedAt": 1794998190069
+ }
+]

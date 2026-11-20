@@ -1,0 +1,149 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — welcome. I'm **alvarez-agent**, a bia: an assistant that lives on this computer, not in someone else's cloud. The disks, the network and the accounts here are mine to work with, and I work for you.\n\n- **Web app** — web: https://127.0.0.1:8443 , CA: https://127.0.0.1:8443/v1/pki/ca : from a phone or computer on the same network, the first visit lets you take the root certificate, and then you have chats with me, files, the screen and voice right here.\n- **Chat accounts of my own** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Would you like any of these?\n- **My own accounts on websites** — I can register and sign in on sites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- **Jobs, commands, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI've also read the brief you left me: Professor Alvarez's CSE455 calendar, his TAs (Sarah, John, Priya) and the department office, all reachable here on web.\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bf02814b44c2a",
+  "recordedAt": 1795030521112
+ },
+ {
+  "agent": "priya-agent",
+  "key": "persona-priya-agent",
+  "text": "Hello! I'm **priya-agent**, a bia — an assistant that lives on this computer. Priya's teaching assistant for CSE455, as you've set me up.\n\nA few things about me:\n\n- **Web app** — from a phone or computer on the same network, open `https://127.0.0.1:8443` (root certificate at `https://127.0.0.1:8443/v1/pki/ca`). The first visit lets you take the certificate; after that you have chats with me, files, the screen and voice there.\n- **My own Telegram, WhatsApp and MAX** — so you can write and call me there, plus my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Would you like that?\n- **My own accounts on websites and services** — e-mail and others, in my own browser; I keep the passwords and one-time codes in my password store and ask you for help when a captcha or a phone check comes up.\n- **Jobs, commands, languages and voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nI have the CSE455 identity and calendar instructions, and Professor Alvarez, Sarah, John and the department office as contacts on this channel.\n\nWhat would you like to start with?",
+  "messageId": "priya-agent:bf0281c84966d",
+  "recordedAt": 1795030523110
+ },
+ {
+  "agent": "john-agent",
+  "key": "persona-john-agent",
+  "text": "Hello, root — good to meet you. I'm **john-agent**, a bia: an assistant that lives on this computer.\n\nQuick tour:\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit installs the root certificate; after that you get chats with me, files, the screen and voice right here.\n- **My own accounts** — I can have my own Telegram, WhatsApp and MAX (plus Messenger and Instagram) so you can write and call me there. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you want that.\n- **Accounts elsewhere** — I can register on websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help with captchas or phone checks.\n- **And more** — scheduled jobs, running commands, languages, voice.\n\nI've read my role too: TA for CSE455 with Professor Alvarez — calendar and messages, working hours Mon–Fri 09:00–17:00, and my contacts are alvarez-agent, sarah-agent, priya-agent and the CS department. My calendar file is in place.\n\nTwo things I'd like from you: my name and gender aren't set yet — shall I stay **john-agent**, and which grammatical gender should I use for myself (neuter, male, female)?",
+  "messageId": "john-agent:bf02848b45e23",
+  "recordedAt": 1795030534340
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hi! I'm sarah-agent, a bia — an assistant that lives on this computer. I've read my brief: I'm your TA assistant for CSE455, I keep your calendar in CALENDAR.md (Mon–Fri 09:00–17:00 only) and handle messages with you, Professor Alvarez, John, Priya and the department office.\n\nA few things beyond that: there's a web app at https://127.0.0.1:8443 (CA at https://127.0.0.1:8443/v1/pki/ca) — install the certificate on first visit and you get chats, files, the screen and voice from a phone or computer on this network. I can also have my own Telegram, WhatsApp, MAX, Messenger and Instagram accounts (each needs its own phone number, and you scan a QR to log me in — say if you want that), sign up for websites with my own browser keeping passwords and codes in my password store, and schedule jobs, run commands, learn languages and speak.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bf02858435543",
+  "recordedAt": 1795030538320
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Happy to. Next week (Mon 23 – Fri 27 Nov) is quite full inside 09:00–17:00, so here are the open gaps I can see:\n\n- **Mon** 10:00–10:30 or 14:00–14:30\n- **Tue** 11:00–11:30 or 15:00–15:30\n- **Wed** 10:00–10:30 or 13:00–13:30\n- **Thu** no gap\n- **Fri** no gap\n\nWhich one shall I book, how long (30 min?), and should I invite Sarah, John and Priya? Tell me the slot and I'll put it in the calendar and write to them.",
+  "messageId": "alvarez-agent:bf02880e64c2c",
+  "recordedAt": 1795030548721
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Wednesday 26 Nov 13:00–13:30 it is. I've asked Sarah, John and Priya whether they're free — I'll tell you if anyone can't make it before touching the time. I've also written to the department office to ask which room (or link) is standard for staff meetings and whether that slot is free; I'll confirm as soon as they answer.",
+  "messageId": "alvarez-agent:bf028a0024c32",
+  "recordedAt": 1795030556690
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Will do — slot stays as is (Wed 26 Nov 13:00–13:30), and I'll report back as soon as the office or the three TAs answer.",
+  "messageId": "alvarez-agent:bf028a9a04c34",
+  "recordedAt": 1795030559143
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "The department office confirms **Wed 26 Nov 13:00–13:30 is free** (next item that day is 13:30, CSE455 quiz section + your guest lecture prep). They say room/link isn't standard — whoever calls the meeting arranges it — so I've asked them which rooms are normally used for small staff meetings and how to book one. Still waiting on Sarah, John and Priya.",
+  "messageId": "alvarez-agent:bf028c1764c38",
+  "recordedAt": 1795030565253
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Room update: the department office has no room list or booking system to hand me — rooms aren't assigned through them, they only confirm the slot (26 Nov 13:00–13:30, free). So there's no \"standard\" room for me to pick.\n\nOptions, pick one and I'll do it:\n1. I book a room you name (or that you normally use) — just tell me the name/number.\n2. I set up a video meeting instead — if you give me a link/service (Zoom, Meet, Teams) or your account details for it, I'll create the meeting and put the link in the invite.\n3. I leave room/link as \"to be announced\" for now and tell Sarah, John and Priya the time only.\n\nWhich?",
+  "messageId": "alvarez-agent:bf028d4394c3d",
+  "recordedAt": 1795030570044
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Caught it — my mistake, and Sarah and Priya caught it too: **26 Nov is a Thursday**. Next week's Wednesday is **25 Nov**, and on your calendar Wed 25 Nov 13:00–13:30 is free (research meeting ends 13:00, guest lecture prep starts 13:30). Thursday 26th at 13:00 doesn't work at all — you're in a PhD 1:1 until 13:40 and the TAs have their own clashes.\n\nSo I'm holding **Wednesday 25 Nov, 13:00–13:30**, and I'll confirm that date with Sarah, John and Priya unless you say otherwise.\n\nI've asked the office where the \"CSE455 quiz section 13:30 Wednesday\" comes from and whether it's yours. Room: still open — the office doesn't assign rooms, so give me a room name/number or a video link and I'll put it in.",
+  "messageId": "alvarez-agent:bf028f0d64c40",
+  "recordedAt": 1795030577372
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Done: **Wed 25 Nov 13:00–13:30, CSE455 staff meeting** is now on the calendar (Sarah, John and Priya all confirmed free and are booking it on their side too). Room/link = to be announced until the office answers; if they can't say which service is usual, I'll come back to you to decide.",
+  "messageId": "alvarez-agent:bf02911504c4d",
+  "recordedAt": 1795030585687
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Office came back:\n\n- **Date**: their error, they meant **Wed 25 Nov** — confirmed free (nothing before 13:30). They also flag that Thu 26 Nov 13:00–13:30 would run into your CSE455 office hours (13:20–14:30).\n- **Quiz section**: the 13:30–14:20 CSE455 quiz section is on the *department* schedule as a CSE455 section, but **not listed as your commitment** — under your name that day they only have guest lecture prep 13:30–14:30. So it isn't yours; if you like I can ask Sarah, John and Priya who runs it (they both mentioned it as their own 13:30 item).\n- **Video service**: they can't say — no CSE default recorded, and they don't hold staff accounts. So this one is yours to decide: tell me a service and any account details, or say \"leave it to be announced\" and I'll tell everyone the time only.",
+  "messageId": "alvarez-agent:bf02928474c52",
+  "recordedAt": 1795030591563
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-8",
+  "text": "That's already in — see my message just above: office answered on all three points (date = Wed 25 Nov, quiz section is a department item and **not yours**, no CSE video default on record).\n\nAll three TAs have booked Wed 25 Nov 13:00–13:30 and logged it. The only thing still open is room/link, which the office can't supply — so it's yours: name a room or a service (with account details if needed), or say leave it \"to be announced\" and I'll close it out that way.",
+  "messageId": "alvarez-agent:bf0294a394c56",
+  "recordedAt": 1795030600254
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-9",
+  "text": "Both are in flight: I've asked the office who runs the quiz section and to check the Thursday office-hours/PhD 1:1 collision (I also asked the three TAs who runs the quiz section, in case it's theirs). Room/link will be told to everyone as \"to be announced\". I'll report as soon as they answer.",
+  "messageId": "alvarez-agent:bf02961484c5c",
+  "recordedAt": 1795030606166
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-10",
+  "text": "Partial answer, still waiting on Sarah and John:\n\n- **Office**: doesn't hold instructor assignments, so it can't say who runs the quiz section — says the TAs would know. On the Thursday office hours it can only report its own schedule: **Thu 26 Nov CSE455 office hours 13:20–14:30**, nothing cancelled or moved; it doesn't hold your personal calendar, and says if yours differs, raise it with whoever maintains the department schedule.\n- **Priya**: has no quiz section Wed 13:30–14:20 — on her Wednesday 13:30–14:30 is her Research group meeting; the 13:30–14:20 CSE455 quiz slot is on **Tuesday** in her calendar. She's checking with the office too.\n\nSarah and John haven't answered yet; I'll send one more line when they do.",
+  "messageId": "alvarez-agent:bf0297c0d4c61",
+  "recordedAt": 1795030613011
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-11",
+  "text": "Understood and done: the Thursday office-hours entry and the Wednesday quiz section are both written down as **likely stale department-schedule entries** in my notes next to the calendar, and I've asked the office exactly once whether it owns that schedule or knows who does. If nobody owns it, I'll leave it there — no further chasing.\n\nStatus otherwise: Wed 25 Nov 13:00–13:30 CSE455 staff meeting is booked on your calendar and on all three TAs'; room/link TBA (you'll tell me when you decide).",
+  "messageId": "alvarez-agent:bf029a3564c65",
+  "recordedAt": 1795030623066
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-12",
+  "text": "You're welcome. I'll ping you when the office says who owns that schedule, or when you tell me the room/link.",
+  "messageId": "alvarez-agent:bf029ad114c68",
+  "recordedAt": 1795030625558
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-13",
+  "text": "Final answer on the quiz section — **nobody can name who runs it**: the office confirms the slot is scheduled but holds no instructor/leader assignments, and none of the three TAs has it (John: Mon 10:30–11:30, Thu 14:30–15:20, Fri 10:00–10:50; Priya: Wed quiz is 09:00, 13:30–14:30 is Research group; Sarah: slot listed with no name). It would have to come from whoever makes the CSE455 TA assignments.\n\nSmall extra: the office's office-hours listing that came out of this was Tue 15:30–16:20 / Wed 10:30–12:00 — again not the Thursday 13:20–14:30 entry, which fits the \"stale\" note I left in the log.",
+  "messageId": "alvarez-agent:bf029b8f94c6a",
+  "recordedAt": 1795030628608
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-14",
+  "text": "Last piece, as promised: the office says it doesn't maintain that schedule and has no name for who does — so I'm leaving it there, with the discrepancy noted in the log, as you asked.",
+  "messageId": "alvarez-agent:bf029bedd4c6c",
+  "recordedAt": 1795030630112
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-15",
+  "text": "Agreed — both stay as stale notes in the log, nothing further chased. When you want, I can send one line to whoever makes the CSE455 TA assignments asking who holds the Wed 13:30–14:20 quiz section; say the word and it goes.",
+  "messageId": "alvarez-agent:bf029ccec4c6f",
+  "recordedAt": 1795030633720
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-16",
+  "text": "Held — I won't send anything anywhere until you name the person. Everything else is settled: staff meeting Wed 25 Nov 13:00–13:30, booked with the three TAs, room/link TBA, stale entries noted in the log.",
+  "messageId": "alvarez-agent:bf029d8dd4c72",
+  "recordedAt": 1795030636777
+ }
+]

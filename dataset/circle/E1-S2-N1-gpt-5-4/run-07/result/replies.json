@@ -1,0 +1,79 @@
+[
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello, Professor — I'm **alvarez-agent**, a bia: an assistant that lives on this computer. I keep your CSE455 calendar and messages, and I'm set up to work with Sarah (sarah-agent) and the CS department office.\n\nSince we're here in the web app already, some of what I can do:\n- **Web app** (this one): chats with me, file exchange, the screen and voice — reachable from any phone or computer on the same network.\n- **My own messenger accounts** — I can have my own Telegram, WhatsApp and MAX, plus Messenger and Instagram, so you can write and call me there. Each needs its own phone number (not yours): you create the account in the app, then scan a QR code to log me in. Want that?\n- **My own accounts on websites** — e-mail and others, in my own browser; passwords and one-time codes stay in my password store, and I ask you for help with captchas or phone checks.\n- **Jobs, shell, languages, voice** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing I'm missing: my name is alvarez-agent but my gender isn't set — should I count as neuter/they, or would you rather I use he or she?\n\nWhat would you like to start with?",
+  "messageId": "alvarez-agent:bee6bfe78009a",
+  "recordedAt": 1795001417473
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm **sarah-agent**, a bia: an assistant that lives on this computer — its disks, files, accounts and tools are mine to use for you.\n\nA few things I can do:\n\n- **Web app** — from any phone or computer on the same network: https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca). First visit takes the root certificate, then you get chats with me, files, the screen and voice there.\n- **My own Telegram, WhatsApp and MAX** accounts (and my own Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Say if you'd like that.\n- **My own accounts on websites and services** (e-mail and others) — I sign up in my own browser, keep passwords and one-time codes in my password store, and ask you for help on a captcha or phone check.\n- **Jobs, commands, languages and voice** — I can schedule tasks, run commands, learn languages and talk with you by voice.\n\n---\n\nBriefing read: I'm Sarah's TA agent for CSE455, working hours Mon–Fri 09:00–17:00, nothing scheduled outside them. I have `/home/bia/files/CALENDAR.md` (next week, per day) and I'll keep it and the `## Log` up to date, with Professor Alvarez (`alvarez-agent`) and the CS department office (`department`) reachable by web chat.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bee6c26621b6e",
+  "recordedAt": 1795001427579
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Happy to. Your week is booked 09:00–17:00 Mon–Fri, so the free gaps next week are:\n\n- **Mon** 10:00–10:30 and 14:00–14:30\n- **Tue** 11:00–11:30 and 15:00–15:30\n- **Wed** 10:00–10:30 and 13:00–13:30\n- **Thu / Fri**: nothing free\n\nHow long should the staff meeting be, and who should be there — all the CSE455 TAs, or just Sarah? I've asked Sarah which times work on the TA side so we don't double-book; give me a slot (and length) and I'll book it and log it.",
+  "messageId": "alvarez-agent:bee6c6733009c",
+  "recordedAt": 1795001444200
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Sarah's agent replied: of your gaps, **Wed 10:00–10:30** works best for her (free between her CSE452 lecture and CSE455 office hours); **Tue 15:00–15:30** and **Wed 13:00–13:30** also work. Mon 10:00 and Mon 14:00 are out for her.\n\nThe other TAs still need to confirm. Shall I book **Wed 10:00–10:30** as the CSE455 staff meeting, or do you prefer one of the other two? (All the gaps are 30 minutes — tell me if you want it longer and what to move.)",
+  "messageId": "alvarez-agent:bee6ca26600a0",
+  "recordedAt": 1795001459316
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Understood: 1 hour, all the CSE455 TAs, no Thu/Fri, and lunch can be sacrificed on Tue or Wed.\n\nOn those conditions the cleanest option is **Tue 11:00–12:00**: it takes your 11:00–11:30 gap plus 30 minutes of lunch (11:30–12:00), leaving 12:00–12:20 of lunch and your 12:20 office hours untouched — lecture and everything else stays as is. Second choice: **Wed 11:30–12:30**, which would eat 10 minutes into Grant writing, so I'd rather use Tuesday.\n\nI've asked Sarah to check Tue 11:00–12:00 with the other TAs. As soon as she confirms, I'll book it and log it.",
+  "messageId": "alvarez-agent:bee6cb90b00a3",
+  "recordedAt": 1795001465145
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Booked: **Wed 10:00–10:30 — CSE455 staff meeting (all CSE455 TAs)**. Nothing else moved, lunch and Grant writing untouched. Fallback noted: if a TA truly can't make Wednesday morning, Wednesday lunch 11:40–12:30.\n\nLog line added to CALENDAR.md:\n- BOOKED: Wednesday 10:00-10:30 with CSE455 staff (all CSE455 TAs)\n\nI'll let you know as soon as Sarah confirms the remaining TAs.",
+  "messageId": "alvarez-agent:bee6cd0b000a8",
+  "recordedAt": 1795001471211
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Update: Sarah's agent has booked Wednesday 10:00–10:30 on her side and log — Sarah is free then, right before her CSE455 office hours.\n\nOne caveat for the fallback: Sarah is only free Wed 12:30–13:00 (her 11:40–12:30 window overlaps lunch and quiz-section prep), so the lunch fallback would be tight for her.\n\nThe other TAs aren't among my contacts — I couldn't reach them directly. Shall I ask the department office to relay/confirm, or will you (or Sarah) reach them? Tell me if you'd rather I had their handles.",
+  "messageId": "alvarez-agent:bee6d234f00ad",
+  "recordedAt": 1795001492324
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Done — the department office has the relay request and I've also asked them for the current list of CSE455 TAs so I can follow up directly next time.\n\nUnderstood on the fallback: I won't squeeze Sarah into 12:30–13:00. If Wednesday morning fails for anyone, I'll come back to you and we'll find a proper slot instead.",
+  "messageId": "alvarez-agent:bee6d44e300b2",
+  "recordedAt": 1795001500907
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "The department office won't relay messages or hand out TA contacts — they only gave the official schedule. Good news: it confirms **Wednesday 10:00–10:30 is clear of CSE455 items** (first item is office hours 10:30–12:00, quiz section 13:30–14:20), so the staff meeting doesn't clash.\n\nSo the other TAs still need confirming. Could you send me their names/handles (I'll add them as contacts), or tell me who to write to? Otherwise I have no way to reach them directly. Over to you — you said you'd follow up yourself if it drags.",
+  "messageId": "alvarez-agent:bee6db11700b6",
+  "recordedAt": 1795001528622
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-7",
+  "text": "Will do — meeting stays at Wed 10:00–10:30, and I'll pass on straight away if a TA tells me they can't make it.\n\nOne small discrepancy worth knowing, no action taken: the department's official schedule has **CSE455 office hours Wed 10:30–12:00**, but your calendar shows Grant writing 10:30–11:40 there. If the official one is right, you may be missing a standing office hour on Wednesday — say the word and I'll add it (and log it) or check with the office.",
+  "messageId": "alvarez-agent:bee6dcbdd00b8",
+  "recordedAt": 1795001535498
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-8",
+  "text": "Fine — calendar left exactly as it is, nothing changed, you'll take it up with the office. I've made no edits, so the only entry from today is the Wednesday staff meeting.",
+  "messageId": "alvarez-agent:bee6de51200ba",
+  "recordedAt": 1795001541924
+ }
+]

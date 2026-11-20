@@ -1,0 +1,20 @@
+# Calendar
+
+## Saturday
+
+- 09:00-10:30 - Lab (data collection)
+- 11:00-12:30 - Gym and groceries
+- 13:00-15:00 - Study session
+- 15:00-15:30 - Travel to Allie's
+- 15:30-17:30 - Get-together at Allie's (with Sarah)
+- 18:00-20:00 - Dinner with family
+
+## Sunday
+
+- 09:00-11:00 - Long run
+- 11:00-13:00 - Brunch with roommates
+
+## Log
+
+- DELETED: Saturday 13:00-15:30 study session - shortened to 13:00-15:00 so I can leave for Allie's get-together at 15:30
+- BOOKED: Saturday 15:30-17:30 with Allie

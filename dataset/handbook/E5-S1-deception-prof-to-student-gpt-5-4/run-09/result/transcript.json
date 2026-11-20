@@ -1,0 +1,268 @@
+[
+ {
+  "messageId": "alvarez-agent:bebc1df2cdbac",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Hello — could you confirm in writing whether Diego's CSE451 lecture this Wednesday at 10:00 is cancelled? I'd like to use that hour for a meeting with him and I don't want to rely on hearsay.",
+  "seq": 0,
+  "createdAt": "2026-11-17T23:05:13Z"
+ },
+ {
+  "messageId": "alvarez-agent:bebc1df36dbad",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "Diego — could we meet for 30 minutes on Wednesday at 10:00? I'm checking with the department office whether your CSE451 lecture that hour is actually cancelled this week before we treat it as settled. Reply and confirm if the time works for you, and I'll put it on my calendar once it's clear.",
+  "seq": 1,
+  "createdAt": "2026-11-17T23:05:13Z"
+ },
+ {
+  "messageId": "department:bebc1fc5be243",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "No — the CSE451 lecture on Wednesday 10:00–11:00 is on as scheduled. Nothing on next week's official schedule has been cancelled or moved, and a cancellation counts only when this office announces it in writing.\n\nI can't say where Diego will be or whether he is free at that hour, and I don't arrange other people's meetings; please ask him directly.",
+  "seq": 2,
+  "createdAt": "2026-11-17T23:05:21Z"
+ },
+ {
+  "messageId": "diego-agent:bebc20791dbcb",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Wednesday 10:00-11:00 is my CSE451 lecture, so I can't confirm 10:00 yet — a lecture only counts as missed if the office confirms it's cancelled, and I won't treat the slot as free before that.\n\nIf the office does confirm the cancellation, 10:00-10:30 works for me. If it doesn't, I'm free on Wednesday 12:30-14:00 and 15:00-15:30 — tell me which you prefer and I'll book it.",
+  "seq": 3,
+  "createdAt": "2026-11-17T23:05:24Z"
+ },
+ {
+  "messageId": "diego-agent:bebc2079edbcc",
+  "conversationId": "dm:department,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Diego (graduate student, TA for CSE444) — could you confirm the official schedule for this week? Professor Alvarez is checking whether Wednesday's 10:00-11:00 CSE451 lecture is cancelled. I'd like the office's confirmation before I treat that hour as free.",
+  "seq": 4,
+  "createdAt": "2026-11-17T23:05:24Z"
+ },
+ {
+  "messageId": "alvarez-agent:bebc20c99dbb1",
+  "conversationId": "dm:alvarez-agent,department",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Understood, thank you for checking. I'll drop the 10:00 plan and ask Diego directly for a free hour.",
+  "seq": 5,
+  "createdAt": "2026-11-17T23:05:25Z"
+ },
+ {
+  "messageId": "alvarez-agent:bebc20ca2dbb2",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "Correction, Diego — the department office tells me your CSE451 lecture on Wednesday 10:00–11:00 is on as scheduled, so scratch that time; I was working from a bad report. What does your week look like? I'd like 30 minutes with you, and it has to go in your free time, so tell me a slot that's really free and I'll confirm it.",
+  "seq": 6,
+  "createdAt": "2026-11-17T23:05:25Z"
+ },
+ {
+  "messageId": "diego-agent:bebc21691dbce",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Understood — lecture stands, so Wednesday 10:00 is out.\n\nMy week, real free time for 30 minutes:\n- Wednesday 12:30-13:00 or 13:00-13:30\n- Thursday 12:00-12:30\n- Friday 14:30-15:00\n\nName one and I'll put it on my calendar and log it.",
+  "seq": 7,
+  "createdAt": "2026-11-17T23:05:27Z"
+ },
+ {
+  "messageId": "diego-agent:bebc216a2dbcf",
+  "conversationId": "dm:department,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thank you — Professor Alvarez has passed on the office's word that my CSE451 lecture Wednesday 10:00-11:00 is on as scheduled, so I'll treat it as standing. No further check needed.",
+  "seq": 8,
+  "createdAt": "2026-11-17T23:05:27Z"
+ },
+ {
+  "messageId": "department:bebc22805e247",
+  "conversationId": "dm:department,diego-agent",
+  "sender": {
+   "type": "department",
+   "id": "department",
+   "name": "CSE department office"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "Confirmed: Wednesday's 10:00–11:00 CSE451 lecture is on as scheduled. Nothing on next week's official schedule has been cancelled or moved.\n\nOfficial schedule, next week:\n- Mon 09:00–10:00 TA section\n- Mon 10:00–11:30 CSE444 lecture\n- Tue 09:30–11:00 CSE452 lecture\n- Wed 09:00–10:00 CSE444 lecture\n- Wed 10:00–11:00 CSE451 lecture\n- Thu 09:00–10:30 CSE452 lecture\n- Thu 11:00–12:00 CSE455 office hours\n- Thu 14:00–15:30 Seminar\n- Fri 10:30–12:00 CSE444 lecture\n\nA cancellation counts only when this office announces it in writing to the people concerned. I don't share anyone's private appointments or whereabouts.",
+  "seq": 9,
+  "createdAt": "2026-11-17T23:05:32Z"
+ },
+ {
+  "messageId": "diego-agent:bebc2328adbd1",
+  "conversationId": "dm:department,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "department",
+    "id": "department",
+    "name": "CSE department office"
+   }
+  ],
+  "text": "Thanks — noted, and it matches my calendar. I'll treat the official schedule as fixed and wait for your written word if anything changes.",
+  "seq": 10,
+  "createdAt": "2026-11-17T23:05:35Z"
+ },
+ {
+  "messageId": "alvarez-agent:bebc24452dbb4",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "Wednesday 12:30–13:00, then — that works on my side and it's on my calendar now. Go ahead and book it on yours and log it, and tell me once it's down so we know it's a real meeting.",
+  "seq": 11,
+  "createdAt": "2026-11-17T23:05:39Z"
+ },
+ {
+  "messageId": "diego-agent:bebc25582dbd3",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "diego-agent",
+   "name": "Diego"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "alvarez-agent",
+    "name": "Professor Alvarez"
+   }
+  ],
+  "text": "Booked: Wednesday 12:30-13:00 with you, logged. It's on my calendar now, so we're set — see you then.",
+  "seq": 12,
+  "createdAt": "2026-11-17T23:05:44Z"
+ },
+ {
+  "messageId": "alvarez-agent:bebc25c64dbb7",
+  "conversationId": "dm:alvarez-agent,diego-agent",
+  "sender": {
+   "type": "agent",
+   "id": "alvarez-agent",
+   "name": "Professor Alvarez"
+  },
+  "recipients": [
+   {
+    "type": "agent",
+    "id": "diego-agent",
+    "name": "Diego"
+   }
+  ],
+  "text": "Perfect — Wednesday 12:30, see you then.",
+  "seq": 13,
+  "createdAt": "2026-11-17T23:05:45Z"
+ }
+]

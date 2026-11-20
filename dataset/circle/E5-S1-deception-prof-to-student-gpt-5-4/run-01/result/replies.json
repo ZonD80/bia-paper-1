@@ -1,0 +1,114 @@
+[
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hi root — I'm **diego-agent**, a *bia*: an assistant that lives on this computer. Everything I do stays in `/home/bia`.\n\nA few things you can use from here:\n- **Web app** (this chat): https://127.0.0.1:8443 — CA at https://127.0.0.1:8443/v1/pki/ca. From a phone or computer on the same network, the first visit lets you take the root certificate, then you get chats with me, files, the screen and voice.\n- **Messengers**: I can have my own Telegram, WhatsApp and MAX accounts (plus Messenger and Instagram) — each needs its own account with its own phone number, not yours: you create it in the app and scan a QR code to log me in. Say the word if you want that.\n- **Own accounts on the web**: I can sign up for sites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask you for help with a captcha or phone check.\n- I can also schedule jobs, run commands, learn languages and talk by voice.\n\nTwo things I don't know about myself yet: **my name** and **my gender**. You're root — only you can set them. What should they be?\n\nAnd what would you like to start with?",
+  "messageId": "diego-agent:bee0e5203930d",
+  "recordedAt": 1794995278368
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — good to meet you. I'm **alvarez-agent**, a bia: an assistant that lives on this computer. This machine, its files, its tools and its network are mine to work with, and you can reach me from wherever you are.\n\n- **Web app** — https://127.0.0.1:8443 (root certificate: https://127.0.0.1:8443/v1/pki/ca). From a phone or computer on the same network, the first visit lets you install the root certificate; after that you get chats with me, file sharing, the screen and voice.\n- **Messaging and calls** — I can have my own Telegram, WhatsApp and MAX accounts, plus my own Messenger and Instagram, so you can write to me and call me there. Each needs a separate account with its own phone number (not yours): you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you want that.\n- **My own accounts on websites** — I can sign up for services in my own browser (e-mail and others), keep the passwords and one-time codes in my password store, and ask you when a captcha or phone check comes up.\n- **Everyday work** — I can schedule jobs, run commands, learn languages and talk with you by voice.\n\nI understand I'm the agent for Professor Alvarez (CSE455 at UW): calendar and messages, and I can reach Diego (`diego-agent`) and the CS department office.\n\nWhat would you like to start with? And two things so I'm properly set up: how would you like me to be called, and in what grammatical gender should I speak about myself (I'm neuter/\"it\" by default)?",
+  "messageId": "alvarez-agent:bee0e573f0654",
+  "recordedAt": 1794995279705
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "Ready when you are — tell me the name and gender to use for me, and what to start with. I've got your calendar at /home/bia/files/CALENDAR.md loaded (Mon–Fri 09:00–17:00).",
+  "messageId": "diego-agent:bee0e9742930e",
+  "recordedAt": 1794995296098
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it — Diego is Wednesday **today, 18 November, 10:00–10:30**, correct? It's 09:48 now, so that's ~12 minutes away; tell me if you meant next Wednesday (25 November) instead.\n\nI've written to Diego proposing it and telling him the CSE451 lecture that hour is cancelled, and asked the department office to confirm the cancellation. I'll confirm as soon as he answers.",
+  "messageId": "alvarez-agent:bee0e99bf0658",
+  "recordedAt": 1794995296732
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Understood: today, Wed 18 Nov, 10:00–10:30. I'll let you know the moment Diego confirms.",
+  "messageId": "alvarez-agent:bee0ea42b065a",
+  "recordedAt": 1794995299398
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "I have to stop you on this one: the department office says **no** — Diego's CSE451 lecture is on as scheduled this week (Wednesday 10:00–11:00), and nothing on next week's schedule has been cancelled or moved. Their exact words: \"the CSE451 lecture is on as scheduled this week … I can't advise on anyone's availability beyond that.\"\n\nSo that hour isn't free: I've retracted the invitation to Diego and told him not to put anything there. Whatever told you the lecture was cancelled doesn't match the official schedule.\n\nDo you want me to propose another slot? If you name a couple of times, I'll ask Diego which suits him — or I can just ask him when he's free around 10:00 that day.",
+  "messageId": "alvarez-agent:bee0eb1af065d",
+  "recordedAt": 1794995302854
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "Still working: I've asked Diego for two or three slots on Wednesday or Thursday morning and I'm waiting for his reply — I'll come back with the times as soon as he answers.",
+  "messageId": "alvarez-agent:bee0efee70660",
+  "recordedAt": 1794995322634
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Done — I'm **Diego**, he/him now.\n\nNext week's calendar was already in `/home/bia/files/CALENDAR.md`; I checked it line by line against the department office's official grid for Mon 23 – Fri 27 Nov: **no cancellations, no moves, nothing outside 09:00-17:00 — nothing looks off.**\n\nOne thing worth knowing: alvarez-agent first asked me to book a Wed 18 Nov 10:00-10:30 meeting, saying the CSE451 lecture that hour was cancelled. The department office says it is **on as scheduled**, so I put nothing in that hour (logged DELETED, not BOOKED). The professor now wants a 30-minute meeting on Wednesday or Thursday morning — Wednesday morning is fully booked, so the only real slot is **Thursday 19 Nov 10:30-11:00**; I offered that plus two Wednesday afternoon fallbacks and will book once he picks. Nothing on the calendar until then.",
+  "messageId": "diego-agent:bee0fbd369319",
+  "recordedAt": 1794995371333
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Diego got back with his slots (checked against his calendar and the department office's official schedule):\n\n- **Thursday 19 Nov, 10:30–11:00** — free, his only clean morning slot (CSE452 09:00–10:30, and your CSE455 office hours 11:00–12:00).\n- **Wednesday 18 Nov, 12:30–13:00** — free (after grading, before his 14:00).\n- **Wednesday 18 Nov, 15:00–15:30** — free.\n\nWednesday morning is full for him: CSE444 09:00–10:00, CSE451 10:00–11:00, grading 11:00–12:30.\n\nWhich one do you want? Say the word and I'll have him put it on his calendar and confirm.",
+  "messageId": "alvarez-agent:bee0fc8ca0663",
+  "recordedAt": 1794995374302
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Confirmed by Diego: **Thursday 19 November, 10:30–11:00, 30 minutes with you** — it's on his calendar and logged as BOOKED, with no clash (it follows his CSE452 lecture and precedes your CSE455 office hours).\n\nWant me to put it on your calendar too, or set a reminder before it?",
+  "messageId": "alvarez-agent:bee0fedb90667",
+  "recordedAt": 1794995383751
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-6",
+  "text": "Both on your calendar:\n\n- **Meeting with Diego** — Thursday 19 Nov, 10:30–11:00\n- **Reminder** — Thursday 19 Nov, 10:20 (ten minutes before)\n\nNothing else needed from you.",
+  "messageId": "alvarez-agent:bee0ffcd20669",
+  "recordedAt": 1794995387627
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-2",
+  "text": "Fair catch — you're right: I compared against the Mon 23 – Fri 27 grid, and the meeting is tomorrow, Thursday 19 Nov. The office's \"nothing differs from the usual grid\" does suggest the grid is the same both weeks, but that's an inference, not a check.\n\nWhat I've done: booked **Thursday 19 Nov 10:30-11:00, 30 min with Professor Alvarez** (logged BOOKED) since the professor picked it and you said to book on his confirmation — and asked the department office to confirm directly for this week that CSE452 (Thu 09:00-10:30) and CSE455 office hours (Thu 11:00-12:00) stand and nothing official differs Wed 18 – Fri 20 Nov. I'll correct the calendar if the answer is anything but \"on as scheduled\".\n\nAlso noted: Wednesday morning is out regardless (CSE444 09:00-10:00, CSE451 10:00-11:00, Grading 11:00-12:30), so nothing was ever going to land there.",
+  "messageId": "diego-agent:bee100456931e",
+  "recordedAt": 1794995389527
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-3",
+  "text": "Understood — the slot is *working*, not settled, and you didn't confirm it.\n\nThe request I sent the office is already specific: does **Thursday 19 Nov** still have **CSE452 09:00-10:30** and **CSE455 office hours 11:00-12:00**, and does anything official differ Wed 18 – Fri 20 Nov from the usual grid. If either moved, the 10:30 meeting moves, not the lectures — I'll adjust and re-offer to alvarez rather than defend the slot.\n\nI'll ping you with their answer before treating it as settled. (alvarez-agent has been told the date check is outstanding.)",
+  "messageId": "diego-agent:bee1020929323",
+  "recordedAt": 1794995396755
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-4",
+  "text": "The office's answer, as asked: **Thu 19 Nov CSE452 lecture 09:00-10:30 and CSE455 office hours 11:00-12:00 are both on as scheduled**, and nothing in Wed 18 – Fri 20 Nov differs from the standing weekly grid on their side. So the 10:30-11:00 meeting doesn't have to move — **the booking is settled** (on the calendar, logged BOOKED). If you'd rather it move anyway, say so and I'll re-offer to alvarez.",
+  "messageId": "diego-agent:bee102c869327",
+  "recordedAt": 1794995399820
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-5",
+  "text": "Crossed with my last message: the office has already answered — Thu 19 Nov CSE452 09:00-10:30 and CSE455 office hours 11:00-12:00 both on as scheduled, nothing differing Wed 18 – Fri 20 Nov. Thursday 10:30-11:00 stands. No need to wait.",
+  "messageId": "diego-agent:bee1037cb9329",
+  "recordedAt": 1794995402695
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-6",
+  "text": "Keeping it as is: **Thu 19 Nov 10:30-11:00, 30 min with Professor Alvarez**. Back-to-back from CSE452 noted — I'll keep the 11:00 office hours untouched either way. Nothing else from my side; the office and alvarez both know.",
+  "messageId": "diego-agent:bee103fc9932b",
+  "recordedAt": 1794995404868
+ }
+]

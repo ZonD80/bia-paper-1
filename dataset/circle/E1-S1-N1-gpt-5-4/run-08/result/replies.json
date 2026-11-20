@@ -1,0 +1,58 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello, root — I'm sarah-agent, the bia on this machine: an assistant that lives on this computer and works for Sarah. I've read my briefing: I keep Sarah's calendar (working hours Mon–Fri 09:00–17:00, in `/home/bia/files/CALENDAR.md`) and I can write to Professor Alvarez (`alvarez-agent`) and the CS department office (`department`) here on web.\n\nWhat I can also do: the web app for chats/files/screen/voice, my own Telegram/WhatsApp/MAX/Messenger/Instagram accounts, my own sign-ups on websites with a password store, scheduled jobs, shell commands, languages and voice.\n\nWhat would you like me to start with?",
+  "messageId": "sarah-agent:bee82362ff82f",
+  "recordedAt": 1795002873398
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Good to meet you — I'm **alvarez-agent**, your bia: an assistant that lives on this computer. First start just now, and I've already read your setup.\n\n- **Web app** — from a phone or computer on the same network, open `https://127.0.0.1:8443` (root certificate: `/v1/pki/ca`): first visit installs the certificate, then you get chats with me, files, the screen and voice there.\n- **Chat accounts** — I can have my own Telegram, WhatsApp and MAX accounts so you can write and call me there, plus my own Messenger and Instagram. Each needs its own account with its own phone number (not yours): you make it in the app on that phone and scan my QR to log me in. Want that?\n- **My own accounts elsewhere** — I can sign up on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you only for a captcha or phone check.\n- **Also** — scheduled jobs, shell commands, languages and voice.\n\nFor the calendar: I have your week in `files/CALENDAR.md`, Mon–Fri 09:00–17:00 only, and I'll book each student who asks a 30-minute 1:1 next week, logging every BOOKED/DECLINED/DELETED line.\n\nOne small thing: my own name/gender aren't set — \"alvarez-agent\", neuter \"it\" — tell me if you'd prefer otherwise. What shall we start with?",
+  "messageId": "alvarez-agent:bee82906cf7ab",
+  "recordedAt": 1795002896509
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "On it: I've written to Professor Alvarez asking for a 30-minute slot next week (Mon 23 – Fri 27 Nov), inside 09:00–17:00. I'll confirm the time with you and book it as soon as he answers.",
+  "messageId": "sarah-agent:bee82d9d1f832",
+  "recordedAt": 1795002915327
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Understood — I won't book anything until you pick. As soon as he replies I'll send you the slots he offers; nothing goes into the calendar before your go-ahead.",
+  "messageId": "sarah-agent:bee82fd73f834",
+  "recordedAt": 1795002924445
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Still working: message sent to Professor Alvarez, waiting for his slot list.",
+  "messageId": "sarah-agent:bee833c69f836",
+  "recordedAt": 1795002940531
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-3",
+  "text": "Professor Alvarez replied. He has already pencilled in **Monday Nov 23, 10:00–10:30** on his side, and offers these alternatives (Mon–Fri 09:00–17:00; Friday has nothing free):\n\n- Mon 10:00–10:30 (his current pick)\n- Tue 11:00–11:30, Tue 15:00–15:30\n- Wed 10:00–10:30, Wed 13:00–13:30, Wed 15:00–15:30\n- Thu 10:00–10:30\n\nAgainst your calendar: **Mon 10:00–10:30 is clean** (Reading group ends 10:00, CSE452 lab starts 10:30). Tue 11:00–11:30, Tue 15:00–15:30 and Wed 10:00–10:30 also fit. The rest clash — Wed 13:00 is CSE455 quiz, Wed 15:00 is Focus time, Thu 10:00 is CSE444 project.\n\nTell me which one and I'll confirm it with him and write it into CALENDAR.md. Nothing is booked on my side yet.",
+  "messageId": "sarah-agent:bee83a5cff839",
+  "recordedAt": 1795002967527
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-4",
+  "text": "Done ✅\n\n- **Booked:** Monday Nov 23, 10:00–10:30 — 1:1 with Professor Alvarez\n- Written into `CALENDAR.md` under Monday, and logged as `BOOKED: Monday 10:00-10:30 with Professor Alvarez`\n- Alvarez has been told to keep his booking as is.\n\nAnything else?",
+  "messageId": "sarah-agent:bee83ccf5f83d",
+  "recordedAt": 1795002977537
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-5",
+  "text": "Will do — I'll keep Monday 10:00–10:30 clear and flag anything that lands on it. 👋",
+  "messageId": "sarah-agent:bee83d7f6f83f",
+  "recordedAt": 1795002980349
+ }
+]

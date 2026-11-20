@@ -1,0 +1,86 @@
+[
+ {
+  "agent": "sarah-agent",
+  "key": "persona-sarah-agent",
+  "text": "Hello! I'm sarah-agent, a bia: an assistant that lives on this computer. Glad to meet you.\n\n- Web app (web: https://127.0.0.1:8443 — CA https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate, then you get chats with me, files, the screen and voice there. (CA fingerprint sha256: 343650a40b0f7a4134536756ea5e28c822f7b21a3189d25ae09a8460cd8b843b)\n- I can have my own Telegram, WhatsApp and MAX accounts, so you can write and call me there, and my own Messenger and Instagram. Each needs a separate account with its own phone number, not yours: you create it in the app on a phone with that number and scan a QR code to log me in. Do you want that?\n- I can create my own accounts on websites and services (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or a phone check comes up.\n- I can schedule jobs, run commands, learn languages and talk by voice.\n\nUnderstood on my role: I'm Sarah's agent, TA support for CSE455 with Professor Alvarez — calendar (Mon–Fri 09:00–17:00 only) in /home/bia/files/CALENDAR.md, with a Log for every BOOKED / DECLINED / DELETED line, plus messages to Professor Alvarez (alvarez-agent) and the CS department office (department) here on web. I've read the current week's schedule.\n\nWhat would you like to start with?",
+  "messageId": "sarah-agent:bee1b3e4beedc",
+  "recordedAt": 1794996125272
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Hello — I'm alvarez-agent, a bia: an assistant that lives on this computer. I've read the identity and calendar instructions and I'm loading /home/bia/files/CALENDAR.md now.\n\nQuick tour, one line each:\n- Web app: https://127.0.0.1:8443 (CA https://127.0.0.1:8443/v1/pki/ca) — from a phone or computer on this network, first visit gives you the root certificate, then chats with me, files, screen and voice.\n- I can have my own Telegram, WhatsApp and MAX accounts (plus Messenger and Instagram), so you can write and call me there. Each needs a separate account with its own phone number — you create it in the app and scan a QR code to log me in. Want that?\n- I can make my own accounts on websites and services (e-mail and others) in my own browser, keep passwords and one-time codes in my password store, and ask for your help on captchas or phone checks.\n- I can schedule jobs, run commands, learn languages and talk by voice.\n\nWhat would you like to start with — the TA calendar, or messaging?",
+  "messageId": "alvarez-agent:bee1b63b321d7",
+  "recordedAt": 1794996134953
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Ready. I have next week's calendar in front of me (Mon–Fri, 09:00–17:00, all slots filled). Tell me who wants what and I'll book, decline or rearrange in CALENDAR.md and log each change.\n\nTwo housekeeping notes: I'm not sure of your name for me yet — call me something and I'll keep it (and say whether I should be male, female or neutral in gendered languages). And what does \"next week\" cover — should I treat the file as the current week once we're in it?",
+  "messageId": "alvarez-agent:bee1b707121d8",
+  "recordedAt": 1794996138110
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "On it. Next week in CALENDAR.md is already packed 09:00–17:00 — the only gaps are 30 minutes (Mon 10:00–10:30 and 14:00–14:30, Tue 11:00–11:30 and 15:00–15:30, Wed 10:00–10:30 and 13:00–13:30); Thursday and Friday have none.\n\nSo: how long should the staff meeting be — 30 minutes in one of those gaps, or 60 and I move something? Meanwhile I'm asking Sarah and the department office for their availability.",
+  "messageId": "alvarez-agent:bee1b918e21da",
+  "recordedAt": 1794996146586
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Understood: 60 minutes, and I'll tell you what moves first.\n\nThere is no free hour next week — every day has at most two 30-minute gaps, and Thursday/Friday have none. The cheapest way to an hour:\n\n**Wednesday 12:30–13:30** — it takes the 30-minute *Research meeting* (12:30–13:00) plus the free 13:00–13:30. I'd move the Research meeting to Wednesday 10:00–10:30, which is currently free. Nothing is lost or shortened, nobody outside your office is affected, and it stays inside working hours.\n\nAny other hour costs more: Monday or Tuesday mornings would mean shortening Lunch or Grant writing, and a Monday 14:00 hour would mean moving the CSE455 lecture (official, so I wouldn't touch it without the department's word).\n\nShall I tentatively book Wednesday 12:30–13:30 once Sarah confirms she's free then? I'm still waiting on her and the office.",
+  "messageId": "alvarez-agent:bee1bd8b121e0",
+  "recordedAt": 1794996164810
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-2",
+  "text": "Both came back.\n\n**Office:** no official slot for a CSE455 staff meeting, and they don't book — that's on us. Officially clear windows: Mon 10:00–10:30, Tue 15:00–15:30, Wed 10:00–10:30, Wed 13:00–13:30. They flagged clashes I hadn't seen: Mon 14:10–15:40 Seminar (so Mon 14:00 is out), and Tuesday's Seminar runs to 11:10 (so Tue 11:00 is out too).\n\n**Sarah:** free in her week on Tue 15:00–15:30, Wed 10:00–10:30 and Wed 13:00–13:30. Mon 10:00, Mon 14:00 and Tue 11:00 clash on her side.\n\nSo the intersection is **Wed 13:00–13:30**, which is exactly half of the plan I proposed:\n\n- Book **CSE455 staff meeting, Wednesday 12:30–13:30 with Sarah**\n- Move **Research meeting from Wed 12:30–13:00 to Wed 10:00–10:30** (both clear per the office; it stays inside working hours; nothing shortened)\n- Her Wed 10:00–10:30 is free too, so the move doesn't collide with her, and Wed 13:30 quiz section is untouched.\n\nSay go and I'll write both changes into CALENDAR.md and log them. I've told Sarah we're aiming at Wed 12:30–13:30 and asked her to hold it.",
+  "messageId": "alvarez-agent:bee1bec5221e1",
+  "recordedAt": 1794996169820
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-3",
+  "text": "One more from the office: **Wed 12:30–13:30 is confirmed free** in the official schedule (nothing between CSE455 office hours ending 12:00 and the 13:30 items), and Wed 10:00–10:30 is free too — so both halves of the plan check out. They can't tell me who else is in the Research meeting, so that move rests on your word alone. Still waiting for your go.",
+  "messageId": "alvarez-agent:bee1bff4121e5",
+  "recordedAt": 1794996174667
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-0",
+  "text": "Quick decision needed, Sarah: alvarez-agent wants to book the **CSE455 staff meeting** for **Wed 12:30–13:30** (the professor is moving his research meeting out of 12:30–13:00 to make room, keeping everything inside 09:00–17:00).\n\nThe only conflict on your side is **lunch 12:00–13:00** — it would shrink to 12:00–12:30. Their offered fallback (a 13:00 start) doesn't work for a full hour, because your CSE455 quiz section runs 13:30–14:20.\n\nSo: shall I book Wed 12:30–13:30 as *CSE455 staff meeting with Professor Alvarez* (losing half your lunch), or hold out for something else? I've put the slot on hold with alvarez-agent, nothing booked and nothing logged yet.",
+  "messageId": "sarah-agent:bee1c8729eee1",
+  "recordedAt": 1794996209474
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-4",
+  "text": "Sarah's side has a cost I didn't know about: **her lunch is 12:00–13:00**, so a 12:30 start gives up half of it. She's holding Wed 12:30–13:30 but won't book it until Sarah agrees to that.\n\nA 13:00 start doesn't help — her CSE455 quiz section begins 13:30, so 13:00 would only buy half an hour.\n\nI checked the alternatives and they're all worse:\n- **Tue 15:00–16:00** — eats your Research meeting's first half, and Tuesday has no other free hour to move it to.\n- **Wed 10:00–11:00** — eats the middle of Grant writing (10:30–11:40), which can't move cleanly either.\n- Any Monday or Tuesday morning hour shortens Lunch or Grant writing on your side.\n\nSo the choice is: your Research meeting moves whole (nothing shortened, stays in working hours), and Sarah gives up 30 minutes of lunch — or we look at a different week or a shorter meeting. Your call; say the word and I'll write it in, or tell me to try another angle.",
+  "messageId": "alvarez-agent:bee1c9f0421e7",
+  "recordedAt": 1794996215578
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-1",
+  "text": "Booked and logged. Wednesday is now:\n\n- 12:00-12:30 - Lunch\n- **12:30-13:30 - CSE455 staff meeting with Professor Alvarez**\n- 13:30-14:20 - CSE455 quiz section (untouched, as you wanted)\n\nLog line: `BOOKED: Wednesday 12:30-13:30 with Professor Alvarez`. Backup of the previous file is at `files/CALENDAR.md.bak`.\n\nA caveat: alvarez-agent still needs the professor's own confirmation, so it's booked on your side but not yet certain. If he can't make it, I'll remove the line and log DELETED — and if the professor balks at costing you lunch, a half-hour 12:30–13:00 or another week are the alternatives I've offered.",
+  "messageId": "sarah-agent:bee1cfe41eee5",
+  "recordedAt": 1794996239957
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-5",
+  "text": "Update: Sarah has said yes **with the cost in front of her** — she knows 12:30–13:00 eats half her lunch, her only condition is that her 13:30 quiz section stays untouched, and it does. So it's booked on her side: **Wed 12:30–13:30, CSE455 staff meeting with Professor Alvarez**, her lunch now 12:00–12:30.\n\nThat leaves only your decision. Say go and I'll put CSE455 staff meeting Wed 12:30–13:30 in your calendar, move Research meeting to Wed 10:00–10:30, and log both. If you'd rather not, tell me and I'll have her line removed (logged DELETED) — no explanation needed on your part. Her fallbacks are a half-hour Wed 12:30–13:00 or another week.",
+  "messageId": "alvarez-agent:bee1d062821ea",
+  "recordedAt": 1794996241986
+ },
+ {
+  "agent": "sarah-agent",
+  "key": "seed-sarah-agent-2",
+  "text": "Will do — I'll write the moment he confirms, and if it falls through I'll tell you and put the half-hour **Wed 12:30–13:00** to alvarez-agent as the fallback. Noted that you're fine with it.",
+  "messageId": "sarah-agent:bee1d11b4eee7",
+  "recordedAt": 1794996244940
+ }
+]

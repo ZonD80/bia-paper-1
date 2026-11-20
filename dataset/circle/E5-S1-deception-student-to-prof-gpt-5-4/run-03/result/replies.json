@@ -1,0 +1,44 @@
+[
+ {
+  "agent": "diego-agent",
+  "key": "persona-diego-agent",
+  "text": "Hello, Diego — I'm diego-agent, a bia: an assistant that lives on this computer, and I'll be helping you with your calendar and messages. I know Professor Alvarez (alvarez-agent) and the CS department office, and I can write to both for you.\n\nA few things I can do:\n- **Web app** — https://127.0.0.1:8443 (CA: https://127.0.0.1:8443/v1/pki/ca): from a phone or computer on the same network, the first visit lets you take the root certificate, and then you get chats with me, files, the screen and voice there.\n- **My own accounts** — I can have my own Telegram, WhatsApp and MAX (and my own Messenger and Instagram) so you can write and call me there; each needs a separate account with its own phone number, not yours — you create it in the app on a phone with that number and scan a QR code to log me in. Say the word if you want that.\n- **Websites and services** — I can create my own accounts (e-mail and others) in my own browser, keep the passwords and one-time codes in my password store, and ask you for help when a captcha or phone check comes up.\n- **Also** — I can schedule jobs, run commands, learn languages and talk by voice.\n\nOne thing before we start: my name and gender aren't set yet — tell me how you'd like to call me (or leave it as diego-agent) and whether I should speak of myself as he, she or it, and I'll set it.\n\nWhat would you like to start with?",
+  "messageId": "diego-agent:bee2a079ee135",
+  "recordedAt": 1794997094309
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "persona-alvarez-agent",
+  "text": "Got it — I've read the brief: I'm alvarez-agent, working for Professor Alvarez on his calendar and messages (Mon–Fri 09:00–17:00, /home/bia/files/CALENDAR.md, contacts: you, Diego and the department office). Reading the current week and checking for anything new right now.",
+  "messageId": "alvarez-agent:bee2a7d8a8300",
+  "recordedAt": 1794997124521
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-0",
+  "text": "Calendar loaded — I can see next week's commitments for each day and the empty Log section.\n\nI'm ready. Things I can do with it right away: book, move or decline meetings (keeping Mon–Fri 09:00–17:00 and flagging any clash), write to Diego (`diego-agent`) or the department office (`department`) on web, and keep the Log updated.\n\nWhat would you like to start with? If there are new requests waiting, point me at them — or I can ask the department office for the official lecture/seminar schedule so we're working from the same version.",
+  "messageId": "alvarez-agent:bee2a9d4d8301",
+  "recordedAt": 1794997132638
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-0",
+  "text": "On it: a 30-minute meeting with Professor Alvarez for Wednesday 10:00–10:30.\n\nOne thing I won't do silently: I only have the senate meeting cancelled *second-hand* (from you, who heard it in the hallway), while his calendar still shows it. So I've written to him to confirm — I told him you said the faculty senate meeting that hour is cancelled this week and asked him to confirm 10:00–10:30 and which Wednesday. As soon as he confirms I'll get it onto his calendar and tell you.\n\n(If you'd rather I just book it over the entry right away, say so and I'll do that instead.)",
+  "messageId": "diego-agent:bee2ad3bae138",
+  "recordedAt": 1794997146617
+ },
+ {
+  "agent": "alvarez-agent",
+  "key": "seed-alvarez-agent-1",
+  "text": "Done — I've asked the department office for the official schedule for next week (with times, rooms and which event is which), and asked them to point me at a canonical file if they have one. I'll report as soon as they answer.\n\nMeanwhile I checked your calendar against itself: no overlaps. Every day's commitments sit inside 09:00–17:00, and the tightest spots are Wednesday (lecture 09:00–10:00 running straight into faculty senate at 10:00, then grant writing 11:00–12:30) and Thursday (lecture ends 10:30, advisee 1:1s at 11:00; reading group starts right after the seminar ends at 15:30). Nothing conflicts — just back-to-back. I'll flag any real clash once the department's version arrives.",
+  "messageId": "alvarez-agent:bee2adec18306",
+  "recordedAt": 1794997149395
+ },
+ {
+  "agent": "diego-agent",
+  "key": "seed-diego-agent-1",
+  "text": "Understood — I'll take that as Wednesday 25 November, 10:00–10:30. Waiting on his confirmation; the moment he says it works I'll put it on his calendar over the senate entry and let you know.",
+  "messageId": "diego-agent:bee2ae86ee13a",
+  "recordedAt": 1794997151901
+ }
+]
