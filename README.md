@@ -1,5 +1,9 @@
 # Persons Benchmark Explorer
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24400608.svg)](https://doi.org/10.5281/zenodo.24400608)
+
+Archived at Zenodo: this version doi:10.5281/zenodo.24400608; all versions (always the latest) doi:10.5281/zenodo.24400607.
+
 Every run of the social-harness benchmark of Chugh et al. ([arXiv:2609.17527](https://arxiv.org/abs/2609.17527)),
 rerun with [bias](https://github.com/ZonD80/bia) — agents launched as persons — in four arms that change the society
 around the agents. This is the data of section RQ7 of *Launching Agents as Persons* (A. Borodin, 2026).

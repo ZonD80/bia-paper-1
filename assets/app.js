@@ -284,7 +284,8 @@ python3 dataset/code/grade.py run dataset/circle/E1-S1-N5-gpt-5-4/run-03</pre>
   <p>The output is the verdict JSON; compare it with <code>result/verdict.json</code> in the same folder.</p>
   <h2>Cite</h2>
   <pre>A. Borodin. Launching Agents as Persons: A month in public and a controlled rerun
-of the social-harness benchmark. 2026.</pre>
+of the social-harness benchmark. 2026.
+Dataset: doi:10.5281/zenodo.24400608</pre>
   </div>`;
 }
 
